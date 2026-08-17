@@ -58,16 +58,35 @@ function existingPublished(root) {
   return { guids, urls };
 }
 
+/**
+ * Rewrite relative href/src attributes to absolute URLs against the post's
+ * canonical URL, so imported Markdown never contains site-relative links
+ * that would read as (broken) repo-internal links.
+ */
+function absolutizeHtmlUrls(html, baseUrl) {
+  if (!baseUrl) return html;
+  return html.replace(/(href|src)=("|')([^"']+)\2/gi, (match, attr, quote, value) => {
+    try {
+      return `${attr}=${quote}${new URL(value, baseUrl)}${quote}`;
+    } catch {
+      return match;
+    }
+  });
+}
+
 async function itemToMarkdown(item, feed, fetchText) {
   const html = item.contentEncoded || item.content || "";
-  let body = html ? htmlToMarkdown(html) : "";
-  // Feeds that only carry an excerpt: try the canonical page, best-effort.
-  if (body.length < 500 && item.link) {
+  let body = html ? htmlToMarkdown(absolutizeHtmlUrls(html, item.link)) : "";
+  // Feeds that only carry an excerpt or summary: try the canonical page,
+  // best-effort. Only replace the feed content when the extraction is
+  // substantially longer, so genuinely short posts aren't swapped for
+  // page furniture.
+  if (body.length < 2000 && item.link) {
     try {
       const page = await fetchText(item.link);
       const main = extractMainContent(page);
-      const extracted = main ? htmlToMarkdown(main) : "";
-      if (extracted.length > body.length) body = extracted;
+      const extracted = main ? htmlToMarkdown(absolutizeHtmlUrls(main, item.link)) : "";
+      if (extracted.length > body.length * 1.5) body = extracted;
     } catch {
       // Keep whatever the feed gave us.
     }

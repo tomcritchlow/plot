@@ -4,10 +4,8 @@
 # anything not already in published/ (matched by GUID or canonical URL).
 
 writer:
-  name: Your Name
+  name: Tom Critchlow
 
-# Add your RSS/Atom feeds here, then delete the example published/ file.
-feeds: []
-# feeds:
-#   - name: Personal Site
-#     url: https://example.com/feed.xml
+feeds:
+  - name: tomcritchlow.com
+    url: https://tomcritchlow.com/feed.xml

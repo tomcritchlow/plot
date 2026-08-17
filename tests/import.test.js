@@ -53,6 +53,9 @@ test("imports feed items with metadata and full text", async (t) => {
   );
   assert.match(excerpt.body, /real article body, recovered from the canonical page/);
   assert.doesNotMatch(excerpt.body, /Site navigation/);
+  // Site-relative links are absolutized against the canonical URL.
+  assert.match(excerpt.body, /https:\/\/fixture\.example\.com\/another-post/);
+  assert.doesNotMatch(excerpt.body, /\]\(\/another-post\)/);
 });
 
 test("import is idempotent", async (t) => {

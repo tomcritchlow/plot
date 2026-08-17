@@ -1,0 +1,660 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Three Body Problem of Marketing - annotated draft</title>
+  <style>
+    :root {
+      --paper: #fbfaf7;
+      --ink: #211f1b;
+      --muted: #6f6a60;
+      --rule: #ded8cc;
+      --comment: #fff3b0;
+      --comment-strong: #ffe36d;
+      --rail: #f2efe8;
+      --accent: #2f5f7f;
+      --accent-soft: #dceaf1;
+      --shadow: 0 14px 36px rgba(35, 31, 24, 0.12);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.58;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 12px 22px;
+      border-bottom: 1px solid var(--rule);
+      background: rgba(251, 250, 247, 0.94);
+      backdrop-filter: blur(10px);
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .topbar strong {
+      color: var(--ink);
+      font-weight: 650;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 760px) 380px;
+      gap: 44px;
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 44px 28px 80px;
+    }
+
+    main {
+      min-width: 0;
+    }
+
+    aside {
+      position: sticky;
+      top: 62px;
+      align-self: start;
+      max-height: calc(100vh - 86px);
+      overflow: auto;
+      padding: 8px 4px 24px;
+    }
+
+    h1, h2, h3 {
+      line-height: 1.14;
+      margin: 0 0 16px;
+      letter-spacing: 0;
+    }
+
+    h1 {
+      font-size: clamp(38px, 6vw, 68px);
+      margin-top: 12px;
+      margin-bottom: 10px;
+      max-width: 760px;
+    }
+
+    .subtitle {
+      margin: 0 0 42px;
+      color: var(--muted);
+      font-size: 22px;
+      font-style: italic;
+    }
+
+    h2 {
+      margin-top: 54px;
+      padding-top: 18px;
+      border-top: 1px solid var(--rule);
+      font-size: 30px;
+    }
+
+    h3 {
+      margin-top: 34px;
+      font-size: 22px;
+    }
+
+    p, li {
+      font-size: 19px;
+    }
+
+    p {
+      margin: 0 0 20px;
+    }
+
+    ul {
+      margin: 0 0 24px 22px;
+      padding: 0;
+    }
+
+    blockquote {
+      margin: 28px 0;
+      padding: 18px 22px;
+      border-left: 4px solid var(--accent);
+      background: #f6f2e8;
+      color: #39352e;
+    }
+
+    a {
+      color: #245b7a;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+
+    .image-placeholder {
+      display: grid;
+      place-items: center;
+      min-height: 130px;
+      margin: 26px 0;
+      border: 1px dashed #bcb4a5;
+      border-radius: 8px;
+      color: var(--muted);
+      background: #f5f0e6;
+      font-family: ui-sans-serif, system-ui, sans-serif;
+      font-size: 13px;
+    }
+
+    .commented {
+      cursor: pointer;
+      background: linear-gradient(transparent 58%, var(--comment) 58%);
+      border-bottom: 1px solid rgba(154, 124, 0, 0.35);
+      transition: background 140ms ease, box-shadow 140ms ease;
+    }
+
+    .commented:hover,
+    .commented.active {
+      background: linear-gradient(transparent 42%, var(--comment-strong) 42%);
+      box-shadow: 0 0 0 3px rgba(255, 227, 109, 0.32);
+    }
+
+    .rail-title {
+      margin: 0 0 14px;
+      font-family: ui-sans-serif, system-ui, sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+    }
+
+    .comment-card {
+      margin: 0 0 14px;
+      padding: 14px 15px 15px;
+      border: 1px solid var(--rule);
+      border-radius: 10px;
+      background: var(--rail);
+      box-shadow: none;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      transition: background 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
+    }
+
+    .comment-card.active {
+      border-color: rgba(47, 95, 127, 0.55);
+      background: #fffdf6;
+      box-shadow: var(--shadow);
+    }
+
+    .comment-card button {
+      all: unset;
+      cursor: pointer;
+      display: block;
+      width: 100%;
+    }
+
+    .comment-kicker {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 7px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 650;
+      letter-spacing: 0.02em;
+    }
+
+    .priority {
+      padding: 2px 7px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: #244f68;
+      font-size: 11px;
+      white-space: nowrap;
+    }
+
+    .comment-card h4 {
+      margin: 0 0 8px;
+      font-size: 15px;
+      line-height: 1.25;
+    }
+
+    .comment-card p {
+      margin: 0 0 10px;
+      font-size: 14px;
+      line-height: 1.45;
+      color: #39352e;
+    }
+
+    .suggestion {
+      margin-top: 10px;
+      padding: 10px 11px;
+      border-radius: 8px;
+      background: #fffaf0;
+      color: #3d372d;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 15px;
+      line-height: 1.42;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 28px;
+      font-family: ui-sans-serif, system-ui, sans-serif;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .pill {
+      border: 1px solid var(--rule);
+      border-radius: 999px;
+      padding: 4px 9px;
+      background: #f7f3ea;
+    }
+
+    @media (max-width: 980px) {
+      .layout {
+        display: block;
+        padding: 30px 20px 64px;
+      }
+
+      aside {
+        position: static;
+        max-height: none;
+        margin-top: 48px;
+      }
+
+      p, li { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div><strong>Annotated review</strong> / The Three Body Problem of Marketing</div>
+    <div>Click highlights or comments to jump between them</div>
+  </div>
+
+  <div class="layout">
+    <main>
+      <h1>The Three Body Problem of Marketing</h1>
+      <p class="subtitle">Why marketing teams are operating in chaos in 2026</p>
+      <div class="meta">
+        <span class="pill">Draft critique</span>
+        <span class="pill">Inline annotations</span>
+        <span class="pill">Focus: poetry, provocation, structure</span>
+      </div>
+
+      <p>Working in modern corporate America in 2026, you can feel the chaos all around you. Organizations, teams, and individuals have lost the ability to predict the future, and all of the scaffolding of "doing work" - annual planning, quarterly offsites, weekly status meetings - is increasingly feeling like theatre from an abandoned age.</p>
+
+      <p><span id="mark-c1" class="commented" data-comment="c1">And perhaps no team feels this more viscerally than the marketing teams - where AI is driving rapid change across three core areas:: <strong>customers</strong> behaving in new ways, <strong>channels</strong> reinventing themselves and <strong>craft,</strong> the way work is made, is evolving.</span></p>
+
+      <p><span id="mark-c2" class="commented" data-comment="c2">Three interconnected bodies in motion at the same time is the definition of the three body problem that Poincare worked on in 1887. It is the discovery that once three bodies are pulling on each other, the motion gets strange. Each body alters the path of the others and prediction becomes impossible.</span></p>
+
+      <p>What must it have felt like for Poincare, taking the first look at what would become modern chaos theory? Realizing that some things are inherently unknowable? What must it feel like for individuals, teams and organizations in 2026 to lose the ability to predict the future?</p>
+
+      <p>And how do you navigate in times of chaos?</p>
+
+      <div class="image-placeholder">image1 placeholder</div>
+
+      <h2>Act 1: The Three Bodies in Motion: Customers, Channels &amp; Craft</h2>
+
+      <p>For marketing teams, the customer, the channel, and the craft of work are interconnected. The image of them as bodies in space exerting gravity is accurate: they exert force on each other. And all of them are changing at an accelerating pace in 2026.</p>
+
+      <h3>Body #1: Customers</h3>
+
+      <p>The old adage is that customer behavior changes slowly. That despite a technological revolution like the launch of the iPhone, it still took a decade for mobile usage to outstrip desktop. But I don’t buy it. This one feels different and the pace of change is astonishing.</p>
+
+      <p><span id="mark-c3" class="commented" data-comment="c3">ChatGPT and AI mode each have &gt; 1B mau.</span></p>
+
+      <p><a href="https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/">Pew 2026</a> says about <strong>four in ten U.S. adults use chatbots for information searching</strong>, and <strong>38% of employed adults use them for work tasks</strong>:</p>
+
+      <p>Obviously AI adoption is dramatic, but it undersells the change that’s happening. The iPhone wasn’t just “desktop computing but smaller” - it enabled whole new behaviors and businesses. Imagine trying to build Uber in a world of desktops.</p>
+
+      <p>AI is not just “information but now with natural language” - it’s about <a href="https://interconnected.org/home/2023/10/06/ubigpt">intelligence too cheap to meter</a>.</p>
+
+      <p><span id="mark-c4" class="commented" data-comment="c4">Yes prompts are 5-20x longer than search queries (and getting longer). But the real shift is about delegation: customers delegating research and decision-making to LLM models.</span> Where search touched the middle part of the funnel - useful for exploring a purchase decision and a small amount of discovery - AI is capable of recommending novel brands and categories to you, staying with you through your buying journey, and ingesting your preferences and constraints to get you to the final purchase decision.</p>
+
+      <p>The customer is becoming slightly more agentic. Not in the breathless press-release sense. More practically: a growing number of people now expect to move through the world with a kind of cognitive sidecar. A model that reads before they read. A model that compares before they compare. A model that turns the open web into a memo before they ever reach your site.</p>
+
+      <p>Seeing this change all at once is hard, not least because so much AI influence is either zero-click or dark-click. But we know adoption is growing quickly, and we can feel the shape of the customer request changing.</p>
+
+      <p>This matters because a brand used to be interpreted mostly by people. Now it is interpreted by people plus the machine-shaped memory of the market.</p>
+
+      <p>So, yeah, customers are changing their behavior.</p>
+
+      <h3>Body #2: Channels</h3>
+
+      <p>The environment that consumers are living in is changing. As McLuhan says, the medium “shapes and controls the scale and form of human association and action.”</p>
+
+      <p>Search and social - intention and attention - the two biggest channels are both undergoing complete revolutions because of AI.</p>
+
+      <p><strong>Search &amp; the information economy</strong></p>
+
+      <p>Search is the obvious channel to change because of AI - but the second order consequences are still playing out and certainly not stable yet. AI search (AI Overviews and AI Mode) rewrites the implicit contract between searcher, search engine and brand.</p>
+
+      <p><span id="mark-c5" class="commented" data-comment="c5">Answers are now generated without clicks. Search now talks to you about things.</span></p>
+
+      <div class="image-placeholder">image2 placeholder</div>
+
+      <p>Like a new predator being introduced into a stable ecosystem, AI search has disrupted the natural balance and order of things. A <a href="https://www.buzzstream.com/blog/publishers-block-ai-study/">2026 BuzzStream analysis</a> found that 79% of top news sites block at least one bot used for AI training, while 71% block at least one live search or retrieval bot.</p>
+
+      <p>In the old web, almost nobody wanted to block search engines. Now publishers are <a href="https://digiday.com/media/reuters-and-time-adopt-bot-blocking-whitelists-to-rein-in-ai-crawlers/">putting up walls</a> and making fine-grained decisions about training, retrieval, indexing, citation, and value exchange.</p>
+
+      <p>Google has teased a fully agentic future vision of search at I/O but how much of this comes to pass if all the content is invisible to Google’s crawlers? How do brands show up along the consumer’s journey when every query is answered without a click?</p>
+
+      <p><strong>Social is becoming spam</strong></p>
+
+      <p>Social, once a place to connect with real people, then a place to browse algorithmic feeds has now become an endless slop slot machine.</p>
+
+      <p>Social is changing less because of what the big platforms are doing, and more because of what they are NOT doing. Facebook and Pinterest have been slow and lazy in dealing with their AI spam problems, leading to feeds of slop as far as the eye can see.</p>
+
+      <p>But it is not just sloppy, it’s spam. <a href="https://futurism.com/pinterest-ai-slop">Motivated actors</a> are actively spamming these platforms for profit, producing synthetic media at scale to harvest attention, clicks, affiliate revenue, or platform payouts.</p>
+
+      <p><span id="mark-c6" class="commented" data-comment="c6">This is not a marginal problem. In certain categories, spam can feel like more than half the feed. More fake than real.</span></p>
+
+      <div class="image-placeholder">image3 placeholder</div>
+
+      <p>As the Guardian says “<a href="https://www.theguardian.com/technology/2025/dec/27/from-shrimp-jesus-to-erotic-tractors-how-viral-ai-slop-took-over-the-internet?utm_source=chatgpt.com">one man’s shrimp Jesus is another man’s side hustle</a>”.</p>
+
+      <p>In many cases more than 50% of people’s feeds is AI spam. It’s slop as far as the eye can scroll.</p>
+
+      <p>And have you looked at LinkedIn / X / Substack lately? <a href="https://www.usermag.co/p/how-much-of-substack-is-actually-ai-pangram-analysis-substack-bestsellers">Pangram scores</a> are being thrown around like red cards.</p>
+
+      <p>(Worth noting here that I think we are underappreciating the explosion in creativity that is just around the corner as everyone has AI creative capabilities in their pocket. Knicks memes and animated pigeons.)</p>
+
+      <p>So, customers are changing and the channels they spend time in are changing.</p>
+
+      <h3>Body #3: The Craft</h3>
+
+      <p>The third body is the way the marketing team itself works. The craft of work is changing.</p>
+
+      <p>It almost goes without saying that the world of work is changing, but we should not become numb to it. We are so early. While "AI" has been around for a few years now, we are really just getting started.</p>
+
+      <p>In May this year Cloudflare said <a href="https://blog.cloudflare.com/building-for-the-future/">usage of AI has increased by more than 600% in the last three months alone</a> and <a href="https://x.com/brian_armstrong/status/2070670644577280109">Coinbase has seen token usage explode in just the last few weeks.</a></p>
+
+      <p><span id="mark-c7" class="commented" data-comment="c7">The agentic revolution (Claude Code / Codex) outside of engineering teams is…. Maybe 2 months old at best?</span></p>
+
+      <p><a href="https://x.com/daveholtz/status/2070147557314175072">Codex usage outside of engineering teams has just exploded, but only in May/June 2026</a>:</p>
+
+      <div class="image-placeholder">image4 placeholder</div>
+
+      <p>If consumers have a cognitive sidecar with them, every knowledge worker now has a personal staff: researchers, engineers, writers, designers.</p>
+
+      <p>The second order consequences of this are anyone’s guess.</p>
+
+      <p>So if the work is being made feels new, different and strange - you are not alone. The two bottlenecks are now imagination and coordination.</p>
+
+      <p>For marketing teams in particular, 2026 has seen a Cambrian explosion in image and video capabilities, with SeedDance, OpenAI image models, Gemini, and so much more. Personally I’ve been enjoying generating, editing and producing video…. All in code? <a href="https://thariqs.github.io/cc-video-editing-deck/">You can just ask an LLM to manipulate video files now</a>. (see also <a href="https://hyperframes.heygen.com/">hyperframes</a>).</p>
+
+      <p>On the one hand the bar for creative output has never been higher, on the other hand you’re surrounded by <a href="https://x.com/danhockenmaier/status/2021617680525172840">slop cannons</a>.</p>
+
+      <p>All of this brings a sense of uncertainty. You can recreate workflows in AI, but the old workflows are out. Customers and channels are changing, so what new workflows do we need? How should the team be structured?</p>
+
+      <p>This is where the three bodies start pulling on each other. If customers are changing and channels are changing, automating the old process is not obviously progress. You may simply be making yesterday's marketing faster. Or worse, marketing to a customer that no longer exists in a channel that has changed.</p>
+
+      <p>So all three bodies are in motion: customers, channels and craft. The system has become impossible to predict.</p>
+
+      <p>So what do you do about it?</p>
+
+      <h2>Act 2: What kind of organization can act inside instability?</h2>
+
+      <p>Organizations exist to solve coordination problems. <a href="https://interconnected.org/home/2014/12/23/corporations">Coase’s theory of the firm</a> says markets are powerful, but using them is not free. You have to find people, negotiate, contract, monitor, remember, enforce, decide. Firms exist because some work is easier to coordinate inside an organization than outside in the market.</p>
+
+      <p><span id="mark-c8" class="commented" data-comment="c8">AI changes the cost structure of coordination - individual throughput is exponentially increasing, but cheaper production is not the same thing as cheaper coordination.</span> In fact cheaper production can make coordination harder - there’s more work to review, more mis-aligned output, more experiments, more variants than ever before.</p>
+
+      <p>More things that look done but are not actually decided.</p>
+
+      <p><span id="mark-c9" class="commented" data-comment="c9">The clock of coordination is the rhythm and rituals of sharing status (WTFS). Every organization runs on daily standups, weekly status reviews, monthly business reviews, quarterly board meetings and annual offsites.</span></p>
+
+      <p>But when the world changes the clocks change. When the railroad was invented we had to invent standard time because trains moved faster than town clocks.</p>
+
+      <p>What’s the status clock in an age of AI?</p>
+
+      <p>If we accept the premise that your <a href="https://tomcritchlow.com/2026/06/08/termites-tokens/">organization is going to be agentic</a> - it’s going to be a mixture of agents and humans coordinating work there’s two ideas that become practical:</p>
+
+      <p>First, agents need context before they can be autonomous. Much like business analytics only works if you have a data lake, a shared context for all the data, maybe agents only work if you have a context layer. A shared, accessible layer of the necessary organizational context that is maintained and updated and agents can reference.</p>
+
+      <p>Second, human-made status dashboards are too slow for agents. The bottleneck is not production, but status. What needs working on, where is the project at? How do we adapt the status clock and tempo in an age of agents?</p>
+
+      <p>Some examples from the work we’re doing at Alephic, both internally and for clients:</p>
+
+      <p><span id="mark-c10" class="commented" data-comment="c10"><strong>Alephic Intelligence</strong> is a context lake: it is a centralized layer that ingests all of our organizational context: every meeting transcript, every slack message, every hubspot record, every code commit.</span> This is useful for humans to query and reference but MORE valuable for agents to query and reference - now that Alephic Intelligence is built we’re just starting to layer on top automatic project status</p>
+
+      <div class="image-placeholder">image5 placeholder</div>
+
+      <p><strong>Amazon StarSearch</strong> is a project <a href="https://www.alephic.com/customers/amazon-creative-ai-initiatives">Alephic worked on with Amazon</a> to import all Amazon reviews into a context layer. Once you have the context layer, it enables new kinds of marketing activity - like having <a href="https://adage.com/video/amazon-5-star-theater-w-adam-driver-dutch-oven/">Adam Driver read funny reviews</a>.</p>
+
+      <div class="image-placeholder">image6 placeholder</div>
+
+      <p><span id="mark-c11" class="commented" data-comment="c11"><strong>Marketing Orchestration</strong> we’re working on a project with a Fortune50 brand to enable them to build a context-layer for their marketing team.</span> A source of truth for all of the projects, status, actions, assets across hundreds of marketing team members and 100s of fast moving projects. We’re building the agentic layer on top of that to automatically move work around but you can’t do that until the context layer is built.</p>
+
+      <h2>Pheromone Trails, Tokens &amp; Termites</h2>
+
+      <p><span id="mark-c12" class="commented" data-comment="c12"><strong>I think this points to something practical for marketing leaders to invest in despite the uncertainty: build a context layer for your organization that is maintained, accessible to agents and leaves pheromone trails so agents (and humans) can more easily see and understand context and status for every project.</strong></span></p>
+
+      <p>In my piece <a href="https://tomcritchlow.com/2026/06/08/termites-tokens/">Of Termites &amp; Tokens</a> I argue that as the throughput of work increases you need to enable coordination through traces left in the environment.</p>
+
+      <p><span id="mark-c13" class="commented" data-comment="c13">Organizations have their own pheromone trails today: Slack threads, CRM fields, issue states, tags, transcripts, dashboards, source trails, approval markers, customer notes, analytics events, meeting summaries.</span> In a low-throughput organization these are mostly residue. In an AI-accelerated organization they become the context layer that enables coordination.</p>
+
+      <p>If everyone can make more work, the company needs better traces. Better status. Better provenance. Better memory. Better ways of knowing what is alive, what is dead, what is approved, what is speculative, what is useful, what is merely plausible.</p>
+
+      <p>Otherwise the organization becomes a factory for its own confusion.</p>
+
+      <p>Of course, the interesting thing is not just ingesting the same context as everyone else (meeting transcripts, slack messages etc) but in ingesting the context specific to your business. For Amazon that’s StarSearch, the context layer of customer reviews. For another organization it might be a context layer of all the thought leadership produced globally by your organization and your competitors. For a biotech company it might be a context layer of all academic research, which lab produced it and who funded it.</p>
+
+      <p>AI of course makes this possible and easier than ever.</p>
+
+      <h2>Act 3: Your Customers Are Lost Too.</h2>
+
+      <p>There is another side to this. Your customers are lost too.</p>
+
+      <p><span id="mark-c14" class="commented" data-comment="c14">The sense of chaos and instability that we have outlined above points to a feeling in the world: <strong>customers are as lost as you are</strong>. What do customers want when the world becomes hard to predict?</span></p>
+
+      <p>They want almanacs. Maybe.</p>
+
+      <p>Take the Michelin guide. Before the Michelin Guide was a restaurant guide, it was a guide for early drivers. A tire company realized that if you wanted to sell more tires, you might first have to make the world more drivable. So the guide gave people maps, hotels, repair information, and eventually restaurants worth traveling for. They didn’t try to advertise tires. They expanded the imagination for what driving could be.</p>
+
+      <div class="image-placeholder">image7 placeholder</div>
+
+      <p>Consumers are inundated by products that have AI features that barely work. And billboards that advertise AI without a shred of context.</p>
+
+      <p>Maybe the best brand marketing of the next few years will be about creating field guides for a disoriented customer. Almanacs. Maps. Buyers' guides.</p>
+
+      <ul>
+        <li>What if a brand Like Etsy built tools, education and almanacs on how to use ChatGPT for searching the vast Etsy library? (after all, <a href="https://x.com/harleyf/status/2072748693384741155">Shopify is already doing that</a>)</li>
+        <li>What if a brand like Target built guides for using AI in interior design? Not the cheap version of AI-generated rooms but rather something more mundane, real and useful. An almanac.</li>
+        <li>What if a brand like Walmart built a guide for meal planning using AI? Educating consumers on what’s possible (recipe discovery!) and what’s hard (AI-recipes) in 2026 and how and where to use the AI tools to help.</li>
+      </ul>
+
+      <p>Of course AI is amazing at all these things. It is also terrible at all these things. I think for a brand to pull this off there has to be an honesty to the degree to which AI can be used in practical ways for practical tasks.</p>
+
+      <p><span id="mark-c15" class="commented" data-comment="c15">Maybe marketing’s task is not GEO (which is just SEO in a trench coat) but it’s about building your own evals and benchmarks for how well AI helps consumers in your category.</span> Before the brand marketing team at Walmart can build a consumer guide they need an internal WalmartBench eval framework for how good the various models are at finding products, searching their catalog and guiding customers in useful ways through their purchase journey for the categories that matter for your brand.</p>
+
+      <p>Maybe your customer needs an almanac.</p>
+
+      <p>This is, I think, the marketing opportunity inside the three body problem. If customers are changing, channels are changing, and companies are changing, then consumers are hungry for orientation.</p>
+
+      <p><span id="mark-c16" class="commented" data-comment="c16">What does it feel like to work inside a company in 2026? Chaos.</span></p>
+
+      <p>But are you going to let stop you from taking action? From doing interesting work?</p>
+
+      <p>Marketing teams are stuck in a chaotic system. Prediction is gone. But you cannot let that lack of prediction take away your ability to act. And maybe helping your customers is the greatest marketing act of all.</p>
+    </main>
+
+    <aside aria-label="Review comments">
+      <div class="rail-title">Comments & notes</div>
+
+      <article id="comment-c1" class="comment-card" data-comment="c1">
+        <button type="button">
+          <div class="comment-kicker"><span>Opening map</span><span class="priority">tighten</span></div>
+          <h4>Make the thesis sentence cleaner.</h4>
+          <p>This is the map of the whole piece, but the sentence is tangled and has a double colon. Keep the three nouns crisp.</p>
+          <div class="suggestion">Try: “AI is driving rapid change across three bodies: customers behaving in new ways, channels reinventing themselves, and the craft of work being remade.”</div>
+        </button>
+      </article>
+
+      <article id="comment-c2" class="comment-card" data-comment="c2">
+        <button type="button">
+          <div class="comment-kicker"><span>Poincare</span><span class="priority">poetry</span></div>
+          <h4>Add one sharper image.</h4>
+          <p>The Poincare setup works, but it could use a line with more charge. This is where the essay earns its title.</p>
+          <div class="suggestion">“Poincare went looking for proof that the heavens were stable and found one of the first shadows of chaos instead.”</div>
+        </button>
+      </article>
+
+      <article id="comment-c3" class="comment-card" data-comment="c3">
+        <button type="button">
+          <div class="comment-kicker"><span>Evidence</span><span class="priority">verify</span></div>
+          <h4>Be precise about MAU/WAU.</h4>
+          <p>OpenAI often reports weekly active users, not MAU. AI Mode has its own scale claim. This is important enough to phrase carefully.</p>
+          <div class="suggestion">“ChatGPT and AI Mode are both operating at roughly billion-user scale.”</div>
+        </button>
+      </article>
+
+      <article id="comment-c4" class="comment-card" data-comment="c4">
+        <button type="button">
+          <div class="comment-kicker"><span>Customer section</span><span class="priority">keeper</span></div>
+          <h4>Delegation is the real thesis.</h4>
+          <p>This is the strongest move in Body #1. Consider bringing it earlier and making it more aphoristic.</p>
+          <div class="suggestion">“The prompt is longer because the job is bigger.”</div>
+        </button>
+      </article>
+
+      <article id="comment-c5" class="comment-card" data-comment="c5">
+        <button type="button">
+          <div class="comment-kicker"><span>Search</span><span class="priority">prose</span></div>
+          <h4>This wants one more turn.</h4>
+          <p>“Search now talks to you” is good. Push it toward McLuhan/environment.</p>
+          <div class="suggestion">“Search is no longer a directory of paths. It is becoming a voice in the room.”</div>
+        </button>
+      </article>
+
+      <article id="comment-c6" class="comment-card" data-comment="c6">
+        <button type="button">
+          <div class="comment-kicker"><span>Social claim</span><span class="priority">soften/source</span></div>
+          <h4>The 50% claim needs footing.</h4>
+          <p>If you have a source, cite it. If not, make it experiential. The vibe is useful; the number is fragile.</p>
+          <div class="suggestion">“In some categories, the feed can feel more fake than real.”</div>
+        </button>
+      </article>
+
+      <article id="comment-c7" class="comment-card" data-comment="c7">
+        <button type="button">
+          <div class="comment-kicker"><span>Craft section</span><span class="priority">personalize</span></div>
+          <h4>This is where a lived detail helps.</h4>
+          <p>The “2 months old” point is interesting, but one concrete example from your own work will make it feel less like tech-cycle commentary.</p>
+          <div class="suggestion">Add a sentence about video-in-code, Codex for non-engineering work, or a specific marketing workflow you personally changed.</div>
+        </button>
+      </article>
+
+      <article id="comment-c8" class="comment-card" data-comment="c8">
+        <button type="button">
+          <div class="comment-kicker"><span>Act 2</span><span class="priority">core</span></div>
+          <h4>This is the central provocation.</h4>
+          <p>Act 2 gets interesting here. Avoid “exponentially” unless you want to defend it. The idea is cleaner than the math claim.</p>
+          <div class="suggestion">“AI lowers the cost of production before it lowers the cost of coordination.”</div>
+        </button>
+      </article>
+
+      <article id="comment-c9" class="comment-card" data-comment="c9">
+        <button type="button">
+          <div class="comment-kicker"><span>Clock</span><span class="priority">make sing</span></div>
+          <h4>“Clock of coordination” has legs.</h4>
+          <p>This is title-worthy. Slow down and make it more tactile: meetings, dashboards, Slack, board decks as clocks.</p>
+          <div class="suggestion">“Railroads needed standard time. Agentic companies need standard status.”</div>
+        </button>
+      </article>
+
+      <article id="comment-c10" class="comment-card" data-comment="c10">
+        <button type="button">
+          <div class="comment-kicker"><span>Alephic examples</span><span class="priority">frame</span></div>
+          <h4>Make examples feel less dropped in.</h4>
+          <p>These examples are strong because they’re lived. Add a framing sentence before the list.</p>
+          <div class="suggestion">“We keep seeing the same pattern at Alephic: the agentic layer only becomes useful after the context layer exists.”</div>
+        </button>
+      </article>
+
+      <article id="comment-c11" class="comment-card" data-comment="c11">
+        <button type="button">
+          <div class="comment-kicker"><span>Client detail</span><span class="priority">permission</span></div>
+          <h4>Check disclosure comfort.</h4>
+          <p>“Fortune50 brand” may be fine, but double-check whether this should be anonymized further or described more generally.</p>
+          <div class="suggestion">“A large marketing organization…” may carry the point with less client-specific exposure.</div>
+        </button>
+      </article>
+
+      <article id="comment-c12" class="comment-card" data-comment="c12">
+        <button type="button">
+          <div class="comment-kicker"><span>Pheromone section</span><span class="priority">sharpen</span></div>
+          <h4>This paragraph is doing too much.</h4>
+          <p>The idea is great, but the sentence is long and summary-like. Break it into punchier claims.</p>
+          <div class="suggestion">“Don’t just build agents. Build the trails they can follow.”</div>
+        </button>
+      </article>
+
+      <article id="comment-c13" class="comment-card" data-comment="c13">
+        <button type="button">
+          <div class="comment-kicker"><span>Best line hiding</span><span class="priority">promote</span></div>
+          <h4>Residue becomes infrastructure.</h4>
+          <p>This is one of the best ideas in the draft. Make it a standalone line or subsection hinge.</p>
+          <div class="suggestion">“In an AI-accelerated organization, residue becomes infrastructure.”</div>
+        </button>
+      </article>
+
+      <article id="comment-c14" class="comment-card" data-comment="c14">
+        <button type="button">
+          <div class="comment-kicker"><span>Act 3</span><span class="priority">anchor</span></div>
+          <h4>Add the marketing truism here.</h4>
+          <p>Before almanacs, peg this to the first job of marketing: understanding customers.</p>
+          <div class="suggestion">“In stable markets, marketing understands needs. In unstable markets, marketing has to understand confusion.”</div>
+        </button>
+      </article>
+
+      <article id="comment-c15" class="comment-card" data-comment="c15">
+        <button type="button">
+          <div class="comment-kicker"><span>Provocation</span><span class="priority">keep</span></div>
+          <h4>GEO in a trench coat works.</h4>
+          <p>Funny and pointed. Keep it, but make the alternative crisp: category competence, almanacs, evals.</p>
+          <div class="suggestion">“The real work is not ranking in AI answers. It is helping customers become competent in the category.”</div>
+        </button>
+      </article>
+
+      <article id="comment-c16" class="comment-card" data-comment="c16">
+        <button type="button">
+          <div class="comment-kicker"><span>Ending</span><span class="priority">land</span></div>
+          <h4>The ending needs one callback.</h4>
+          <p>Return to Poincare/clock/trails/almanacs so the final paragraph feels inevitable.</p>
+          <div class="suggestion">“Prediction is gone. The work now is to build clocks for your team and maps for your customers.”</div>
+        </button>
+      </article>
+    </aside>
+  </div>
+
+  <script>
+    const marks = Array.from(document.querySelectorAll(".commented"));
+    const cards = Array.from(document.querySelectorAll(".comment-card"));
+
+    function setActive(id, scrollTarget) {
+      marks.forEach((mark) => mark.classList.toggle("active", mark.dataset.comment === id));
+      cards.forEach((card) => card.classList.toggle("active", card.dataset.comment === id));
+      if (scrollTarget) {
+        document.getElementById(scrollTarget)?.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+    }
+
+    marks.forEach((mark) => {
+      mark.addEventListener("click", () => setActive(mark.dataset.comment, `comment-${mark.dataset.comment}`));
+    });
+
+    cards.forEach((card) => {
+      card.addEventListener("click", () => setActive(card.dataset.comment, `mark-${card.dataset.comment}`));
+    });
+
+    if (location.hash) {
+      const id = location.hash.replace("#comment-", "").replace("#mark-", "");
+      if (id) setActive(id);
+    }
+  </script>
+</body>
+</html>
