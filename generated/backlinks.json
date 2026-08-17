@@ -1,19 +1,7 @@
 {
   "backlinks": {
-    "captures/2026/08/2026-08-17-132031-company-clocks.md": [
-      "drafts/company-with-the-best-clock/sources.md",
-      "seeds/company-clocks.md"
-    ],
-    "captures/2026/08/2026-08-17-132412-organizational-time.md": [
-      "drafts/company-with-the-best-clock/sources.md",
-      "seeds/company-clocks.md"
-    ],
-    "captures/2026/08/2026-08-17-132901-organizations-speed.md": [
-      "drafts/company-with-the-best-clock/sources.md",
-      "seeds/company-clocks.md"
-    ],
-    "seeds/company-clocks.md": [
-      "drafts/company-with-the-best-clock/README.md"
+    "drafts/memory-layers/assets/information-processing-model-memory.png": [
+      "drafts/memory-layers/draft.md"
     ]
   }
 }

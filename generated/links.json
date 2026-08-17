@@ -1,37 +1,3122 @@
 {
-  "count": 2,
+  "count": 242,
   "links": [
     {
-      "url": "https://example.com/organizational-time",
-      "title": "Organizational Time",
-      "author": "Jane Example",
-      "first_seen": "2026-08-17T13:24:12-04:00",
+      "url": "https://a16z.com/services-led-growth/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
       "references": [
         {
-          "file": "captures/2026/08/2026-08-17-132412-organizational-time.md",
-          "capture_id": "cap-20260817-132412-organizational-time"
-        },
-        {
-          "file": "captures/2026/08/2026-08-17-132901-organizations-speed.md",
-          "capture_id": "cap-20260817-132901-organizations-speed"
-        },
-        {
-          "file": "drafts/company-with-the-best-clock/sources.md"
+          "file": "drafts/forward-deployed-consulting/sources.md"
         }
       ],
-      "normalized": "https://example.com/organizational-time"
+      "normalized": "https://a16z.com/services-led-growth"
     },
     {
-      "url": "https://example.com/organizations-have-tempo",
-      "title": "Organizations Have Tempo",
-      "author": "Example Writer",
-      "first_seen": "2025-11-04T09:00:00.000Z",
+      "url": "https://about.fb.com/news/2024/04/metas-approach-to-labeling-ai-generated-content-and-manipulated-media/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
       "references": [
         {
-          "file": "published/2025-11-04-organizations-have-tempo.md"
+          "file": "drafts/three-plane-shift/sources.md"
         }
       ],
-      "normalized": "https://example.com/organizations-have-tempo"
+      "normalized": "https://about.fb.com/news/2024/04/metas-approach-to-labeling-ai-generated-content-and-manipulated-media"
+    },
+    {
+      "url": "https://about.fb.com/news/2025/04/cracking-down-spammy-content-facebook/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/three-plane-shift/draft.md"
+        }
+      ],
+      "normalized": "https://about.fb.com/news/2025/04/cracking-down-spammy-content-facebook"
+    },
+    {
+      "url": "https://academic.oup.com/jcr/article-abstract/25/3/187/1795625",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/agentic-commerce-preferences/draft.md"
+        },
+        {
+          "file": "drafts/agentic-commerce-preferences/sources.md"
+        }
+      ],
+      "normalized": "https://academic.oup.com/jcr/article-abstract/25/3/187/1795625"
+    },
+    {
+      "url": "https://adplist.org/",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-27-linkedin-is-not-a-social-or-professional-network-its-a-learn.md"
+        }
+      ],
+      "normalized": "https://adplist.org/"
+    },
+    {
+      "url": "https://americanhistory.si.edu/ontime/synchronizing/zones.html",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/three-plane-shift/draft.md"
+        },
+        {
+          "file": "drafts/three-plane-shift/sources.md"
+        }
+      ],
+      "normalized": "https://americanhistory.si.edu/ontime/synchronizing/zones.html"
+    },
+    {
+      "url": "https://apnews.com/article/ai-content-slop-pinterest-tiktok-deezer-6bdf29efebc631fe63de13831e14b95f",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/three-plane-shift/sources.md"
+        }
+      ],
+      "normalized": "https://apnews.com/article/ai-content-slop-pinterest-tiktok-deezer-6bdf29efebc631fe63de13831e14b95f"
+    },
+    {
+      "url": "https://app.nova.edu/toolbox/instructionalproducts/edd8124/articles/1968-Atkinson_and_Shiffrin.pdf",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/memory-layers/sources.md"
+        }
+      ],
+      "normalized": "https://app.nova.edu/toolbox/instructionalproducts/edd8124/articles/1968-Atkinson_and_Shiffrin.pdf"
+    },
+    {
+      "url": "https://arxiv.org/abs/1803.10122",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/company-world-model/draft.md"
+        },
+        {
+          "file": "drafts/company-world-model/sources.md"
+        }
+      ],
+      "normalized": "https://arxiv.org/abs/1803.10122"
+    },
+    {
+      "url": "https://arxiv.org/abs/2005.11401",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/memory-layers/sources.md"
+        }
+      ],
+      "normalized": "https://arxiv.org/abs/2005.11401"
+    },
+    {
+      "url": "https://assets.buttondown.email/images/1fc0fea2-e987-4199-b627-f2a6a592dd22.png?w=960&fit=max",
+      "title": null,
+      "author": null,
+      "first_seen": "2025-06-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2025-06-27-taking-blogging-seriously.md"
+        }
+      ],
+      "normalized": "https://assets.buttondown.email/images/1fc0fea2-e987-4199-b627-f2a6a592dd22.png?fit=max&w=960"
+    },
+    {
+      "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/three-plane-shift/draft.md"
+        },
+        {
+          "file": "drafts/three-plane-shift/sources.md"
+        }
+      ],
+      "normalized": "https://blog.google/products-and-platforms/products/search/search-io-2026"
+    },
+    {
+      "url": "https://blog.palantir.com/a-day-in-the-life-of-a-palantir-forward-deployed-software-engineer-45ef2de257b1",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/forward-deployed-consulting/sources.md"
+        }
+      ],
+      "normalized": "https://blog.palantir.com/a-day-in-the-life-of-a-palantir-forward-deployed-software-engineer-45ef2de257b1"
+    },
+    {
+      "url": "https://blog.pragmaticengineer.com/new-trend-programming-by-kicking-off-parallel-ai-agents/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/spare-capacity/sources.md"
+        }
+      ],
+      "normalized": "https://blog.pragmaticengineer.com/new-trend-programming-by-kicking-off-parallel-ai-agents"
+    },
+    {
+      "url": "https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/three-plane-shift/sources.md"
+        }
+      ],
+      "normalized": "https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators"
+    },
+    {
+      "url": "https://blogs.bing.com/search/June-2026/Announcing-Microsoft-Web-IQ",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/memory-layers/sources.md"
+        }
+      ],
+      "normalized": "https://blogs.bing.com/search/June-2026/Announcing-Microsoft-Web-IQ"
+    },
+    {
+      "url": "https://brianlovin.com/",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-20T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-20-a-lil-website-refresh.md"
+        }
+      ],
+      "normalized": "https://brianlovin.com/"
+    },
+    {
+      "url": "https://business.adobe.com/blog/generative-ai-powered-shopping-rises-with-traffic-to-retail-sites",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/three-plane-shift/sources.md"
+        }
+      ],
+      "normalized": "https://business.adobe.com/blog/generative-ai-powered-shopping-rises-with-traffic-to-retail-sites"
+    },
+    {
+      "url": "https://business.columbia.edu/faculty/research/when-choice-demotivating-can-one-desire-too-much-good-thing",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/agentic-commerce-preferences/sources.md"
+        }
+      ],
+      "normalized": "https://business.columbia.edu/faculty/research/when-choice-demotivating-can-one-desire-too-much-good-thing"
+    },
+    {
+      "url": "https://calendly.com/tomcritchlow",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-04-16T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-04-16-working-with-founders-who-have-conviction-and-taste.md"
+        }
+      ],
+      "normalized": "https://calendly.com/tomcritchlow"
+    },
+    {
+      "url": "https://cdn.smassets.net/assets/content/sm/Bar-charts-that-display-level-of-customer-centricity.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-01T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-01-how-do-you-cultivate-customer-centric-executives.md"
+        }
+      ],
+      "normalized": "https://cdn.smassets.net/assets/content/sm/Bar-charts-that-display-level-of-customer-centricity.png"
+    },
+    {
+      "url": "https://cdspress.ca/wp-content/uploads/2022/08/Anthony-A.B.-Hopley-Jennifer-Wagner-Richard-Nicki.pdf",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/spare-capacity/research/academic-research.md"
+        },
+        {
+          "file": "drafts/spare-capacity/sources.md"
+        }
+      ],
+      "normalized": "https://cdspress.ca/wp-content/uploads/2022/08/Anthony-A.B.-Hopley-Jennifer-Wagner-Richard-Nicki.pdf"
+    },
+    {
+      "url": "https://chatgpt.com/share/68fed4af-0f8c-8004-981e-003805be4f58",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/agentic-commerce-preferences/research/discussion.md"
+        },
+        {
+          "file": "drafts/agentic-commerce-preferences/sources.md"
+        }
+      ],
+      "normalized": "https://chatgpt.com/share/68fed4af-0f8c-8004-981e-003805be4f58"
+    },
+    {
+      "url": "https://chatgpt.com/share/68fed5f1-da60-8004-957f-ca995ca2d72b",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/agentic-commerce-preferences/research/discussion.md"
+        },
+        {
+          "file": "drafts/agentic-commerce-preferences/sources.md"
+        }
+      ],
+      "normalized": "https://chatgpt.com/share/68fed5f1-da60-8004-957f-ca995ca2d72b"
+    },
+    {
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/grounding/overview",
+      "title": null,
+      "author": null,
+      "first_seen": "2025-03-21T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2025-03-21-google-is-grounded-and-needs-to-learn-how-to-soar.md"
+        }
+      ],
+      "normalized": "https://cloud.google.com/vertex-ai/generative-ai/docs/grounding/overview"
+    },
+    {
+      "url": "https://companiesmarketcap.com/annual-reports/282.ar.en.1969.pdf",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/company-must-know-itself/draft.md"
+        },
+        {
+          "file": "drafts/company-must-know-itself/sources.md"
+        }
+      ],
+      "normalized": "https://companiesmarketcap.com/annual-reports/282.ar.en.1969.pdf"
+    },
+    {
+      "url": "https://corporate.lowes.com/sites/lowes-corp/files/2026-04/lowes-2025-annual-report.pdf",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/company-must-know-itself/draft.md"
+        },
+        {
+          "file": "drafts/company-must-know-itself/sources.md"
+        }
+      ],
+      "normalized": "https://corporate.lowes.com/sites/lowes-corp/files/2026-04/lowes-2025-annual-report.pdf"
+    },
+    {
+      "url": "https://cyber.harvard.edu/projectvrm",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/agentic-commerce-preferences/sources.md"
+        }
+      ],
+      "normalized": "https://cyber.harvard.edu/projectvrm"
+    },
+    {
+      "url": "https://dejan.ai/blog/hacking-gemini/",
+      "title": null,
+      "author": null,
+      "first_seen": "2025-03-21T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2025-03-21-google-is-grounded-and-needs-to-learn-how-to-soar.md"
+        }
+      ],
+      "normalized": "https://dejan.ai/blog/hacking-gemini"
+    },
+    {
+      "url": "https://doc.searls.com/2024/12/30/the-real-intention-economy/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/agentic-commerce-preferences/sources.md"
+        }
+      ],
+      "normalized": "https://doc.searls.com/2024/12/30/the-real-intention-economy"
+    },
+    {
+      "url": "https://doubleloop.app/",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-04-16T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-04-16-working-with-founders-who-have-conviction-and-taste.md"
+        }
+      ],
+      "normalized": "https://doubleloop.app/"
+    },
+    {
+      "url": "https://econpapers.repec.org/RePEc%3Aucp%3Ajlawec%3Av%3A16%3Ay%3A1973%3Ai%3A1%3Ap%3A67-88",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/agentic-commerce-preferences/sources.md"
+        }
+      ],
+      "normalized": "https://econpapers.repec.org/RePEc%3Aucp%3Ajlawec%3Av%3A16%3Ay%3A1973%3Ai%3A1%3Ap%3A67-88"
+    },
+    {
+      "url": "https://egrove.olemiss.edu/aah_notebook/vol13/iss1/30/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/company-must-know-itself/draft.md"
+        },
+        {
+          "file": "drafts/company-must-know-itself/sources.md"
+        }
+      ],
+      "normalized": "https://egrove.olemiss.edu/aah_notebook/vol13/iss1/30"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Enshittification",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-27-linkedin-is-not-a-social-or-professional-network-its-a-learn.md"
+        }
+      ],
+      "normalized": "https://en.wikipedia.org/wiki/Enshittification"
+    },
+    {
+      "url": "https://eprints.gla.ac.uk/407/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/company-must-know-itself/sources.md"
+        }
+      ],
+      "normalized": "https://eprints.gla.ac.uk/407"
+    },
+    {
+      "url": "https://falconer.com/guides/how-to-build-company-brain/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/company-world-model/sources.md"
+        }
+      ],
+      "normalized": "https://falconer.com/guides/how-to-build-company-brain"
+    },
+    {
+      "url": "https://files.libcom.org/files/timeworkandindustrialcapitalism.pdf",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/spare-capacity/research/academic-research.md"
+        },
+        {
+          "file": "drafts/spare-capacity/sources.md"
+        }
+      ],
+      "normalized": "https://files.libcom.org/files/timeworkandindustrialcapitalism.pdf"
+    },
+    {
+      "url": "https://forum.commoncog.com/t/thoughts-on-being-customer-centric/1774/11",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-01T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-01-how-do-you-cultivate-customer-centric-executives.md"
+        }
+      ],
+      "normalized": "https://forum.commoncog.com/t/thoughts-on-being-customer-centric/1774/11"
+    },
+    {
+      "url": "https://frankchimero.com/blog/2025/beyond-the-machine-extras/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/agentic-commerce-preferences/draft.md"
+        },
+        {
+          "file": "drafts/agentic-commerce-preferences/sources.md"
+        }
+      ],
+      "normalized": "https://frankchimero.com/blog/2025/beyond-the-machine-extras"
+    },
+    {
+      "url": "https://futurism.com/pinterest-ai-slop",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/three-plane-shift/draft.md"
+        }
+      ],
+      "normalized": "https://futurism.com/pinterest-ai-slop"
+    },
+    {
+      "url": "https://gemini.google.com/gem/72a834916ac8",
+      "title": null,
+      "author": null,
+      "first_seen": "2025-03-21T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2025-03-21-google-is-grounded-and-needs-to-learn-how-to-soar.md"
+        }
+      ],
+      "normalized": "https://gemini.google.com/gem/72a834916ac8"
+    },
+    {
+      "url": "https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/HammockDrivenDev.md",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/spare-capacity/draft.md"
+        },
+        {
+          "file": "drafts/spare-capacity/sources.md"
+        }
+      ],
+      "normalized": "https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/HammockDrivenDev.md"
+    },
+    {
+      "url": "https://guide.michelin.com/us/en/about-us",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/three-plane-shift/sources.md"
+        }
+      ],
+      "normalized": "https://guide.michelin.com/us/en/about-us"
+    },
+    {
+      "url": "https://hdsr.mitpress.mit.edu/pub/ujvharkk",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/agentic-commerce-preferences/sources.md"
+        }
+      ],
+      "normalized": "https://hdsr.mitpress.mit.edu/pub/ujvharkk"
+    },
+    {
+      "url": "https://home.csulb.edu/~cwallis/382/readings/482/baddeley.pdf",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/memory-layers/sources.md"
+        }
+      ],
+      "normalized": "https://home.csulb.edu/~cwallis/382/readings/482/baddeley.pdf"
+    },
+    {
+      "url": "https://ideas.repec.org/a/bla/jacrfn/v30y2018i1p23-29.html",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/spare-capacity/draft.md"
+        },
+        {
+          "file": "drafts/spare-capacity/sources.md"
+        }
+      ],
+      "normalized": "https://ideas.repec.org/a/bla/jacrfn/v30y2018i1p23-29.html"
+    },
+    {
+      "url": "https://ideas.repec.org/a/eee/eurman/v15y1997i6p603-611.html",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/spare-capacity/research/academic-research.md"
+        }
+      ],
+      "normalized": "https://ideas.repec.org/a/eee/eurman/v15y1997i6p603-611.html"
+    },
+    {
+      "url": "https://ideas.repec.org/a/eee/jobhdp/v109y2009i2p168-181.html",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/spare-capacity/draft.md"
+        },
+        {
+          "file": "drafts/spare-capacity/research/academic-research.md"
+        },
+        {
+          "file": "drafts/spare-capacity/sources.md"
+        }
+      ],
+      "normalized": "https://ideas.repec.org/a/eee/jobhdp/v109y2009i2p168-181.html"
+    },
+    {
+      "url": "https://ideas.repec.org/a/inm/ororsc/v2y1991i1p71-87.html",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/spare-capacity/research/academic-research.md"
+        }
+      ],
+      "normalized": "https://ideas.repec.org/a/inm/ororsc/v2y1991i1p71-87.html"
+    },
+    {
+      "url": "https://ideas.repec.org/a/oup/qjecon/v118y2003i1p73-106..html",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/agentic-commerce-preferences/sources.md"
+        }
+      ],
+      "normalized": "https://ideas.repec.org/a/oup/qjecon/v118y2003i1p73-106..html"
+    },
+    {
+      "url": "https://ideas.repec.org/a/taf/intgms/v17y2017i2p205-218.html",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/spare-capacity/draft.md"
+        },
+        {
+          "file": "drafts/spare-capacity/research/academic-research.md"
+        },
+        {
+          "file": "drafts/spare-capacity/sources.md"
+        }
+      ],
+      "normalized": "https://ideas.repec.org/a/taf/intgms/v17y2017i2p205-218.html"
+    },
+    {
+      "url": "https://ir.iac.com/static-files/c07e9a3b-9b45-4d98-b893-65b1854f666f",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-01T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-01-how-do-you-cultivate-customer-centric-executives.md"
+        }
+      ],
+      "normalized": "https://ir.iac.com/static-files/c07e9a3b-9b45-4d98-b893-65b1854f666f"
+    },
+    {
+      "url": "https://journals.aom.org/doi/10.5465/AMR.1997.9707154065",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/company-must-know-itself/sources.md"
+        }
+      ],
+      "normalized": "https://journals.aom.org/doi/10.5465/AMR.1997.9707154065"
+    },
+    {
+      "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0115479",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/spare-capacity/draft.md"
+        },
+        {
+          "file": "drafts/spare-capacity/research/academic-research.md"
+        },
+        {
+          "file": "drafts/spare-capacity/sources.md"
+        }
+      ],
+      "normalized": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0115479"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/10.1177/0018720810376055",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/spare-capacity/research/academic-research.md"
+        }
+      ],
+      "normalized": "https://journals.sagepub.com/doi/10.1177/0018720810376055"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/10.1177/0018726715623999",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-06-08T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-06-08-of-termites-tokens.md"
+        }
+      ],
+      "normalized": "https://journals.sagepub.com/doi/10.1177/0018726715623999"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/abs/10.1111/j.1467-9280.1992.tb00047.x",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/agentic-commerce-preferences/draft.md"
+        },
+        {
+          "file": "drafts/agentic-commerce-preferences/sources.md"
+        }
+      ],
+      "normalized": "https://journals.sagepub.com/doi/abs/10.1111/j.1467-9280.1992.tb00047.x"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/002224298204600207",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/agentic-commerce-preferences/draft.md"
+        },
+        {
+          "file": "drafts/agentic-commerce-preferences/sources.md"
+        }
+      ],
+      "normalized": "https://journals.sagepub.com/doi/abs/10.1177/002224298204600207"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/abs/10.1509/jmkr.44.3.347",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/agentic-commerce-preferences/sources.md"
+        }
+      ],
+      "normalized": "https://journals.sagepub.com/doi/abs/10.1509/jmkr.44.3.347"
+    },
+    {
+      "url": "https://jsomers.net/blog/more-people-should-write",
+      "title": null,
+      "author": null,
+      "first_seen": "2025-06-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2025-06-27-taking-blogging-seriously.md"
+        }
+      ],
+      "normalized": "https://jsomers.net/blog/more-people-should-write"
+    },
+    {
+      "url": "https://jsomers.net/blog/wp-content/uploads/2012/09/photo.jpg",
+      "title": null,
+      "author": null,
+      "first_seen": "2025-06-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2025-06-27-taking-blogging-seriously.md"
+        }
+      ],
+      "normalized": "https://jsomers.net/blog/wp-content/uploads/2012/09/photo.jpg"
+    },
+    {
+      "url": "https://lethain.com/forty-year-career/",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-09-03T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-09-03-3-573-days-on-the-road.md"
+        }
+      ],
+      "normalized": "https://lethain.com/forty-year-career"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/BF02404071",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/agentic-commerce-preferences/sources.md"
+        }
+      ],
+      "normalized": "https://link.springer.com/article/10.1007/BF02404071"
+    },
+    {
+      "url": "https://littlefutures.substack.com/p/remembering-futures",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/memory-layers/draft.md"
+        },
+        {
+          "file": "drafts/memory-layers/sources.md"
+        }
+      ],
+      "normalized": "https://littlefutures.substack.com/p/remembering-futures"
+    },
+    {
+      "url": "https://lu.ma/cam9g0nq",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-06T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-06-work-is-a-place.md"
+        }
+      ],
+      "normalized": "https://lu.ma/cam9g0nq"
+    },
+    {
+      "url": "https://manuelmoreale.com/pb-tom-critchlow",
+      "title": null,
+      "author": null,
+      "first_seen": "2025-08-22T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2025-08-22-featured-on-people-blogs.md"
+        }
+      ],
+      "normalized": "https://manuelmoreale.com/pb-tom-critchlow"
+    },
+    {
+      "url": "https://marketingscience.info/news-and-insights/category-entry-points-the-last-two-strategic-pitfalls-unraveled",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/agentic-commerce-preferences/sources.md"
+        }
+      ],
+      "normalized": "https://marketingscience.info/news-and-insights/category-entry-points-the-last-two-strategic-pitfalls-unraveled"
+    },
+    {
+      "url": "https://martinfowler.com/eaaDev/EventSourcing.html",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/company-world-model/draft.md"
+        },
+        {
+          "file": "drafts/company-world-model/sources.md"
+        }
+      ],
+      "normalized": "https://martinfowler.com/eaaDev/EventSourcing.html"
+    },
+    {
+      "url": "https://mitpress.mit.edu/9780262693189/real-options-and-investment-under-uncertainty/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/spare-capacity/research/academic-research.md"
+        }
+      ],
+      "normalized": "https://mitpress.mit.edu/9780262693189/real-options-and-investment-under-uncertainty"
+    },
+    {
+      "url": "https://nabeelqu.substack.com/p/reflections-on-palantir",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/forward-deployed-consulting/sources.md"
+        }
+      ],
+      "normalized": "https://nabeelqu.substack.com/p/reflections-on-palantir"
+    },
+    {
+      "url": "https://newmba.co/2023/11/01/strategic-finance/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/spare-capacity/draft.md"
+        },
+        {
+          "file": "drafts/spare-capacity/sources.md"
+        }
+      ],
+      "normalized": "https://newmba.co/2023/11/01/strategic-finance"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=48492118",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/spare-capacity/draft.md"
+        },
+        {
+          "file": "drafts/spare-capacity/notes.md"
+        },
+        {
+          "file": "drafts/spare-capacity/sources.md"
+        }
+      ],
+      "normalized": "https://news.ycombinator.com/item?id=48492118"
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1468-0335.1937.tb00002.x",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/three-plane-shift/draft.md"
+        },
+        {
+          "file": "drafts/three-plane-shift/sources.md"
+        }
+      ],
+      "normalized": "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1468-0335.1937.tb00002.x"
+    },
+    {
+      "url": "https://openresearch.surrey.ac.uk/esploro/outputs/conferenceProceeding/Process-Mining-Manifesto/99862164502346",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/company-world-model/draft.md"
+        },
+        {
+          "file": "drafts/company-world-model/sources.md"
+        }
+      ],
+      "normalized": "https://openresearch.surrey.ac.uk/esploro/outputs/conferenceProceeding/Process-Mining-Manifesto/99862164502346"
+    },
+    {
+      "url": "https://oro.open.ac.uk/57403/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/three-plane-shift/sources.md"
+        }
+      ],
+      "normalized": "https://oro.open.ac.uk/57403"
+    },
+    {
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1908161",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/spare-capacity/draft.md"
+        },
+        {
+          "file": "drafts/spare-capacity/research/academic-research.md"
+        },
+        {
+          "file": "drafts/spare-capacity/sources.md"
+        }
+      ],
+      "normalized": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1908161"
+    },
+    {
+      "url": "https://patticus.com/2023/12/16/competitive-research-playbook/#always-cuddle-with-the-chaos",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-01T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-01-how-do-you-cultivate-customer-centric-executives.md"
+        }
+      ],
+      "normalized": "https://patticus.com/2023/12/16/competitive-research-playbook"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19121124/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/spare-capacity/research/academic-research.md"
+        }
+      ],
+      "normalized": "https://pubmed.ncbi.nlm.nih.gov/19121124"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22941876/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/spare-capacity/research/academic-research.md"
+        }
+      ],
+      "normalized": "https://pubmed.ncbi.nlm.nih.gov/22941876"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24749966/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/spare-capacity/research/academic-research.md"
+        }
+      ],
+      "normalized": "https://pubmed.ncbi.nlm.nih.gov/24749966"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32668576/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/spare-capacity/research/academic-research.md"
+        }
+      ],
+      "normalized": "https://pubmed.ncbi.nlm.nih.gov/32668576"
+    },
+    {
+      "url": "https://pubsonline.informs.org/doi/10.1287/orsc.1050.0133",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/company-must-know-itself/draft.md"
+        },
+        {
+          "file": "drafts/company-must-know-itself/sources.md"
+        },
+        {
+          "file": "drafts/three-plane-shift/draft.md"
+        },
+        {
+          "file": "drafts/three-plane-shift/sources.md"
+        }
+      ],
+      "normalized": "https://pubsonline.informs.org/doi/10.1287/orsc.1050.0133"
+    },
+    {
+      "url": "https://pubsonline.informs.org/doi/10.1287/orsc.2018.1215",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/spare-capacity/research/academic-research.md"
+        }
+      ],
+      "normalized": "https://pubsonline.informs.org/doi/10.1287/orsc.2018.1215"
+    },
+    {
+      "url": "https://pubsonline.informs.org/doi/pdf/10.1287/orsc.2.1.71",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-06-08T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-06-08-of-termites-tokens.md"
+        }
+      ],
+      "normalized": "https://pubsonline.informs.org/doi/pdf/10.1287/orsc.2.1.71"
+    },
+    {
+      "url": "https://review.firstround.com/so-you-want-to-hire-a-forward-deployed-engineer/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/forward-deployed-consulting/sources.md"
+        }
+      ],
+      "normalized": "https://review.firstround.com/so-you-want-to-hire-a-forward-deployed-engineer"
+    },
+    {
+      "url": "https://samgilbert.net/pubs/Risko2016TiCS.pdf",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/spare-capacity/research/academic-research.md"
+        }
+      ],
+      "normalized": "https://samgilbert.net/pubs/Risko2016TiCS.pdf"
+    },
+    {
+      "url": "https://simonwillison.net/2024/May/8/slop/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/three-plane-shift/sources.md"
+        }
+      ],
+      "normalized": "https://simonwillison.net/2024/May/8/slop"
+    },
+    {
+      "url": "https://simonwillison.net/2025/Oct/5/parallel-coding-agents/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/spare-capacity/draft.md"
+        },
+        {
+          "file": "drafts/spare-capacity/sources.md"
+        }
+      ],
+      "normalized": "https://simonwillison.net/2025/Oct/5/parallel-coding-agents"
+    },
+    {
+      "url": "https://sites.math.washington.edu/~billey/classes/562.winter.2018/articles/Gale.Shapley.pdf",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/agentic-commerce-preferences/sources.md"
+        }
+      ],
+      "normalized": "https://sites.math.washington.edu/~billey/classes/562.winter.2018/articles/Gale.Shapley.pdf"
+    },
+    {
+      "url": "https://stanford.edu/~jlmcc/papers/McCMcNaughtonOReilly95.pdf",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/memory-layers/sources.md"
+        }
+      ],
+      "normalized": "https://stanford.edu/~jlmcc/papers/McCMcNaughtonOReilly95.pdf"
+    },
+    {
+      "url": "https://stephenanderson.medium.com/toward-a-new-model-for-corporate-learning-and-development-part-1-3729f0271e79",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-27-linkedin-is-not-a-social-or-professional-network-its-a-learn.md"
+        }
+      ],
+      "normalized": "https://stephenanderson.medium.com/toward-a-new-model-for-corporate-learning-and-development-part-1-3729f0271e79"
+    },
+    {
+      "url": "https://stratechery.com/2015/aggregation-theory/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/agentic-commerce-preferences/sources.md"
+        }
+      ],
+      "normalized": "https://stratechery.com/2015/aggregation-theory"
+    },
+    {
+      "url": "https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F15a91679-985a-4e56-847c-ac46d15c81f5_1434x802.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-01T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-01-how-do-you-cultivate-customer-centric-executives.md"
+        }
+      ],
+      "normalized": "https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F15a91679-985a-4e56-847c-ac46d15c81f5_1434x802.png"
+    },
+    {
+      "url": "https://t.co/KrDfZRbr0f",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-01T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-01-how-do-you-cultivate-customer-centric-executives.md"
+        }
+      ],
+      "normalized": "https://t.co/KrDfZRbr0f"
+    },
+    {
+      "url": "https://techcrunch.com/2024/03/16/linkedin-wants-to-add-gaming-to-its-platform/",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-27-linkedin-is-not-a-social-or-professional-network-its-a-learn.md"
+        }
+      ],
+      "normalized": "https://techcrunch.com/2024/03/16/linkedin-wants-to-add-gaming-to-its-platform"
+    },
+    {
+      "url": "https://techsupport.substack.com/p/where-does-workplace-trauma-go",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-01T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-01-how-do-you-cultivate-customer-centric-executives.md"
+        }
+      ],
+      "normalized": "https://techsupport.substack.com/p/where-does-workplace-trauma-go"
+    },
+    {
+      "url": "https://thezvi.substack.com/p/slack",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/spare-capacity/draft.md"
+        },
+        {
+          "file": "drafts/spare-capacity/sources.md"
+        }
+      ],
+      "normalized": "https://thezvi.substack.com/p/slack"
+    },
+    {
+      "url": "https://tomcritchlow.com/2017/07/18/the-consultants-grain/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/forward-deployed-consulting/draft.md"
+        },
+        {
+          "file": "drafts/forward-deployed-consulting/sources.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2017/07/18/the-consultants-grain"
+    },
+    {
+      "url": "https://tomcritchlow.com/2018/02/23/small-b-blogging/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/forward-deployed-consulting/sources.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2018/02/23/small-b-blogging"
+    },
+    {
+      "url": "https://tomcritchlow.com/2018/06/28/strategy-stewardship/",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-04-16T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-04-16-working-with-founders-who-have-conviction-and-taste.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2018/06/28/strategy-stewardship"
+    },
+    {
+      "url": "https://tomcritchlow.com/2018/10/29/ways-of-seeing/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/forward-deployed-consulting/draft.md"
+        },
+        {
+          "file": "drafts/forward-deployed-consulting/sources.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2018/10/29/ways-of-seeing"
+    },
+    {
+      "url": "https://tomcritchlow.com/2019/02/27/i-consultant/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/forward-deployed-consulting/sources.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2019/02/27/i-consultant"
+    },
+    {
+      "url": "https://tomcritchlow.com/2019/03/12/strange-attraction/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/forward-deployed-consulting/sources.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2019/03/12/strange-attraction"
+    },
+    {
+      "url": "https://tomcritchlow.com/2019/04/04/the-strategic-independent/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/forward-deployed-consulting/sources.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2019/04/04/the-strategic-independent"
+    },
+    {
+      "url": "https://tomcritchlow.com/2019/06/27/frameworks/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/forward-deployed-consulting/sources.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2019/06/27/frameworks"
+    },
+    {
+      "url": "https://tomcritchlow.com/2019/09/23/workshops/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/forward-deployed-consulting/draft.md"
+        },
+        {
+          "file": "drafts/forward-deployed-consulting/sources.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2019/09/23/workshops"
+    },
+    {
+      "url": "https://tomcritchlow.com/2019/11/18/yes-and/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/forward-deployed-consulting/sources.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2019/11/18/yes-and"
+    },
+    {
+      "url": "https://tomcritchlow.com/2019/11/19/optimism-operating-system/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/forward-deployed-consulting/sources.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2019/11/19/optimism-operating-system"
+    },
+    {
+      "url": "https://tomcritchlow.com/2019/12/06/blocking-unblocking-clients/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/forward-deployed-consulting/sources.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2019/12/06/blocking-unblocking-clients"
+    },
+    {
+      "url": "https://tomcritchlow.com/2020/06/24/navigating-power-status/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/forward-deployed-consulting/draft.md"
+        },
+        {
+          "file": "drafts/forward-deployed-consulting/sources.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2020/06/24/navigating-power-status"
+    },
+    {
+      "url": "https://tomcritchlow.com/2020/08/18/the-fool/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/forward-deployed-consulting/sources.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2020/08/18/the-fool"
+    },
+    {
+      "url": "https://tomcritchlow.com/2020/12/10/weak-ties-strong-intros/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/forward-deployed-consulting/sources.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2020/12/10/weak-ties-strong-intros"
+    },
+    {
+      "url": "https://tomcritchlow.com/2021/01/26/kairos/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/forward-deployed-consulting/draft.md"
+        },
+        {
+          "file": "drafts/forward-deployed-consulting/sources.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2021/01/26/kairos"
+    },
+    {
+      "url": "https://tomcritchlow.com/2021/09/09/jigsaw/",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-06T00:00:00.000Z",
+      "references": [
+        {
+          "file": "drafts/forward-deployed-consulting/sources.md"
+        },
+        {
+          "file": "published/2024-03-06-work-is-a-place.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2021/09/09/jigsaw"
+    },
+    {
+      "url": "https://tomcritchlow.com/2022/06/16/rejecting-specialization/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/forward-deployed-consulting/sources.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2022/06/16/rejecting-specialization"
+    },
+    {
+      "url": "https://tomcritchlow.com/2022/11/10/8-years-on-the-road/",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-09-03T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-09-03-3-573-days-on-the-road.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2022/11/10/8-years-on-the-road"
+    },
+    {
+      "url": "https://tomcritchlow.com/2023/02/10/riffs/",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-20T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-20-a-lil-website-refresh.md"
+        },
+        {
+          "file": "published/2025-06-27-taking-blogging-seriously.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2023/02/10/riffs"
+    },
+    {
+      "url": "https://tomcritchlow.com/2024/01/04/9-years/",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-09-03T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-09-03-3-573-days-on-the-road.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2024/01/04/9-years"
+    },
+    {
+      "url": "https://tomcritchlow.com/2024/01/10/compound-narrative/",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-09-03T00:00:00.000Z",
+      "references": [
+        {
+          "file": "drafts/forward-deployed-consulting/sources.md"
+        },
+        {
+          "file": "published/2024-09-03-3-573-days-on-the-road.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2024/01/10/compound-narrative"
+    },
+    {
+      "url": "https://tomcritchlow.com/2024/01/18/dream-clients/",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-09-03T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-09-03-3-573-days-on-the-road.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2024/01/18/dream-clients"
+    },
+    {
+      "url": "https://tomcritchlow.com/2024/01/23/advice/",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-04-16T00:00:00.000Z",
+      "references": [
+        {
+          "file": "drafts/forward-deployed-consulting/draft.md"
+        },
+        {
+          "file": "drafts/forward-deployed-consulting/sources.md"
+        },
+        {
+          "file": "published/2024-04-16-working-with-founders-who-have-conviction-and-taste.md"
+        },
+        {
+          "file": "published/2024-09-03-3-573-days-on-the-road.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2024/01/23/advice"
+    },
+    {
+      "url": "https://tomcritchlow.com/2024/01/31/search-ai/",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-09-03T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-09-03-3-573-days-on-the-road.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2024/01/31/search-ai"
+    },
+    {
+      "url": "https://tomcritchlow.com/2024/02/09/remarkable-notes/",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-01T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-01-how-do-you-cultivate-customer-centric-executives.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2024/02/09/remarkable-notes"
+    },
+    {
+      "url": "https://tomcritchlow.com/2024/03/01/notes-customer-focus/",
+      "title": "How do You Cultivate Customer-Centric Executives?",
+      "author": null,
+      "first_seen": "2024-03-01T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-01-how-do-you-cultivate-customer-centric-executives.md"
+        },
+        {
+          "file": "published/2024-09-03-3-573-days-on-the-road.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2024/03/01/notes-customer-focus"
+    },
+    {
+      "url": "https://tomcritchlow.com/2024/03/06/wfh/",
+      "title": "Work is a Place",
+      "author": null,
+      "first_seen": "2024-03-06T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-06-work-is-a-place.md"
+        },
+        {
+          "file": "published/2024-09-03-3-573-days-on-the-road.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2024/03/06/wfh"
+    },
+    {
+      "url": "https://tomcritchlow.com/2024/03/20/new-website/",
+      "title": "A Lil' Website Refresh",
+      "author": null,
+      "first_seen": "2024-03-20T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-20-a-lil-website-refresh.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2024/03/20/new-website"
+    },
+    {
+      "url": "https://tomcritchlow.com/2024/03/27/linkedin-learning/",
+      "title": "LinkedIn is not a social or professional network, it's a learning network",
+      "author": null,
+      "first_seen": "2024-03-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-27-linkedin-is-not-a-social-or-professional-network-its-a-learn.md"
+        },
+        {
+          "file": "published/2024-09-03-3-573-days-on-the-road.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2024/03/27/linkedin-learning"
+    },
+    {
+      "url": "https://tomcritchlow.com/2024/04/16/active-advisor/",
+      "title": "Working With Founders Who Have Conviction and Taste",
+      "author": null,
+      "first_seen": "2024-04-16T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-04-16-working-with-founders-who-have-conviction-and-taste.md"
+        },
+        {
+          "file": "published/2024-09-03-3-573-days-on-the-road.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2024/04/16/active-advisor"
+    },
+    {
+      "url": "https://tomcritchlow.com/2024/09/03/3573-on-the-road/",
+      "title": "3,573 Days On The Road",
+      "author": null,
+      "first_seen": "2024-09-03T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-09-03-3-573-days-on-the-road.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2024/09/03/3573-on-the-road"
+    },
+    {
+      "url": "https://tomcritchlow.com/2025/03/21/better-ai-mode/",
+      "title": "Google is Grounded and Needs to Learn How to Soar",
+      "author": null,
+      "first_seen": "2025-03-21T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2025-03-21-google-is-grounded-and-needs-to-learn-how-to-soar.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2025/03/21/better-ai-mode"
+    },
+    {
+      "url": "https://tomcritchlow.com/2025/06/27/taking-blogging-seriously/",
+      "title": "Taking Blogging Seriously",
+      "author": null,
+      "first_seen": "2025-06-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2025-06-27-taking-blogging-seriously.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2025/06/27/taking-blogging-seriously"
+    },
+    {
+      "url": "https://tomcritchlow.com/2025/08/22/people-and-blogs/",
+      "title": "Featured on People & Blogs",
+      "author": null,
+      "first_seen": "2025-08-22T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2025-08-22-featured-on-people-blogs.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2025/08/22/people-and-blogs"
+    },
+    {
+      "url": "https://tomcritchlow.com/2026/06/08/termites-tokens/",
+      "title": "Of Termites & Tokens",
+      "author": null,
+      "first_seen": "2026-06-08T00:00:00.000Z",
+      "references": [
+        {
+          "file": "drafts/three-plane-shift/draft.md"
+        },
+        {
+          "file": "drafts/three-plane-shift/sources.md"
+        },
+        {
+          "file": "published/2026-06-08-of-termites-tokens.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2026/06/08/termites-tokens"
+    },
+    {
+      "url": "https://tomcritchlow.com/about/",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-20T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-20-a-lil-website-refresh.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/about"
+    },
+    {
+      "url": "https://tomcritchlow.com/advisor",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-20T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-20-a-lil-website-refresh.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/advisor"
+    },
+    {
+      "url": "https://tomcritchlow.com/cdn-cgi/l/email-protection#c7b3ada4b5aeb3a4afaba8b087a0aaa6aeabe9a4a8aa",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-04-16T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-04-16-working-with-founders-who-have-conviction-and-taste.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/cdn-cgi/l/email-protection"
+    },
+    {
+      "url": "https://tomcritchlow.com/images/10-years-detail.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-09-03T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-09-03-3-573-days-on-the-road.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/images/10-years-detail.png"
+    },
+    {
+      "url": "https://tomcritchlow.com/images/2024-03-01-12-13-26.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-01T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-01-how-do-you-cultivate-customer-centric-executives.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/images/2024-03-01-12-13-26.png"
+    },
+    {
+      "url": "https://tomcritchlow.com/images/2024-03-20-09-49-17.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-20T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-20-a-lil-website-refresh.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/images/2024-03-20-09-49-17.png"
+    },
+    {
+      "url": "https://tomcritchlow.com/images/2024-03-20-09-58-17.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-20T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-20-a-lil-website-refresh.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/images/2024-03-20-09-58-17.png"
+    },
+    {
+      "url": "https://tomcritchlow.com/images/2024-03-20-10-04-46.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-20T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-20-a-lil-website-refresh.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/images/2024-03-20-10-04-46.png"
+    },
+    {
+      "url": "https://tomcritchlow.com/images/2024-03-21-14-23-12.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-27-linkedin-is-not-a-social-or-professional-network-its-a-learn.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/images/2024-03-21-14-23-12.png"
+    },
+    {
+      "url": "https://tomcritchlow.com/images/2024-03-26-10-57-21.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-27-linkedin-is-not-a-social-or-professional-network-its-a-learn.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/images/2024-03-26-10-57-21.png"
+    },
+    {
+      "url": "https://tomcritchlow.com/images/2024-08-30-12-09-33.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-09-03T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-09-03-3-573-days-on-the-road.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/images/2024-08-30-12-09-33.png"
+    },
+    {
+      "url": "https://tomcritchlow.com/images/2025-03-24-18-03-18.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2025-03-21T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2025-03-21-google-is-grounded-and-needs-to-learn-how-to-soar.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/images/2025-03-24-18-03-18.png"
+    },
+    {
+      "url": "https://tomcritchlow.com/images/ai-citations.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2025-03-21T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2025-03-21-google-is-grounded-and-needs-to-learn-how-to-soar.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/images/ai-citations.png"
+    },
+    {
+      "url": "https://tomcritchlow.com/images/ai-overviews-ai-mode.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2025-03-21T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2025-03-21-google-is-grounded-and-needs-to-learn-how-to-soar.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/images/ai-overviews-ai-mode.png"
+    },
+    {
+      "url": "https://tomcritchlow.com/images/interview-fred-again.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2025-03-21T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2025-03-21-google-is-grounded-and-needs-to-learn-how-to-soar.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/images/interview-fred-again.png"
+    },
+    {
+      "url": "https://tomcritchlow.com/images/linkedin-banner.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-27-linkedin-is-not-a-social-or-professional-network-its-a-learn.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/images/linkedin-banner.png"
+    },
+    {
+      "url": "https://tomcritchlow.com/images/llm-grounding.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2025-03-21T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2025-03-21-google-is-grounded-and-needs-to-learn-how-to-soar.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/images/llm-grounding.png"
+    },
+    {
+      "url": "https://tomcritchlow.com/images/nh-skiing.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2025-03-21T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2025-03-21-google-is-grounded-and-needs-to-learn-how-to-soar.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/images/nh-skiing.png"
+    },
+    {
+      "url": "https://tomcritchlow.com/images/tomato-soup-recipe.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2025-03-21T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2025-03-21-google-is-grounded-and-needs-to-learn-how-to-soar.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/images/tomato-soup-recipe.png"
+    },
+    {
+      "url": "https://tomcritchlow.com/images/wfh-revenue-annotated.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-06T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-06-work-is-a-place.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/images/wfh-revenue-annotated.png"
+    },
+    {
+      "url": "https://tomcritchlow.com/images/wfh-revenue.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-06T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-06-work-is-a-place.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/images/wfh-revenue.png"
+    },
+    {
+      "url": "https://tomcritchlow.com/map/",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-20T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-20-a-lil-website-refresh.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/map"
+    },
+    {
+      "url": "https://tomcritchlow.com/newsletter",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-20T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-20-a-lil-website-refresh.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/newsletter"
+    },
+    {
+      "url": "https://tomcritchlow.com/strategy/",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-09-03T00:00:00.000Z",
+      "references": [
+        {
+          "file": "drafts/forward-deployed-consulting/sources.md"
+        },
+        {
+          "file": "published/2024-09-03-3-573-days-on-the-road.md"
+        },
+        {
+          "file": "published/2025-06-27-taking-blogging-seriously.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/strategy"
+    },
+    {
+      "url": "https://tomcritchlow.com/topics",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-20T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-20-a-lil-website-refresh.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/topics"
+    },
+    {
+      "url": "https://tomcritchlow.com/topics/indie-consulting/",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-20T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-20-a-lil-website-refresh.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/topics/indie-consulting"
+    },
+    {
+      "url": "https://tomcritchlow.com/wiki/drafts/2021-10-09-narrative-strategy/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/forward-deployed-consulting/sources.md"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/wiki/drafts/2021-10-09-narrative-strategy"
+    },
+    {
+      "url": "https://tompeters.com/2018/04/excellence-dividendin-powerpoint-annotated/",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-01T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-01-how-do-you-cultivate-customer-centric-executives.md"
+        }
+      ],
+      "normalized": "https://tompeters.com/2018/04/excellence-dividendin-powerpoint-annotated"
+    },
+    {
+      "url": "https://trainingindustry.com/wiki/outsourcing/size-of-training-industry/",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-27-linkedin-is-not-a-social-or-professional-network-its-a-learn.md"
+        }
+      ],
+      "normalized": "https://trainingindustry.com/wiki/outsourcing/size-of-training-industry"
+    },
+    {
+      "url": "https://twitter.com/bchesky/status/1654137863007612930?ref_src=twsrc%5Etfw",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-01T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-01-how-do-you-cultivate-customer-centric-executives.md"
+        }
+      ],
+      "normalized": "https://twitter.com/bchesky/status/1654137863007612930"
+    },
+    {
+      "url": "https://twitter.com/bchesky/status/1654137863007612930?lang=en",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-01T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-01-how-do-you-cultivate-customer-centric-executives.md"
+        }
+      ],
+      "normalized": "https://twitter.com/bchesky/status/1654137863007612930?lang=en"
+    },
+    {
+      "url": "https://twitter.com/kaseyklimes/status/1770881114430730263?ref_src=twsrc%5Etfw",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-27-linkedin-is-not-a-social-or-professional-network-its-a-learn.md"
+        }
+      ],
+      "normalized": "https://twitter.com/kaseyklimes/status/1770881114430730263"
+    },
+    {
+      "url": "https://uncertaintymindset.substack.com/p/amorphousconsulting",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-04-16T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-04-16-working-with-founders-who-have-conviction-and-taste.md"
+        }
+      ],
+      "normalized": "https://uncertaintymindset.substack.com/p/amorphousconsulting"
+    },
+    {
+      "url": "https://www.aaron-kaye.com/research",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/agentic-commerce-preferences/draft.md"
+        },
+        {
+          "file": "drafts/agentic-commerce-preferences/sources.md"
+        }
+      ],
+      "normalized": "https://www.aaron-kaye.com/research"
+    },
+    {
+      "url": "https://www.adweek.com/programmatic/how-dotdash-built-a-profitable-media-empire-from-the-ashes-of-about-com/",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-01T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-01-how-do-you-cultivate-customer-centric-executives.md"
+        }
+      ],
+      "normalized": "https://www.adweek.com/programmatic/how-dotdash-built-a-profitable-media-empire-from-the-ashes-of-about-com"
+    },
+    {
+      "url": "https://www.alephic.com/",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-06-08T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-06-08-of-termites-tokens.md"
+        }
+      ],
+      "normalized": "https://www.alephic.com/"
+    },
+    {
+      "url": "https://www.almanac.com/history-old-farmers-almanac",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/three-plane-shift/sources.md"
+        }
+      ],
+      "normalized": "https://www.almanac.com/history-old-farmers-almanac"
+    },
+    {
+      "url": "https://www.amacad.org/publication/turing-trap-promise-peril-human-artificial-intelligence",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-06-08T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-06-08-of-termites-tokens.md"
+        }
+      ],
+      "normalized": "https://www.amacad.org/publication/turing-trap-promise-peril-human-artificial-intelligence"
+    },
+    {
+      "url": "https://www.amazon.com/Field-Science-Nature-Michael-Canfield/dp/0674057570",
+      "title": null,
+      "author": null,
+      "first_seen": "2025-06-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2025-06-27-taking-blogging-seriously.md"
+        }
+      ],
+      "normalized": "https://www.amazon.com/Field-Science-Nature-Michael-Canfield/dp/0674057570"
+    },
+    {
+      "url": "https://www.apa.org/pubs/journals/releases/xhp274763.pdf",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/spare-capacity/research/academic-research.md"
+        }
+      ],
+      "normalized": "https://www.apa.org/pubs/journals/releases/xhp274763.pdf"
+    },
+    {
+      "url": "https://www.barry.ooo/posts/fde-culture",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/forward-deployed-consulting/sources.md"
+        }
+      ],
+      "normalized": "https://www.barry.ooo/posts/fde-culture"
+    },
+    {
+      "url": "https://www.britannica.com/money/revealed-preference-theory",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/agentic-commerce-preferences/sources.md"
+        }
+      ],
+      "normalized": "https://www.britannica.com/money/revealed-preference-theory"
+    },
+    {
+      "url": "https://www.buzzstream.com/blog/publishers-block-ai-study/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/three-plane-shift/draft.md"
+        },
+        {
+          "file": "drafts/three-plane-shift/sources.md"
+        }
+      ],
+      "normalized": "https://www.buzzstream.com/blog/publishers-block-ai-study"
+    },
+    {
+      "url": "https://www.disneyinstitute.com/",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-01T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-01-how-do-you-cultivate-customer-centric-executives.md"
+        }
+      ],
+      "normalized": "https://www.disneyinstitute.com/"
+    },
+    {
+      "url": "https://www.eugenewei.com/blog/2018/5/21/invisible-asymptotes",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/agentic-commerce-preferences/sources.md"
+        }
+      ],
+      "normalized": "https://www.eugenewei.com/blog/2018/5/21/invisible-asymptotes"
+    },
+    {
+      "url": "https://www.fiercelycurious.com/",
+      "title": null,
+      "author": null,
+      "first_seen": "2025-06-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2025-06-27-taking-blogging-seriously.md"
+        }
+      ],
+      "normalized": "https://www.fiercelycurious.com/"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2020.600092/full",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/spare-capacity/research/academic-research.md"
+        },
+        {
+          "file": "drafts/spare-capacity/sources.md"
+        }
+      ],
+      "normalized": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2020.600092/full"
+    },
+    {
+      "url": "https://www.georgesoros.com/2012/06/02/remarks_at_the_festival_of_economics_trento_italy/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/company-must-know-itself/draft.md"
+        },
+        {
+          "file": "drafts/company-must-know-itself/sources.md"
+        }
+      ],
+      "normalized": "https://www.georgesoros.com/2012/06/02/remarks_at_the_festival_of_economics_trento_italy"
+    },
+    {
+      "url": "https://www.gsb.stanford.edu/faculty-research/publications/choice-context-tradeoff-contrast-extremeness-aversion",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/agentic-commerce-preferences/sources.md"
+        }
+      ],
+      "normalized": "https://www.gsb.stanford.edu/faculty-research/publications/choice-context-tradeoff-contrast-extremeness-aversion"
+    },
+    {
+      "url": "https://www.hbs.edu/faculty/Pages/item.aspx?num=3256",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/three-plane-shift/draft.md"
+        },
+        {
+          "file": "drafts/three-plane-shift/sources.md"
+        }
+      ],
+      "normalized": "https://www.hbs.edu/faculty/Pages/item.aspx?num=3256"
+    },
+    {
+      "url": "https://www.hbs.edu/faculty/Pages/item.aspx?research=7205",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/spare-capacity/research/academic-research.md"
+        }
+      ],
+      "normalized": "https://www.hbs.edu/faculty/Pages/item.aspx?research=7205"
+    },
+    {
+      "url": "https://www.henrikkarlsson.xyz/p/search-query",
+      "title": null,
+      "author": null,
+      "first_seen": "2025-06-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2025-06-27-taking-blogging-seriously.md"
+        }
+      ],
+      "normalized": "https://www.henrikkarlsson.xyz/p/search-query"
+    },
+    {
+      "url": "https://www.howardgray.net/2023/12/19/strategy-execution-the-creative-producer/",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-04-16T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-04-16-working-with-founders-who-have-conviction-and-taste.md"
+        }
+      ],
+      "normalized": "https://www.howardgray.net/2023/12/19/strategy-execution-the-creative-producer"
+    },
+    {
+      "url": "https://www.howardgray.net/content/images/size/w2000/2023/12/Strategy--Producer--Freelancer.jpg",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-04-16T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-04-16-working-with-founders-who-have-conviction-and-taste.md"
+        }
+      ],
+      "normalized": "https://www.howardgray.net/content/images/size/w2000/2023/12/Strategy--Producer--Freelancer.jpg"
+    },
+    {
+      "url": "https://www.kickstarter.com/projects/erinprz/journey-to-the-end-of-the-night-a-childrens-book",
+      "title": null,
+      "author": null,
+      "first_seen": "2025-06-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2025-06-27-taking-blogging-seriously.md"
+        }
+      ],
+      "normalized": "https://www.kickstarter.com/projects/erinprz/journey-to-the-end-of-the-night-a-childrens-book"
+    },
+    {
+      "url": "https://www.linkedin.com/in/gautamramdurai/",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-27-linkedin-is-not-a-social-or-professional-network-its-a-learn.md"
+        }
+      ],
+      "normalized": "https://www.linkedin.com/in/gautamramdurai"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/danielfschmidt_doubleloop-demo-2024-activity-7158549229773197312-BYrc?utm_source=share&utm_medium=member_desktop",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-04-16T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-04-16-working-with-founders-who-have-conviction-and-taste.md"
+        }
+      ],
+      "normalized": "https://www.linkedin.com/posts/danielfschmidt_doubleloop-demo-2024-activity-7158549229773197312-BYrc"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/danielfschmidt_doubleloop-develop-an-impact-oriented-strategy-activity-7164380304055488512-eylL?utm_source=share&utm_medium=member_desktop",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-04-16T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-04-16-working-with-founders-who-have-conviction-and-taste.md"
+        }
+      ],
+      "normalized": "https://www.linkedin.com/posts/danielfschmidt_doubleloop-develop-an-impact-oriented-strategy-activity-7164380304055488512-eylL"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/tomcritchlow_its-time-to-take-control-of-your-own-professional-activity-7175868789832462338-NeMS?utm_source=share&utm_medium=member_desktop",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-27-linkedin-is-not-a-social-or-professional-network-its-a-learn.md"
+        }
+      ],
+      "normalized": "https://www.linkedin.com/posts/tomcritchlow_its-time-to-take-control-of-your-own-professional-activity-7175868789832462338-NeMS"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/tomcritchlow_linkedin-is-not-a-social-or-professional-activity-7178738086330204163-stBu",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-27-linkedin-is-not-a-social-or-professional-network-its-a-learn.md"
+        }
+      ],
+      "normalized": "https://www.linkedin.com/posts/tomcritchlow_linkedin-is-not-a-social-or-professional-activity-7178738086330204163-stBu"
+    },
+    {
+      "url": "https://www.linkedin.com/pulse/hiring-future-past-ryan-roslansky/",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-27-linkedin-is-not-a-social-or-professional-network-its-a-learn.md"
+        }
+      ],
+      "normalized": "https://www.linkedin.com/pulse/hiring-future-past-ryan-roslansky"
+    },
+    {
+      "url": "https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-great-attrition-is-making-hiring-harder-are-you-searching-the-right-talent-pools",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-27-linkedin-is-not-a-social-or-professional-network-its-a-learn.md"
+        }
+      ],
+      "normalized": "https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-great-attrition-is-making-hiring-harder-are-you-searching-the-right-talent-pools"
+    },
+    {
+      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/three-plane-shift/sources.md"
+        }
+      ],
+      "normalized": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/memory-layers/sources.md"
+        }
+      ],
+      "normalized": "https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/research/project/graphrag/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/memory-layers/sources.md"
+        }
+      ],
+      "normalized": "https://www.microsoft.com/en-us/research/project/graphrag"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/webiq",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/memory-layers/sources.md"
+        }
+      ],
+      "normalized": "https://www.microsoft.com/en-us/webiq"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/three-plane-shift/sources.md"
+        }
+      ],
+      "normalized": "https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization"
+    },
+    {
+      "url": "https://www.mittag-leffler.se/about-us/history/prize-competition/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/three-plane-shift/sources.md"
+        }
+      ],
+      "normalized": "https://www.mittag-leffler.se/about-us/history/prize-competition"
+    },
+    {
+      "url": "https://www.nbcdfw.com/news/business/money-report/meta-removes-10-million-facebook-profiles-in-effort-to-combat-spam/3884912/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/three-plane-shift/sources.md"
+        }
+      ],
+      "normalized": "https://www.nbcdfw.com/news/business/money-report/meta-removes-10-million-facebook-profiles-in-effort-to-combat-spam/3884912"
+    },
+    {
+      "url": "https://www.nber.org/papers/w23075",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/company-must-know-itself/draft.md"
+        },
+        {
+          "file": "drafts/company-must-know-itself/sources.md"
+        }
+      ],
+      "normalized": "https://www.nber.org/papers/w23075"
+    },
+    {
+      "url": "https://www.nber.org/papers/w24197",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/agentic-commerce-preferences/draft.md"
+        },
+        {
+          "file": "drafts/agentic-commerce-preferences/sources.md"
+        }
+      ],
+      "normalized": "https://www.nber.org/papers/w24197"
+    },
+    {
+      "url": "https://www.nber.org/papers/w34468",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/agentic-commerce-preferences/sources.md"
+        }
+      ],
+      "normalized": "https://www.nber.org/papers/w34468"
+    },
+    {
+      "url": "https://www.nngroup.com/articles/compensatory-noncompensatory-decisions/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/agentic-commerce-preferences/draft.md"
+        },
+        {
+          "file": "drafts/agentic-commerce-preferences/sources.md"
+        }
+      ],
+      "normalized": "https://www.nngroup.com/articles/compensatory-noncompensatory-decisions"
+    },
+    {
+      "url": "https://www.npr.org/2023/04/10/1167158933/fred-again-tiny-desk-concert",
+      "title": null,
+      "author": null,
+      "first_seen": "2025-03-21T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2025-03-21-google-is-grounded-and-needs-to-learn-how-to-soar.md"
+        }
+      ],
+      "normalized": "https://www.npr.org/2023/04/10/1167158933/fred-again-tiny-desk-concert"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/ontology/overview",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/company-world-model/draft.md"
+        },
+        {
+          "file": "drafts/company-world-model/sources.md"
+        }
+      ],
+      "normalized": "https://www.palantir.com/docs/foundry/ontology/overview"
+    },
+    {
+      "url": "https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/three-plane-shift/draft.md"
+        },
+        {
+          "file": "drafts/three-plane-shift/sources.md"
+        }
+      ],
+      "normalized": "https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact"
+    },
+    {
+      "url": "https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/three-plane-shift/sources.md"
+        }
+      ],
+      "normalized": "https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/ramp-launches-applied-ai-solutions-helping-enterprises-deploy-ai-agents-across-finance-operations-302796179.html",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/company-world-model/sources.md"
+        }
+      ],
+      "normalized": "https://www.prnewswire.com/news-releases/ramp-launches-applied-ai-solutions-helping-enterprises-deploy-ai-agents-across-finance-operations-302796179.html"
+    },
+    {
+      "url": "https://www.promarket.org/2018/04/26/used-books-can-tell-us-competition-online-markets/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/agentic-commerce-preferences/sources.md"
+        }
+      ],
+      "normalized": "https://www.promarket.org/2018/04/26/used-books-can-tell-us-competition-online-markets"
+    },
+    {
+      "url": "https://www.quartey.com/questions",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-20T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-20-a-lil-website-refresh.md"
+        }
+      ],
+      "normalized": "https://www.quartey.com/questions"
+    },
+    {
+      "url": "https://www.reforge.com/artifacts",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-27-linkedin-is-not-a-social-or-professional-network-its-a-learn.md"
+        }
+      ],
+      "normalized": "https://www.reforge.com/artifacts"
+    },
+    {
+      "url": "https://www.researchgate.net/publication/299531060_Online_and_live_regular_poker_players_Do_they_differ_in_impulsive_sensation_seeking_and_gambling_practice",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/spare-capacity/draft.md"
+        },
+        {
+          "file": "drafts/spare-capacity/research/academic-research.md"
+        },
+        {
+          "file": "drafts/spare-capacity/sources.md"
+        }
+      ],
+      "normalized": "https://www.researchgate.net/publication/299531060_Online_and_live_regular_poker_players_Do_they_differ_in_impulsive_sensation_seeking_and_gambling_practice"
+    },
+    {
+      "url": "https://www.researchgate.net/publication/329542696_Curiosity_made_the_cat_more_creative_Specific_curiosity_as_a_driver_of_creativity",
+      "title": null,
+      "author": null,
+      "first_seen": "2025-06-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2025-06-27-taking-blogging-seriously.md"
+        }
+      ],
+      "normalized": "https://www.researchgate.net/publication/329542696_Curiosity_made_the_cat_more_creative_Specific_curiosity_as_a_driver_of_creativity"
+    },
+    {
+      "url": "https://www.retently.com/blog/companies-high-nps/",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-27-linkedin-is-not-a-social-or-professional-network-its-a-learn.md"
+        }
+      ],
+      "normalized": "https://www.retently.com/blog/companies-high-nps"
+    },
+    {
+      "url": "https://www.ribbonfarm.com/",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-09-03T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-09-03-3-573-days-on-the-road.md"
+        }
+      ],
+      "normalized": "https://www.ribbonfarm.com/"
+    },
+    {
+      "url": "https://www.robinsloan.com/fish/",
+      "title": null,
+      "author": null,
+      "first_seen": "2025-06-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2025-06-27-taking-blogging-seriously.md"
+        }
+      ],
+      "normalized": "https://www.robinsloan.com/fish"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1389041715000327",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-06-08T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-06-08-of-termites-tokens.md"
+        }
+      ],
+      "normalized": "https://www.sciencedirect.com/science/article/abs/pii/S1389041715000327"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0890838915300044",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/company-must-know-itself/draft.md"
+        },
+        {
+          "file": "drafts/company-must-know-itself/sources.md"
+        }
+      ],
+      "normalized": "https://www.sciencedirect.com/science/article/pii/S0890838915300044"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S1877042814051520",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-06-08T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-06-08-of-termites-tokens.md"
+        }
+      ],
+      "normalized": "https://www.sciencedirect.com/science/article/pii/S1877042814051520"
+    },
+    {
+      "url": "https://www.scirp.org/reference/referencespapers?referenceid=2571649",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/agentic-commerce-preferences/draft.md"
+        },
+        {
+          "file": "drafts/agentic-commerce-preferences/sources.md"
+        }
+      ],
+      "normalized": "https://www.scirp.org/reference/referencespapers?referenceid=2571649"
+    },
+    {
+      "url": "https://www.seangoedecke.com/doing-nothing-at-work/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/spare-capacity/draft.md"
+        },
+        {
+          "file": "drafts/spare-capacity/sources.md"
+        }
+      ],
+      "normalized": "https://www.seangoedecke.com/doing-nothing-at-work"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000119312516530910/d168744dex991.htm",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-01T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-01-how-do-you-cultivate-customer-centric-executives.md"
+        }
+      ],
+      "normalized": "https://www.sec.gov/Archives/edgar/data/1018724/000119312516530910/d168744dex991.htm"
+    },
+    {
+      "url": "https://www.semanticscholar.org/paper/Information-and-Consumer-Behavior-Nelson/e425402166b5f42aa82b0b034fd1389027181534",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/agentic-commerce-preferences/sources.md"
+        }
+      ],
+      "normalized": "https://www.semanticscholar.org/paper/Information-and-Consumer-Behavior-Nelson/e425402166b5f42aa82b0b034fd1389027181534"
+    },
+    {
+      "url": "https://www.slideshare.net/jbersin/the-disruptive-nature-of-digital-learning-ten-things-weve-learned/12-21733_34142_035639We_are_reactive",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-27-linkedin-is-not-a-social-or-professional-network-its-a-learn.md"
+        }
+      ],
+      "normalized": "https://www.slideshare.net/jbersin/the-disruptive-nature-of-digital-learning-ten-things-weve-learned/12-21733_34142_035639We_are_reactive"
+    },
+    {
+      "url": "https://www.slideshare.net/jbersin/the-disruptive-nature-of-digital-learning-ten-things-weve-learned/13-Training_is_key_to_Millennial",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-27-linkedin-is-not-a-social-or-professional-network-its-a-learn.md"
+        }
+      ],
+      "normalized": "https://www.slideshare.net/jbersin/the-disruptive-nature-of-digital-learning-ten-things-weve-learned/13-Training_is_key_to_Millennial"
+    },
+    {
+      "url": "https://www.slideshare.net/jbersin/the-disruptive-nature-of-digital-learning-ten-things-weve-learned/15-75of_the_workforce_will_be",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-27-linkedin-is-not-a-social-or-professional-network-its-a-learn.md"
+        }
+      ],
+      "normalized": "https://www.slideshare.net/jbersin/the-disruptive-nature-of-digital-learning-ten-things-weve-learned/15-75of_the_workforce_will_be"
+    },
+    {
+      "url": "https://www.strangeloopcanon.com/p/homo-agenticus",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-06-08T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-06-08-of-termites-tokens.md"
+        }
+      ],
+      "normalized": "https://www.strangeloopcanon.com/p/homo-agenticus"
+    },
+    {
+      "url": "https://www.surveymonkey.com/resources/how-to-build-customer-centric-culture/",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-01T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-01-how-do-you-cultivate-customer-centric-executives.md"
+        }
+      ],
+      "normalized": "https://www.surveymonkey.com/resources/how-to-build-customer-centric-culture"
+    },
+    {
+      "url": "https://www.tearthepaperceiling.org/",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-27-linkedin-is-not-a-social-or-professional-network-its-a-learn.md"
+        }
+      ],
+      "normalized": "https://www.tearthepaperceiling.org/"
+    },
+    {
+      "url": "https://www.theguardian.com/technology/2025/dec/27/from-shrimp-jesus-to-erotic-tractors-how-viral-ai-slop-took-over-the-internet?utm_source=chatgpt.com",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/three-plane-shift/draft.md"
+        }
+      ],
+      "normalized": "https://www.theguardian.com/technology/2025/dec/27/from-shrimp-jesus-to-erotic-tractors-how-viral-ai-slop-took-over-the-internet"
+    },
+    {
+      "url": "https://www.theverge.com/2023/3/4/23624241/linkedin-collaborative-articles-ai-prompts-content",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-27-linkedin-is-not-a-social-or-professional-network-its-a-learn.md"
+        }
+      ],
+      "normalized": "https://www.theverge.com/2023/3/4/23624241/linkedin-collaborative-articles-ai-prompts-content"
+    },
+    {
+      "url": "https://www.usermag.co/p/how-much-of-substack-is-actually-ai-pangram-analysis-substack-bestsellers",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/three-plane-shift/draft.md"
+        }
+      ],
+      "normalized": "https://www.usermag.co/p/how-much-of-substack-is-actually-ai-pangram-analysis-substack-bestsellers"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=u7K72X4eo_s",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-27T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-27-linkedin-is-not-a-social-or-professional-network-its-a-learn.md"
+        }
+      ],
+      "normalized": "https://www.youtube.com/watch?v=u7K72X4eo_s"
+    },
+    {
+      "url": "https://x.com/LeoMehr/status/2064717003181707689",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/company-world-model/sources.md"
+        }
+      ],
+      "normalized": "https://x.com/LeoMehr/status/2064717003181707689"
+    },
+    {
+      "url": "https://x.com/brian_armstrong/status/2070670644577280109",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/three-plane-shift/draft.md"
+        }
+      ],
+      "normalized": "https://x.com/brian_armstrong/status/2070670644577280109"
+    },
+    {
+      "url": "https://x.com/daveholtz/status/2070147557314175072",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/three-plane-shift/draft.md"
+        }
+      ],
+      "normalized": "https://x.com/daveholtz/status/2070147557314175072"
+    },
+    {
+      "url": "https://x.com/pashmerepat/status/1926717705660375463?t=IN1_YgacqtUk_X_COZBXcw&s=19",
+      "title": null,
+      "author": null,
+      "first_seen": "2025-03-21T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2025-03-21-google-is-grounded-and-needs-to-learn-how-to-soar.md"
+        }
+      ],
+      "normalized": "https://x.com/pashmerepat/status/1926717705660375463?s=19&t=IN1_YgacqtUk_X_COZBXcw"
+    },
+    {
+      "url": "https://x.com/tomcritchlow/status/1982272958438514987",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/agentic-commerce-preferences/research/discussion.md"
+        },
+        {
+          "file": "drafts/agentic-commerce-preferences/sources.md"
+        }
+      ],
+      "normalized": "https://x.com/tomcritchlow/status/1982272958438514987"
+    },
+    {
+      "url": "https://youtu.be/7oGsTQ7t1jc?si=E828-AA23h2zgC-c&t=1024",
+      "title": null,
+      "author": null,
+      "first_seen": "2024-03-01T00:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2024-03-01-how-do-you-cultivate-customer-centric-executives.md"
+        }
+      ],
+      "normalized": "https://youtu.be/7oGsTQ7t1jc?si=E828-AA23h2zgC-c&t=1024"
     }
   ]
 }
