@@ -1,4 +1,18 @@
 {
-  "count": 0,
-  "quotes": []
+  "count": 1,
+  "quotes": [
+    {
+      "id": "cap-20260817-141422-empowered-teams",
+      "file": "captures/2026/08/2026-08-17-141422-empowered-teams.md",
+      "quote": "The modern organization operates most effectively by orienting itself around highly empowered teams who broaden their capabilities to absorb cross-team and cross-functional handoffs, can rely on automated harnesses to address most remaining cross-functional approvals, and accelerate high-quality decision making through rapid prototyping. The premise here is an old one, but AI-tooling has shifted what’s possible in remarkable ways.",
+      "note": "Nice quote.",
+      "url": "https://lethain.com/decisions-not-dates/",
+      "title": "Roadmap decisions rather than dates.",
+      "author": null,
+      "created_at": "2026-08-17T14:14:22-04:00",
+      "tags": [
+        "clippings"
+      ]
+    }
+  ]
 }

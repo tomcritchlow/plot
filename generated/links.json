@@ -1,5 +1,5 @@
 {
-  "count": 242,
+  "count": 243,
   "links": [
     {
       "url": "https://a16z.com/services-led-growth/",
@@ -798,6 +798,19 @@
         }
       ],
       "normalized": "https://jsomers.net/blog/wp-content/uploads/2012/09/photo.jpg"
+    },
+    {
+      "url": "https://lethain.com/decisions-not-dates/",
+      "title": "Roadmap decisions rather than dates.",
+      "author": null,
+      "first_seen": "2026-08-17T14:14:22-04:00",
+      "references": [
+        {
+          "file": "captures/2026/08/2026-08-17-141422-empowered-teams.md",
+          "capture_id": "cap-20260817-141422-empowered-teams"
+        }
+      ],
+      "normalized": "https://lethain.com/decisions-not-dates"
     },
     {
       "url": "https://lethain.com/forty-year-career/",

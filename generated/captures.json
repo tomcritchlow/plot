@@ -1,4 +1,17 @@
 {
-  "count": 0,
-  "captures": []
+  "count": 1,
+  "captures": [
+    {
+      "id": "cap-20260817-141422-empowered-teams",
+      "type": "quote",
+      "created_at": "2026-08-17T14:14:22-04:00",
+      "file": "captures/2026/08/2026-08-17-141422-empowered-teams.md",
+      "url": "https://lethain.com/decisions-not-dates/",
+      "title": "Roadmap decisions rather than dates.",
+      "source_published_at": "2026-08-11",
+      "tags": [
+        "clippings"
+      ]
+    }
+  ]
 }
