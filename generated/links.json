@@ -1,5 +1,5 @@
 {
-  "count": 243,
+  "count": 274,
   "links": [
     {
       "url": "https://a16z.com/services-led-growth/",
@@ -51,6 +51,18 @@
         }
       ],
       "normalized": "https://academic.oup.com/jcr/article-abstract/25/3/187/1795625"
+    },
+    {
+      "url": "https://adage.com/video/amazon-5-star-theater-w-adam-driver-dutch-oven/",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://adage.com/video/amazon-5-star-theater-w-adam-driver-dutch-oven"
     },
     {
       "url": "https://adplist.org/",
@@ -141,6 +153,18 @@
         }
       ],
       "normalized": "https://assets.buttondown.email/images/1fc0fea2-e987-4199-b627-f2a6a592dd22.png?fit=max&w=960"
+    },
+    {
+      "url": "https://blog.cloudflare.com/building-for-the-future/",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://blog.cloudflare.com/building-for-the-future"
     },
     {
       "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
@@ -377,6 +401,18 @@
       "normalized": "https://dejan.ai/blog/hacking-gemini"
     },
     {
+      "url": "https://digiday.com/media/reuters-and-time-adopt-bot-blocking-whitelists-to-rein-in-ai-crawlers/",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://digiday.com/media/reuters-and-time-adopt-bot-blocking-whitelists-to-rein-in-ai-crawlers"
+    },
+    {
       "url": "https://doc.searls.com/2024/12/30/the-real-intention-economy/",
       "title": null,
       "author": null,
@@ -509,10 +545,13 @@
       "url": "https://futurism.com/pinterest-ai-slop",
       "title": null,
       "author": null,
-      "first_seen": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
       "references": [
         {
           "file": "drafts/three-plane-shift/draft.md"
+        },
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
         }
       ],
       "normalized": "https://futurism.com/pinterest-ai-slop"
@@ -545,6 +584,18 @@
       "normalized": "https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/HammockDrivenDev.md"
     },
     {
+      "url": "https://guide.michelin.com/th/en/history-of-the-michelin-guide-th",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://guide.michelin.com/th/en/history-of-the-michelin-guide-th"
+    },
+    {
       "url": "https://guide.michelin.com/us/en/about-us",
       "title": null,
       "author": null,
@@ -569,6 +620,18 @@
       "normalized": "https://hdsr.mitpress.mit.edu/pub/ujvharkk"
     },
     {
+      "url": "https://hermit-tech.com/blog/ai-mania-is-eviscerating-global-decisionmaking",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://hermit-tech.com/blog/ai-mania-is-eviscerating-global-decisionmaking"
+    },
+    {
       "url": "https://home.csulb.edu/~cwallis/382/readings/482/baddeley.pdf",
       "title": null,
       "author": null,
@@ -579,6 +642,18 @@
         }
       ],
       "normalized": "https://home.csulb.edu/~cwallis/382/readings/482/baddeley.pdf"
+    },
+    {
+      "url": "https://hyperframes.heygen.com/",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://hyperframes.heygen.com/"
     },
     {
       "url": "https://ideas.repec.org/a/bla/jacrfn/v30y2018i1p23-29.html",
@@ -666,6 +741,174 @@
         }
       ],
       "normalized": "https://ideas.repec.org/a/taf/intgms/v17y2017i2p205-218.html"
+    },
+    {
+      "url": "https://images.alephic.com/alephic-com/adam-driver-3-body-problem.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://images.alephic.com/alephic-com/adam-driver-3-body-problem.png"
+    },
+    {
+      "url": "https://images.alephic.com/alephic-com/ai-overview-anthropic.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://images.alephic.com/alephic-com/ai-overview-anthropic.png"
+    },
+    {
+      "url": "https://images.alephic.com/alephic-com/alephic-intelligence-screenshot.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://images.alephic.com/alephic-com/alephic-intelligence-screenshot.png"
+    },
+    {
+      "url": "https://images.alephic.com/alephic-com/codex-growth-usage.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://images.alephic.com/alephic-com/codex-growth-usage.png"
+    },
+    {
+      "url": "https://images.alephic.com/alephic-com/eiffel-tower-illustration.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://images.alephic.com/alephic-com/eiffel-tower-illustration.png"
+    },
+    {
+      "url": "https://images.alephic.com/alephic-com/illuminated-fountains.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://images.alephic.com/alephic-com/illuminated-fountains.png"
+    },
+    {
+      "url": "https://images.alephic.com/alephic-com/michelin-guide.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://images.alephic.com/alephic-com/michelin-guide.png"
+    },
+    {
+      "url": "https://images.alephic.com/alephic-com/michelin-image-blue-transparent-1200x630.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://images.alephic.com/alephic-com/michelin-image-blue-transparent-1200x630.png"
+    },
+    {
+      "url": "https://images.alephic.com/alephic-com/pinterest-slop.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://images.alephic.com/alephic-com/pinterest-slop.png"
+    },
+    {
+      "url": "https://images.alephic.com/alephic-com/purple-starfish.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://images.alephic.com/alephic-com/purple-starfish.png"
+    },
+    {
+      "url": "https://images.alephic.com/alephic-com/three-body-image.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://images.alephic.com/alephic-com/three-body-image.png"
+    },
+    {
+      "url": "https://images.alephic.com/alephic-com/tom-guide-skill.png",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://images.alephic.com/alephic-com/tom-guide-skill.png"
+    },
+    {
+      "url": "https://interconnected.org/home/2014/12/23/corporations",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://interconnected.org/home/2014/12/23/corporations"
+    },
+    {
+      "url": "https://interconnected.org/home/2023/10/06/ubigpt",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://interconnected.org/home/2023/10/06/ubigpt"
     },
     {
       "url": "https://ir.iac.com/static-files/c07e9a3b-9b45-4d98-b893-65b1854f666f",
@@ -1272,6 +1515,18 @@
       "normalized": "https://techsupport.substack.com/p/where-does-workplace-trauma-go"
     },
     {
+      "url": "https://thariqs.github.io/cc-video-editing-deck/",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://thariqs.github.io/cc-video-editing-deck"
+    },
+    {
       "url": "https://thezvi.substack.com/p/slack",
       "title": null,
       "author": null,
@@ -1765,6 +2020,9 @@
         },
         {
           "file": "published/2026-06-08-of-termites-tokens.md"
+        },
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
         }
       ],
       "normalized": "https://tomcritchlow.com/2026/06/08/termites-tokens"
@@ -2211,6 +2469,33 @@
       "normalized": "https://www.alephic.com/"
     },
     {
+      "url": "https://www.alephic.com/customers/amazon-creative-ai-initiatives",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://www.alephic.com/customers/amazon-creative-ai-initiatives"
+    },
+    {
+      "url": "https://www.alephic.com/writing/almanac-for-the-age-of-chaos",
+      "title": "An Almanac for the Age of Chaos",
+      "author": "Tom Critchlow",
+      "first_seen": "2026-06-29",
+      "references": [
+        {
+          "file": "drafts/three-plane-shift/README.md"
+        },
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://www.alephic.com/writing/almanac-for-the-age-of-chaos"
+    },
+    {
       "url": "https://www.almanac.com/history-old-farmers-almanac",
       "title": null,
       "author": null,
@@ -2286,13 +2571,16 @@
       "url": "https://www.buzzstream.com/blog/publishers-block-ai-study/",
       "title": null,
       "author": null,
-      "first_seen": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
       "references": [
         {
           "file": "drafts/three-plane-shift/draft.md"
         },
         {
           "file": "drafts/three-plane-shift/sources.md"
+        },
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
         }
       ],
       "normalized": "https://www.buzzstream.com/blog/publishers-block-ai-study"
@@ -2334,6 +2622,18 @@
       "normalized": "https://www.fiercelycurious.com/"
     },
     {
+      "url": "https://www.forwarddeployed.com/p/forward-deployed-episode-8-the-factory",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://www.forwarddeployed.com/p/forward-deployed-episode-8-the-factory"
+    },
+    {
       "url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2020.600092/full",
       "title": null,
       "author": null,
@@ -2364,6 +2664,18 @@
       "normalized": "https://www.georgesoros.com/2012/06/02/remarks_at_the_festival_of_economics_trento_italy"
     },
     {
+      "url": "https://www.gilwro.fr/19eSiecle/les-fontaines-lumineuses/",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://www.gilwro.fr/19eSiecle/les-fontaines-lumineuses"
+    },
+    {
       "url": "https://www.gsb.stanford.edu/faculty-research/publications/choice-context-tradeoff-contrast-extremeness-aversion",
       "title": null,
       "author": null,
@@ -2374,6 +2686,18 @@
         }
       ],
       "normalized": "https://www.gsb.stanford.edu/faculty-research/publications/choice-context-tradeoff-contrast-extremeness-aversion"
+    },
+    {
+      "url": "https://www.gutenberg.org/cache/epub/8717/pg8717.html.utf8",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://www.gutenberg.org/cache/epub/8717/pg8717.html.utf8"
     },
     {
       "url": "https://www.hbs.edu/faculty/Pages/item.aspx?num=3256",
@@ -2449,6 +2773,18 @@
         }
       ],
       "normalized": "https://www.kickstarter.com/projects/erinprz/journey-to-the-end-of-the-night-a-childrens-book"
+    },
+    {
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7477402657674907648/",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://www.linkedin.com/feed/update/urn:li:activity:7477402657674907648"
     },
     {
       "url": "https://www.linkedin.com/in/gautamramdurai/",
@@ -2706,13 +3042,16 @@
       "url": "https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/",
       "title": null,
       "author": null,
-      "first_seen": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
       "references": [
         {
           "file": "drafts/three-plane-shift/draft.md"
         },
         {
           "file": "drafts/three-plane-shift/sources.md"
+        },
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
         }
       ],
       "normalized": "https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact"
@@ -3012,10 +3351,13 @@
       "url": "https://www.theguardian.com/technology/2025/dec/27/from-shrimp-jesus-to-erotic-tractors-how-viral-ai-slop-took-over-the-internet?utm_source=chatgpt.com",
       "title": null,
       "author": null,
-      "first_seen": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
       "references": [
         {
           "file": "drafts/three-plane-shift/draft.md"
+        },
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
         }
       ],
       "normalized": "https://www.theguardian.com/technology/2025/dec/27/from-shrimp-jesus-to-erotic-tractors-how-viral-ai-slop-took-over-the-internet"
@@ -3036,10 +3378,13 @@
       "url": "https://www.usermag.co/p/how-much-of-substack-is-actually-ai-pangram-analysis-substack-bestsellers",
       "title": null,
       "author": null,
-      "first_seen": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
       "references": [
         {
           "file": "drafts/three-plane-shift/draft.md"
+        },
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
         }
       ],
       "normalized": "https://www.usermag.co/p/how-much-of-substack-is-actually-ai-pangram-analysis-substack-bestsellers"
@@ -3069,28 +3414,70 @@
       "normalized": "https://x.com/LeoMehr/status/2064717003181707689"
     },
     {
+      "url": "https://x.com/Markoslavnic/status/2052797538885902418",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://x.com/Markoslavnic/status/2052797538885902418"
+    },
+    {
       "url": "https://x.com/brian_armstrong/status/2070670644577280109",
       "title": null,
       "author": null,
-      "first_seen": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
       "references": [
         {
           "file": "drafts/three-plane-shift/draft.md"
+        },
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
         }
       ],
       "normalized": "https://x.com/brian_armstrong/status/2070670644577280109"
     },
     {
+      "url": "https://x.com/danhockenmaier/status/2021617680525172840",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://x.com/danhockenmaier/status/2021617680525172840"
+    },
+    {
       "url": "https://x.com/daveholtz/status/2070147557314175072",
       "title": null,
       "author": null,
-      "first_seen": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
       "references": [
         {
           "file": "drafts/three-plane-shift/draft.md"
+        },
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
         }
       ],
       "normalized": "https://x.com/daveholtz/status/2070147557314175072"
+    },
+    {
+      "url": "https://x.com/harleyf/status/2072748693384741155",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://x.com/harleyf/status/2072748693384741155"
     },
     {
       "url": "https://x.com/pashmerepat/status/1926717705660375463?t=IN1_YgacqtUk_X_COZBXcw&s=19",
@@ -3103,6 +3490,18 @@
         }
       ],
       "normalized": "https://x.com/pashmerepat/status/1926717705660375463?s=19&t=IN1_YgacqtUk_X_COZBXcw"
+    },
+    {
+      "url": "https://x.com/techhalla/status/2059545429893586955",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-07-30T12:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
+        }
+      ],
+      "normalized": "https://x.com/techhalla/status/2059545429893586955"
     },
     {
       "url": "https://x.com/tomcritchlow/status/1982272958438514987",
