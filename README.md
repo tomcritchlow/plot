@@ -106,6 +106,7 @@ plot repo."*
 npm run validate          # check frontmatter, capture types, internal links
 npm run build:indexes     # rebuild generated/ from canonical Markdown
 npm run import:published  # import new posts from your feeds
+npm run import:url -- <url> [--draft <slug>]  # import one published piece by URL
 npm test                  # run the test suite
 ```
 

@@ -142,6 +142,30 @@ Do not create `draft-v1.md`, `draft-v2.md`, etc. Git is the version history.
 Keep editing `draft.md`; a named snapshot is created manually only when
 semantically meaningful.
 
+## Protocol: publishing a draft
+
+When the user says a draft has been published (usually by giving you a URL):
+
+1. **Import the published piece** into `published/`:
+   - If it will appear in a feed configured in `plot.yml`, the daily import
+     will catch it — or run `npm run import:published` now.
+   - If it was published somewhere the feeds don't cover (a company blog, a
+     guest post), run `npm run import:url -- <url> --draft <slug>`. The
+     `--draft` flag records provenance as `draft:` frontmatter on the
+     published file. If the script can't extract the full text (some sites
+     render client-side), fill in the body by other means — the published
+     corpus should hold the real text, and the piece often differs from the
+     final draft.
+2. **Update the draft's `README.md`**: set `status: published`, add
+   `published_url`, `published_at`, and (if the title changed on the way
+   out) `published_as`; bump `updated_at`.
+3. **Keep the draft folder.** Its notes, sources, and pre-publication
+   manuscript remain valuable context. Never delete it, and stop making
+   substantial edits to its `draft.md` — the published file is now the
+   canonical text.
+4. Commit with a message like `publish: three-plane-shift → An Almanac for
+   the Age of Chaos`.
+
 ## Protocol: published/
 
 Treat `published/` as an immutable-ish historical corpus. Do not rewrite
@@ -178,5 +202,6 @@ before pushing.
 npm run validate          # check frontmatter, types, internal links
 npm run build:indexes     # rebuild generated/ locally (for inspection only — don't commit it)
 npm run import:published  # import new posts from feeds in plot.yml
+npm run import:url -- <url> [--draft <slug>]  # import one published piece by URL
 npm test                  # run the test suite
 ```

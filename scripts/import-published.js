@@ -15,7 +15,7 @@ import { parse as parseYaml } from "yaml";
 import { listMarkdownFiles } from "./lib/scan.js";
 import { parseFrontmatter, stringifyFrontmatter } from "./lib/frontmatter.js";
 import { normalizeUrl } from "./lib/urls.js";
-import { extractMainContent, htmlToMarkdown } from "./lib/extract.js";
+import { absolutizeHtmlUrls, extractMainContent, htmlToMarkdown } from "./lib/extract.js";
 
 const rssParser = new Parser({
   customFields: { item: [["content:encoded", "contentEncoded"]] },
@@ -32,7 +32,7 @@ export function slugify(text) {
   );
 }
 
-async function defaultFetchText(url) {
+export async function defaultFetchText(url) {
   const response = await fetch(url, {
     headers: { "user-agent": "plot-importer/1.0" },
     signal: AbortSignal.timeout(20000),
@@ -42,7 +42,7 @@ async function defaultFetchText(url) {
 }
 
 /** Collect GUIDs and normalized URLs of everything already in published/. */
-function existingPublished(root) {
+export function existingPublished(root) {
   const guids = new Set();
   const urls = new Set();
   for (const file of listMarkdownFiles(root, "published")) {
@@ -56,22 +56,6 @@ function existingPublished(root) {
     }
   }
   return { guids, urls };
-}
-
-/**
- * Rewrite relative href/src attributes to absolute URLs against the post's
- * canonical URL, so imported Markdown never contains site-relative links
- * that would read as (broken) repo-internal links.
- */
-function absolutizeHtmlUrls(html, baseUrl) {
-  if (!baseUrl) return html;
-  return html.replace(/(href|src)=("|')([^"']+)\2/gi, (match, attr, quote, value) => {
-    try {
-      return `${attr}=${quote}${new URL(value, baseUrl)}${quote}`;
-    } catch {
-      return match;
-    }
-  });
 }
 
 async function itemToMarkdown(item, feed, fetchText) {

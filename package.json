@@ -11,6 +11,7 @@
     "validate": "node scripts/validate.js",
     "build:indexes": "node scripts/build-indexes.js",
     "import:published": "node scripts/import-published.js",
+    "import:url": "node scripts/import-url.js",
     "test": "node --test tests/*.test.js"
   },
   "dependencies": {

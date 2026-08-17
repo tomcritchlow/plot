@@ -12,6 +12,22 @@ export function htmlToMarkdown(html) {
 }
 
 /**
+ * Rewrite relative href/src attributes to absolute URLs against a page's
+ * canonical URL, so imported Markdown never contains site-relative links
+ * that would read as (broken) repo-internal links.
+ */
+export function absolutizeHtmlUrls(html, baseUrl) {
+  if (!baseUrl) return html;
+  return html.replace(/(href|src)=("|')([^"']+)\2/gi, (match, attr, quote, value) => {
+    try {
+      return `${attr}=${quote}${new URL(value, baseUrl)}${quote}`;
+    } catch {
+      return match;
+    }
+  });
+}
+
+/**
  * Given a match for an opening tag, return the inner HTML up to its matching
  * close tag, balancing nested same-name tags (regexes alone can't do this,
  * and real post containers are nested divs).
