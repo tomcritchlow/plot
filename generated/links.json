@@ -1,5 +1,5 @@
 {
-  "count": 274,
+  "count": 275,
   "links": [
     {
       "url": "https://a16z.com/services-led-growth/",
@@ -1105,6 +1105,19 @@
         }
       ],
       "normalized": "https://lu.ma/cam9g0nq"
+    },
+    {
+      "url": "https://lukasbfreund.github.io/files/CF_FaF.pdf",
+      "title": "Firms as foragers",
+      "author": null,
+      "first_seen": "2026-08-17T14:35:00-04:00",
+      "references": [
+        {
+          "file": "captures/2026/08/2026-08-17-143500-firms-as-foragers.md",
+          "capture_id": "cap-20260817-143500-firms-as-foragers"
+        }
+      ],
+      "normalized": "https://lukasbfreund.github.io/files/CF_FaF.pdf"
     },
     {
       "url": "https://manuelmoreale.com/pb-tom-critchlow",
