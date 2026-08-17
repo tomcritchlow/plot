@@ -1,0 +1,44 @@
+name: Rebuild indexes
+
+# generated/ is written ONLY by this workflow. Humans and agents never
+# commit it (see AGENTS.md). Loop safety: this workflow only triggers on
+# canonical content paths, and its own commit touches only generated/ —
+# additionally, pushes made with GITHUB_TOKEN never trigger workflows.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "captures/**"
+      - "seeds/**"
+      - "drafts/**"
+      - "published/**"
+      - "scripts/**"
+      - "plot.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build:indexes
+      - name: Commit if changed
+        run: |
+          git add generated/
+          if git diff --cached --quiet; then
+            echo "indexes unchanged"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "chore: rebuild plot indexes"
+            git push
+          fi

@@ -1,0 +1,37 @@
+{
+  "count": 2,
+  "links": [
+    {
+      "url": "https://example.com/organizational-time",
+      "title": "Organizational Time",
+      "author": "Jane Example",
+      "first_seen": "2026-08-17T13:24:12-04:00",
+      "references": [
+        {
+          "file": "captures/2026/08/2026-08-17-132412-organizational-time.md",
+          "capture_id": "cap-20260817-132412-organizational-time"
+        },
+        {
+          "file": "captures/2026/08/2026-08-17-132901-organizations-speed.md",
+          "capture_id": "cap-20260817-132901-organizations-speed"
+        },
+        {
+          "file": "drafts/company-with-the-best-clock/sources.md"
+        }
+      ],
+      "normalized": "https://example.com/organizational-time"
+    },
+    {
+      "url": "https://example.com/organizations-have-tempo",
+      "title": "Organizations Have Tempo",
+      "author": "Example Writer",
+      "first_seen": "2025-11-04T09:00:00.000Z",
+      "references": [
+        {
+          "file": "published/2025-11-04-organizations-have-tempo.md"
+        }
+      ],
+      "normalized": "https://example.com/organizations-have-tempo"
+    }
+  ]
+}

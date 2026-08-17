@@ -1,0 +1,13 @@
+# Plot configuration.
+#
+# `npm run import:published` reads this file, fetches your feeds, and imports
+# anything not already in published/ (matched by GUID or canonical URL).
+
+writer:
+  name: Your Name
+
+# Add your RSS/Atom feeds here, then delete the example published/ file.
+feeds: []
+# feeds:
+#   - name: Personal Site
+#     url: https://example.com/feed.xml

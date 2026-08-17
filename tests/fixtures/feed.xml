@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Fixture Blog</title>
+    <link>https://fixture.example.com</link>
+    <item>
+      <title>A Full Post</title>
+      <link>https://fixture.example.com/full-post</link>
+      <guid>https://fixture.example.com/full-post</guid>
+      <pubDate>Tue, 04 Nov 2025 09:00:00 GMT</pubDate>
+      <dc:creator>Fixture Writer</dc:creator>
+      <content:encoded><![CDATA[<p>This is the full body of the post, carried entirely inside the feed. It is comfortably long enough that the importer should not attempt to fetch the canonical page at all, because the feed content is already substantial and complete. Paragraph one makes an argument.</p><p>Paragraph two develops the argument further with several more sentences of filler prose so that the total length of this content easily clears the five hundred character threshold used by the importer to decide whether a feed item is a mere excerpt or the real article body.</p>]]></content:encoded>
+    </item>
+    <item>
+      <title>An Excerpt-Only Post</title>
+      <link>https://fixture.example.com/excerpt-post</link>
+      <guid>https://fixture.example.com/excerpt-post</guid>
+      <pubDate>Wed, 10 Dec 2025 09:00:00 GMT</pubDate>
+      <description>Just a short teaser.</description>
+    </item>
+  </channel>
+</rss>
