@@ -1,5 +1,5 @@
 {
-  "count": 2,
+  "count": 3,
   "captures": [
     {
       "id": "cap-20260817-141422-empowered-teams",
@@ -20,6 +20,13 @@
       "file": "captures/2026/08/2026-08-17-143500-firms-as-foragers.md",
       "url": "https://lukasbfreund.github.io/files/CF_FaF.pdf",
       "title": "Firms as foragers",
+      "tags": []
+    },
+    {
+      "id": "cap-20260817-144309-roadmap-posts-connection",
+      "type": "thought",
+      "created_at": "2026-08-17T14:43:09-04:00",
+      "file": "captures/2026/08/2026-08-17-144309-roadmap-posts-connection.md",
       "tags": []
     }
   ]

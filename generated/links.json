@@ -1,5 +1,5 @@
 {
-  "count": 275,
+  "count": 276,
   "links": [
     {
       "url": "https://a16z.com/services-led-growth/",
@@ -1051,6 +1051,10 @@
         {
           "file": "captures/2026/08/2026-08-17-141422-empowered-teams.md",
           "capture_id": "cap-20260817-141422-empowered-teams"
+        },
+        {
+          "file": "captures/2026/08/2026-08-17-144309-roadmap-posts-connection.md",
+          "capture_id": "cap-20260817-144309-roadmap-posts-connection"
         }
       ],
       "normalized": "https://lethain.com/decisions-not-dates"
@@ -1814,6 +1818,19 @@
         }
       ],
       "normalized": "https://tomcritchlow.com/2023/02/10/riffs"
+    },
+    {
+      "url": "https://tomcritchlow.com/2023/04/18/roadmap-territory/",
+      "title": null,
+      "author": null,
+      "first_seen": "2026-08-17T14:43:09-04:00",
+      "references": [
+        {
+          "file": "captures/2026/08/2026-08-17-144309-roadmap-posts-connection.md",
+          "capture_id": "cap-20260817-144309-roadmap-posts-connection"
+        }
+      ],
+      "normalized": "https://tomcritchlow.com/2023/04/18/roadmap-territory"
     },
     {
       "url": "https://tomcritchlow.com/2024/01/04/9-years/",
