@@ -105,6 +105,7 @@ plot repo."*
 ```bash
 npm run validate          # check frontmatter, capture types, internal links
 npm run build:indexes     # rebuild generated/ from canonical Markdown
+npm run build:site        # build the static site view into site/ (gitignored)
 npm run import:published  # import new posts from your feeds
 npm run import:url -- <url> [--draft <slug>]  # import one published piece by URL
 npm test                  # run the test suite
@@ -123,6 +124,16 @@ recreated exactly. Locally it's for inspection only — CI owns committing it.
 6. Provenance matters — sources keep their URLs and metadata
 7. No external infrastructure — GitHub is the only dependency
 8. AI is optional — everything works as ordinary Markdown without any agent
+
+## The site
+
+CI builds a read-only static site of the whole repo — browsable captures,
+seeds, drafts and published work, with client-side search — and deploys it
+to GitHub Pages on every push to `main`. Enable it once in *Settings →
+Pages → Source: GitHub Actions*. The site is a disposable view, exactly like
+`generated/`: it is never committed, and everything on it renders from the
+canonical Markdown. Note that it renders everything public in the repo,
+drafts included.
 
 ## Known limitations (V1, deliberately)
 

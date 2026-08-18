@@ -174,6 +174,15 @@ previous arguments, recurring metaphors, subjects already covered, and
 intellectual development over time — read it often, edit it never.
 New entries arrive via `npm run import:published`, not by hand.
 
+## Protocol: the site (GitHub Pages)
+
+`scripts/build-site.js` renders the whole repo into a static site with
+client-side search, deployed to GitHub Pages by CI on every canonical push
+to `main`. Like `generated/`, the site is derived and disposable: `site/` is
+gitignored, never committed, and never edited by hand. To change how the
+site looks or behaves, edit `scripts/build-site.js`. Preview locally with
+`npm run build:site` and open `site/index.html`.
+
 ## Protocol: generated/ — do not write here
 
 **Neither humans nor agents ever write to `generated/`.** It is rebuilt and
@@ -201,6 +210,7 @@ before pushing.
 ```bash
 npm run validate          # check frontmatter, types, internal links
 npm run build:indexes     # rebuild generated/ locally (for inspection only — don't commit it)
+npm run build:site        # build the static site into site/ (gitignored; CI deploys it)
 npm run import:published  # import new posts from feeds in plot.yml
 npm run import:url -- <url> [--draft <slug>]  # import one published piece by URL
 npm test                  # run the test suite
