@@ -2,15 +2,25 @@
 
 ## Primary anchor
 
-- [Lowe's Companies, Inc. 1969 Annual Report](https://companiesmarketcap.com/annual-reports/282.ar.en.1969.pdf)
-  - Primary scanned report and visual anchor.
-  - Verified against the original pages: cybernetwork cover; network labels for suppliers, people, customers and stockholders; IBM/teletype system; stockholder feedback; marketing research; meetings and incentives; world maps and forecasts.
-  - Quote used: “Feed-back and feed-forward are required for success.”
-  - Quote used: stockholders “are on the same growth wavelength as management.”
+- [Lowe's Companies, Inc. 1969 Annual Report](https://corporate.lowes.com/sites/lowes-corp/files/Annual%20reports%20and%20proxy%20statements/Lowes_AR_1969.pdf)
+  - Primary scanned report and visual anchor, now linked to Lowe's corporate archive.
+  - Verified against the original pages: cybernetwork cover; network labels; Earth and Moon spread; IBM and teletype systems; market-research channels; stockholder surveys; employee incentives; expansion forecast; store-location specifications; grand openings; reader reply card.
+  - Short original phrases are used for the report's feedback principle, lunar lifestyle caption, grand-opening contest and the title.
 
 - [Lowe's Companies, Inc. 2025 Annual Report](https://corporate.lowes.com/sites/lowes-corp/files/2026-04/lowes-2025-annual-report.pdf)
   - Same-company comparison fifty-six years later.
   - Useful continuity: supplier catalogs, the online marketplace, loyalty data, AI adviser Mylow and employee-facing Mylow Companion are still narrated as one operating system through the “Total Home” strategy.
+
+## Space-age management
+
+- [James E. Webb: *Space Age Management: The Large-Scale Approach*](https://archive.org/details/spaceagemanageme0000webb)
+  - Published in 1969 before the Apollo 11 Moon landing, based on Webb's 1968 Columbia-McKinsey lectures.
+  - Frames NASA's most transferable achievement as the large-scale coordination of public institutions, private companies, universities and technical disciplines.
+
+- [Martin Parker: “Space age management”](https://journals.sagepub.com/doi/10.1177/1744935909337759)
+  - *Management & Organizational History*, 4(3), 2009, pp. 317–332.
+  - Explores the Moon landing as an organizational achievement produced through mundane administration, systemic control and a vast socio-technical network.
+  - Supplies the tension between sublime outcomes and boringly predictable work, and the formulation “organization produces excess, and excess requires organization.”
 
 ## Annual reports as narrative objects
 
