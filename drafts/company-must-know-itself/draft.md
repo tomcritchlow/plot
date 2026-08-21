@@ -66,30 +66,26 @@ Of course “Total Home” is no more a neutral description than “Cybernetwork
 
 This may be the most important function of a market narrative. It gives a company a way to recognize which business it is in before that answer is fully settled by the accounts.
 
-## Standard status is not a story
+## A bid for coherence
 
-Now, in the age of AI, every company is trying to become a cybernetwork again.
+A corporation is too large to see all at once. No employee, customer, supplier or stockholder encounters the whole thing. Each sees a store, a shipment, a paycheque, a dividend, a line on a screen. The company exists in law and in the accounts, but as a shared object it has to be continuously composed.
 
-Enter standard status: an always-on context layer for the organization containing goals, decisions, dependencies, permissions and constraints. Almost every company I know is trying to build some version of it—a shared representation of the work that allows agents to act on token time without waiting for humans.
+An annual report is a bid for that coherence.
 
-But standard status solves only one half of the problem.
+It gathers a year of local events and says: these belonged together. More than that: they happened because we are this kind of company, moving toward this kind of future. In 1969 Lowe's called the pattern a cybernetwork. In 2025 it calls it Total Home. Neither phrase is simply a description. Each is a proposed answer to the question of what all this activity adds up to.
 
-Daily standups, weekly sprints, quarterly roadmaps and annual plans coordinate work. They also make the organization knowable to the people inside it. They are occasions to hear why a priority changed, test whether the strategy still matches reality, express disagreement and understand how your own judgment fits into the whole.
+This is what makes a market narrative different from an ordinary brand story. It is not merely a claim to be believed. It is exposed to consequence. The story travels outward and returns as behavior: a supplier extends terms, an employee stays, a customer joins the loyalty program, an investor pays a higher price, a competitor copies the strategy. Or they do not. Every response changes the company the next report will have to explain.
 
-Meetings do more than describe a shared reality. They continually produce one.
+A market narrative must be faithful to the company that exists. But its real power is prospective. It is a public hypothesis about the company that might exist. Management proposes a pattern. The market tests it. The resulting actions alter the facts. A sufficiently persuasive narrative can recruit the capital and effort required to make itself more true. A narrative that cannot organize reality eventually collapses beneath the discrepancy.
 
-Annual reports perform a slower, larger version of the same ritual. Someone has to decide which events belong in the story, which measures count, who the protagonists are, and what future makes the year legible. The report does not discover a pre-existing corporate intention and render it nicely. It is one of the places where that intention gets negotiated and made durable.
+This sounds perilously close to saying that companies can talk themselves into existence. Sometimes they can. More often they talk themselves into motion. The words do not replace stores, people, inventory or cash flow. They align them. They tell dispersed actors which future they are being asked to participate in, and give them a proposition to accept, refuse or modify.
 
-This is the part that will not fit neatly into `values.md` or `intentions.md`.
+Seen this way, the annual report is not where a company announces the conclusion of its self-examination. It is where that examination becomes public and therefore consequential. The report gives the company a story. The market gives the story resistance. Between them, a temporary version of the company emerges.
 
-As companies become more legible to agents, they may become less legible to the people inside. Work might happen continuously, yet valuable work slows down because nobody is quite sure what matters, why it matters, or whether the company still wants the same thing. The official narrative might become perfectly machine-readable at exactly the moment it stops feeling collectively authored.
+Lowe's wonderfully strange phrase—“on the same growth wavelength”—sounds like boosterism, but it captures the two-way nature of the act. The point was not merely to broadcast. It was to achieve resonance. Management and stockholders would recognize the same future, act as if it were possible, and listen for what came back.
 
-Worse, the narrative can disappear into the infrastructure. A metaphor chosen in a strategy meeting becomes an ontology. A temporary priority becomes a permanent field in the context layer. A contested interpretation becomes the canonical status agents act from. What was once visibly a story starts to look like the state of the world.
+The psychedelic map in the 1969 report did not show what Lowe's was. It showed what Lowe's and its market might make together.
 
-To coordinate agents, companies will have to formalize what they want. In doing so, they may discover that what looked like a single corporate intention was something people were continually making together.
+The market is not the audience for the company's story. It is one of the authors.
 
-The 1969 Lowe's report understood this better than its control-system language first suggests. It put people at the center, then admitted that the “company spirit” animating the network was impossible to define precisely. It had something to do with “electricity, of magnetism, of chemistry”—the human stuff the diagrams could point toward but not contain.
-
-Perhaps the role of people in the cybernetwork of the future will not be to carry information through the system. Agents will be better at that. The human role may be to keep the company's market narrative alive: to argue with it, revise it, notice what it leaves out, and decide when the company is no longer the thing it said it was.
-
-The company must know itself. But who gets to change its mind?
+The company must know itself. But it does not get the last word on what it is.
