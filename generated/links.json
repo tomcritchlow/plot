@@ -1,5 +1,5 @@
 {
-  "count": 277,
+  "count": 279,
   "links": [
     {
       "url": "https://a16z.com/services-led-growth/",
@@ -114,6 +114,21 @@
         }
       ],
       "normalized": "https://app.nova.edu/toolbox/instructionalproducts/edd8124/articles/1968-Atkinson_and_Shiffrin.pdf"
+    },
+    {
+      "url": "https://archive.org/details/spaceagemanageme0000webb",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/company-must-know-itself/draft.md"
+        },
+        {
+          "file": "drafts/company-must-know-itself/sources.md"
+        }
+      ],
+      "normalized": "https://archive.org/details/spaceagemanageme0000webb"
     },
     {
       "url": "https://arxiv.org/abs/1803.10122",
@@ -360,21 +375,6 @@
       "normalized": "https://cloud.google.com/vertex-ai/generative-ai/docs/grounding/overview"
     },
     {
-      "url": "https://companiesmarketcap.com/annual-reports/282.ar.en.1969.pdf",
-      "title": null,
-      "author": null,
-      "first_seen": null,
-      "references": [
-        {
-          "file": "drafts/company-must-know-itself/draft.md"
-        },
-        {
-          "file": "drafts/company-must-know-itself/sources.md"
-        }
-      ],
-      "normalized": "https://companiesmarketcap.com/annual-reports/282.ar.en.1969.pdf"
-    },
-    {
       "url": "https://corporate.lowes.com/sites/lowes-corp/files/2026-04/lowes-2025-annual-report.pdf",
       "title": null,
       "author": null,
@@ -388,6 +388,21 @@
         }
       ],
       "normalized": "https://corporate.lowes.com/sites/lowes-corp/files/2026-04/lowes-2025-annual-report.pdf"
+    },
+    {
+      "url": "https://corporate.lowes.com/sites/lowes-corp/files/Annual%20reports%20and%20proxy%20statements/Lowes_AR_1969.pdf",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/company-must-know-itself/draft.md"
+        },
+        {
+          "file": "drafts/company-must-know-itself/sources.md"
+        }
+      ],
+      "normalized": "https://corporate.lowes.com/sites/lowes-corp/files/Annual%20reports%20and%20proxy%20statements/Lowes_AR_1969.pdf"
     },
     {
       "url": "https://cyber.harvard.edu/projectvrm",
@@ -990,6 +1005,21 @@
       "normalized": "https://journals.sagepub.com/doi/10.1177/0018726715623999"
     },
     {
+      "url": "https://journals.sagepub.com/doi/10.1177/1744935909337759",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/company-must-know-itself/draft.md"
+        },
+        {
+          "file": "drafts/company-must-know-itself/sources.md"
+        }
+      ],
+      "normalized": "https://journals.sagepub.com/doi/10.1177/1744935909337759"
+    },
+    {
       "url": "https://journals.sagepub.com/doi/abs/10.1111/j.1467-9280.1992.tb00047.x",
       "title": null,
       "author": null,
@@ -1358,9 +1388,6 @@
       "author": null,
       "first_seen": null,
       "references": [
-        {
-          "file": "drafts/company-must-know-itself/draft.md"
-        },
         {
           "file": "drafts/company-must-know-itself/sources.md"
         },
