@@ -1,5 +1,5 @@
 {
-  "count": 279,
+  "count": 295,
   "links": [
     {
       "url": "https://a16z.com/services-led-growth/",
@@ -51,6 +51,21 @@
         }
       ],
       "normalized": "https://academic.oup.com/jcr/article-abstract/25/3/187/1795625"
+    },
+    {
+      "url": "https://academic.oup.com/qje/article-abstract/108/3/551/1881767",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/automating-the-wrong-layer/draft.md"
+        },
+        {
+          "file": "drafts/automating-the-wrong-layer/sources.md"
+        }
+      ],
+      "normalized": "https://academic.oup.com/qje/article-abstract/108/3/551/1881767"
     },
     {
       "url": "https://adage.com/video/amazon-5-star-theater-w-adam-driver-dutch-oven/",
@@ -156,6 +171,21 @@
         }
       ],
       "normalized": "https://arxiv.org/abs/2005.11401"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.23733",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/automating-the-wrong-layer/draft.md"
+        },
+        {
+          "file": "drafts/automating-the-wrong-layer/sources.md"
+        }
+      ],
+      "normalized": "https://arxiv.org/abs/2607.23733"
     },
     {
       "url": "https://arxiv.org/html/2608.16753v1",
@@ -453,6 +483,63 @@
       "normalized": "https://doc.searls.com/2024/12/30/the-real-intention-economy"
     },
     {
+      "url": "https://doi.org/10.1002/(SICI",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/automating-the-wrong-layer/sources.md"
+        }
+      ],
+      "normalized": "https://doi.org/10.1002/(SICI"
+    },
+    {
+      "url": "https://doi.org/10.1016/0005-1098(83",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/automating-the-wrong-layer/draft.md"
+        },
+        {
+          "file": "drafts/automating-the-wrong-layer/sources.md"
+        }
+      ],
+      "normalized": "https://doi.org/10.1016/0005-1098(83"
+    },
+    {
+      "url": "https://doi.org/10.1145/361598.361623",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/automating-the-wrong-layer/draft.md"
+        },
+        {
+          "file": "drafts/automating-the-wrong-layer/sources.md"
+        }
+      ],
+      "normalized": "https://doi.org/10.1145/361598.361623"
+    },
+    {
+      "url": "https://doi.org/10.1287/orsc.2025.21838",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/automating-the-wrong-layer/draft.md"
+        },
+        {
+          "file": "drafts/automating-the-wrong-layer/sources.md"
+        }
+      ],
+      "normalized": "https://doi.org/10.1287/orsc.2025.21838"
+    },
+    {
       "url": "https://doubleloop.app/",
       "title": null,
       "author": null,
@@ -463,6 +550,21 @@
         }
       ],
       "normalized": "https://doubleloop.app/"
+    },
+    {
+      "url": "https://economics.mit.edu/sites/default/files/publications/the%20skill%20content%202003.pdf",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/automating-the-wrong-layer/draft.md"
+        },
+        {
+          "file": "drafts/automating-the-wrong-layer/sources.md"
+        }
+      ],
+      "normalized": "https://economics.mit.edu/sites/default/files/publications/the%20skill%20content%202003.pdf"
     },
     {
       "url": "https://econpapers.repec.org/RePEc%3Aucp%3Ajlawec%3Av%3A16%3Ay%3A1973%3Ai%3A1%3Ap%3A67-88",
@@ -634,6 +736,21 @@
         }
       ],
       "normalized": "https://guide.michelin.com/us/en/about-us"
+    },
+    {
+      "url": "https://hbr.org/1990/07/reengineering-work-dont-automate-obliterate",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/automating-the-wrong-layer/draft.md"
+        },
+        {
+          "file": "drafts/automating-the-wrong-layer/sources.md"
+        }
+      ],
+      "normalized": "https://hbr.org/1990/07/reengineering-work-dont-automate-obliterate"
     },
     {
       "url": "https://hdsr.mitpress.mit.edu/pub/ujvharkk",
@@ -1206,6 +1323,18 @@
       "normalized": "https://martinfowler.com/eaaDev/EventSourcing.html"
     },
     {
+      "url": "https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/automating-the-wrong-layer/sources.md"
+        }
+      ],
+      "normalized": "https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks"
+    },
+    {
       "url": "https://mitpress.mit.edu/9780262693189/real-options-and-investment-under-uncertainty/",
       "title": null,
       "author": null,
@@ -1216,6 +1345,21 @@
         }
       ],
       "normalized": "https://mitpress.mit.edu/9780262693189/real-options-and-investment-under-uncertainty"
+    },
+    {
+      "url": "https://mslotnick.substack.com/p/intention-is-all-you-need",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/automating-the-wrong-layer/draft.md"
+        },
+        {
+          "file": "drafts/automating-the-wrong-layer/sources.md"
+        }
+      ],
+      "normalized": "https://mslotnick.substack.com/p/intention-is-all-you-need"
     },
     {
       "url": "https://nabeelqu.substack.com/p/reflections-on-palantir",
@@ -1291,6 +1435,18 @@
         }
       ],
       "normalized": "https://openresearch.surrey.ac.uk/esploro/outputs/conferenceProceeding/Process-Mining-Manifesto/99862164502346"
+    },
+    {
+      "url": "https://opus.lib.uts.edu.au/handle/10453/2350",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/automating-the-wrong-layer/sources.md"
+        }
+      ],
+      "normalized": "https://opus.lib.uts.edu.au/handle/10453/2350"
     },
     {
       "url": "https://oro.open.ac.uk/57403/",
@@ -2527,6 +2683,21 @@
       "normalized": "https://www.adweek.com/programmatic/how-dotdash-built-a-profitable-media-empire-from-the-ashes-of-about-com"
     },
     {
+      "url": "https://www.aeaweb.org/articles?id=10.1257/pandp.20181019",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/automating-the-wrong-layer/draft.md"
+        },
+        {
+          "file": "drafts/automating-the-wrong-layer/sources.md"
+        }
+      ],
+      "normalized": "https://www.aeaweb.org/articles?id=10.1257%2Fpandp.20181019"
+    },
+    {
       "url": "https://www.alephic.com/",
       "title": null,
       "author": null,
@@ -2654,6 +2825,18 @@
         }
       ],
       "normalized": "https://www.buzzstream.com/blog/publishers-block-ai-study"
+    },
+    {
+      "url": "https://www.cs.lafayette.edu/~gexia/cs301/resources/parnas.html",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/automating-the-wrong-layer/sources.md"
+        }
+      ],
+      "normalized": "https://www.cs.lafayette.edu/~gexia/cs301/resources/parnas.html"
     },
     {
       "url": "https://www.disneyinstitute.com/",
@@ -3175,6 +3358,21 @@
       "normalized": "https://www.quartey.com/questions"
     },
     {
+      "url": "https://www.rand.org/pubs/research_reports/RR2735.html",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/automating-the-wrong-layer/draft.md"
+        },
+        {
+          "file": "drafts/automating-the-wrong-layer/sources.md"
+        }
+      ],
+      "normalized": "https://www.rand.org/pubs/research_reports/RR2735.html"
+    },
+    {
       "url": "https://www.reforge.com/artifacts",
       "title": null,
       "author": null,
@@ -3472,6 +3670,18 @@
       "normalized": "https://www.youtube.com/watch?v=u7K72X4eo_s"
     },
     {
+      "url": "https://www2.econ.iastate.edu/tesfatsi/ArchitectureOfComplexity.HSimon1962.pdf",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/automating-the-wrong-layer/sources.md"
+        }
+      ],
+      "normalized": "https://www2.econ.iastate.edu/tesfatsi/ArchitectureOfComplexity.HSimon1962.pdf"
+    },
+    {
       "url": "https://x.com/LeoMehr/status/2064717003181707689",
       "title": null,
       "author": null,
@@ -3536,6 +3746,21 @@
         }
       ],
       "normalized": "https://x.com/daveholtz/status/2070147557314175072"
+    },
+    {
+      "url": "https://x.com/garrytan/status/2091742825042030681",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/automating-the-wrong-layer/draft.md"
+        },
+        {
+          "file": "drafts/automating-the-wrong-layer/sources.md"
+        }
+      ],
+      "normalized": "https://x.com/garrytan/status/2091742825042030681"
     },
     {
       "url": "https://x.com/harleyf/status/2072748693384741155",

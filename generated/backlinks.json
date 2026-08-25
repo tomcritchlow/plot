@@ -3,10 +3,27 @@
     "captures/2026/08/2026-08-17-141422-empowered-teams.md": [
       "captures/2026/08/2026-08-17-144309-roadmap-posts-connection.md"
     ],
+    "drafts/automating-the-wrong-layer/sources.md": [
+      "drafts/automating-the-wrong-layer/target-durability-audit.md"
+    ],
+    "drafts/automating-the-wrong-layer/target-durability-audit.md": [
+      "drafts/automating-the-wrong-layer/README.md",
+      "drafts/automating-the-wrong-layer/notes.md"
+    ],
+    "drafts/company-world-model/": [
+      "drafts/automating-the-wrong-layer/notes.md",
+      "drafts/automating-the-wrong-layer/sources.md"
+    ],
     "drafts/memory-layers/assets/information-processing-model-memory.png": [
       "drafts/memory-layers/draft.md"
     ],
+    "published/2026-06-08-of-termites-tokens.md": [
+      "drafts/automating-the-wrong-layer/notes.md",
+      "drafts/automating-the-wrong-layer/sources.md"
+    ],
     "published/2026-07-30-an-almanac-for-the-age-of-chaos.md": [
+      "drafts/automating-the-wrong-layer/notes.md",
+      "drafts/automating-the-wrong-layer/sources.md",
       "drafts/three-plane-shift/README.md"
     ]
   }
