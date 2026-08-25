@@ -2,37 +2,52 @@
 
 ## Working thesis
 
-AI transformation projects are usually evaluated as though the workflow being transformed is stationary. But model capabilities may improve faster than enterprise systems can be designed, procured and deployed.
+Michael Hammer's 1990 instruction—do not automate inherited processes, obliterate them—assumed the redesigned process would be stable enough to justify rebuilding around it.
 
-A project can therefore succeed on its own terms and still be strategically wrong: it can automate a workflow whose half-life is shorter than the implementation.
+AI weakens that assumption. A transformation can select a sensible, valuable and technically feasible target whose half-life is shorter than its implementation and payback period.
 
-## Core handle
+The response is not better prediction. It is to distinguish invariants from choreography, isolate volatile assumptions behind change boundaries and make each project leave behind useful options if its original target expires.
 
-**Workflow half-life:** the amount of time before enough of a workflow's assumptions decay that it becomes a different kind of work.
+The deepest transformation target may be the organization's cost of changing its mind.
 
-The wrong-layer trap happens when a transformation project makes today's human choreography more durable instead of building around the objects, constraints, intentions and outcomes that will survive capability gains.
+## Core handles
 
-## System-of-record connection
+**Target durability:** the likelihood that the reason a target matters survives changes in model capability, actor, interface and process long enough for the investment to pay back.
 
-The current systems-of-record discourse sharpens the architecture:
+**Workflow half-life:** the time before enough of a workflow's assumptions decay that it becomes a different kind of work.
 
-- Systems of record give people a shared map of core objects and state.
-- Systems of intent define the future state, constraints and outcomes people and agents should pursue.
-- AI harnesses provide the replaceable action layer that moves the record toward the intention.
-
-The riff's counterpoint: converting a system of record into an AI harness is not enough if the harness is organized around today's expiring human workflow.
+**Change boundary:** an interface around a design decision likely to change, allowing that decision to be replaced without redesigning the rest of the system.
 
 Useful compression:
 
-> Record should be stable. Intent should be explicit and revisable. Action should be replaceable.
+> A system of record earns its durability when it can support workflows that have not been designed yet.
 
-## Strongest lines
+> The transformation should not only deliver a better process. It should lower the cost of the next redesign.
 
-- Thousands of hours later, you may have successfully transformed a workflow that no longer needs to exist.
-- The project did not fail because AI was overhyped. It failed because AI was undersold.
-- If you build the system of record around today's assignments, handoffs and human choreography, you may be pouring concrete around the least durable part of the system.
-- Every serious AI project needs two clocks: implementation time and capability change.
-- Before putting a workflow on rails, ask whether there will still be a train.
+## The durability tests
+
+- **Model substitution:** If the model became ten times more capable, would this problem still matter?
+- **Role substitution:** If the current team, agency or approver disappeared, could the organization still name the outcome and constraint?
+- **Process substitution:** If the steps changed order or collapsed into one instruction, what information would still be required?
+- **Target failure:** If the use case vanished, what data, interfaces, evaluations or understanding would remain valuable?
+
+These tests do not produce eternal categories. Durability is relative to the investment horizon and the kinds of substitution plausibly arriving during it.
+
+## Academic spine
+
+- Hammer (1990): do not use technology to accelerate inherited process assumptions.
+- Parnas (1972): do not decompose systems from a flowchart; isolate difficult decisions and decisions likely to change.
+- Simon (1962): complex systems adapt through stable intermediate forms.
+- Teece, Pisano and Shuen (1997): advantage under rapid technological change comes from the ability to integrate, build and reconfigure capabilities.
+- Provost and Ipeirotis (2026): expected ROI should separate value, likelihood and investment; the riff adds target survival and uses option/understanding value as the residual payoff when a target decays.
+
+## System-of-record connection
+
+The earlier formulation—record stable, intent revisable, action replaceable—was too categorical. Records can preserve temporary choreography.
+
+Example: `awaiting_legal_review` bakes a role, queue and sequence into the data model. Rights claims, evidence, policy version, risk threshold and decision are more durable because multiple future workflows can act on them.
+
+The system-of-record argument remains useful as an architectural consequence of target durability, but is no longer the organizing spine of the riff.
 
 ## Distinction from existing pieces
 
@@ -40,7 +55,7 @@ Useful compression:
 - [An Almanac for the Age of Chaos](../../published/2026-07-30-an-almanac-for-the-age-of-chaos.md) argues that automating old marketing processes can mean making yesterday's marketing faster.
 - [Model-Entry Bookkeeping](../company-world-model/) argues for modeling durable business events and state rather than merely indexing organizational residue.
 
-This riff should build on those arguments rather than repeat them. Its distinct contribution is **project-selection risk under a moving capability frontier**: the workflow itself may decay before the transformation ships.
+This riff's distinct contribution is target selection under a moving capability frontier, plus the architectural response: build change boundaries and residual option value rather than a more permanent flowchart.
 
 ## Privacy boundary
 
@@ -48,18 +63,17 @@ The originating example came from a private internal discussion about a real tra
 
 ## Possible titles
 
+- How Durable Is the Target?
+- The Target Can Decay
+- The Flowchart Is an Inventory of Volatility
+- Transform the Cost of Changing Your Mind
+- What Will Still Be Valuable After We Are Wrong?
 - The Half-Life of a Workflow
-- Automating a World That Won't Exist
-- Transforming the Wrong Layer
-- The Wrong-Layer Trap
-- The System of Record for a Vanishing Workflow
-- Will There Still Be a Train?
 
 ## Open questions
 
-- Is “workflow half-life” the right central handle, or does the simpler “wrong-layer trap” travel better?
-- Should the draft stay focused on marketing and media work, or make the argument explicitly enterprise-wide?
-- Does the two-clocks model need to become a practical diagnostic with a small set of questions?
-- Is the Ingka example a useful constructive ending, or does it open a separate workforce argument?
-- Does the system-of-record discourse strengthen the workflow-half-life argument, or introduce too much enterprise-software vocabulary?
-- Can the distinction between durable objects and replaceable choreography become a simple diagram later?
+- Does “target survival” deserve to appear as a literal fourth term in the expected-ROI equation, or is the verbal extension enough?
+- Is the four-substitution test too consultant-like, or does it make the provocation operational?
+- Does the legal-review status example make the difference between choreography and constraint concrete enough?
+- Should a later revision cut Simon or dynamic capabilities to keep Parnas as the single academic hinge?
+- Is “what have we bought besides the corpse?” the right amount of heat?

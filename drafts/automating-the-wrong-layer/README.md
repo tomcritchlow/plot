@@ -1,14 +1,14 @@
 ---
-title: The Half-Life of a Workflow
+title: How Durable Is the Target?
 status: drafting
 created_at: 2026-08-25
 updated_at: 2026-08-25
 ---
 
-# The Half-Life of a Workflow
+# How Durable Is the Target?
 
-**What this is trying to say:** AI transformation projects are usually evaluated as if the workflow being transformed will remain stable. But when model capabilities improve faster than enterprise systems ship, a project can succeed on its own terms and still automate the wrong layer.
+**What this is trying to say:** Michael Hammer's 1990 injunction not to automate inherited processes needs an update for AI transformation: even the redesigned workflow may expire before it pays back. A target is durable when its reason for mattering survives changes in model, actor, interface and sequence.
 
-The durable design question is not only whether AI can improve the current process. It is which objects, decisions, constraints and forms of human judgment will still matter when the project reaches production.
+The architectural response comes from Parnas: do not turn the flowchart into the system. Isolate the decisions most likely to change, preserve stable intermediate forms and make the action layer replaceable. The deepest transformation target may be the organization's cost of changing its mind.
 
-**Status notes:** first draft developed from a private internal discussion. The originating project has been converted into a generic composite workflow and identifying details have intentionally been omitted.
+**Status notes:** second draft, substantially recentered on target durability and change boundaries. Developed from a private internal discussion; the originating project remains a generic composite workflow and identifying details are intentionally omitted.
