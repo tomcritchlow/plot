@@ -12,6 +12,20 @@ A project can therefore succeed on its own terms and still be strategically wron
 
 The wrong-layer trap happens when a transformation project makes today's human choreography more durable instead of building around the objects, constraints, intentions and outcomes that will survive capability gains.
 
+## System-of-record connection
+
+The current systems-of-record discourse sharpens the architecture:
+
+- Systems of record give people a shared map of core objects and state.
+- Systems of intent define the future state, constraints and outcomes people and agents should pursue.
+- AI harnesses provide the replaceable action layer that moves the record toward the intention.
+
+The riff's counterpoint: converting a system of record into an AI harness is not enough if the harness is organized around today's expiring human workflow.
+
+Useful compression:
+
+> Record should be stable. Intent should be explicit and revisable. Action should be replaceable.
+
 ## Strongest lines
 
 - Thousands of hours later, you may have successfully transformed a workflow that no longer needs to exist.
@@ -38,6 +52,7 @@ The originating example came from a private internal discussion about a real tra
 - Automating a World That Won't Exist
 - Transforming the Wrong Layer
 - The Wrong-Layer Trap
+- The System of Record for a Vanishing Workflow
 - Will There Still Be a Train?
 
 ## Open questions
@@ -46,4 +61,5 @@ The originating example came from a private internal discussion about a real tra
 - Should the draft stay focused on marketing and media work, or make the argument explicitly enterprise-wide?
 - Does the two-clocks model need to become a practical diagnostic with a small set of questions?
 - Is the Ingka example a useful constructive ending, or does it open a separate workforce argument?
+- Does the system-of-record discourse strengthen the workflow-half-life argument, or introduce too much enterprise-software vocabulary?
 - Can the distinction between durable objects and replaceable choreography become a simple diagram later?

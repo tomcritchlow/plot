@@ -42,24 +42,33 @@ The newer model is closer to work absorption. An agent can take responsibility f
 
 If you build the system of record around those arrows—today’s assignments, handoffs and human choreography—you may be pouring concrete around the least durable part of the system.
 
-## What survives the model upgrade?
+## From systems of record to systems of intent
+
+This is why the current debate about systems of record feels so relevant.
+
+[Garry Tan’s prediction](https://x.com/garrytan/status/2091742825042030681) is that systems of record will have to become AI harnesses or risk being replaced by agents. That feels directionally right. A system designed to show a human the state of the work is different from a system designed to give an agent enough context, permissions and tools to move the work forward.
+
+[Matt Slotnick’s longer argument](https://mslotnick.substack.com/p/intention-is-all-you-need) makes a useful distinction. Systems of record are not merely databases. They give the organization a shared understanding of its core objects: the customer, the employee, the ticket, the asset. But shared objects are no longer enough when agents can act. The system also needs a shared understanding of what should happen next. Slotnick describes this as a shift from records to intentions, from objects to objectives.
+
+I think both arguments point toward the same architectural inversion. The old system coordinated people around records. The new system has to coordinate people and agents around intent.
+
+But there is a trap hiding inside the word “harness.” If the harness simply orchestrates today’s boxes more efficiently, we are back where we started. We have given agents a better way to navigate a process whose reason for existing is disappearing.
+
+The distinction is not system of record versus agent. It is durable record versus temporary choreography.
+
+## Record, intent, action
 
 The media still has to exist. There is still a source recording, a transcript, a set of derived assets, a rights status, a brand intention, a quality threshold and somewhere the work needs to appear. What changes is the machinery between them.
 
-This suggests a different architecture for AI transformation. Put the durable objects and constraints at the center. Treat the current workflow as replaceable.
+This suggests a three-layer test for AI transformation:
 
-The durable layer contains things like:
+- **Record:** What is durably true? The source asset, its provenance, its rights status, its versions, its distribution history and the evidence of what happened after publication.
+- **Intent:** What future state are we trying to create? The intended audience, the business outcome, the policy constraints, the quality threshold and the brand judgment that should govern the work.
+- **Action:** What moves record toward intent? The models, tools, task boundaries, assignments, approvals and handoffs used to get there today.
 
-- the source asset and its provenance;
-- the intended audience and business outcome;
-- rights, permissions and policy constraints;
-- quality standards and brand judgment;
-- versions, transformations and distribution endpoints;
-- evidence about what happened after publication.
+Record should be stable. Intent should be explicit and revisable. Action should be replaceable.
 
-The less durable layer contains today’s task decomposition: who downloads the file, who opens the editing software, who updates the spreadsheet, which team passes it to which other team, which status label means the work can move.
-
-Some of that coordination will remain. Humans are not evaporating from the organization. But if the transformation project treats every present-day handoff as a permanent fact, it confuses organizational scar tissue for business logic.
+Some of today’s coordination will remain. Humans are not evaporating from the organization. But the action layer is where model capability is moving fastest. If the transformation project treats every present-day handoff as a permanent fact, it confuses organizational scar tissue for business logic.
 
 The practical test might be: if a much better model could perform this entire workflow from one instruction, what would your system still need to know?
 

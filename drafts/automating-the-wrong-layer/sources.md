@@ -25,6 +25,17 @@
   - Classic business-process reengineering argument that information technology should not merely speed up inherited processes.
   - The riff adds a moving-frontier wrinkle: the inherited process can decay while the reengineering project is still underway.
 
+## Systems of record, intent and harnesses
+
+- [Matt Slotnick, X post linking “Intention Is All You Need”](https://x.com/matt_slotnick/status/2022428696595108152)
+  - The supplied post links to Slotnick's longer essay on the future of software systems.
+- [Matt Slotnick, “Intention Is All You Need”](https://mslotnick.substack.com/p/intention-is-all-you-need)
+  - Argues that systems of record create shared understanding by owning core business objects and their state.
+  - In an agentic organization, shared objects remain necessary but become insufficient. Slotnick proposes an architecture of context, intention and action, and describes a shift from objects to objectives and records to intentions.
+- [Garry Tan, “systems of record will need to become AI harnesses”](https://x.com/garrytan/status/2091742825042030681)
+  - Short prediction that incumbent systems of record must become the harnesses through which agents work or risk being displaced by agents.
+  - The riff adds a caveat: a harness still targets the wrong layer if it hardens today's expiring task decomposition.
+
 ## Human work after automation
 
 - [Ingka Group, “AI and Remote Selling bring IKEA design expertise to the many”](https://www.ingka.com/newsroom/ai-and-remote-selling-bring-ikea-design-expertise-to-the-many/)
