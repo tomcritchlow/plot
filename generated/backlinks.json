@@ -3,6 +3,12 @@
     "captures/2026/08/2026-08-17-141422-empowered-teams.md": [
       "captures/2026/08/2026-08-17-144309-roadmap-posts-connection.md"
     ],
+    "captures/2026/08/2026-08-19-095818-taste-versus-elegance.md": [
+      "drafts/things-i-think-about-ai/sources.md"
+    ],
+    "captures/2026/08/2026-08-20-102808-proof-abundance.md": [
+      "drafts/things-i-think-about-ai/sources.md"
+    ],
     "drafts/automating-the-wrong-layer/sources.md": [
       "drafts/automating-the-wrong-layer/target-durability-audit.md"
     ],
@@ -17,13 +23,18 @@
     "drafts/memory-layers/assets/information-processing-model-memory.png": [
       "drafts/memory-layers/draft.md"
     ],
+    "drafts/memory-layers/draft.md": [
+      "drafts/things-i-think-about-ai/sources.md"
+    ],
     "published/2026-06-08-of-termites-tokens.md": [
       "drafts/automating-the-wrong-layer/notes.md",
-      "drafts/automating-the-wrong-layer/sources.md"
+      "drafts/automating-the-wrong-layer/sources.md",
+      "drafts/things-i-think-about-ai/sources.md"
     ],
     "published/2026-07-30-an-almanac-for-the-age-of-chaos.md": [
       "drafts/automating-the-wrong-layer/notes.md",
       "drafts/automating-the-wrong-layer/sources.md",
+      "drafts/things-i-think-about-ai/sources.md",
       "drafts/three-plane-shift/README.md"
     ]
   }

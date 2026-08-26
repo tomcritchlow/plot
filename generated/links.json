@@ -1,5 +1,5 @@
 {
-  "count": 295,
+  "count": 298,
   "links": [
     {
       "url": "https://a16z.com/services-led-growth/",
@@ -223,6 +223,21 @@
         }
       ],
       "normalized": "https://blog.cloudflare.com/building-for-the-future"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/things-i-think-about-ai/draft.md"
+        },
+        {
+          "file": "drafts/things-i-think-about-ai/sources.md"
+        }
+      ],
+      "normalized": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation"
     },
     {
       "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
@@ -1405,6 +1420,21 @@
         }
       ],
       "normalized": "https://news.ycombinator.com/item?id=48492118"
+    },
+    {
+      "url": "https://newsletter.brxnd.ai/p/things-i-think-i-think-about-ai-2026",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/things-i-think-about-ai/draft.md"
+        },
+        {
+          "file": "drafts/things-i-think-about-ai/sources.md"
+        }
+      ],
+      "normalized": "https://newsletter.brxnd.ai/p/things-i-think-i-think-about-ai-2026"
     },
     {
       "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1468-0335.1937.tb00002.x",
@@ -3812,6 +3842,21 @@
         }
       ],
       "normalized": "https://x.com/tomcritchlow/status/1982272958438514987"
+    },
+    {
+      "url": "https://x.com/tomcritchlow/status/2083260043915317673",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/things-i-think-about-ai/draft.md"
+        },
+        {
+          "file": "drafts/things-i-think-about-ai/sources.md"
+        }
+      ],
+      "normalized": "https://x.com/tomcritchlow/status/2083260043915317673"
     },
     {
       "url": "https://youtu.be/7oGsTQ7t1jc?si=E828-AA23h2zgC-c&t=1024",
