@@ -1,5 +1,5 @@
 {
-  "count": 298,
+  "count": 300,
   "links": [
     {
       "url": "https://a16z.com/services-led-growth/",
@@ -1722,6 +1722,21 @@
       "normalized": "https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F15a91679-985a-4e56-847c-ac46d15c81f5_1434x802.png"
     },
     {
+      "url": "https://sundaylettersfromsam.substack.com/p/the-network-always-beats-the-castle",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/company-must-know-itself/draft.md"
+        },
+        {
+          "file": "drafts/company-must-know-itself/sources.md"
+        }
+      ],
+      "normalized": "https://sundaylettersfromsam.substack.com/p/the-network-always-beats-the-castle"
+    },
+    {
       "url": "https://t.co/KrDfZRbr0f",
       "title": null,
       "author": null,
@@ -3140,6 +3155,21 @@
         }
       ],
       "normalized": "https://www.linkedin.com/pulse/hiring-future-past-ryan-roslansky"
+    },
+    {
+      "url": "https://www.lk.cs.ucla.edu/internet_first_words.html",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/company-must-know-itself/draft.md"
+        },
+        {
+          "file": "drafts/company-must-know-itself/sources.md"
+        }
+      ],
+      "normalized": "https://www.lk.cs.ucla.edu/internet_first_words.html"
     },
     {
       "url": "https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-great-attrition-is-making-hiring-harder-are-you-searching-the-right-talent-pools",
