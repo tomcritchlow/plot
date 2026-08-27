@@ -34,6 +34,22 @@ Lowe's borrowed that spectacle for retail. Apollo had Mission Control; Lowe's ha
 
 To call 58 hardware stores a cybernetwork was not just description. It was an act of elevation.
 
+## The other network of 1969
+
+The Moon landing was not the only new model of coordination flickering into view that year. On October 29, researchers at UCLA tried to send **LOGIN** to a computer at the Stanford Research Institute over [ARPANET](https://www.lk.cs.ucla.edu/internet_first_words.html). The system crashed after two letters. The first message on the network was **LO**.
+
+Apollo and ARPANET emerged from the same government-funded technological atmosphere, but they came to symbolize very different architectures. Apollo placed intelligence in Mission Control and made thousands of components follow a carefully plotted path. ARPANET broke messages into packets that could find their way between intelligent endpoints without reserving a single circuit from sender to receiver.
+
+In [“The Network Always Beats the Castle”](https://sundaylettersfromsam.substack.com/p/the-network-always-beats-the-castle), Sam Schillace uses this distinction to describe two kinds of company. Most companies, he argues, are still circuit-switched. The org chart determines which paths exist. A manager is a dedicated line between strategy and execution. A reorganization is the expensive work of rewiring the circuit. A packet-switched organization allows information and work to find their way through a network without travelling up and down a fixed hierarchy.
+
+Calling something a network, then, does not tell you where its intelligence lives.
+
+Lowe's cybernetwork belongs uneasily to both worlds. The employees are its controllers. IBM reports flow towards headquarters. Management sets the destination. Yet suppliers, customers, employees and stockholders are also cast as active nodes rather than a passive audience. Signals arrive from store floors, trade shows, proxy tallies and household desires. The network learns at its edges.
+
+Schillace pushes the analogy across the boundary of the firm: “Prices, in a market, are packets.” They carry information from the edges that no central planner could gather. Lowe's adds the stranger possibility that the packet does not contain a number alone. A market signal is entangled with a story about what the company is and where it is going.
+
+The annual report is where the two architectures meet. It gathers dispersed activity at the center, turns it into a shared description of the system, then sends that description back through the network for every node to act upon. The castle is not merely issuing instructions. It is trying to learn from the network and persuade the network to build a particular future.
+
 ## The 1,142 missing stores
 
 Halfway through the report, the cybernetwork acquires a destination. Lowe's calculates that the United States needs 1,200 of its stores.
@@ -88,6 +104,10 @@ Fifty-six years later, the cybernetwork is still there. Lowe's just no longer ca
 
 The psychedelic map has disappeared. The architecture has not. Every era gives the corporate system a new name, and every name proposes a slightly different company.
 
+Schillace's larger wager is that AI supplies the routing, translation and error correction that earlier networked organizations lacked. If he is right, shared narrative becomes more important, not less. A circuit-switched company can carry intent through a fixed chain of command. A network of humans and agents making local decisions needs protocols—and a credible account of what the system is trying to cause.
+
+In that world, the market narrative is not decorative language wrapped around the operating model. It is part of the operating model.
+
 ## Resonance or echo
 
 There is an especially revealing page in the Lowe's report devoted to stockholders. Management describes formal surveys, proxy tallies, annual-report questionnaires and informal feedback, then concludes that most stockholders share its appetite for growth.
@@ -124,11 +144,11 @@ A corporation is too large to encounter all at once. No employee, customer, supp
 
 An annual report is a bid for that coherence. It gathers a year of local events and says: these belonged together. More than that, they happened because we are this kind of company, moving toward this kind of future.
 
-But a market narrative is different from an ordinary brand story because it is exposed to consequence. The story travels outward and returns as behavior: a supplier extends terms, an employee stays, an investor pays a higher price. Or they do not. Every response changes the company the next report will have to explain.
+But a market narrative is different from an ordinary brand story because it has to survive the network. It cannot reserve a path or guarantee delivery. The story travels outward and returns as behavior: a supplier extends terms, an employee stays, an investor pays a higher price. Or they do not. Every response changes the company the next report will have to explain.
 
 The report gives the company a story. The market gives the story resistance. Between them, a temporary version of the company emerges.
 
-On the last page, the cybernetwork adds one more component: the reader. Lowe's does not merely broadcast its grand narrative. It leaves blank lines for the market to write back.
+On the last page, the cybernetwork adds one more node: the reader. Lowe's does not merely broadcast its grand narrative. It leaves blank lines for the market to write back.
 
 The company must know itself. The reply card admits that it cannot do so alone.
 

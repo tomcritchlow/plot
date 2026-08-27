@@ -38,6 +38,20 @@
 
 ## Narratives, markets and organizations
 
+- [Sam Schillace: “The Network Always Beats the Castle”](https://sundaylettersfromsam.substack.com/p/the-network-always-beats-the-castle)
+  - Published June 28, 2026.
+  - Distinguishes circuit-switched organizations, whose org charts predefine the paths for work and information, from packet-switched organizations that can route dynamically through intelligent edges.
+  - Connects the architecture to markets by describing prices as packets that carry information from the edges without central coordination.
+  - Supplies the architectural question hidden by the generic word “network”: where does the intelligence live?
+
+- [Leonard Kleinrock: “The Day the Infant Internet Uttered its First Words”](https://www.lk.cs.ucla.edu/internet_first_words.html)
+  - UCLA account of the first ARPANET message on October 29, 1969, sent from UCLA to SRI.
+  - The intended message was LOGIN; the system crashed after transmitting LO.
+
+- [Tom Critchlow: “Of Termites & Tokens”](../../published/2026-06-08-of-termites-tokens.md)
+  - Prior published argument for distributed local action, intelligence at the edges and organizational coordination through environmental signals.
+  - The packet-switching passage builds on this argument rather than introducing networked organization as a wholly new claim.
+
 - [Robert J. Shiller: “Narrative Economics”](https://www.nber.org/papers/w23075)
   - Primary paper for narratives as economic forces rather than commentary.
   - Shiller argues that stories motivate spending and investing and connect actions to deeply felt values and needs.

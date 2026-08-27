@@ -8,6 +8,8 @@ An annual report is not merely a report on the company. It is a temporary settle
 
 A market narrative is an operating model told in public. It helps investors price the company, managers allocate against it, employees locate themselves inside it, and the company become more like the thing it claims to be.
 
+Calling a company a network does not settle where intelligence lives. The annual report sits between a circuit-switched model of central control and a packet-switched model of distributed sensemaking: it gathers signals, proposes a shared interpretation, then sends that interpretation back through the market to be acted upon and contested.
+
 The AI turn: companies are building shared context layers that make the organization legible to agents. The risk is that a collectively authored, revisable narrative hardens into canonical machine-readable status.
 
 ## Anchor details from the 1969 report
@@ -35,6 +37,7 @@ The AI turn: companies are building shared context layers that make the organiza
 - State versus narrative: an agent context layer can represent what is true without creating shared understanding of why it matters.
 - Legibility versus authorship: the more canonical and machine-readable the corporate narrative becomes, the easier it is to forget that it was chosen and could be contested.
 - Control versus spirit: the 1969 report uses systems language but still admits that the animating quality of the company cannot be precisely captured.
+- Castle versus network: a central narrative can align action, but the market only becomes informative when the edges can answer and alter the plan.
 
 ## Adjacent riffs
 
@@ -60,3 +63,4 @@ This riff should stay focused on the annual report as a public act of corporate 
 - Is the 2025 Lowe's parallel useful, or does it make the piece too much about Lowe's rather than annual reports as a genre?
 - Could the ending be sharper about governance: who can change canonical status, and what ritual lets alternative narratives surface?
 - Is “corporate constitution with a P&L attached” the reusable handle, or is “operating model told in public” stronger?
+- Does packet switching sharpen the public-market argument, or does it pull the piece too far towards a general theory of AI organizations?
