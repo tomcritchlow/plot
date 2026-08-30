@@ -1,5 +1,5 @@
 {
-  "count": 300,
+  "count": 304,
   "links": [
     {
       "url": "https://a16z.com/services-led-growth/",
@@ -105,6 +105,21 @@
         }
       ],
       "normalized": "https://americanhistory.si.edu/ontime/synchronizing/zones.html"
+    },
+    {
+      "url": "https://antigravity.google/blog/teamwork-when-ai-becomes-a-research-partner",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/colony-stays-awake/draft.md"
+        },
+        {
+          "file": "drafts/colony-stays-awake/sources.md"
+        }
+      ],
+      "normalized": "https://antigravity.google/blog/teamwork-when-ai-becomes-a-research-partner"
     },
     {
       "url": "https://apnews.com/article/ai-content-slop-pinterest-tiktok-deezer-6bdf29efebc631fe63de13831e14b95f",
@@ -349,6 +364,21 @@
         }
       ],
       "normalized": "https://calendly.com/tomcritchlow"
+    },
+    {
+      "url": "https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/colony-stays-awake/draft.md"
+        },
+        {
+          "file": "drafts/colony-stays-awake/sources.md"
+        }
+      ],
+      "normalized": "https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf"
     },
     {
       "url": "https://cdn.smassets.net/assets/content/sm/Bar-charts-that-display-level-of-customer-centricity.png",
@@ -1350,6 +1380,21 @@
       "normalized": "https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks"
     },
     {
+      "url": "https://metr.org/hugging-face-incident-report-aug-2026.pdf",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/colony-stays-awake/draft.md"
+        },
+        {
+          "file": "drafts/colony-stays-awake/sources.md"
+        }
+      ],
+      "normalized": "https://metr.org/hugging-face-incident-report-aug-2026.pdf"
+    },
+    {
       "url": "https://mitpress.mit.edu/9780262693189/real-options-and-investment-under-uncertainty/",
       "title": null,
       "author": null,
@@ -2284,6 +2329,9 @@
       "first_seen": "2026-06-08T00:00:00.000Z",
       "references": [
         {
+          "file": "drafts/colony-stays-awake/draft.md"
+        },
+        {
           "file": "drafts/three-plane-shift/draft.md"
         },
         {
@@ -2894,6 +2942,18 @@
         }
       ],
       "normalized": "https://www.disneyinstitute.com/"
+    },
+    {
+      "url": "https://www.dwarkesh.com/p/openai-huggingface",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/colony-stays-awake/sources.md"
+        }
+      ],
+      "normalized": "https://www.dwarkesh.com/p/openai-huggingface"
     },
     {
       "url": "https://www.eugenewei.com/blog/2018/5/21/invisible-asymptotes",
