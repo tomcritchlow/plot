@@ -1,5 +1,5 @@
 {
-  "count": 304,
+  "count": 305,
   "links": [
     {
       "url": "https://a16z.com/services-led-growth/",
@@ -3710,6 +3710,21 @@
         }
       ],
       "normalized": "https://www.strangeloopcanon.com/p/homo-agenticus"
+    },
+    {
+      "url": "https://www.strangeloopcanon.com/p/how-to-control-an-agent-swarm",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/colony-stays-awake/draft.md"
+        },
+        {
+          "file": "drafts/colony-stays-awake/sources.md"
+        }
+      ],
+      "normalized": "https://www.strangeloopcanon.com/p/how-to-control-an-agent-swarm"
     },
     {
       "url": "https://www.surveymonkey.com/resources/how-to-build-customer-centric-culture/",
