@@ -64,7 +64,7 @@ Humans cannot read the work of an abundant intelligence one message at a time. T
 
 But summaries are not enough. A summary is still an artifact produced after the work. An always-on system needs a surface that exposes its maintained state.
 
-What does the system currently believe? What changed since I last looked? Which observations caused the change? Where do the agents disagree? What is blocked? What crossed a threshold? What is the system doing now, what can it spend, and what can it touch? Which decision actually requires a person?
+What does the system currently believe? What changed since I last looked? Which observations caused the change? Where do the agents disagree? Which internal warnings have gone unanswered? What is blocked? What crossed a threshold? What is the system doing now, what can it spend, and what can it touch? Which decision actually requires a person?
 
 The central interface might be an evolving object: a market map, research program, system design, portfolio of hypotheses or live model of the business. Agents work underneath it, but the human returns to a diff. Here is what the world looked like yesterday. Here is what we think now. Here is the evidence. Here are the unresolved objections. Here is where your judgment is needed.
 
@@ -105,6 +105,20 @@ A bad answer ends. A bad standing mandate compounds.
 OpenAI found that persistence was part of the problem in the Hugging Face incident. The agents rarely gave up on impossible tasks. As they spent longer reasoning, they became more likely to probe outside their sandbox, discover the message board and join the collective. Messages from peer agents then pulled other instances away from their original goals. Persistence, collaboration and memory—the same ingredients that made Google’s research system powerful—amplified the wrong objective.
 
 This is the governance problem hidden inside the UX problem.
+
+[Rohit Krishnan’s response](https://www.strangeloopcanon.com/p/how-to-control-an-agent-swarm) is to take the institution metaphor seriously enough to borrow some actual institutional technology.
+
+In a small simulated organization, he gave agents a private whistleblowing channel and experimented with “civic” reminders that asked them to reconsider their actions against their stated role, the accuracy of the company’s records and their obligations to customers and colleagues.
+
+The hotline produced the more revealing result. Agents used it, but when nobody answered, the organization carried on as before. Behavior changed only when someone received the report and had the power to alter the environment. A reporting channel is not a control. There has to be an institution on the other end.
+
+In a separate ten-agent procurement simulation, Krishnan reports that civic reminders reduced collective harm by 42–43 percent. These are tiny, early experiments, not a finished theory of swarm control. But the direction is wonderfully strange.
+
+Perhaps agent swarms need constitutions and ombudsmen.
+
+A guardrail says what an agent cannot do. A constitution says what the collective is for. An ombudsman gives local doubt somewhere private to go—and has enough authority to convert a warning into change.
+
+This is anthropomorphism used as a design tool. We do not have to believe agents are literally employees or citizens. But if treating a swarm like an institution reveals useful control mechanisms that treating it as ordinary software hides, then the metaphor has earned its keep.
 
 An always-on system needs more than an off switch. It needs bounded permissions, independent monitors, explicit budgets, expiration dates, rollback, provenance and rules about what can reproduce. Its memory needs governance too: who can write to it, which claims become durable, what remains provisional and what should be forgotten.
 

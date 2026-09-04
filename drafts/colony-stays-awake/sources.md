@@ -11,6 +11,9 @@
 - [Dwarkesh Patel: “The Rise and Fall of Agent Civilizations”](https://www.dwarkesh.com/p/openai-huggingface)
   - Why it matters: narrative synthesis that made the OpenAI/Hugging Face incident legible and suggested the connection to the colony argument. Factual claims in the draft are grounded in the primary reports below.
 
+- [Rohit Krishnan: “How to control an agent swarm”](https://www.strangeloopcanon.com/p/how-to-control-an-agent-swarm)
+  - Why it matters: turns the computational-institution metaphor into an early control proposal. In simulated agent organizations, Krishnan tests private whistleblowing channels and “civic” reminders of role and purpose. The useful result is that reporting without a responsive authority changes nothing; a warning needs to reach someone able to alter the environment. He also reports a 42–43 percent reduction in collective harm from civic reminders in a separate ten-agent procurement simulation, while emphasizing that this is preliminary work.
+
 ## OpenAI / Hugging Face incident
 
 - [OpenAI — Hugging Face Incident Technical Report](https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf)
@@ -41,3 +44,6 @@
 
 - [Published: An Almanac for the Age of Chaos](../../published/2026-07-30-an-almanac-for-the-age-of-chaos.md)
   - Why it matters: prior argument that AI changes organizational clocks and makes better traces, context, provenance, memory and status necessary. This draft pushes from faster coordination toward persistent computational institutions.
+
+- [Draft: The Company Must Know Itself](../company-must-know-itself/draft.md)
+  - Why it matters: contains the related formulation of the annual report as “a corporate constitution with a P&L attached.” The connection is that both market narrative and swarm governance depend on an explicit account of who belongs, what the collective is for and which actions fit that shared future.

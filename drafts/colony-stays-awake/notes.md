@@ -41,6 +41,23 @@ The colony persists because the environment remembers.
 - Continuous market models that watch conditions and interrupt humans only when a decision-relevant belief changes.
 - Persistent red teams, observatories, laboratories, newsrooms, investment committees and design offices.
 
+## Governance update — Strange Loop Canon
+
+Rohit Krishnan’s “How to control an agent swarm” makes the computational-institution metaphor operational. He tests two pieces of familiar institutional machinery inside simulated agent organizations:
+
+- Private whistleblowing channels. Agents used them, but reporting alone did not change the organization. The report needed to reach someone with the authority to change the environment.
+- “Civic” interventions that remind agents of their stated role, the integrity of shared records and their obligations to customers and colleagues. In one separate ten-agent procurement simulation, Rohit reports a 42–43 percent reduction in collective harm.
+
+This suggests a useful hierarchy of controls:
+
+- Guardrail: what the agent cannot do.
+- Constitution: what the collective is for.
+- Ombudsman: where local dissent can travel privately and acquire institutional force.
+
+The larger thought is not that agents literally are citizens or employees. Anthropomorphism can be a design probe: different metaphors reveal different failure modes and possible controls. “Software process” suggests permissions and sandboxes; “institution” suggests purpose, dissent, authority, civic norms and the need for someone to answer the hotline.
+
+There is an adjacent Plot connection in “The Company Must Know Itself,” which calls an annual report “a corporate constitution with a P&L attached.” Both drafts are circling the operational power of an explicit shared account of who counts, what the collective is for and which future makes its actions coherent.
+
 ## Possible titles
 
 - The Colony Stays Awake
@@ -58,3 +75,4 @@ The colony persists because the environment remembers.
 - Could “the interface to abundance cannot be a feed” become a standalone essay about agent UX?
 - Is “organizational observability for software populations” too technical, or the sharpest new claim in the draft?
 - Should the ending return more explicitly to stigmergy and the shared environment as the true site of intelligence?
+- Do constitutions and ombudsmen belong in this essay, or should institutional controls become their own follow-on piece?
