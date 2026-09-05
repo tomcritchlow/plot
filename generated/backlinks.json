@@ -1,7 +1,8 @@
 {
   "backlinks": {
     "captures/2026/08/2026-08-17-141422-empowered-teams.md": [
-      "captures/2026/08/2026-08-17-144309-roadmap-posts-connection.md"
+      "captures/2026/08/2026-08-17-144309-roadmap-posts-connection.md",
+      "drafts/automating-the-wrong-layer/sources.md"
     ],
     "captures/2026/08/2026-08-19-095818-taste-versus-elegance.md": [
       "drafts/things-i-think-about-ai/sources.md"
@@ -16,6 +17,13 @@
     "drafts/agentic-commerce-preferences/draft.md": [
       "drafts/what-survives-the-match/draft.md",
       "drafts/what-survives-the-match/sources.md"
+    ],
+    "drafts/automating-the-wrong-layer/draft.md": [
+      "drafts/automating-the-wrong-layer/README.md"
+    ],
+    "drafts/automating-the-wrong-layer/every-handoff-is-a-claim.md": [
+      "drafts/automating-the-wrong-layer/README.md",
+      "drafts/automating-the-wrong-layer/notes.md"
     ],
     "drafts/automating-the-wrong-layer/sources.md": [
       "drafts/automating-the-wrong-layer/target-durability-audit.md"
