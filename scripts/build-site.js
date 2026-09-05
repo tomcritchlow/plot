@@ -7,6 +7,7 @@
  * with `npm run build:site` and open site/index.html.
  */
 import { cpSync, mkdirSync, readdirSync, rmSync, statSync, writeFileSync } from "node:fs";
+import { createHash } from "node:crypto";
 import { dirname, join, posix, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import process from "node:process";
@@ -195,7 +196,7 @@ function page({ title, depth, content, writerName }) {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(title)} · Plot</title>
-<link rel="stylesheet" href="${prefix}style.css">
+<link rel="stylesheet" href="${prefix}style.css?v=${STYLE_VERSION}">
 </head>
 <body>
 <header>
@@ -306,6 +307,14 @@ code { font-family: ui-monospace, Menlo, monospace; font-size: 0.9em; }
 .draft-treatment[aria-current="page"] { background: var(--bg); }
 .draft-file { font-size: 0.75rem; }
 .draft-file-label { color: var(--muted); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.03em; }
+@media (max-width: 40rem) {
+  .draft-package { padding: 0.8rem; }
+  .draft-package-head { display: block; }
+  .draft-project-title { display: block; margin-top: 0.15rem; color: var(--ink); font-weight: 600; }
+  .draft-package-row { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0.35rem; margin-top: 0.8rem; }
+  .draft-package-label { min-width: 0; }
+  .draft-treatment, .draft-file { width: fit-content; max-width: 100%; overflow-wrap: anywhere; }
+}
 .badge {
   display: inline-block; padding: 0.05rem 0.5rem; border-radius: 99px; font-size: 0.72rem;
   font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
@@ -338,6 +347,8 @@ footer {
   border-top: 1px solid var(--line);
 }
 `;
+
+const STYLE_VERSION = createHash("sha256").update(STYLE).digest("hex").slice(0, 10);
 
 const SEARCH_JS = `
 (function () {
