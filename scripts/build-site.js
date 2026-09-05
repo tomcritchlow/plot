@@ -7,7 +7,7 @@
  * with `npm run build:site` and open site/index.html.
  */
 import { cpSync, mkdirSync, readdirSync, rmSync, statSync, writeFileSync } from "node:fs";
-import { dirname, join, resolve } from "node:path";
+import { dirname, join, posix, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import process from "node:process";
 import { Marked } from "marked";
@@ -65,6 +65,65 @@ function docKind(record) {
   if (record.file.startsWith("seeds/")) return "seed";
   if (record.file.startsWith("drafts/")) return "draft";
   return "published";
+}
+
+const DRAFT_FILE_ORDER = new Map([
+  ["README.md", 0],
+  ["draft.md", 1],
+  ["notes.md", 2],
+  ["sources.md", 3],
+]);
+
+function draftFileLabel(file, slug) {
+  const rel = file.slice(`drafts/${slug}/`.length);
+  const coreLabels = {
+    "README.md": "Brief",
+    "draft.md": "Draft",
+    "notes.md": "Notes",
+    "sources.md": "Sources",
+  };
+  if (coreLabels[rel]) return coreLabels[rel];
+  return rel
+    .replace(/\.md$/, "")
+    .split("/")
+    .map((part) =>
+      part
+        .split("-")
+        .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(" ")
+    )
+    .join(" / ");
+}
+
+function draftPackageRecords(record, records) {
+  const match = /^drafts\/([^/]+)\//.exec(record.file);
+  if (!match) return [];
+  const slug = match[1];
+  const prefix = `drafts/${slug}/`;
+  return records
+    .filter((candidate) => candidate.file.startsWith(prefix))
+    .sort((a, b) => {
+      const aRel = a.file.slice(prefix.length);
+      const bRel = b.file.slice(prefix.length);
+      const aRank = DRAFT_FILE_ORDER.get(aRel) ?? 10;
+      const bRank = DRAFT_FILE_ORDER.get(bRel) ?? 10;
+      return aRank - bRank || byString(aRel, bRel);
+    });
+}
+
+function draftPackageNav(record, records) {
+  const match = /^drafts\/([^/]+)\//.exec(record.file);
+  if (!match) return "";
+  const slug = match[1];
+  const links = draftPackageRecords(record, records).map((candidate) => {
+    const label = draftFileLabel(candidate.file, slug);
+    if (candidate.file === record.file) return `<span aria-current="page">${esc(label)}</span>`;
+    const href = posix
+      .relative(posix.dirname(record.file), candidate.file)
+      .replace(/\.md$/, ".html");
+    return `<a href="${esc(href)}">${esc(label)}</a>`;
+  });
+  return `<nav class="draft-package" aria-label="Draft files"><strong>Draft package</strong>${links.join("")}</nav>`;
 }
 
 const md = new Marked({ gfm: true });
@@ -168,9 +227,9 @@ header {
   font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 0.85rem;
 }
 .wordmark { font-weight: 700; font-size: 1.05rem; text-decoration: none; color: var(--ink); letter-spacing: 0.02em; }
-nav { display: flex; gap: 0.9rem; }
-nav a { color: var(--muted); text-decoration: none; }
-nav a:hover { color: var(--accent); }
+header nav { display: flex; gap: 0.9rem; }
+header nav a { color: var(--muted); text-decoration: none; }
+header nav a:hover { color: var(--accent); }
 .searchbox { margin-left: auto; }
 .searchbox input {
   font: inherit; padding: 0.35rem 0.6rem; width: 14rem; max-width: 60vw;
@@ -190,6 +249,15 @@ code { font-family: ui-monospace, Menlo, monospace; font-size: 0.9em; }
 }
 .meta a { color: var(--muted); }
 .rawlink { margin-left: auto; }
+.draft-package {
+  display: flex; flex-wrap: wrap; gap: 0.45rem 0.8rem; align-items: baseline;
+  margin: -0.4rem 0 1.8rem; padding: 0.65rem 0.8rem;
+  border: 1px solid var(--line); border-radius: 6px; background: var(--card);
+  font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 0.78rem;
+}
+.draft-package strong { color: var(--muted); margin-right: 0.2rem; }
+.draft-package a { text-decoration: none; }
+.draft-package [aria-current="page"] { color: var(--ink); font-weight: 650; }
 .badge {
   display: inline-block; padding: 0.05rem 0.5rem; border-radius: 99px; font-size: 0.72rem;
   font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
@@ -317,7 +385,7 @@ export function buildSite(root, writerName = "A writer") {
   for (const record of records) {
     const relPath = record.file.replace(/\.md$/, ".html");
     const depth = relPath.split("/").length - 1;
-    const content = metaCard(record) + md.parse(record.body);
+    const content = metaCard(record) + draftPackageNav(record, records) + md.parse(record.body);
     write(relPath, page({ title: docTitle(record), depth, content, writerName }));
   }
 
@@ -356,16 +424,17 @@ export function buildSite(root, writerName = "A writer") {
     .sort((a, b) => byString(shortDate(b.data.updated_at) ?? "", shortDate(a.data.updated_at) ?? ""))
     .map((r) => {
       const slug = r.file.split("/")[1];
-      const files = records
-        .filter((d) => d.file.startsWith(`drafts/${slug}/`) && d.file !== r.file)
+      const packageRecords = draftPackageRecords(r, records);
+      const manuscript = packageRecords.find((d) => d.file === `drafts/${slug}/draft.md`);
+      const files = packageRecords
         .map((d) => {
-          const name = d.file.slice(`drafts/${slug}/`.length).replace(/\.md$/, "");
+          const name = draftFileLabel(d.file, slug);
           return `<a href="${d.file.replace(/\.md$/, ".html").slice("drafts/".length)}">${esc(name)}</a>`;
         })
         .join(" · ");
       return `<li>
         <span class="badge badge-draft">${esc(r.data.status ?? "draft")}</span>
-        <a href="${slug}/README.html">${esc(r.data.title ?? slug)}</a>
+        <a href="${manuscript ? `${slug}/draft.html` : `${slug}/README.html`}">${esc(r.data.title ?? slug)}</a>
         ${r.data.updated_at ? `<span class="date">updated ${esc(shortDate(r.data.updated_at))}</span>` : ""}
         <p class="snippet">${esc(snippet(r.body, 180))}</p>
         <p class="snippet">${files}</p>
