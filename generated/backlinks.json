@@ -13,6 +13,10 @@
     "captures/2026/08/2026-08-26-225311-master-design-doc.md": [
       "drafts/colony-stays-awake/sources.md"
     ],
+    "drafts/agentic-commerce-preferences/draft.md": [
+      "drafts/what-survives-the-match/draft.md",
+      "drafts/what-survives-the-match/sources.md"
+    ],
     "drafts/automating-the-wrong-layer/sources.md": [
       "drafts/automating-the-wrong-layer/target-durability-audit.md"
     ],
@@ -35,13 +39,21 @@
     ],
     "drafts/memory-layers/draft.md": [
       "drafts/colony-stays-awake/sources.md",
-      "drafts/things-i-think-about-ai/sources.md"
+      "drafts/things-i-think-about-ai/sources.md",
+      "drafts/what-survives-the-match/sources.md"
     ],
     "drafts/spare-capacity/draft.md": [
       "drafts/colony-stays-awake/sources.md"
     ],
     "drafts/things-i-think-about-ai/draft.md": [
-      "drafts/colony-stays-awake/sources.md"
+      "drafts/colony-stays-awake/sources.md",
+      "drafts/what-survives-the-match/sources.md"
+    ],
+    "published/2024-03-01-how-do-you-cultivate-customer-centric-executives.md": [
+      "drafts/what-survives-the-match/sources.md"
+    ],
+    "published/2025-03-21-google-is-grounded-and-needs-to-learn-how-to-soar.md": [
+      "drafts/what-survives-the-match/sources.md"
     ],
     "published/2026-06-08-of-termites-tokens.md": [
       "drafts/automating-the-wrong-layer/notes.md",
@@ -55,7 +67,8 @@
       "drafts/automating-the-wrong-layer/sources.md",
       "drafts/colony-stays-awake/sources.md",
       "drafts/things-i-think-about-ai/sources.md",
-      "drafts/three-plane-shift/README.md"
+      "drafts/three-plane-shift/README.md",
+      "drafts/what-survives-the-match/sources.md"
     ]
   }
 }
