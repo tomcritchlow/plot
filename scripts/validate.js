@@ -70,8 +70,38 @@ export function validateRepo(root) {
       warnings.push(`${file}: published piece has no title`);
     }
 
-    if (/^drafts\/[^/]+\/README\.md$/.test(file) && !data.title) {
-      errors.push(`${file}: draft README is missing required field "title"`);
+    if (/^drafts\/[^/]+\/README\.md$/.test(file)) {
+      if (!data.title) errors.push(`${file}: draft README is missing required field "title"`);
+
+      if (data.manuscripts !== undefined) {
+        if (!Array.isArray(data.manuscripts)) {
+          errors.push(`${file}: "manuscripts" must be a list of Markdown files`);
+        } else if (data.manuscripts.length === 0) {
+          errors.push(`${file}: "manuscripts" must contain at least one file`);
+        } else {
+          const draftDir = file.slice(0, file.lastIndexOf("/"));
+          const seenManuscripts = new Set();
+          for (const manuscript of data.manuscripts) {
+            if (
+              typeof manuscript !== "string" ||
+              !manuscript.endsWith(".md") ||
+              manuscript.startsWith("/") ||
+              manuscript.split("/").includes("..")
+            ) {
+              errors.push(`${file}: invalid manuscript path "${manuscript}"`);
+              continue;
+            }
+            if (seenManuscripts.has(manuscript)) {
+              errors.push(`${file}: duplicate manuscript "${manuscript}"`);
+              continue;
+            }
+            seenManuscripts.add(manuscript);
+            if (!existsSync(join(root, draftDir, manuscript))) {
+              errors.push(`${file}: manuscript does not exist: ${draftDir}/${manuscript}`);
+            }
+          }
+        }
+      }
     }
 
     for (const target of extractInternalLinks(file, body)) {

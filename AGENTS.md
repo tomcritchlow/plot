@@ -13,7 +13,7 @@ Read this file before doing anything. It is the complete protocol.
 | --- | --- | --- |
 | `captures/YYYY/MM/` | Raw material: thoughts, links, quotes | You, constantly |
 | `seeds/` | Ideas that have acquired enough gravity for their own evolving document | You, occasionally, deliberately |
-| `drafts/<slug>/` | Pieces being written for publication | You and the writer, together |
+| `drafts/<slug>/` | Writing projects; each may contain multiple manuscript treatments | You and the writer, together |
 | `published/` | The writer's published corpus (imported from feeds) | The importer script; treat as read-only history |
 | `generated/` | Derived JSON indexes | **CI only. Never you. Never humans.** |
 | `scripts/`, `tests/` | Plain Node tooling | Rarely touched |
@@ -125,8 +125,8 @@ related captures accumulate, or when the user says so.
 Before working substantially on anything in `drafts/`:
 
 1. Read the entire draft folder (`README.md` is the brief; `draft.md` is the
-   canonical manuscript; `notes.md` is loose thinking; `sources.md` is
-   provenance).
+   default manuscript; any files listed under `manuscripts` are alternate
+   treatments; `notes.md` is loose thinking; `sources.md` is provenance).
 2. Search `seeds/` for relevant ideas.
 3. Search `captures/` for related quotes, links and thoughts (`rg` works;
    `generated/*.json` gives you structured views).
@@ -138,9 +138,23 @@ While working, actively surface: repetition, contradictions, forgotten
 related thinking, useful supporting material, and arguments from published
 work the writer should build on rather than unknowingly repeat.
 
-Do not create `draft-v1.md`, `draft-v2.md`, etc. Git is the version history.
-Keep editing `draft.md`; a named snapshot is created manually only when
-semantically meaningful.
+One draft folder represents one underlying idea or writing project. Keep
+ordinary revisions in `draft.md`; Git is the version history, so do not create
+`draft-v1.md`, `draft-v2.md`, etc.
+
+When the same idea deserves a genuinely different argument, structure or
+audience treatment, keep it in the same folder with a semantic filename and
+declare all manuscript files in the `README.md` frontmatter:
+
+```yaml
+manuscripts:
+  - draft.md
+  - every-handoff-is-a-claim.md
+```
+
+Multiple manuscripts are branches of the idea, not historical snapshots.
+Share `notes.md` and `sources.md` unless a treatment truly needs separate
+supporting material.
 
 ## Protocol: publishing a draft
 
@@ -158,11 +172,13 @@ When the user says a draft has been published (usually by giving you a URL):
      final draft.
 2. **Update the draft's `README.md`**: set `status: published`, add
    `published_url`, `published_at`, and (if the title changed on the way
-   out) `published_as`; bump `updated_at`.
+   out) `published_as`; bump `updated_at`. If the folder declares multiple
+   manuscripts, also add `published_manuscript` with the filename selected
+   for publication.
 3. **Keep the draft folder.** Its notes, sources, and pre-publication
-   manuscript remain valuable context. Never delete it, and stop making
-   substantial edits to its `draft.md` — the published file is now the
-   canonical text.
+   manuscripts remain valuable context. Never delete it, and stop making
+   substantial edits to the manuscript that was published — the published
+   file is now the canonical text.
 4. Commit with a message like `publish: three-plane-shift → An Almanac for
    the Age of Chaos`.
 
