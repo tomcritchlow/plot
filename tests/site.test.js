@@ -51,6 +51,21 @@ test("draft pages expose the full package and mark the current file", () => {
   }
 });
 
+test("draft pages load versioned styles with a narrow-screen package layout", () => {
+  const root = fixture();
+  try {
+    buildSite(root, "Test Writer");
+    const draft = readFileSync(join(root, "site/drafts/piece/draft.html"), "utf8");
+    const style = readFileSync(join(root, "site/style.css"), "utf8");
+
+    assert.match(draft, /href="\.\.\/\.\.\/style\.css\?v=[a-f0-9]{10}"/);
+    assert.match(style, /@media \(max-width: 40rem\)/);
+    assert.match(style, /\.draft-package-row \{ display: grid;/);
+  } finally {
+    rmSync(root, { recursive: true, force: true });
+  }
+});
+
 test("the drafts index opens the manuscript and lists every package file", () => {
   const root = fixture();
   try {
