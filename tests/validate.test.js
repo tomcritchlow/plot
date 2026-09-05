@@ -21,7 +21,8 @@ test("invalid fixture repo reports each problem", () => {
   assert.match(all, /bad-type\.md: unknown capture type "musing"/);
   assert.match(all, /broken-link\.md: broken internal link to seeds\/does-not-exist\.md/);
   assert.match(all, /dupe-b\.md: duplicate capture id/);
-  assert.equal(errors.length, 6);
+  assert.match(all, /README\.md: manuscript does not exist: drafts\/broken-project\/missing\.md/);
+  assert.equal(errors.length, 7);
 });
 
 test("the real repository validates cleanly", () => {

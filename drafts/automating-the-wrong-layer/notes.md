@@ -106,3 +106,16 @@ The originating example came from a private internal discussion about a real tra
 - Does the legal-review status example make the difference between choreography and constraint concrete enough?
 - Is the five-step audit in the prose too much apparatus, or does it make the riff earn its practical conclusion?
 - Should the next iteration prototype the chatbot against one real transformation case before the scoring thresholds harden?
+
+## Alternative treatment: Every Handoff Is a Claim
+
+[Every Handoff Is a Claim](every-handoff-is-a-claim.md) starts from the same Hammer provocation but gives the argument a more pointed spine:
+
+- A workflow is a fossil record of old information costs.
+- Every handoff is a claim that two parts of the work must remain separate.
+- Process information when it is generated; preserve evidence, not documentary exhaust.
+- AI makes specialist capabilities callable, so jobs can compress around outcomes.
+- In an era of ferment, the winning architecture is not a fixed future-state workflow. It is a cheaper ability to rebundle again.
+- Future readiness = boundary collapse × recomposability.
+
+The distinction is useful. *How Durable Is the Target?* focuses on task bundles, O-rings and whether a transformation target survives until payback. *Every Handoff Is a Claim* focuses on organizational boundaries as inherited claims and gives the reader three tests: the zero-legacy counterfactual, the capability-jump counterfactual and the preservation test.

@@ -65,7 +65,7 @@ said — so future thinking builds on it instead of repeating it.
 ```text
 captures/YYYY/MM/   raw material: thoughts, links, quotes (append-only)
 seeds/              ideas that deserve their own evolving document
-drafts/<slug>/      pieces being written (README, draft, notes, sources)
+drafts/<slug>/      writing projects (README, manuscripts, notes, sources)
 published/          your published corpus, imported from your RSS feed
 generated/          derived JSON indexes — written ONLY by CI, never by hand
 scripts/            plain Node tooling (validate, index, import)
@@ -125,11 +125,28 @@ recreated exactly. Locally it's for inspection only — CI owns committing it.
 7. No external infrastructure — GitHub is the only dependency
 8. AI is optional — everything works as ordinary Markdown without any agent
 
+A draft folder represents one underlying idea or writing project, not one
+file. `draft.md` is its default manuscript. When the same idea deserves a
+genuinely different treatment, give that manuscript a semantic filename and
+list both files under `manuscripts` in the folder's `README.md` frontmatter.
+Their order is the preferred display order:
+
+```yaml
+manuscripts:
+  - draft.md
+  - every-handoff-is-a-claim.md
+```
+
+The site presents them together as treatments of the same idea. Do not use
+`draft-v2.md`: ordinary revisions belong in Git history, while multiple
+manuscripts are for meaningfully different arguments, structures or audiences.
+
 ## The site
 
 CI builds a read-only static site of the whole repo — browsable captures,
-seeds, drafts and published work, with client-side search — and deploys it
-to GitHub Pages on every push to `main`. Enable it once in *Settings →
+seeds, drafts and published work, with client-side search and navigation
+between alternate manuscript treatments — and deploys it to GitHub Pages on
+every push to `main`. Enable it once in *Settings →
 Pages → Source: GitHub Actions*. The site is a disposable view, exactly like
 `generated/`: it is never committed, and everything on it renders from the
 canonical Markdown. Note that it renders everything public in the repo,

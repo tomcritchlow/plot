@@ -111,19 +111,57 @@ function draftPackageRecords(record, records) {
     });
 }
 
-function draftPackageNav(record, records) {
+function draftProject(record, records) {
   const match = /^drafts\/([^/]+)\//.exec(record.file);
-  if (!match) return "";
+  if (!match) return null;
+
   const slug = match[1];
-  const links = draftPackageRecords(record, records).map((candidate) => {
-    const label = draftFileLabel(candidate.file, slug);
-    if (candidate.file === record.file) return `<span aria-current="page">${esc(label)}</span>`;
+  const dir = `drafts/${slug}`;
+  const packageRecords = draftPackageRecords(record, records);
+  const readme = packageRecords.find((candidate) => candidate.file === `${dir}/README.md`);
+  const declared = Array.isArray(readme?.data.manuscripts) ? readme.data.manuscripts : ["draft.md"];
+  const manuscripts = declared
+    .filter((name) => typeof name === "string")
+    .map((name) => packageRecords.find((candidate) => candidate.file === `${dir}/${name}`))
+    .filter(Boolean);
+  const manuscriptFiles = new Set(manuscripts.map((candidate) => candidate.file));
+  const materials = packageRecords.filter((candidate) => !manuscriptFiles.has(candidate.file));
+
+  return { slug, dir, readme, manuscripts, materials };
+}
+
+function draftPackageNav(record, records) {
+  const project = draftProject(record, records);
+  if (!project) return "";
+
+  const link = (candidate, label, className) => {
+    const classes = className ? ` class="${className}"` : "";
+    if (candidate.file === record.file) {
+      return `<span${classes} aria-current="page">${esc(label)}</span>`;
+    }
     const href = posix
       .relative(posix.dirname(record.file), candidate.file)
       .replace(/\.md$/, ".html");
-    return `<a href="${esc(href)}">${esc(label)}</a>`;
-  });
-  return `<nav class="draft-package" aria-label="Draft files"><strong>Draft package</strong>${links.join("")}</nav>`;
+    return `<a${classes} href="${esc(href)}">${esc(label)}</a>`;
+  };
+
+  const projectTitle = project.readme ? docTitle(project.readme) : project.slug.replace(/-/g, " ");
+  const projectLabel = project.readme
+    ? link(project.readme, projectTitle, "draft-project-title")
+    : `<span class="draft-project-title">${esc(projectTitle)}</span>`;
+  const treatments = project.manuscripts
+    .map((candidate) => link(candidate, docTitle(candidate), "draft-treatment"))
+    .join("");
+  const materials = project.materials
+    .map((candidate) => link(candidate, draftFileLabel(candidate.file, project.slug), "draft-file"))
+    .join("");
+  const treatmentLabel = project.manuscripts.length === 1 ? "Manuscript" : "Treatments";
+
+  return `<nav class="draft-package" aria-label="Draft project">
+    <div class="draft-package-head"><strong>Draft package</strong>${projectLabel}</div>
+    ${treatments ? `<div class="draft-package-row"><span class="draft-package-label">${treatmentLabel}</span>${treatments}</div>` : ""}
+    ${materials ? `<div class="draft-package-row"><span class="draft-package-label">Working files</span>${materials}</div>` : ""}
+  </nav>`;
 }
 
 const md = new Marked({ gfm: true });
@@ -250,14 +288,24 @@ code { font-family: ui-monospace, Menlo, monospace; font-size: 0.9em; }
 .meta a { color: var(--muted); }
 .rawlink { margin-left: auto; }
 .draft-package {
-  display: flex; flex-wrap: wrap; gap: 0.45rem 0.8rem; align-items: baseline;
-  margin: -0.4rem 0 1.8rem; padding: 0.65rem 0.8rem;
-  border: 1px solid var(--line); border-radius: 6px; background: var(--card);
+  margin: -0.4rem 0 1.8rem; padding: 0.75rem 0.85rem;
+  border: 1px solid var(--line); border-radius: 8px; background: var(--card);
   font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 0.78rem;
 }
-.draft-package strong { color: var(--muted); margin-right: 0.2rem; }
+.draft-package-head, .draft-package-row { display: flex; flex-wrap: wrap; gap: 0.45rem 0.75rem; align-items: baseline; }
+.draft-package-head { justify-content: space-between; }
+.draft-package-row { margin-top: 0.55rem; }
+.draft-package strong, .draft-package-label { color: var(--muted); }
+.draft-package-label { min-width: 5.6rem; font-size: 0.7rem; letter-spacing: 0.035em; text-transform: uppercase; }
+.draft-project-title { color: var(--muted); }
 .draft-package a { text-decoration: none; }
 .draft-package [aria-current="page"] { color: var(--ink); font-weight: 650; }
+.draft-treatment {
+  padding: 0.18rem 0.55rem; border: 1px solid var(--line); border-radius: 99px; line-height: 1.4;
+}
+.draft-treatment[aria-current="page"] { background: var(--bg); }
+.draft-file { font-size: 0.75rem; }
+.draft-file-label { color: var(--muted); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.03em; }
 .badge {
   display: inline-block; padding: 0.05rem 0.5rem; border-radius: 99px; font-size: 0.72rem;
   font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
@@ -424,20 +472,29 @@ export function buildSite(root, writerName = "A writer") {
     .sort((a, b) => byString(shortDate(b.data.updated_at) ?? "", shortDate(a.data.updated_at) ?? ""))
     .map((r) => {
       const slug = r.file.split("/")[1];
-      const packageRecords = draftPackageRecords(r, records);
-      const manuscript = packageRecords.find((d) => d.file === `drafts/${slug}/draft.md`);
-      const files = packageRecords
+      const project = draftProject(r, records);
+      const manuscripts = project?.manuscripts ?? [];
+      const materials = project?.materials ?? [];
+      const treatments = manuscripts
+        .map((d) => {
+          return `<a href="${d.file.replace(/\.md$/, ".html").slice("drafts/".length)}">${esc(docTitle(d))}</a>`;
+        })
+        .join(" · ");
+      const files = materials
         .map((d) => {
           const name = draftFileLabel(d.file, slug);
           return `<a href="${d.file.replace(/\.md$/, ".html").slice("drafts/".length)}">${esc(name)}</a>`;
         })
         .join(" · ");
+      const treatmentLabel = manuscripts.length === 1 ? "Manuscript" : "Treatments";
+      const landing = manuscripts.length > 1 ? r : manuscripts[0] ?? r;
       return `<li>
         <span class="badge badge-draft">${esc(r.data.status ?? "draft")}</span>
-        <a href="${manuscript ? `${slug}/draft.html` : `${slug}/README.html`}">${esc(r.data.title ?? slug)}</a>
+        <a href="${landing.file.replace(/\.md$/, ".html").slice("drafts/".length)}">${esc(r.data.title ?? slug)}</a>
         ${r.data.updated_at ? `<span class="date">updated ${esc(shortDate(r.data.updated_at))}</span>` : ""}
         <p class="snippet">${esc(snippet(r.body, 180))}</p>
-        <p class="snippet">${files}</p>
+        ${treatments ? `<p class="snippet"><span class="draft-file-label">${treatmentLabel}</span> ${treatments}</p>` : ""}
+        ${files ? `<p class="snippet"><span class="draft-file-label">Working files</span> ${files}</p>` : ""}
       </li>`;
     });
   write(

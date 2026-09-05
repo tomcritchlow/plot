@@ -12,6 +12,14 @@
   - The opening hinge. Hammer argued that companies should use information technology to question inherited processes rather than merely accelerate them.
   - The new draft adds a moving-target problem: the reengineered process can itself decay before the investment pays back.
 
+## Organizations as answers to information costs
+
+- [Luis Garicano, “Hierarchies and the Organization of Knowledge in Production”](https://doi.org/10.1086/317671) (Journal of Political Economy, 2000)
+  - Models hierarchy as a way to allocate problems between workers with common knowledge and specialists who handle exceptions.
+
+- [Enrique Ide and Eduard Talamàs, “Artificial Intelligence in the Knowledge Economy”](https://doi.org/10.1086/737233) (Journal of Political Economy, 2025)
+  - Extends the knowledge-hierarchy model to AI and shows that different levels and modes of AI autonomy imply different organizational shapes.
+
 ## Task bundles, complementarity and automation
 
 - [Michael Kremer, “The O-Ring Theory of Economic Development”](https://academic.oup.com/qje/article-abstract/108/3/551/1881767) (Quarterly Journal of Economics, 1993)
@@ -37,6 +45,20 @@
 - [Lisanne Bainbridge, “Ironies of Automation”](https://doi.org/10.1016/0005-1098(83)90046-8) (Automatica, 1983)
   - Shows how automating normal operation can leave people with monitoring and abnormal-condition takeover tasks that demand more skill while providing less practice and situational context.
   - Grounds the warning that “human in the loop” can become the most fragile O-ring rather than a complete control design.
+
+- [Enrique Ide, “Automation, AI, and the Intergenerational Transmission of Knowledge”](https://arxiv.org/abs/2507.16078) (working paper, first circulated 2025; revised 2026)
+  - Models the risk that automating entry-level tasks can interrupt the acquisition of tacit knowledge.
+
+## Technological ferment and complementary redesign
+
+- [Philip Anderson and Michael L. Tushman, “Technological Discontinuities and Dominant Designs”](https://www.jstor.org/stable/2393511) (Administrative Science Quarterly, 1990)
+  - Supplies the distinction between an era of ferment, when competing designs proliferate, and an era of incremental change after a dominant design emerges.
+
+- [Paul A. David, “The Dynamo and the Computer”](https://www.jstor.org/stable/2006600) (American Economic Review, 1990)
+  - Uses electrification to show why general-purpose technologies can take decades to produce broad productivity gains: complementary systems and organizations must change too.
+
+- [Erik Brynjolfsson, Daniel Rock and Chad Syverson, “The Productivity J-Curve”](https://www.nber.org/papers/w25148) (NBER working paper, 2018; later published in American Economic Journal: Macroeconomics)
+  - Frames new processes, skills and organizational forms as intangible investments required to realize the value of a general-purpose technology.
 
 ## Change boundaries and adaptive architecture
 
@@ -98,3 +120,5 @@
   - The new draft builds on that bottleneck claim by asking where the bottleneck migrates and whether the residual task becomes an O-ring.
 - [Model-Entry Bookkeeping](../company-world-model/)
   - Adjacent draft about building systems around business events and state rather than document residue or transient workflows.
+- [Empowered teams capture](../../captures/2026/08/2026-08-17-141422-empowered-teams.md)
+  - Adjacent formulation about teams absorbing cross-functional handoffs and automated harnesses handling remaining approvals.
