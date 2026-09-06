@@ -1,5 +1,7 @@
 # Plot
 
+[Editorial review — 5 September 2026](EDITORIAL-REVIEW.md): draft-by-draft changes, next moves and proposed repository improvements.
+
 **Your writing shouldn't belong to an app.**
 
 Plot is a GitHub repository template for your ideas, sources, drafts and

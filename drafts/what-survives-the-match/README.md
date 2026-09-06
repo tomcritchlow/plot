@@ -24,3 +24,7 @@ Subtitle direction: `Brands and marketplaces after the browser`
 - `draft.md`: current manuscript.
 - `notes.md`: thesis, frameworks, tensions and revision directions.
 - `sources.md`: internal Plot provenance and external evidence trail.
+
+## Editorial handoff — 2026-09-05
+
+Run a small set of representative journeys and record eligibility, reasons for rejection and completion. Treat the resulting observations as a small test, not market share. Name which parts of the choice remain unobservable to the merchant. See the [editorial checkpoint](notes.md) for what changed and which argument this piece owns.

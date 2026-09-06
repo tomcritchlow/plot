@@ -1,11 +1,5 @@
 # Discussion Import
 
-Imported from Codex thread: `codex://threads/019eb241-186c-73a1-85bb-3a9a52329f2a`
-
-Original title: `Write agentic commerce riff`
-
-Original cwd: `/Users/tomcritchlow/Documents/Codex/2026-06-10/write-riff-users-tomcritchlow-codex-skills`
-
 ## 1. Initial Prompt
 
 Tom wanted to write a riff on preferences and agentic commerce, using the `write-riff` skill.
@@ -13,8 +7,6 @@ Tom wanted to write a riff on preferences and agentic commerce, using the `write
 Inputs:
 
 - https://x.com/tomcritchlow/status/1982272958438514987
-- https://chatgpt.com/share/68fed5f1-da60-8004-957f-ca995ca2d72b
-- https://chatgpt.com/share/68fed4af-0f8c-8004-981e-003805be4f58
 
 Initial angle:
 

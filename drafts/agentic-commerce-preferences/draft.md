@@ -1,14 +1,14 @@
 # Models Of Desire
 
-The old world problem was illegibility.
+An obscure out-of-print book can be cheap because nobody wants it, or cheap because the one person who wants it cannot find it. The price alone cannot tell you which.
 
 Markets could see transactions. They could see clicks, carts, search queries, loyalty cards, page views, returns. They could see the things that made it all the way through the interface and became behavior.
 
 But they could not see the vague intention. The almost-purchase. The unresolved tradeoff. The book you would buy if only you knew its title. The hotel you would book if someone could collapse the tabs. The subscription you would cancel if the counterparty had not made cancellation feel like a small administrative war.
 
-Most consumer preference never becomes demand. It stays illegible.
+Some consumer preference never becomes an observable request. It stays illegible.
 
-This is why the second-hand books example is so useful. Before the internet, an obscure out-of-print book might sit unnoticed in one town while the perfect buyer searched hopelessly in another. Once Amazon, AbeBooks, and Google made the book findable, the match could happen. But in Glenn and Sara Fisher Ellison's work on the [internet market for used books](https://www.nber.org/papers/w24197), better search does not simply make everything cheaper. It helps unusual objects find high-value buyers. More matches happen. Consumer surplus can rise. And prices can become more dispersed.
+In Glenn Ellison and Sara Fisher Ellison's work on the [internet market for used books](https://www.nber.org/papers/w24197), digitization helps unusual books find buyers who value them. Online prices can be higher and more dispersed than offline prices, even as better matching creates gains for buyers and sellers. This is a result about differentiated goods, not a rule that better search always raises prices.
 
 That is the counterintuitive hinge: better search can make markets more efficient and more expensive at the same time.
 
@@ -30,9 +30,9 @@ A preference is not one thing. It is a stack.
 
 At the surface are attributes: red, hardback, under $40, nearby, available tomorrow. Beneath that are consequences: saves me a trip, feels special, avoids Amazon, will not fall apart after two uses. Beneath that are values: independence, care, thrift, taste, environmental concern, loyalty to a certain kind of commerce.
 
-Marketing researchers have had a version of this for a while. Jonathan Gutman's [means-end chain model](https://journals.sagepub.com/doi/abs/10.1177/002224298204600207) links product attributes to consequences and then to personal values. Robert Woodruff's [customer value hierarchy](https://www.scirp.org/reference/referencespapers?referenceid=2571649) makes a similar move: customers evaluate attributes and consequences based on whether they help achieve higher-level goals and purposes.
+Marketing researchers have had a version of this for a while. Jonathan Gutman's [means-end chain model](https://journals.sagepub.com/doi/abs/10.1177/002224298204600207) links product attributes to consequences and then to personal values. Robert Woodruff's [customer value hierarchy](https://link.springer.com/article/10.1007/BF02894350) makes a similar move: customers evaluate attributes and consequences based on whether they help achieve higher-level goals and purposes.
 
-This is exactly the shape an agent has to learn.
+This gives an agent a useful question to ask: what is the attribute doing for the person?
 
 When I say "red," do I mean literal red? Or do I mean visible on stage, matches the old one, easy for my kid to spot, feels like a gift? When I say "independent store," do I mean a moral value, a trust heuristic, a neighborhood preference, an aesthetic preference, or a willingness to pay more to avoid Amazon?
 
@@ -98,7 +98,9 @@ So agentic commerce may not flatten markets. It may make them more jagged.
 
 More long-tail abundance. More perfect matches. More welfare in some places. More price discrimination in others. Not one market-clearing price, but many little markets organized around increasingly legible desire.
 
-The provocation is this: agentic commerce does not just give consumers better agents. It gives markets better-described consumers.
+Higher prices for a better-matched audience do not require the seller to see my individual budget. Personalized pricing adds another question: what can the seller learn about me? A consumer-controlled agent could compare offers privately, conceal the budget ceiling and bargain across suppliers. A seller-controlled agent has different incentives. Better matching and personalized pricing are related possibilities, not the same mechanism.
+
+The provocation is conditional: agentic commerce gives markets better-described consumers when the system that learns our preferences also exposes them.
 
 ## Agents Or Rights?
 
@@ -112,9 +114,9 @@ But if agents become the way preferences are modeled and entered into markets, t
 
 Can it be portable? Can it be selectively disclosed? Can it hide my willingness to pay? Can it preserve ambiguity as a bargaining strategy? Can it refuse to resolve certain choices? Can sellers refuse consumer agents? Can platforms force their own agents into the loop?
 
-The grocery demos are boring because groceries are too simple.
+Even the grocery demo contains this conflict. My agent may need to know which substitutions my family will accept. The seller does not need to know how much extra I would pay to avoid an argument at dinner.
 
-The real terrain is adversarial preference construction.
+An agent can know more about me while telling the market less.
 
 ## What Opens Up
 
@@ -122,7 +124,7 @@ Maybe the next consumer product is not a shopping agent but a preference wallet:
 
 Maybe brands compete not just for attention, but for inclusion in the agent's constructed choice set.
 
-Maybe the new SEO is not "be found by Google," but "be admitted into the buyer's model of desire."
+That creates a different commercial contest: which product earns a place in the buyer's preferences, and which seller merely buys access to the moment of choice?
 
 Maybe agents monetize deferral: all the almost-bought, should-have-switched, meant-to-book, too-hard-to-decide moments that never became transactions.
 
@@ -132,6 +134,6 @@ The old web revealed preferences by watching behavior.
 
 The agentic web may construct preferences by resolving conflict.
 
-The first made us trackable. The second might make us negotiable.
+The useful question is what crosses the boundary.
 
-Or simply more perfectly priced.
+Does my agent tell the seller what would satisfy me—or what I could be persuaded to pay?

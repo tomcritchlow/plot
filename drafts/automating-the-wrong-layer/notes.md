@@ -1,5 +1,18 @@
 # Notes
 
+## Editorial checkpoint — 2026-09-05
+
+**Argument:** Every inherited boundary must justify its cost under the new conditions.
+
+**This pass:** Preserved the original draft.md as requested. Edited Every Handoff Is a Claim: process mapping is useful; mistaking it for a specification is the failure. Ford retained controls, software changed boundaries before AI, and independent checks can deserve to remain. Replaced the readiness equation with a qualitative matrix. Removed unvalidated summed thresholds from the companion audit and its chatbot prompt.
+
+**Boundary / decision to preserve:** Keep the two named treatments as alternatives. Do not overwrite the protected original or present this pass as choosing a winner. The analytical treatment owns payback and bottleneck migration; the handoff treatment owns organizational separation.
+
+**Next useful move:** Run the companion audit on a generic or already-cleared example. Record the decision it changes and where its categories overlap. Do not reintroduce numerical funding cutoffs without validation.
+
+The earlier notes below remain a record of development; where they conflict with this checkpoint, use this checkpoint for the current editorial direction.
+
+
 ## Working thesis
 
 Michael Hammer's 1990 instruction—do not automate inherited processes, obliterate them—assumed the redesigned process would be stable enough to justify rebuilding around it.
@@ -116,6 +129,6 @@ The originating example came from a private internal discussion about a real tra
 - Process information when it is generated; preserve evidence, not documentary exhaust.
 - AI makes specialist capabilities callable, so jobs can compress around outcomes.
 - In an era of ferment, the winning architecture is not a fixed future-state workflow. It is a cheaper ability to rebundle again.
-- Future readiness = boundary collapse × recomposability.
+- Compare unnecessary boundary removal with recomposability as qualitative axes; do not multiply them into a readiness score.
 
 The distinction is useful. *How Durable Is the Target?* focuses on task bundles, O-rings and whether a transformation target survives until payback. *Every Handoff Is a Claim* focuses on organizational boundaries as inherited claims and gives the reader three tests: the zero-legacy counterfactual, the capability-jump counterfactual and the preservation test.

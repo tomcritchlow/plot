@@ -1,5 +1,18 @@
 # On the Same Growth Wavelength
 
+## Editorial checkpoint — 2026-09-05
+
+**Argument:** An annual report proposes an operating model to people who can reinforce or resist it.
+
+**This pass:** Qualified the Apollo/ARPANET contrast, separated management’s self-description from evidence of its effects, and made the echo problem concrete through employee share ownership and incentives. The final question asks what happens to an unwelcome reply.
+
+**Boundary / decision to preserve:** Keep Lowe’s and the reply card central. This is the narrative/contestation essay, not another recommendation to build an event store.
+
+**Next useful move:** Check every retained report detail against page references and choose whether the packet-switching section earns its length. Highest-value missing evidence: an actual response or decision changed by feedback. Do not invent one.
+
+The earlier notes below remain a record of development; where they conflict with this checkpoint, use this checkpoint for the current editorial direction.
+
+
 Working subtitle: *Annual reports and the stories companies and markets tell each other*
 
 ## Working thesis

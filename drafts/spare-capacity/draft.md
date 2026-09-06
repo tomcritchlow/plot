@@ -34,17 +34,15 @@ This is the poker question again. Is the point to maximize the number of active 
 
 ## Of Tokens and Tilt
 
-The poker research gives this a useful texture because it does not let me say the easy thing. Multi-tabling is not simply bad. In fact, [Barrault and Varescon](https://www.researchgate.net/publication/299531060_Online_and_live_regular_poker_players_Do_they_differ_in_impulsive_sensation_seeking_and_gambling_practice) found multi-tabling as a normal practice variable among online players, and not only among pathological gamblers. Ingo Fiedler's account-level study of [online poker habits](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1908161) also suggests that heavy multi-tabling is not the median experience. It is a high-volume operating style.
+There is a limit to the analogy. Poker tables share rules, stakes and a familiar decision grammar. Three agent workstreams might ask me to judge a database migration, a research claim and a design at almost the same moment. Each requires a different kind of checking. Opening another table can mean opening another world.
 
-Which is exactly why it is interesting for AI work.
-
-The poker lesson is not "never open more tables." It is that more tables only help while the decisions remain within the range where your judgment still has edge. [Potter van Loon, van den Assem, and van Dolder](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0115479) show why volume is so tempting in poker: skill becomes visible over enough hands. If you have an edge, more hands let you realize it. But that leaves out the management question: what does the volume do to the edge?
+More parallelism helps while the marginal work is worth the attention required to judge it. The difficult part is noticing when that stops being true.
 
 Poker has a word for the moment the decision system starts to break: tilt. Moreau and colleagues created an [Online Poker Tilt Scale](https://ideas.repec.org/a/taf/intgms/v17y2017i2p205-218.html), treating tilt as a deviation from a player's usual strategy at the emotional, behavioral, and cognitive level. Tilt is not just anger. It is a failure to keep playing your game. You start making decisions that look like poker decisions but no longer come from the same quality of attention.
 
 That distinction feels important. The bad version of AI multi-tabling may not feel like collapse. It may feel like competence. You are still prompting, reviewing, accepting, rejecting, patching. The tokens keep moving. But maybe you are no longer playing your game. Maybe you are in a kind of token tilt: spawning another agent when the real move was to stop; accepting a plausible diff because the queue is long; letting velocity stand in for judgment.
 
-The sleep-deprivation research makes this less metaphorical. Hamel and colleagues tracked regular online poker players for 28 days and found that sleep-deprived sessions had more emotional and behavioral tilt, more hands played, and worse financial results. Tired players did not merely perform worse; they played more. That is the loop. Impaired regulation increases volume, and volume creates more places for impaired regulation to express itself.
+A [28-day observational study by Hamel and colleagues](https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2020.600092/full) found that sleep-deprived poker sessions were associated with more emotional and behavioral tilt, more hands played and worse financial results. That does not establish the same effect in AI work, or prove which part of the loop causes which. It supplies an uncomfortable possibility: the state in which judgment worsens may also be a state in which we increase volume.
 
 This is the part I keep circling back to with LLMs. The danger is not only that I will do less good work when tired or overloaded. It is that the system will invite me to do more work in exactly the state where my judgment is getting thinner.
 
@@ -64,7 +62,7 @@ Maybe it is reserve attention capacity.
 
 Reserve attention capacity is the hour you did not allocate. The walk you did not convert into a podcast and three background agents. The morning where you are not already carrying six half-finished threads in your head. The little pool of uncommitted awareness that lets you notice the client email that is actually the work, or the weird data point that changes the deck, or the small strategic opening that would be invisible if you were busy proving you were busy.
 
-It is also, maybe, the discipline of keeping your own context window sparse. Not empty. Empty is not the goal. But coherent enough that the right things can stay salient. The residue of an unfinished agent thread is not so different from the stale context that makes an LLM drift. Too much still technically fits, but the signal gets harder to find.
+The context-window analogy is useful as a feeling, not as a claim that brains and models fail in the same way. I can have enough time to read every output and still lack the attention to understand what each one implies.
 
 This is where AI gets tricky. The tools make it easier to do more, and sometimes more is exactly right. I like having agents as scouts. I like making the computer absorb the annoying first pass. I like the feeling of expanding the search radius of my own attention. In poker terms, there are absolutely moments where the correct move is to open another table because the decisions are familiar and the feedback loops are tight.
 
@@ -82,16 +80,14 @@ LLMs intensify the danger here because they are so good at implementation-shaped
 
 Of course there is a version of this that becomes precious. "I am preserving strategic capacity" can become a very grand way of saying "I am avoiding the work." There are seasons where the right move is to grind. Sean says this too: sometimes the rewards are high and you work at full intensity. Financial flexibility is not a moral virtue in itself either. Hoarding capital can be cowardice. Slack can become drift.
 
+There is a practical question to ask before opening another thread: when it comes back, what decision will I need to make, and have I left room to make it? If the work can be checked cheaply or safely wait, parallelism has bought me freedom. If it requires another urgent judgment, I have borrowed against the afternoon.
+
 So the question is not "should I run agents or go for a walk?"
 
 The better question is: what kind of opportunity am I trying to preserve capacity for?
 
 If the opportunity is known, scoped, and mostly parallelizable, run the agents. Send scouts. Generate options. Let the machine make the cheap mistakes. Multi-table. If the opportunity is still forming, if the real work is noticing, judging, connecting, or waiting for the transient opening, then maybe the walk is not downtime. Maybe it is the balance sheet.
 
-I think this is the frame I want for AI productivity now: not maximum utilization, but strategic flexibility.
+The hardest thing about leaving a table unopened is that the missed hands are visible. The value of being free is harder to count.
 
-What do I want to keep unallocated?
-
-What future opportunity would I miss if I filled this hour?
-
-And when I come back from the walk, what am I now able to see that I would have missed with eight tables open?
+When I come back from the walk, I want to have more than another batch of outputs. I want to be able to see which game is worth playing.

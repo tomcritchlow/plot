@@ -164,13 +164,7 @@ We keep seeing these patterns at Alephic - the agentic layer only becomes useful
 
 ![a screenshot of alephic intelligence](https://images.alephic.com/alephic-com/alephic-intelligence-screenshot.png)
 
-**Amazon StarSearch** is a project [Alephic worked on with Amazon](https://www.alephic.com/customers/amazon-creative-ai-initiatives) to import all Amazon reviews into a context layer. Once you have the context layer, it enables new kinds of marketing activity - like having [Adam Driver read aloud a dutch oven review](https://adage.com/video/amazon-5-star-theater-w-adam-driver-dutch-oven/).
-
-This is new kinds of marketing enabled by new technology, not automation of workflows.
-
-![A screenshot of adam driver in amazon marketing campaign](https://images.alephic.com/alephic-com/adam-driver-3-body-problem.png)
-
-**Marketing Orchestration** we’re working on a project with a Fortune50 brand to enable them to build a context-layer for their marketing team. A source of truth for all of the projects, status, actions, assets across hundreds of marketing team members and thousands of fast moving projects. We’re building the agentic layer on top of that to automatically move work around but you can’t do that until the context layer is built.
+**Marketing orchestration** also benefits from a maintained context layer: a shared view of projects, status, actions and assets that agents can use to coordinate work.
 
 **These examples all point to something practical for marketing leaders to invest in despite the uncertainty: build a context layer for your organization that is maintained, accessible to agents and leaves pheromone trails so agents (and humans) can operate on standard status time.**
 
@@ -182,7 +176,7 @@ If everyone can make more work, the company needs better traces. Better status. 
 
 Otherwise the organization becomes a factory for its own confusion.
 
-Of course, the interesting thing is not just ingesting the same context as everyone else (meeting transcripts, slack messages etc) but in ingesting the context specific to your business. For Amazon that’s StarSearch, the context layer of customer reviews. For another organization it might be a context layer of all the thought leadership produced globally by your organization and your competitors. For a biotech company it might be a context layer of all academic research, which lab produced it and who funded it.
+Of course, the interesting thing is not just ingesting the same context as everyone else (meeting transcripts, slack messages etc) but in ingesting the context specific to your business. For a retailer, that might be a context layer of customer reviews. For another organization it might be a context layer of all the thought leadership produced globally by your organization and your competitors. For a biotech company it might be a context layer of all academic research, which lab produced it and who funded it.
 
 AI of course makes this possible and easier than ever.
 

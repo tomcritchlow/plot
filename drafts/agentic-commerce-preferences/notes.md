@@ -1,5 +1,18 @@
 # Notes
 
+## Editorial checkpoint — 2026-09-05
+
+**Argument:** Consumer agents can construct useful preferences while changing who has bargaining power.
+
+**This pass:** Opened with the used book, narrowed the pricing claim, replaced the Woodruff citation with the publisher page, and separated better matching from disclosure of willingness to pay. The ending now asks what the agent reveals to the seller.
+
+**Boundary / decision to preserve:** Keep this about consumer-side preference construction and disclosure. What Survives the Match owns the brand-investment and marketplace response.
+
+**Next useful move:** Choose one hotel or shopping interaction in which the agent asks a question that changes the preference. Record what it learns versus what it sends onward. The added grocery example is illustrative, not a claimed observed transaction.
+
+The earlier notes below remain a record of development; where they conflict with this checkpoint, use this checkpoint for the current editorial direction.
+
+
 ## Working Thesis
 
 Agentic commerce is not just better shopping automation. It is a new preference infrastructure.

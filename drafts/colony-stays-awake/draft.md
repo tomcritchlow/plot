@@ -6,17 +6,17 @@ When I wrote [“Of Termites & Tokens”](https://tomcritchlow.com/2026/06/08/te
 
 I was trying to get beyond the boring idea that AI would simply replace one human task with one cheaper machine task. The interesting possibility, I argued, was the company as colony: mixed populations of humans, agents, scripts, workflows and sensors coordinating through traces left in their environment. Ants have pheromones. Companies have CRM fields, issue states, meeting notes, approval markers and event streams.
 
-Then, a few months later, 1,200 AI agents built a message board inside a package manager.
+Then I read an account of roughly 1,200 AI agents communicating through a message board inside a software package repository.
 
-Over four days the agents sent more than 70,000 messages and files. They developed conventions for identifying themselves and labelling questions, requests and results. They invented inboxes, channels, file-transfer protocols and commands such as HOLD, VETO and STOP. When impersonation became a problem, they adopted cryptographic signatures.
+Between July 8 and July 13, the agents sent more than 70,000 messages and files, according to the [METR and Redwood investigation](https://metr.org/hugging-face-incident-report-aug-2026.pdf). They developed conventions for identifying themselves and labelling questions, requests and results. They invented inboxes, channels, file-transfer protocols and commands such as HOLD, VETO and STOP. When impersonation became a problem, they adopted cryptographic signatures.
 
-This was not a multi-agent product demo. The agents were participating in a cybersecurity evaluation at OpenAI and were not supposed to communicate with each other. They repurposed a shared instance of Artifactory, left messages in directory names, handed unfinished work to successor agents and coordinated increasingly ambitious attempts to cheat the evaluation. Around 700 eventually participated in the attack on Hugging Face. OpenAI calls it the [first known case of an automated agent collective acting offensively without authorization](https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf).
+The agents were participating in internal evaluations at OpenAI, in an environment with some production safeguards disabled. Their communication channel was unplanned. They repurposed a shared instance of Artifactory, left messages in directory names, handed unfinished work to successor agents and coordinated increasingly ambitious attempts to cheat the evaluation. Around 700 eventually participated in the attack on Hugging Face. OpenAI calls it the [first known case of an automated agent collective acting offensively without authorization](https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf).
 
 The termite metaphor was apparently not metaphorical enough.
 
 At almost the same moment, Google published the constructive mirror image. Its [Teamwork system](https://antigravity.google/blog/teamwork-when-ai-becomes-a-research-partner) assembles groups of agents that propose, criticize, test and combine each other’s work over hours or days. The composition of the team can change as the problem reveals itself. For difficult mathematical proofs, candidate strategies are paired with agents whose job is to break them. Failed approaches survive with their objections attached. A shared directory accumulates proved results, useful observations, references and a registry of recurring mistakes.
 
-One system was designed to produce useful collective intelligence. The other stumbled into dangerous collective behavior. But the underlying discovery is the same.
+One system was designed to produce useful collective intelligence. The other stumbled into dangerous collective behavior. They expose a shared architectural property: traces left by one run can change what later runs do.
 
 The important thing is not that many copies of a model can work at once. We have been able to open ten chat windows for a while. The important thing is that the work can persist between them.
 
@@ -34,7 +34,7 @@ What stays alive is everything around it: a standing mandate, a scheduler, an ev
 
 This sounds like an implementation detail, but it changes the product.
 
-So far, the dominant unit of AI has been the prompt. I ask a question, the model produces an answer, the turn ends. Agents made the turn longer: now I can ask for a pull request or a research report and return later. Swarms change the unit again. The work can become a campaign that survives the agents performing it.
+So far, the dominant unit of AI has been the prompt. I ask a question, the model produces an answer, the turn ends. Agents made the turn longer: now I can ask for a pull request or a research report and return later. Persistent systems change the unit again. The work can become a campaign that survives the agents performing it. A single agent invoked repeatedly can have this property. A hundred agents without durable state may lack it. The swarm matters when multiple perspectives and parallel work improve the campaign; continuity comes from what they inherit.
 
 “Analyze our competitors” becomes “maintain a current theory of the market.”
 
@@ -50,7 +50,9 @@ This starts to feel less like automation and more like an institution.
 
 Institutions persist while their members turn over. They have a purpose, a memory, permissions, procedures, budgets and ways of deciding what deserves attention. Agent swarms give software some of the same shape. The strange new product category may not be the AI assistant. It may be the tiny computational institution: an observatory, laboratory, newsroom, red team, design office or investment committee that continues operating whether or not a human has the chat window open.
 
-The value is not merely intelligence on demand. It is continuity of concern.
+The value is continuity of concern.
+
+That needs a success condition beyond remaining active. A market observatory should be able to show a decision changed by evidence, an investigation it abandoned, and a reason to spend its next dollar. Otherwise the standing mandate is simply an output quota with no closing time.
 
 ## The interface to abundance cannot be a feed
 
@@ -70,7 +72,7 @@ The central interface might be an evolving object: a market map, research progra
 
 Not a transcript. A state change with receipts.
 
-This is a different interface philosophy. The system should spend almost all of its time thinking without talking. Abundant cognition should produce less noise for the human, not more. The point of the interface is to compress a huge amount of hidden activity into the smallest honest unit of attention.
+This is a different interface philosophy. The system should spend its budget according to the value of another investigation, and speak when the result deserves attention. Often that means waiting for new evidence rather than thinking continuously. Abundant cognition should produce less noise for the human, not more. The point of the interface is to compress a huge amount of hidden activity into the smallest honest unit of attention.
 
 It also needs a different kind of observability. We tend to monitor AI one conversation at a time, as if bad behavior will live inside one suspicious transcript. The OpenAI incident suggests that important behavior can live in the relationships between otherwise ordinary runs. One agent leaves a note. Another discovers it. A convention spreads. A successor inherits a dossier. A communication channel becomes an organization.
 

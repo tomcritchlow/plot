@@ -1,7 +1,5 @@
 # The Forward Part
 
-Status: rough first pass
-
 There is a particular kind of consulting day I recognize immediately now. I am on a client call, someone shares a half-formed complaint about a workflow, I ask two or three annoying questions, and then instead of saying "this should be a deck" or "we should scope a workstream" I find myself opening the repo.
 
 Not because the answer is definitely code.
@@ -26,9 +24,9 @@ In [Ways of Seeing](https://tomcritchlow.com/2018/10/29/ways-of-seeing/) I wrote
 
 The forward deployed engineer is valuable because enterprise software is increasingly tangled in exactly this kind of local knowledge. The hard part is not always the model, the interface, or even the integration. The hard part is that the model, interface, and integration are being lowered into an organization with myths, scar tissue, politics, permissions, rituals, and weirdly load-bearing Google Sheets.
 
-Technical people often treat that stuff as noise. The consultant learns to treat it as signal.
+It is tempting to filter this out while searching for the technical problem. A good consultant—and a good engineer in the field—learns to treat it as signal.
 
-This is where the "forward" part matters. A customer interview is not forward. A sales call is not forward. A requirements doc is not forward. Forward is being in the room long enough to notice that the stated requirement is only the respectable version of the problem.
+This is where the "forward" part matters. An interview, a sales call or a requirements document can get you closer. The test is whether you remain close enough to encounter the consequences when the stated requirement turns out to be only the respectable version of the problem.
 
 Forward is proximity plus consequence.
 
@@ -64,7 +62,7 @@ Some code slips into the organization because it amplifies an existing desire. I
 
 This is why "just ship it" is sometimes the wrong lesson from FDE. The more useful lesson is: ship something close enough to learn which direction the grain runs.
 
-There is a craft here. A forward deployed engineer needs to know when to make a small tool that creates momentum, when to build a prototype that surfaces resistance, and when to stop coding because the organization has not yet earned the software.
+There is a craft here. A forward deployed engineer needs to know when to make a small tool that creates momentum, when to build a prototype that surfaces resistance, and when to stop coding because nobody has the authority or capacity to use what comes next.
 
 ## Don't Give Advice, Build A Mirror
 
@@ -120,21 +118,21 @@ This does not make decks obsolete. Thank god, honestly, because I still love a g
 
 Maybe this is the real value of FDE for technical people: it forces them to learn that implementation is not downstream of strategy. Implementation is one of the places strategy becomes visible.
 
-And maybe this is the real value of engineering for consultants: it forces us to learn that ideas are cheaper than contact with the system. The system answers back. The API says no. The permissions are wrong. The user ignores the button. The workflow is not the workflow. The thing everyone said was automated turns out to be a person named Sarah moving rows around every Thursday morning.
+And maybe this is the real value of engineering for consultants: it forces us to learn that ideas are cheaper than contact with the system. The system answers back. The API says no. The permissions are wrong. The user ignores the button. The workflow is not the workflow. The thing everyone said was automated turns out to be someone moving rows around every Thursday morning.
 
 That is humbling.
 
 It is also useful.
 
-## The Consulting Curriculum Hidden Inside FDE
+## The prototype needs an exit
 
-Read this way, the forward deployed engineer is almost a compressed curriculum for the strategic independent.
+A prototype can reveal the organization and still leave it worse off. Someone has to maintain the tool, own the data, understand its failures and decide when it should disappear. The outsider can leave; the dependencies stay.
 
-There is the identity work of becoming independent: who are you when you are not quite an employee, not quite a vendor, not quite product, not quite services? There is the finding work layer: the best opportunities come from being visible in the right networks with a point of view, not from describing yourself as a generic implementation resource. There are the ways of seeing: culture, language, mythology, frameworks, and the discipline of not believing the org's self-description too quickly. There is the theatre of work: optimism, improvisation, unblocking, status switching, and the strange power of being an outsider on the inside. There is chronos and kairos: knowing when to follow the plan and when the useful thing is suddenly right now. And then there is the inner life: the narrative aircover required to hold a hybrid identity without losing the plot.
+Imagine a small script that reconciles two teams' spreadsheets. It reveals that they disagree about what counts as a customer. The useful result may be a shared definition and a change to the source system. If the script becomes permanent glue, it can conceal the disagreement again. The thing that helped you see becomes another workaround nobody wants to touch.
 
-That is a lot to ask of an engineer.
+So every prototype should carry two questions: what are we trying to learn, and what happens to this thing after we learn it?
 
-But it is also why the role is interesting. FDE is not merely a job where engineers become more customer-facing. It is a job where engineering becomes exposed to all the unresolved human machinery that consulting has been trying to name for decades.
+That is where the consulting posture has to accept an engineering obligation. A working demo is an invitation to depend on you. Production ownership is part of the advice.
 
 ## Toward A Field Manual
 
@@ -158,6 +156,6 @@ How to tell when code is momentum and when code is avoidance.
 
 This is all consulting work. It is just becoming newly valuable to engineers because AI is making the act of building cheaper, faster, and closer to the client. When building gets faster, the bottleneck moves. The scarce skill is not only writing the code. It is knowing where to stand, what to notice, what to build first, and how to help the organization absorb what the software makes possible.
 
-Forward is not a job title.
+The repo lets me ask a different kind of question. The client can answer by using the thing, correcting it, resisting it or ignoring it. Each response tells me something a requirements document could not.
 
-Forward is the discipline of moving toward the messy place where the work is actually happening, and staying there long enough for the software to learn something true.
+The forward part is staying for the answer.

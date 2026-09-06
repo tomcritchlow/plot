@@ -1,5 +1,12 @@
 # Sources
 
+## Evidence check — 2026-09-05
+
+- Checked [Hamel et al.](https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2020.600092/full), abstract and study description: 23 regular players monitored for 28 days; sleep-deprived sessions were associated with more emotional/behavioral tilt, more hands and worse financial results. The paper was published in 2021 despite “2020” in its DOI.
+- The transfer to agent work is an analogy. The study does not test AI users or establish that agent parallelism causes impaired judgment.
+- Several poker studies remain below as background after the literature detour was cut. No newly quoted personal history was added.
+
+
 ## Sean Goedecke, "Doing nothing at work"
 
 https://www.seangoedecke.com/doing-nothing-at-work/

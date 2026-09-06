@@ -1,6 +1,11 @@
 # Sources
 
-Source trail imported from Codex thread `019eb241-186c-73a1-85bb-3a9a52329f2a`.
+## Evidence check — 2026-09-05
+
+- Replaced the secondary reference-directory URL for Woodruff with the [publisher’s article page](https://link.springer.com/article/10.1007/BF02894350). Checked title and authorship; do not claim a new full-text verification of the hierarchy.
+- [NBER’s used-books paper](https://www.nber.org/papers/w24197) and its [research digest](https://www.nber.org/digest/mar18/competition-and-search-internet-markets-used-books) were found in search; full-page retrieval was blocked in this pass. Search excerpts corroborated the direction of prices and dispersion. Preserve the differentiated-goods limitation; verify the full paper before adding quantitative welfare claims.
+- Read [Aaron Kaye’s author research page](https://www.aaron-kaye.com/research). Its hotel-recommendation model distinguishes match gains from sellers’ pricing responses. This does not require disclosure of an individual buyer’s budget; personalized pricing is a separate mechanism.
+- The grocery and selective-disclosure passages are illustrative reasoning, not new empirical findings.
 
 Several links were opened during the original thread. The main external references were also spot-checked during this import where useful, but this file should still be treated as a working research notebook rather than a final bibliography.
 
@@ -8,10 +13,6 @@ Several links were opened during the original thread. The main external referenc
 
 - Tom's X post: https://x.com/tomcritchlow/status/1982272958438514987
   - Resolved in the original thread as a quote-post of Peyman Shahidi's "Coasean Singularity? Demand, Supply, and Market Design with AI Agents" thread.
-- ChatGPT share: https://chatgpt.com/share/68fed5f1-da60-8004-957f-ca995ca2d72b
-  - Original thread recovered enough page data to treat this as a prompt about preferences and deferred acceptance.
-- ChatGPT share: https://chatgpt.com/share/68fed4af-0f8c-8004-981e-003805be4f58
-  - Original thread treated this as a prompt about web search and search costs.
 
 ## Core Sources
 
@@ -36,7 +37,7 @@ Several links were opened during the original thread. The main external referenc
   - Conflict can lead to deferral, more search, or default choice. Useful for "deferred demand."
 - [Jonathan Gutman, "A Means-End Chain Model Based on Consumer Categorization Processes"](https://journals.sagepub.com/doi/abs/10.1177/002224298204600207)
   - Attributes -> consequences -> values. Best source for the layered preference stack.
-- [Robert Woodruff, "Customer Value: The Next Source for Competitive Advantage"](https://www.scirp.org/reference/referencespapers?referenceid=2571649)
+- [Robert Woodruff, "Customer Value: The Next Source for Competitive Advantage"](https://link.springer.com/article/10.1007/BF02894350)
   - Customer value hierarchy. Similar layered model from attributes to consequences to goals.
 - [Nielsen Norman Group, "Compensatory vs. Noncompensatory Decision Making"](https://www.nngroup.com/articles/compensatory-noncompensatory-decisions/)
   - Useful practitioner language for gates vs weights.

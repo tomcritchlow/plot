@@ -1,5 +1,18 @@
 # Spare Capacity Notes
 
+## Editorial checkpoint — 2026-09-05
+
+**Argument:** Every parallel agent can borrow against future judgment; spare attention preserves the ability to choose.
+
+**This pass:** Cut the poker literature detour, distinguished switching tables from switching domains, linked and qualified the observational sleep study, and added a decision-before-spawning test. The ending returns to choosing which game to play.
+
+**Boundary / decision to preserve:** Keep the personal essay and poker texture. The Colony Stays Awake owns collective-system design; this piece owns the human cost of reviewing abundant work.
+
+**Next useful move:** Confirm the autobiographical poker detail and sharpen one lived moment where an agent queue changed a decision. Do not treat the poker evidence as a demonstrated causal finding about agent use.
+
+The earlier notes below remain a record of development; where they conflict with this checkpoint, use this checkpoint for the current editorial direction.
+
+
 ## Raw Thread
 
 Core thread from Tom:

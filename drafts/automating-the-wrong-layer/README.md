@@ -20,3 +20,7 @@ manuscripts:
 **Companion:** [The Target Durability Audit](target-durability-audit.md) is a facilitator-ready framework and chatbot prompt for applying the argument to a real CMO transformation decision.
 
 **Status notes:** two live treatments, deliberately kept together so they can compete and cross-pollinate without being mistaken for linear versions. Developed from a private internal discussion; the originating project remains a generic composite workflow and identifying details are intentionally omitted.
+
+## Editorial handoff — 2026-09-05
+
+Run the companion audit on a generic or already-cleared example. Record the decision it changes and where its categories overlap. Do not reintroduce numerical funding cutoffs without validation. See the [editorial checkpoint](notes.md) for what changed and which argument this piece owns.

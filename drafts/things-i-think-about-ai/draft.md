@@ -46,7 +46,7 @@ AI interfaces will make the same journey. A request about geography should becom
 
 There is fun experimentation here already, but it will become mainstream very quickly. The native interface of AI is not conversation. It is an interface generated for the problem in front of you.
 
-## 4. Web analytics is dead, but nobody has acknowledged it yet
+## 4. Web analytics is losing sight of the customer
 
 A pageview assumes a page was viewed by a person. A session assumes a continuous person moving through a site. A referral assumes a path you can observe.
 
@@ -54,7 +54,7 @@ All three assumptions are dissolving.
 
 Agents browse, search, compare and extract on our behalf. Sometimes they return an answer. Sometimes they act. Sometimes the human never visits the page at all. Sometimes the agent's ten requests represent one person's intent; sometimes one agent is acting for a thousand people.
 
-So we have two options. We can abandon analytics as a coherent idea, or we can standardize agent and bot sessions with consistent identifiers, declared mandates and useful provenance. Not simply “bot traffic,” but: this agent is operating on behalf of a person, with this kind of intent, across this sequence of requests.
+The transaction can remain measurable while the path that produced it disappears. A merchant may know what sold without knowing which alternatives the agent rejected or why. Better agent identity and permissioned reporting could help, but a persistent identifier would also expose private journeys. We will need controlled experiments and outcome measures as well as new traces; no identifier can recover a decision the harness declines to disclose.
 
 And what is a “real user” in 2026 anyway? If I delegate the work of visiting your website to an agent, that is still my attention, my need and potentially my money. It just no longer looks like me in Google Analytics.
 
@@ -68,7 +68,7 @@ The result is going to be a mess. We will see ChatGPT able to access the New Yor
 
 Perhaps a robust content-licensing ecosystem emerges: transparent rights, standard pricing, machine-readable permissions, payments flowing cleanly back to creators and publishers.
 
-I would currently put the chances of that working at less than five percent.
+I would bet against a clean market. Too many powerful participants benefit from making a private bargain.
 
 The more likely future is bilateral deals, crawler blocks, lawsuits and a fragmented information environment disguised as model quality.
 
@@ -90,7 +90,7 @@ They can produce good sentences. They can imitate forms, find structure, diagnos
 
 What they are still bad at is deciding what deserves to be said.
 
-Every writer announcing that they will “never use AI in their workflow” is going to be wrong. Microsoft Word did not replace writers. Spellcheck did not replace writers. Google Docs did not replace writers. AI will become another essential and occasionally wonderful layer in the act of writing — researcher, editor, provocateur, critic, rearranger, maker of options.
+I expect AI assistance to become ordinary even among writers who reject AI-generated prose. Some will abstain; that will not make them incapable of good work. Microsoft Word did not replace writers. Spellcheck did not replace writers. Google Docs did not replace writers. AI will become another essential and occasionally wonderful layer in the act of writing — researcher, editor, provocateur, critic, rearranger, maker of options.
 
 And yes, we will continue to see slop as far as the eye can scroll. These ideas are not contradictory. The models can become excellent writing tools at exactly the same moment that collapsing production costs fill the world with terrible writing.
 
@@ -118,15 +118,15 @@ Deals that did not make sense before will become possible.
 
 This produces two apparently opposite futures. AI may enable the one-person billion-dollar company. It may also enable trillion-dollar companies operating across hundreds of industries.
 
-Those are actually the same prediction. AI reduces the coordination costs at both ends of the scale.
+They share a mechanism, but neither follows automatically. Cheaper coordination can help a small firm buy capabilities from the market or help a large firm absorb them internally. Which wins depends on where the savings accrue and which problems remain expensive. A connector can be rewritten; a fight over who owns the customer still needs a settlement.
 
 ## 10. The shape of code is going to change
 
-We are under-appreciating what happens when AI writes and consumes ninety-nine percent of code.
+What happens if almost all routine code is written and first reviewed by machines?
 
 Code today is written for two audiences: the machine that executes it and the humans who have to understand, review and maintain it. If the second audience increasingly becomes another machine, the morphology of the codebase changes.
 
-We may get more duplication, not less. Smaller and more modular files. More explicit local context. Fewer clever abstractions whose value depends on a human carrying half the architecture in their head. “Don't repeat yourself” is partly a response to the coordination costs of human teams. When reading, writing and refactoring code become cheap, local clarity may beat global elegance.
+We may get more duplication, not less. Smaller and more modular files. More explicit local context. Fewer clever abstractions whose value depends on a human carrying half the architecture in their head. “Don't repeat yourself” is partly a response to the coordination costs of human teams. When reading, writing and refactoring code become cheap, local clarity may beat global elegance. But duplication still creates multiple places for a rule to drift. The useful test is whether machines can maintain the invariant across those copies, not whether they can generate them quickly.
 
 LLMs are not especially good at elegant solutions. Maybe the discourse is too focused on whether they have taste and not enough on what happens when elegance stops being the governing ideal.
 
@@ -134,7 +134,7 @@ The humble AGENTS.md file feels like a very early fossil from this new environme
 
 We may end up with more code, less elegance by human standards, and systems that are nevertheless easier for machines to navigate, regenerate and repair.
 
-## 11. You will never answer an unverified phone call again
+## 11. Unknown callers will have to earn the interruption
 
 Voice cloning, automated sales calls and infinitely patient scam agents will finish what robocalls started.
 
@@ -142,7 +142,7 @@ Very soon, an unknown phone number will not merely feel annoying. It will feel a
 
 The phone call will become an authenticated request for synchronous attention.
 
-You are never going to answer a non-verified caller ever again.
+A school office, a hospital or a new client may still call from an unfamiliar number. The product has to preserve that possibility while making unknown callers explain themselves. My prediction is that screening becomes the normal front door to a call.
 
 ## 12. You have not seen weird yet
 
@@ -154,4 +154,6 @@ The first-order story of AI is that it helps humans do existing things faster.
 
 The second-order story begins when intelligence becomes fast, persistent, embodied in new interfaces, able to act across the world and cheap enough to reorganize institutions around it.
 
-We have barely started the second story.
+The predictions I would most like to revisit are the awkward ones: whether a maintained memory can show what changed its mind, whether acquisition integrations actually get shorter, and whether a film finds an audience beyond people interested in AI.
+
+If I can only point to more tokens, more pilots and more demos, the second story is still mostly a story.
