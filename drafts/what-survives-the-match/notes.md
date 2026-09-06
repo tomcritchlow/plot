@@ -1,5 +1,18 @@
 # What Survives the Match? — Notes
 
+## Editorial checkpoint — 2026-09-05
+
+**Argument:** Brands should diagnose eligibility, choice, completion and future preference; marketplace exposure depends on whether their matching can actually be reconstructed.
+
+**This pass:** Replaced P(value) with a diagnostic chain and walked the opening travel example through it. Added access, supply and reputation as real bargaining constraints. Made agent memory permission-dependent. Cut the Tripadvisor/Zillow detour and narrowed AirCover from “the brand” to a promise tested in recovery.
+
+**Boundary / decision to preserve:** Models Of Desire owns preference construction and disclosure. This essay owns the commercial response. Company filings establish business-model exposure, not evidence that agents have caused revenue declines.
+
+**Next useful move:** Run a small set of representative journeys and record eligibility, reasons for rejection and completion. Treat the resulting observations as a small test, not market share. Name which parts of the choice remain unobservable to the merchant.
+
+The earlier notes below remain a record of development; where they conflict with this checkpoint, use this checkpoint for the current editorial direction.
+
+
 ## Origin
 
 The draft began with a loose cluster of questions:
@@ -47,9 +60,7 @@ The marketplace version is sharper:
 
 ## Brand investment framework
 
-Working equation:
-
-> P(value) = P(eligible) × P(chosen | eligible) × P(completed | chosen) × P(chosen again | outcome)
+Current diagnostic: eligible → chosen → completed → more likely next time. The earlier P(value) equation was removed because these stages do not calculate business value.
 
 Four layers:
 

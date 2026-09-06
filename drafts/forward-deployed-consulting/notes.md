@@ -1,5 +1,18 @@
 # Notes
 
+## Editorial checkpoint — 2026-09-05
+
+**Argument:** A prototype is a diagnostic intervention whose dependencies outlive the consultant.
+
+**This pass:** Replaced the catalogue of consulting themes with a prototype-exit section: learning objective, retirement or production owner. Removed the unnecessary engineer/consultant caricature and returned the ending to staying for the client’s answer.
+
+**Boundary / decision to preserve:** Build on the existing consulting archive by explaining what executable interventions change: reversibility, dependencies and ownership. Avoid retelling every chapter of The Strategic Independent.
+
+**Next useful move:** Replace or substantiate the generalized opening with one first-hand scene Tom is comfortable publishing. The spreadsheet example is hypothetical. The existing personal opening remains author-review material, not newly verified autobiography.
+
+The earlier notes below remain a record of development; where they conflict with this checkpoint, use this checkpoint for the current editorial direction.
+
+
 ## Working Angle
 
 The "forward" in forward deployed engineer is not mainly geographic. It is a posture of proximity, consequence, and fieldcraft. FDE becomes interesting when read through Tom's consulting writing: ways of seeing, culture/grain, advice/usefulness, status switching, workshops as portals, and kairos timing.

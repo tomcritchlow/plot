@@ -1,5 +1,12 @@
 # Sources
 
+## Evidence check — 2026-09-05
+
+- Re-read [Fowler’s Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) for the replay/state distinction. The warning that replay does not identify causal effects is an analytical boundary on the company-world-model analogy.
+- The three-document opening and renewal sequence are hypothetical illustrations. No new client event or outcome is asserted.
+- The existing Ramp announcement remains the historical June 2026 trigger; its launch claims were not independently revalidated in this pass.
+
+
 ## Announcement / Trigger
 
 - [Leo Mehr on X: Ramp AI services announcement](https://x.com/LeoMehr/status/2064717003181707689)

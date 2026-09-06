@@ -1,5 +1,12 @@
 # Sources
 
+## Evidence check — 2026-09-05
+
+- This pass interprets existing report details rather than adding new ones. Employee ownership and incentives make the agreement/echo problem concrete, but do not prove how the report changed behavior.
+- The Apollo/ARPANET comparison is an organizational analogy, not a claim that Apollo had no distributed expertise or ARPANET no central design.
+- Earlier source notes report page verification from the prior pass. This pass did not repeat the full scanned-report audit; retained historical details and quotations still need page-level references for publication.
+
+
 ## Primary anchor
 
 - [Lowe's Companies, Inc. 1969 Annual Report](https://corporate.lowes.com/sites/lowes-corp/files/Annual%20reports%20and%20proxy%20statements/Lowes_AR_1969.pdf)

@@ -15,3 +15,7 @@ published_as: An Almanac for the Age of Chaos
 **What this was trying to say:** marketing teams in 2026 are operating in chaos because three interacting bodies (customers, channels, and craft) now pull on each other in ways that admit no stable orbit — framed through Poincaré and the three-body problem. The published version reframed the answer around navigation over prediction: context layers, "standard status," and Michelin-style almanacs for disoriented customers.
 
 **Notes:** `draft.md` is the pre-publication manuscript and diverges from the published text; `research/review.html` is a review artifact from the riffs workspace.
+
+## Editorial handoff — 2026-09-05
+
+Use the published version when quoting the argument. Any future correction to its absolute prediction/chaos language should be a separate explicit publication decision, not a silent edit of this archive. See the [editorial checkpoint](notes.md) for what changed and which argument this piece owns.

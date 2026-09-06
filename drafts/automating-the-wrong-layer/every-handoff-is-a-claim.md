@@ -1,6 +1,6 @@
 # Every Handoff Is a Claim
 
-The most dangerous sentence in an AI transformation project is: “First, let's map the current process.”
+An AI transformation can go wrong before anyone chooses a model. It happens when the current process map quietly becomes the specification.
 
 Once the flowchart exists, it develops a strange gravity. Every box asks for a copilot. Every arrow asks for an integration. Every queue asks for an agent. The current org chart quietly becomes the architecture of the new system.
 
@@ -10,7 +10,7 @@ In 1990, Michael Hammer published [“Reengineering Work: Don't Automate, Oblite
 
 At Ford, accounts payable reconciled three different descriptions of the same event: what the company ordered, what the supplier invoiced and what the receiving department said had arrived. Ford initially looked for a better way to process invoices. The breakthrough was to make the invoice unnecessary. When the goods arrived, the receiving department recorded the information at its source. If the receipt matched the purchase order, the system could authorize payment.
 
-It did not make reconciliation faster. It removed the separation that created reconciliation.
+It removed an entire representation—the invoice—from the payment process. Purchase orders and receipts still had to agree. The control survived; much of the reconciliation work did not.
 
 At Mutual Benefit Life, an application travelled through dozens of steps, several departments and many specialist hands before a policy could be issued. The redesigned process gave one case manager responsibility for the application, supported by shared information and expert systems.
 
@@ -30,13 +30,15 @@ Those arrangements may have been perfectly rational.
 
 But every boundary inside them contains a claim.
 
-A handoff claims that the work on either side must remain separate. An approval claims that judgment cannot live where the information is generated. A queue claims that waiting is cheaper than resolving the case now. A status field claims that the people doing the work cannot share its state directly.
+A handoff claims that separating the work is worth its cost. An approval claims that the decision needs authority or scrutiny beyond the person doing it. A queue claims that capacity must be allocated across competing cases. A status field claims that a particular distinction is useful for coordination.
+
+The claim may be sound. The implementation may still be obsolete.
 
 Some of these claims are still true. A regulator may require independent review. A financial commitment may need separation of duties. A genuinely rare problem may still deserve a scarce expert.
 
 But many boundaries are simply inherited. Nobody chose them under current conditions. They survived because the process survived.
 
-AI changes the price of several constraints at once. It makes generation cheaper, but also classification, translation, retrieval, coordination and access to specialist-like knowledge. Conventional software made a step faster. AI can change which steps belong together and who is capable of owning them.
+AI changes the price of several constraints at once. It makes generation cheaper, but also classification, translation, retrieval, coordination and access to specialist-like knowledge. Software has changed task boundaries before—Hammer's examples make that plain. AI extends the range of knowledge tasks whose cost and distribution can change, reopening the question of which steps belong together and who can own them.
 
 That makes the “agent for every box” approach especially dangerous. It treats the present division of labor as a law of nature. The org chart becomes runtime architecture: a research agent hands to a strategy agent, which hands to a production agent, which hands to a compliance agent, each with its own state, prompts, outputs and failure modes.
 
@@ -52,7 +54,7 @@ Generative AI makes this documentary exhaust almost free. That may make the prob
 
 A more durable system would treat the meeting itself as an event. It would retain the recording, a versioned transcript, the decisions and commitments connected to their source passages, the relevant permissions and policies, and the outcomes that followed. A brief, ticket or alert would be a view generated for a particular person at a particular moment.
 
-The views can change. The evidence should not.
+Views and interpretations can change. The original evidence should remain distinguishable from corrections, subject to the applicable permissions and retention rules.
 
 This is the modern version of Ford's receiving terminal:
 
@@ -124,7 +126,7 @@ This separates controls from customs. “Legal must independently approve this c
 
 ### 2. The capability-jump counterfactual
 
-Now assume models become ten times cheaper, faster and more capable across the adjacent tasks—not infinitely intelligent, merely good enough that an entire cluster of work can collapse.
+Now choose a specific capability jump: perhaps transcription, editing and format adaptation become reliable enough to run as one production step. Separately test cheaper inference or lower latency. These are scenarios, not interchangeable measures of “ten times better.”
 
 Which roles compress? Which queues disappear? Where does accountability land? What becomes the new bottleneck? Would the architecture let you remove half the boxes without migrating the evidence or rebuilding the system?
 
@@ -140,13 +142,16 @@ Also ask what human capability must survive. Where will people see enough real w
 
 The aim is not maximum automation. It is minimum dependence on an expiring arrangement.
 
-You can summarize the test with a simple equation:
-
-> **Future readiness = boundary collapse × recomposability**
+Use two questions to compare designs: how much unnecessary separation did we remove, and how cheaply can we rearrange what remains? These are axes for a discussion, not quantities we can multiply into a readiness score.
 
 Boundary collapse without recomposability produces a new monolith: fewer handoffs, but one brittle design. Recomposability without boundary collapse produces modular bureaucracy: replaceable agents performing an obsolete dance.
 
-The lower-left corner—old boundaries and hardcoded execution—is a **fossil**. Old boundaries with replaceable execution can be useful **scaffolding**, provided nobody mistakes it for the destination. Collapsed boundaries with hardcoded execution are a **brittle rebundle**. The real target is **adaptive transformation**: remove separations that no longer earn their keep, while making the remaining capabilities easy to rearrange.
+| | Execution hard to rearrange | Execution easy to rearrange |
+| --- | --- | --- |
+| **Inherited separations remain** | Fossil: yesterday's process becomes infrastructure | Scaffolding: useful while the new shape is being learned |
+| **Unnecessary separations removed** | Brittle rebundle: fewer handoffs, one new monolith | Adaptive transformation: simpler work that can change again |
+
+A preserved independent check does not count against a design. The objective is to remove separations that no longer earn their keep, not to make every outcome owner their own auditor.
 
 ## Make the claim again
 

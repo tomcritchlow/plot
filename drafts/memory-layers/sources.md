@@ -1,8 +1,16 @@
 # Sources
 
+## Evidence check — 2026-09-05
+
+- Read the abstracts of [MemGPT](https://arxiv.org/abs/2310.08560) and the [original RAG paper](https://arxiv.org/abs/2005.11401). MemGPT is a direct counterexample to the claim that no tiered memory architecture existed; RAG’s parametric/non-parametric distinction is not a count of every memory surface in an application.
+- The maintained market-research and policy-revision examples are proposed tests, not reported results.
+- Web IQ remains a historical research lead below but is no longer used in the manuscript. The current argument does not depend on a particular retrieval product.
+- The diagram actually stored in this repository is [assets/information-processing-model-memory.png](assets/information-processing-model-memory.png).
+
+
 ## Pasted Conversation
 
-- Local pasted source: `/Users/tomcritchlow/.codex/attachments/e3a4a782-7cf7-4df3-b912-527969d585ea/pasted-text.txt`
+- Original pasted source supplied by the writer; local attachment locator omitted.
 - Why it matters: provides the human memory frame used as the riff's starting map: sensory traces, working memory / active workspace, durable memory systems, and complementary learning systems.
 - Local image: `images/information-processing-model-memory.png`
 - Why it matters: visual reference for the classic three-layer information-processing model of memory used in the opening.

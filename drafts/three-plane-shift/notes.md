@@ -1,5 +1,18 @@
 # Notes
 
+## Editorial checkpoint — 2026-09-05
+
+**Argument:** Published as An Almanac for the Age of Chaos; retain the draft package as history.
+
+**This pass:** Reviewed the pre-publication manuscript and support material without rewriting the manuscript or published copy.
+
+**Boundary / decision to preserve:** The published piece already owns the three-body frame, standard status, context layers and almanacs. New essays should advance these arguments rather than announce them again.
+
+**Next useful move:** Use the published version when quoting the argument. Any future correction to its absolute prediction/chaos language should be a separate explicit publication decision, not a silent edit of this archive.
+
+The earlier notes below remain a record of development; where they conflict with this checkpoint, use this checkpoint for the current editorial direction.
+
+
 ## Working Handle
 
 Primary handle: **Marketing's Three-Body Problem**

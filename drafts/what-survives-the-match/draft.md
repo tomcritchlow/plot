@@ -18,7 +18,7 @@ You say yes.
 
 The human journey has three steps: ask, approve, arrive.
 
-The machine journey might contain ten thousand.
+The machine journey fans out into searches, checks and comparisons the customer never sees.
 
 This does not mean the browser disappears. People will still wander for pleasure, taste, entertainment and identity. We browse record shops and bookshops even when we know what we came for. But a large class of instrumental journeys—find, compare, coordinate, book, buy, cancel, renew—will move into a harness that acts on our behalf.
 
@@ -81,7 +81,7 @@ The emerging commerce protocols make the direction of travel fairly explicit. Go
 
 That is an important design choice. It does not guarantee that the merchant’s brand remains visible or memorable.
 
-Nor does it settle who can buy influence. Google is already experimenting with [Direct Offers inside AI Mode](https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms/): advertisers can supply an exclusive offer and the system decides when it is relevant enough to surface. The ad auction is beginning to migrate inside the choice function before we have agreed how that function should be governed.
+Nor does it settle who can buy influence. Google is already experimenting with [Direct Offers inside AI Mode](https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms/): advertisers can supply an exclusive offer and the system decides when it is relevant enough to surface. Paid offers are entering the decision surface. That does not yet establish how far advertisers can steer the choice, but it makes the governance question concrete.
 
 ## A brand is not one thing
 
@@ -101,7 +101,7 @@ The harness eats the informational brand.
 
 It may strengthen the accountable brand.
 
-Awareness still matters, but only when it changes policy. “I have heard of Delta” is weak. “Prefer Delta unless it is $200 more or adds a connection” is operational. The brand has become a prior inside the customer’s agent—a persistent inclination that affects a future choice before any campaign is seen.
+Awareness still matters. One especially durable form would be a preference strong enough to change the agent’s policy. “I have heard of Delta” is weak. “Prefer Delta unless it is $200 more or adds a connection” is operational. The brand has become a prior inside the customer’s agent—a persistent inclination that affects a future choice before any campaign is seen.
 
 This is a much higher bar than being cited.
 
@@ -109,13 +109,9 @@ This is a much higher bar than being cited.
 
 If pageviews and citations no longer describe the journey, where should a brand invest?
 
-I think the economic chain looks something like this:
+Start with four questions: was the product eligible, was it chosen, did the transaction succeed, and did the experience improve its chances next time?
 
-> **P(value) = P(eligible) × P(chosen | eligible) × P(completed | chosen) × P(chosen again | outcome)**
-
-Notice that `P(mentioned)` is not in the equation.
-
-A mention may affect eligibility or choice. It is an input to the system, not the business outcome. The useful brand funnel in a harnessed market has four layers:
+These are diagnostic stages, not an equation for value. Margin, acquisition cost, purchase frequency and the possibility of a one-off purchase still matter. A mention may influence several stages without being the outcome itself. The framework tells you where to investigate:
 
 | Layer | Question the harness asks | What brands have to build |
 | --- | --- | --- |
@@ -128,17 +124,19 @@ Callability is the admission ticket. It is not a moat.
 
 There will be an understandable rush to make every catalogue machine-readable and every checkout callable. This work is necessary. It may also be rapidly standardized. A protocol that makes you available to the customer’s agent makes every substitute available too.
 
-The strategic question is where the probability collapses.
+The strategic question is which stage is losing the customer.
+
+Take the opening travel mandate. A rental with an inaccessible cancellation policy may fail eligibility. Another may be eligible but lose because the walk to dinner involves a steep hill. A selected property may fail because its calendar is stale. A successful stay may still leave no preference for the operator if the family remembers only the place. These are four different investments; a citation campaign cannot diagnose which one is needed.
 
 If your products never become eligible, fix the data and access layer. If they are eligible but rarely chosen, build real distinctiveness and evidence. If they are chosen but fail in delivery, the problem is operational. If they succeed but do not alter the next choice, build memory, trust and service.
 
-This also suggests a different measurement system. Instead of reconstructing a human path through pages, brands will need to understand a decision path through states: eligible, shortlisted, chosen, completed, preferred. The analytics object is no longer the session. It is the mandate and its outcome.
+This also suggests a different measurement system. Instead of reconstructing a human path through pages, brands will need to understand a decision path through states: eligible, shortlisted, chosen, completed, preferred. A useful analytics object is the mandate and its outcome. But much of that object belongs to the customer and the harness. Brands may need to test representative journeys themselves, compare eligibility and completion across conditions, and use controlled experiments to estimate effects they cannot directly observe. A prettier dashboard will not make private computation public.
 
 The least glamorous layer may become the most valuable. [Service-recovery research](https://lirias.kuleuven.be/retrieve/ec209dc9-411f-422e-93d9-ea5820bfadeb) consistently treats recovery as a journey that changes trust and the overall evaluation of the company. In a world of persistent personal agents, every support interaction can also become evidence for the next purchase.
 
 Customer service becomes future customer acquisition.
 
-Every refund, rescue and broken promise is training data for the customer’s agent.
+If the customer permits the agent to retain the experience, a refund, rescue or broken promise can change the next recommendation. That is a hypothesis about persistent memory, not a claim that today’s models automatically learn from every support ticket.
 
 ## When matching becomes abundant
 
@@ -150,9 +148,9 @@ This does not make every marketplace obsolete. It makes one layer of marketplace
 
 If a general harness can discover the providers, collect availability, compare them using the buyer’s full context and coordinate the transaction, then “we put the two sides together” is no longer much of a moat.
 
-The harness makes matching abundant.
+Where supply and reputation are accessible, the harness can make matching much cheaper. Marketplace advantage then has to survive the loss of exclusive control over discovery.
 
-Marketplace value must begin where the match ends.
+This is the limit of the argument: an agent cannot wish a proprietary supply network into existence. Sellers may not maintain public availability. Reviews may not be portable. A marketplace can withhold access, charge for it or offer the best agent itself. Reconstructible matching is a condition to test, not a premise to smuggle in.
 
 Three things look harder for a general agent to reconstruct:
 
@@ -183,21 +181,19 @@ The claim is not “Yelp dies.” It is that the Yelp-shaped layer of Yelp—loc
 
 Yelp reported [about $948 million in services advertising revenue in 2025](https://www.sec.gov/Archives/edgar/data/1345016/000134501626000019/yelp-20251231.htm). That is a large business attached to the moment when a consumer is looking for a provider. Its investments in products such as RepairPal point toward a different kind of value: deeper workflow, verification and transaction support after discovery.
 
-Angi is an even cleaner example of matching exposure. In 2025, [57 percent of consolidated revenue](https://www.sec.gov/Archives/edgar/data/1705110/000170511026000011/angi-20251231.htm) came from fees paid by professionals for consumer matches. If an agent can identify licensed local providers, inspect reputation, solicit comparable quotes and schedule the work, a lead is something the harness can manufacture. Angi only escapes by owning more of the trust and completion layer than the match itself.
+Angi is an even cleaner example of matching exposure. In 2025, [57 percent of consolidated revenue](https://www.sec.gov/Archives/edgar/data/1705110/000170511026000011/angi-20251231.htm) came from U.S. lead fees paid by professionals for consumer matches. If an agent can identify licensed local providers, inspect reputation, solicit comparable quotes and schedule the work, a lead is something the harness can manufacture. The exposure depends on whether the harness can obtain comparable provider participation, response rates and local trust. A directory of names is not yet a functioning market.
 
-Travel offers an early glimpse of the same split. Tripadvisor’s [2025 results](https://ir.tripadvisor.com/static-files/aa7fa441-63ca-4330-b1cb-20d4a2498b8f) showed its Hotels & Other revenue down 8 percent and media and advertising revenue down 12 percent, while TheFork grew 22 percent. This is not proof that agents caused anything. It is directionally interesting that the information-and-attention business weakened while the reservation network grew.
-
-Some marketplaces are already crawling down the funnel. Zillow is not merely a property search interface. Its [2025 filing](https://www.sec.gov/Archives/edgar/data/1617640/000161764026000015/z-20251231.htm) describes mortgages, agent software, touring infrastructure and a performance-fee model tied to closed transactions. DoorDash increasingly sells [white-label fulfilment and commerce infrastructure](https://www.sec.gov/Archives/edgar/data/1792789/000179278926000013/dash-20251231.htm) to merchants. Booking Holdings says [70 percent of its 2025 gross bookings](https://www.sec.gov/Archives/edgar/data/1075531/000107553126000009/bkng-20251231.htm) used its merchant model, pulling it deeper into payments and transaction operations.
+The counterexample is a marketplace doing consequential work after discovery. DoorDash's [2025 filing](https://www.sec.gov/Archives/edgar/data/1792789/000179278926000013/dash-20251231.htm) describes fulfilment and commerce infrastructure for merchants. Booking Holdings reports that [70 percent of its 2025 gross bookings](https://www.sec.gov/Archives/edgar/data/1075531/000107553126000009/bkng-20251231.htm) used its merchant model, which places it inside the payment flow. Neither fact proves immunity from agents. Both identify work a new interface would still need someone to perform.
 
 These companies may be less likely to disappear than to become callable infrastructure. The restaurant appears in the harness. OpenTable handles the reservation. DoorDash handles the delivery. Booking handles the payment and accommodation workflow. The user may never experience those companies as destinations.
 
 The interface disappears. The institution remains underneath it.
 
-## The listing becomes an API response. AirCover is the brand.
+## The listing becomes an API response. Who keeps the promise?
 
 Airbnb is the most interesting test because it contains the whole argument.
 
-Airbnb is already a kind of primitive harness. It aggregates fragmented supply, normalizes listings, ranks options, holds identity and reputation, processes payment, defines policy and steps in when a stay goes wrong. Its great strategic achievement was not merely making vacation rentals searchable. It made staying in a stranger’s home feel like a legible transaction.
+Airbnb is already a kind of primitive harness. It aggregates fragmented supply, normalizes listings, ranks options, holds identity and reputation, processes payment, defines policy and steps in when a stay goes wrong. Its great strategic achievement was not merely making vacation rentals searchable. It made staying in a stranger’s home feel like a legible transaction. The supply network is part of that achievement, and access to it is something Airbnb can negotiate.
 
 A general-purpose harness threatens the top of that stack. It can combine Airbnb listings with hotels, local rental managers and other sources. It can search using context Airbnb does not own. It can assemble its own comparison interface. Demand aggregation—the power of being the place where the customer begins—moves up a layer.
 
@@ -215,15 +211,13 @@ Institutions appear on the unhappy path.
 
 This is why investing in the customer journey outside acquisition is not merely defensive brand work. It may be the way the brand remains present at all. Airbnb’s old customer-journey blueprint tried to improve the experience end to end. In the harnessed world, the acquisition end may be compressed into a machine call. The parts where Airbnb actually fulfils, remembers and repairs the promise become a larger share of what the name means.
 
-The listing becomes an API response.
-
-AirCover is the brand.
+The listing might become an API response. [AirCover](https://www.airbnb.com/help/article/3218) is where a promise of support has to become an experience. The brand survives if someone answers.
 
 ## Build for the journey that is coming
 
 The harness does not eliminate brand. It unbundles it.
 
-It converts some brands into attributes, some into preferences, some into invisible operators and some into institutions. It creates vastly more surface area for matching because the customer can reveal a hundred times more context than a search box ever captured. But that does not mean a hundred times more surface area for advertising.
+It converts some brands into attributes, some into preferences, some into invisible operators and some into institutions. It can create much more surface area for matching because the customer can share richer context than a search query captures. How much of that context reaches a seller is a design and bargaining choice. More private context does not automatically mean more advertising inventory.
 
 The opportunity is not to insert a brand into every generated answer. It is to become the right answer to a much more specific need—and then actually deliver the outcome.
 

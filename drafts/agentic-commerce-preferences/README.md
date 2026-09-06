@@ -2,16 +2,10 @@
 title: Models Of Desire
 status: drafting
 created_at: 2026-06-11
-updated_at: 2026-06-11
+updated_at: 2026-09-05
 ---
 
 # Agentic Commerce Preferences
-
-Imported from Codex thread: `019eb241-186c-73a1-85bb-3a9a52329f2a`
-
-Original thread title: `Write agentic commerce riff`
-
-Original thread URI: `codex://threads/019eb241-186c-73a1-85bb-3a9a52329f2a`
 
 ## Working Frame
 
@@ -37,3 +31,7 @@ The piece should get to the counterintuitive hinge quickly:
 > Better search can make markets more efficient and more expensive at the same time.
 
 Then it should use agentic commerce to ask what happens when preferences become easier to elicit, model, disclose, hide, bargain with, and price.
+
+## Editorial handoff — 2026-09-05
+
+Choose one hotel or shopping interaction in which the agent asks a question that changes the preference. Record what it learns versus what it sends onward. The added grocery example is illustrative, not a claimed observed transaction. See the [editorial checkpoint](notes.md) for what changed and which argument this piece owns.

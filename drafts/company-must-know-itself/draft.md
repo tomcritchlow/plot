@@ -38,7 +38,7 @@ To call 58 hardware stores a cybernetwork was not just description. It was an ac
 
 The Moon landing was not the only new model of coordination flickering into view that year. On October 29, researchers at UCLA tried to send **LOGIN** to a computer at the Stanford Research Institute over [ARPANET](https://www.lk.cs.ucla.edu/internet_first_words.html). The system crashed after two letters. The first message on the network was **LO**.
 
-Apollo and ARPANET emerged from the same government-funded technological atmosphere, but they came to symbolize very different architectures. Apollo placed intelligence in Mission Control and made thousands of components follow a carefully plotted path. ARPANET broke messages into packets that could find their way between intelligent endpoints without reserving a single circuit from sender to receiver.
+Apollo and ARPANET emerged from the same government-funded technological atmosphere, but they came to symbolize very different architectures. Apollo coordinated a vast, distributed engineering effort around one mission, with Mission Control as its most visible center. ARPANET used packet switching to share communication links without reserving a single circuit for each conversation. These are useful images of coordination, not pure opposites: Apollo depended on local expertise, and ARPANET still depended on designed protocols and institutions.
 
 In [“The Network Always Beats the Castle”](https://sundaylettersfromsam.substack.com/p/the-network-always-beats-the-castle), Sam Schillace uses this distinction to describe two kinds of company. Most companies, he argues, are still circuit-switched. The org chart determines which paths exist. A manager is a dedicated line between strategy and execution. A reorganization is the expensive work of rewiring the circuit. A packet-switched organization allows information and work to find their way through a network without travelling up and down a fixed hierarchy.
 
@@ -94,7 +94,7 @@ Robert Shiller's idea of [narrative economics](https://www.nber.org/papers/w2307
 
 The phrase can make this sound cynical, as though management's task is to find a sufficiently attractive story and impose it on some inconvenient facts. Lowe's makes the idea stranger than that. The report was describing a cybernetwork, but it was also assembling one. It told suppliers, employees, customers and stockholders that their separate activities belonged to the same system. It gave management a language for expansion. It turned a regional chain into a node on a world map.
 
-The report was not describing the company from the outside. It was helping the company become the thing it described.
+The report was making a bid to assemble the company it described. Whether employees or suppliers actually adopted that picture is a separate question. The report shows management's intended mechanism; it cannot establish its own effect.
 
 Maybe an annual report is a corporate constitution with a P&L attached. It says: these are the actors who count, these are the relationships between them, this is the past we share, and this is the future in which our actions will make sense.
 
@@ -124,7 +124,9 @@ The company tells the market what it is. The market tells the company whether it
 
 But Parker's account of space-age management reveals the tension hidden inside this success. Apollo could produce a radically surprising result only because the organization beneath it tried to eliminate surprise. Astronauts followed checklists. Contractors obeyed specifications. Mission Control made deviation visible. The adventure depended upon almost everybody behaving predictably.
 
-Lowe's wanted the same kind of alignment. But a control system that achieves perfect agreement has a problem: it can no longer distinguish resonance from an echo.
+Lowe's wanted alignment. But the report's evidence of alignment came partly from the same people whose incentives it was aligning. Employees held stock. Salespeople earned commissions. Readers of a growth story were invited to become shareholders. Agreement could mean the strategy was working, or that the company had become very good at selecting and rewarding people who agreed.
+
+The cybernetwork needed a way to distinguish resonance from an echo.
 
 A company needs a story coherent enough to organize action. It also needs a market capable of telling it that the story is wrong. Corporate fantasy is what happens when feed-forward overwhelms feedback.
 
@@ -150,6 +152,6 @@ The report gives the company a story. The market gives the story resistance. Bet
 
 On the last page, the cybernetwork adds one more node: the reader. Lowe's does not merely broadcast its grand narrative. It leaves blank lines for the market to write back.
 
-The company must know itself. The reply card admits that it cannot do so alone.
+The annual report came with a feedback loop attached.
 
-The annual report did not merely describe a feedback loop. It came with one attached.
+The harder question was what Lowe's would do with a reply it did not want.

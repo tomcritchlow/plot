@@ -1,5 +1,12 @@
 # Sources
 
+## Evidence check — 2026-09-05
+
+- No new external empirical result introduced. This pass corrects the interpretation of the Ford case: invoice elimination did not eliminate the matching of purchase orders and receipts.
+- The two-axis matrix and audit ratings are author-developed heuristics, not validated measurements. Removed the summed score thresholds and automatic numeric funding gates, including from the runnable chatbot prompt.
+- The original draft.md remains unchanged. Existing bibliographic notes are retained; this pass is not a fresh verification of every academic source.
+
+
 ## Origin
 
 - Private internal discussion, 2026-08-25.

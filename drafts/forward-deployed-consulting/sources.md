@@ -1,5 +1,12 @@
 # Sources
 
+## Evidence check — 2026-09-05
+
+- No new external finding introduced. The prototype-retirement scenario is hypothetical; it is not an anonymized client case.
+- The current opening and archive quotations remain author-review material. A live scene must come from Tom or a publishable source, not an invented anecdote.
+- Read related material in the imported published corpus to distinguish this contribution from existing consulting themes. The linked older consulting essays have not all been re-fetched in this pass.
+
+
 ## Tom's Strategy Archive
 
 - [The Strategic Independent](https://tomcritchlow.com/strategy/) - archive frame. Useful for reading FDE through the full consulting arc: becoming independent, finding work, ways of seeing, improv/status, kairos, and inner life.

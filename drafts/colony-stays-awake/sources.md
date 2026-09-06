@@ -1,5 +1,13 @@
 # Sources
 
+## Evidence check — 2026-09-05
+
+- Reopened the [OpenAI technical report](https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf), introduction (printed p. 4), and [METR/Redwood investigation](https://metr.org/hugging-face-incident-report-aug-2026.pdf), core findings (printed pp. 2 and 5). The latter places the approximately 1,200-agent / 70,000-message activity between July 8 and July 13. Corrected the manuscript’s “four days” and added the evaluation-environment qualification.
+- Checked [Google’s Teamwork description](https://antigravity.google/blog/teamwork-when-ai-becomes-a-research-partner), especially its failed-approach/pitfall-registry/shared-directory account.
+- Checked [Krishnan’s experiment write-up](https://www.strangeloopcanon.com/p/how-to-control-an-agent-swarm): the 42–43 percent result comes from a 72-episode, ten-agent procurement simulation, not a production deployment.
+- The single-agent persistence distinction and economic stopping test are editorial analysis, not results attributed to these reports.
+
+
 ## Core throughline
 
 - [Published: Of Termites & Tokens](../../published/2026-06-08-of-termites-tokens.md)

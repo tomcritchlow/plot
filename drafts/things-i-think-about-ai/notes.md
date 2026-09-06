@@ -1,5 +1,18 @@
 # Notes
 
+## Editorial checkpoint — 2026-09-05
+
+**Argument:** Faster, more persistent AI changes products and institutions in different, testable ways.
+
+**This pass:** Kept the twelve-item form. Replaced the analytics false dilemma, qualified the M&A mechanism and code-duplication argument, and made the unknown-caller prediction about screening. Removed an unsupported numeric confidence estimate and ended with observations that would test the claims.
+
+**Boundary / decision to preserve:** This is a dated set of convictions, not a substitute for the deeper essays. Keep speed, M&A and code form prominent; memory and interfaces can link to their full treatments.
+
+**Next useful move:** Date the prediction set and define mainstream success for the film prediction before publication. Add or refresh the evidence behind fast-moving product claims. The opening product judgments are Tom’s opinions, not benchmark results.
+
+The earlier notes below remain a record of development; where they conflict with this checkpoint, use this checkpoint for the current editorial direction.
+
+
 ## Origin
 
 Prompted by Noah Brier's “Things I Think I Think About AI (2026 Edition).” The goal is not to rebut Noah point-by-point, but to use his list as permission for a wide-angle set of convictions and predictions.

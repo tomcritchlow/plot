@@ -145,18 +145,16 @@ Score each dimension from 1 to 5. Record one piece of evidence, one assumption a
 | **Residual value** | Little survives if the use case expires | Some reusable data or learning remains | Data, permissions, evaluations and interfaces support many future uses |
 | **Clock fit** | Payback probably arrives after the target changes | Timelines overlap with substantial uncertainty | Useful release and payback comfortably precede target half-life |
 
-The total is a conversation starter, not a verdict. These are working thresholds to test against live cases before they become product rules:
+Do not sum the scores or use numeric cutoffs to select a project. The scale is an interview aid; its dimensions and weights have not been validated. Use **unknown** when evidence is missing instead of assigning a reassuring midpoint.
 
-- **28–35:** strong foundation candidate;
-- **22–27:** viable only with explicit gates, scope or option value;
-- **7–21:** redesign before treating this as a transformation.
+Make the decision from the evidence:
 
-The following gates override the total:
+- An unsupported residual bottleneck requires redesign before scale, even if the outcome is attractive.
+- If the target may expire before payback, compare a smaller, faster wedge with stopping.
+- If reusable assets or learning are the main benefit, specify an option budget and what the experiment must resolve.
+- If the investment is slow, brittle and leaves little useful behind, explain why it should stop.
 
-- **Bottleneck robustness ≤ 2:** classify as **Rebundle** until the residual human/AI work is redesigned.
-- **Outcome persistence ≤ 2 and Clock fit ≤ 2:** classify as **Fossil**.
-- **Residual value ≥ 4 and the direct target is fragile:** classify as **Option**, not Foundation.
-- **The first useful release consumes more than half the estimated target half-life:** shrink the bet before proceeding.
+Where these descriptions conflict, name the primary blocker and the secondary opportunity. A promising option can still require rebundling before it is safe to test.
 
 ### 7. Choose the shape of the bet
 
@@ -215,7 +213,6 @@ We believe that if **[AI/humans/systems]** perform **[task changes]**, then **[d
 - Evaluation strength: /5
 - Residual value: /5
 - Clock fit: /5
-- Total: /35
 - Confidence and largest uncertainty:
 
 ### Decision
@@ -251,13 +248,14 @@ During the interview:
 - Do not forecast exact model capabilities. State uncertainty and identify which future the recommendation depends on.
 - Ask what reusable data, permissions, evaluations, interfaces and understanding survive if the original use case disappears.
 
-When enough information is available, score these dimensions from 1 to 5: outcome persistence, rebundling resilience, bottleneck robustness, change isolation, evaluation strength, residual value and clock fit. For every score, give the evidence, assumption, uncertainty and reasoning. Do not hide disagreement or average away a fatal weakness.
+When enough information is available, use these dimensions as an interview rubric: outcome persistence, rebundling resilience, bottleneck robustness, change isolation, evaluation strength, residual value and clock fit. Optional 1-to-5 ratings must include evidence, assumptions, uncertainty and reasoning. Use unknown when evidence is missing. Do not calculate a total or imply the scale is validated. Do not average away a fatal weakness.
 
-Apply these decision gates:
-- Bottleneck robustness of 2 or lower means Rebundle until the residual human/AI work is redesigned.
-- Outcome persistence and Clock fit both 2 or lower means Fossil.
-- Residual value of 4 or higher with a fragile direct target means Option, not Foundation.
-- If the first useful release consumes more than half the estimated target half-life, recommend shrinking the bet.
+Explain the decision from the evidence:
+- An unsupported residual bottleneck requires redesign before scale.
+- If the target may expire before payback, compare a smaller wedge with stopping.
+- If reusable assets or learning are the main benefit, specify an option budget and learning goal.
+- Slow, brittle investments with little residual value are candidates to stop.
+- Resolve overlapping classifications by naming the primary blocker and secondary opportunity; never use numerical cutoffs as automatic funding rules.
 
 Classify the project as Foundation, Wedge, Option, Rebundle or Fossil. Then produce a one-page decision memo containing:
 1. the transformation thesis;

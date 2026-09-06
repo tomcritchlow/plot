@@ -1,5 +1,12 @@
 # Sources
 
+## Evidence check — 2026-09-05
+
+- No new empirical result introduced. The M&A, code-form, call-screening and film claims remain predictions; edited them to state mechanisms and observable tests.
+- The code-duplication argument draws on the existing taste-versus-elegance capture already linked below. No new capture material was imported.
+- Speed, product capability and licensing assertions require a dated source refresh before publication. The twelve-item form intentionally permits opinions; it should not disguise them as measured results.
+
+
 ## Primary inspiration
 
 - [Noah Brier, “Things I Think I Think About AI (2026 Edition)”](https://newsletter.brxnd.ai/p/things-i-think-i-think-about-ai-2026)

@@ -1,5 +1,14 @@
 # Sources
 
+## Evidence check — 2026-09-05
+
+- Checked [Angi’s 2025 filing](https://www.sec.gov/Archives/edgar/data/1705110/000170511026000011/angi-20251231.htm), auditor discussion of revenue recognition: U.S. lead revenue of $587.1m represents 57% of consolidated revenue. This is specifically U.S. lead revenue, not the total of all matching-related revenue worldwide.
+- Checked [Booking’s 2025 filing](https://www.sec.gov/Archives/edgar/data/1075531/000107553126000009/bkng-20251231.htm), operating metrics table: merchant bookings $130,025m / total $186,107m = approximately 69.9%, rounded to 70%. The ratio identifies payment-flow exposure, not durable competitive advantage.
+- Reopened the [UCP site](https://ucp.dev/) and [GEO critical survey abstract](https://arxiv.org/abs/2607.14035). This was a targeted check, not a full review of every protocol capability or study.
+- The Tripadvisor performance contrast and Zillow passage were cut from the manuscript; their sources remain research background. Yelp and DoorDash details are inherited claims still requiring a full publication fact-check.
+- The travel-stage walkthrough is a hypothetical diagnostic. The framework is not a probability equation or evidence that a marketplace will fail.
+
+
 ## Internal Plot provenance
 
 - [Models Of Desire](../agentic-commerce-preferences/draft.md)

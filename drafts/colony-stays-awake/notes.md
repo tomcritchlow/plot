@@ -1,5 +1,18 @@
 # The Colony Stays Awake — Notes
 
+## Editorial checkpoint — 2026-09-05
+
+**Argument:** A standing concern can persist through disposable model invocations; its interface should show maintained state and changes.
+
+**This pass:** Separated persistence from agent count, added an economic stopping test, and distinguished continuous concern from continuous spending. Corrected the incident window to July 8–13 and noted the evaluation setting. Preserved the mayfly, colony and final line.
+
+**Boundary / decision to preserve:** Termites & Tokens already established colony coordination and continuous senses. This essay must earn its sequel through continuity across runs, inherited state and the interface for governing it.
+
+**Next useful move:** Show one proposed maintained object as yesterday’s belief, new evidence, today’s belief and a decision. Label a mock example as such. Keep the ombudsman material brief; it is an early simulation, not demonstrated production protection.
+
+The earlier notes below remain a record of development; where they conflict with this checkpoint, use this checkpoint for the current editorial direction.
+
+
 ## Origin
 
 Tom connected three pieces:

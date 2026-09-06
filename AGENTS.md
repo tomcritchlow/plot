@@ -231,3 +231,14 @@ npm run import:published  # import new posts from feeds in plot.yml
 npm run import:url -- <url> [--draft <slug>]  # import one published piece by URL
 npm test                  # run the test suite
 ```
+
+## Privacy preferences
+
+Personal anecdotes are welcome. Do not include links to past AI chats, shared
+conversations, or thread identifiers in repo content. Keep local chat and
+attachment paths out of provenance; retain public research citations instead.
+Do not name specific Alephic clients or include identifying client-project
+details. Use clearly generic examples. These privacy preferences also apply
+to research exports and imported material. Explicitly requested privacy
+redactions are an exception to the published-corpus preservation rule; preserve
+those redactions on later imports. Derived indexes remain CI-maintained.

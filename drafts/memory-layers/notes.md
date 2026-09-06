@@ -1,5 +1,18 @@
 # Memory Layers Notes
 
+## Editorial checkpoint — 2026-09-05
+
+**Argument:** Useful memory can revise a belief and show what evidence changed it.
+
+**This pass:** Substantially rebuilt around a recurring market-research task. Corrected the false two-layer premise by recognizing the context window and prior work on tiered memory. Kept the house/table image; removed the Web IQ detour and the survey of industries. Added a concrete revision test.
+
+**Boundary / decision to preserve:** This pass supersedes the literal “AI has two layers / no kitchen table” framing below. The missing middle is maintained revision, not an undiscovered storage tier. Do not conflate active context, durable storage and consolidation.
+
+**Next useful move:** Try the old-policy / new-exception / correction test and report what the system actually does. The six-week research example is an imagined test, not an account of an experiment already run.
+
+The earlier notes below remain a record of development; where they conflict with this checkpoint, use this checkpoint for the current editorial direction.
+
+
 ## Working Thesis
 
 AI models have two useful memory layers today:
