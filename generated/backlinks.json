@@ -18,12 +18,18 @@
       "drafts/what-survives-the-match/draft.md",
       "drafts/what-survives-the-match/sources.md"
     ],
+    "drafts/agentic-commerce-preferences/notes.md": [
+      "drafts/agentic-commerce-preferences/README.md"
+    ],
     "drafts/automating-the-wrong-layer/draft.md": [
       "drafts/automating-the-wrong-layer/README.md"
     ],
     "drafts/automating-the-wrong-layer/every-handoff-is-a-claim.md": [
       "drafts/automating-the-wrong-layer/README.md",
       "drafts/automating-the-wrong-layer/notes.md"
+    ],
+    "drafts/automating-the-wrong-layer/notes.md": [
+      "drafts/automating-the-wrong-layer/README.md"
     ],
     "drafts/automating-the-wrong-layer/sources.md": [
       "drafts/automating-the-wrong-layer/target-durability-audit.md"
@@ -32,8 +38,14 @@
       "drafts/automating-the-wrong-layer/README.md",
       "drafts/automating-the-wrong-layer/notes.md"
     ],
+    "drafts/colony-stays-awake/notes.md": [
+      "drafts/colony-stays-awake/README.md"
+    ],
     "drafts/company-must-know-itself/draft.md": [
       "drafts/colony-stays-awake/sources.md"
+    ],
+    "drafts/company-must-know-itself/notes.md": [
+      "drafts/company-must-know-itself/README.md"
     ],
     "drafts/company-world-model/": [
       "drafts/automating-the-wrong-layer/notes.md",
@@ -42,20 +54,42 @@
     "drafts/company-world-model/draft.md": [
       "drafts/colony-stays-awake/sources.md"
     ],
+    "drafts/company-world-model/notes.md": [
+      "drafts/company-world-model/README.md"
+    ],
+    "drafts/forward-deployed-consulting/notes.md": [
+      "drafts/forward-deployed-consulting/README.md"
+    ],
     "drafts/memory-layers/assets/information-processing-model-memory.png": [
-      "drafts/memory-layers/draft.md"
+      "drafts/memory-layers/draft.md",
+      "drafts/memory-layers/sources.md"
     ],
     "drafts/memory-layers/draft.md": [
       "drafts/colony-stays-awake/sources.md",
       "drafts/things-i-think-about-ai/sources.md",
       "drafts/what-survives-the-match/sources.md"
     ],
+    "drafts/memory-layers/notes.md": [
+      "drafts/memory-layers/README.md"
+    ],
     "drafts/spare-capacity/draft.md": [
       "drafts/colony-stays-awake/sources.md"
+    ],
+    "drafts/spare-capacity/notes.md": [
+      "drafts/spare-capacity/README.md"
     ],
     "drafts/things-i-think-about-ai/draft.md": [
       "drafts/colony-stays-awake/sources.md",
       "drafts/what-survives-the-match/sources.md"
+    ],
+    "drafts/things-i-think-about-ai/notes.md": [
+      "drafts/things-i-think-about-ai/README.md"
+    ],
+    "drafts/three-plane-shift/notes.md": [
+      "drafts/three-plane-shift/README.md"
+    ],
+    "drafts/what-survives-the-match/notes.md": [
+      "drafts/what-survives-the-match/README.md"
     ],
     "published/2024-03-01-how-do-you-cultivate-customer-centric-executives.md": [
       "drafts/what-survives-the-match/sources.md"

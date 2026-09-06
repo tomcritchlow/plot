@@ -1,5 +1,5 @@
 {
-  "count": 329,
+  "count": 326,
   "links": [
     {
       "url": "https://a16z.com/services-led-growth/",
@@ -81,18 +81,6 @@
         }
       ],
       "normalized": "https://academic.oup.com/qje/article-abstract/108/3/551/1881767"
-    },
-    {
-      "url": "https://adage.com/video/amazon-5-star-theater-w-adam-driver-dutch-oven/",
-      "title": null,
-      "author": null,
-      "first_seen": "2026-07-30T12:00:00.000Z",
-      "references": [
-        {
-          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
-        }
-      ],
-      "normalized": "https://adage.com/video/amazon-5-star-theater-w-adam-driver-dutch-oven"
     },
     {
       "url": "https://adplist.org/",
@@ -197,10 +185,28 @@
       "first_seen": null,
       "references": [
         {
+          "file": "drafts/memory-layers/draft.md"
+        },
+        {
           "file": "drafts/memory-layers/sources.md"
         }
       ],
       "normalized": "https://arxiv.org/abs/2005.11401"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.08560",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/memory-layers/draft.md"
+        },
+        {
+          "file": "drafts/memory-layers/sources.md"
+        }
+      ],
+      "normalized": "https://arxiv.org/abs/2310.08560"
     },
     {
       "url": "https://arxiv.org/abs/2507.16078",
@@ -496,36 +502,6 @@
         }
       ],
       "normalized": "https://cdspress.ca/wp-content/uploads/2022/08/Anthony-A.B.-Hopley-Jennifer-Wagner-Richard-Nicki.pdf"
-    },
-    {
-      "url": "https://chatgpt.com/share/68fed4af-0f8c-8004-981e-003805be4f58",
-      "title": null,
-      "author": null,
-      "first_seen": null,
-      "references": [
-        {
-          "file": "drafts/agentic-commerce-preferences/research/discussion.md"
-        },
-        {
-          "file": "drafts/agentic-commerce-preferences/sources.md"
-        }
-      ],
-      "normalized": "https://chatgpt.com/share/68fed4af-0f8c-8004-981e-003805be4f58"
-    },
-    {
-      "url": "https://chatgpt.com/share/68fed5f1-da60-8004-957f-ca995ca2d72b",
-      "title": null,
-      "author": null,
-      "first_seen": null,
-      "references": [
-        {
-          "file": "drafts/agentic-commerce-preferences/research/discussion.md"
-        },
-        {
-          "file": "drafts/agentic-commerce-preferences/sources.md"
-        }
-      ],
-      "normalized": "https://chatgpt.com/share/68fed5f1-da60-8004-957f-ca995ca2d72b"
     },
     {
       "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/grounding/overview",
@@ -1059,18 +1035,6 @@
       "normalized": "https://ideas.repec.org/a/taf/intgms/v17y2017i2p205-218.html"
     },
     {
-      "url": "https://images.alephic.com/alephic-com/adam-driver-3-body-problem.png",
-      "title": null,
-      "author": null,
-      "first_seen": "2026-07-30T12:00:00.000Z",
-      "references": [
-        {
-          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
-        }
-      ],
-      "normalized": "https://images.alephic.com/alephic-com/adam-driver-3-body-problem.png"
-    },
-    {
       "url": "https://images.alephic.com/alephic-com/ai-overview-anthropic.png",
       "title": null,
       "author": null,
@@ -1245,9 +1209,6 @@
       "first_seen": null,
       "references": [
         {
-          "file": "drafts/what-survives-the-match/draft.md"
-        },
-        {
           "file": "drafts/what-survives-the-match/sources.md"
         }
       ],
@@ -1271,9 +1232,6 @@
       "author": null,
       "first_seen": null,
       "references": [
-        {
-          "file": "drafts/spare-capacity/draft.md"
-        },
         {
           "file": "drafts/spare-capacity/research/academic-research.md"
         },
@@ -1428,6 +1386,21 @@
         }
       ],
       "normalized": "https://link.springer.com/article/10.1007/BF02404071"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/BF02894350",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/agentic-commerce-preferences/draft.md"
+        },
+        {
+          "file": "drafts/agentic-commerce-preferences/sources.md"
+        }
+      ],
+      "normalized": "https://link.springer.com/article/10.1007/BF02894350"
     },
     {
       "url": "https://lirias.kuleuven.be/retrieve/ec209dc9-411f-422e-93d9-ea5820bfadeb",
@@ -1712,9 +1685,6 @@
       "author": null,
       "first_seen": null,
       "references": [
-        {
-          "file": "drafts/spare-capacity/draft.md"
-        },
         {
           "file": "drafts/spare-capacity/research/academic-research.md"
         },
@@ -3004,18 +2974,6 @@
       "normalized": "https://www.alephic.com/"
     },
     {
-      "url": "https://www.alephic.com/customers/amazon-creative-ai-initiatives",
-      "title": null,
-      "author": null,
-      "first_seen": "2026-07-30T12:00:00.000Z",
-      "references": [
-        {
-          "file": "published/2026-07-30-an-almanac-for-the-age-of-chaos.md"
-        }
-      ],
-      "normalized": "https://www.alephic.com/customers/amazon-creative-ai-initiatives"
-    },
-    {
       "url": "https://www.alephic.com/writing/almanac-for-the-age-of-chaos",
       "title": "An Almanac for the Age of Chaos",
       "author": "Tom Critchlow",
@@ -3198,6 +3156,9 @@
       "author": null,
       "first_seen": null,
       "references": [
+        {
+          "file": "drafts/spare-capacity/draft.md"
+        },
         {
           "file": "drafts/spare-capacity/research/academic-research.md"
         },
@@ -3505,6 +3466,9 @@
       "first_seen": null,
       "references": [
         {
+          "file": "drafts/memory-layers/draft.md"
+        },
+        {
           "file": "drafts/memory-layers/sources.md"
         }
       ],
@@ -3557,6 +3521,18 @@
         }
       ],
       "normalized": "https://www.nbcdfw.com/news/business/money-report/meta-removes-10-million-facebook-profiles-in-effort-to-combat-spam/3884912"
+    },
+    {
+      "url": "https://www.nber.org/digest/mar18/competition-and-search-internet-markets-used-books",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/agentic-commerce-preferences/sources.md"
+        }
+      ],
+      "normalized": "https://www.nber.org/digest/mar18/competition-and-search-internet-markets-used-books"
     },
     {
       "url": "https://www.nber.org/papers/w23075",
@@ -3700,6 +3676,9 @@
       "first_seen": null,
       "references": [
         {
+          "file": "drafts/company-world-model/draft.md"
+        },
+        {
           "file": "drafts/company-world-model/sources.md"
         }
       ],
@@ -3762,9 +3741,6 @@
       "author": null,
       "first_seen": null,
       "references": [
-        {
-          "file": "drafts/spare-capacity/draft.md"
-        },
         {
           "file": "drafts/spare-capacity/research/academic-research.md"
         },
@@ -3862,21 +3838,6 @@
       "normalized": "https://www.sciencedirect.com/science/article/pii/S1877042814051520"
     },
     {
-      "url": "https://www.scirp.org/reference/referencespapers?referenceid=2571649",
-      "title": null,
-      "author": null,
-      "first_seen": null,
-      "references": [
-        {
-          "file": "drafts/agentic-commerce-preferences/draft.md"
-        },
-        {
-          "file": "drafts/agentic-commerce-preferences/sources.md"
-        }
-      ],
-      "normalized": "https://www.scirp.org/reference/referencespapers?referenceid=2571649"
-    },
-    {
       "url": "https://www.seangoedecke.com/doing-nothing-at-work/",
       "title": null,
       "author": null,
@@ -3963,9 +3924,6 @@
       "author": null,
       "first_seen": null,
       "references": [
-        {
-          "file": "drafts/what-survives-the-match/draft.md"
-        },
         {
           "file": "drafts/what-survives-the-match/sources.md"
         }
