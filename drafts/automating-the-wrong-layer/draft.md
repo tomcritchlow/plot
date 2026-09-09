@@ -36,9 +36,13 @@ It cannot.
 
 ## Jobs are bundles, but their value is O-ring shaped
 
+Anthropic's new [Economic Scenario Explorer](https://www.anthropic.com/institute/econ-scenarios) makes the basic idea unusually tangible. It represents a job—say, a nurse's—as a bundle of tasks. As AI arrives, some tasks remain unchanged, some are augmented, some are automated and new ones appear. Change the bundle and you change the job.
+
+This is already a better starting point than asking whether “nursing” or “marketing” will be automated. But a list of tasks is only the beginning. A bundle is not a bag. The tasks depend on one another, and removing one can change the value, volume and failure sensitivity of everything that remains.
+
 In 1993, economist Michael Kremer published [“The O-Ring Theory of Economic Development”](https://academic.oup.com/qje/article-abstract/108/3/551/1881767). His model begins with production processes made from a series of tasks where a mistake in any one can dramatically reduce the value of the whole product. A company can have excellent product design, manufacturing and accounting and still fail because of bad marketing.
 
-The point is not that every marketing workflow is the space shuttle. It is that tasks can be complements. The value of doing one task well depends on the quality of the tasks around it.
+Kremer gives this dependence a sharper economic shape. The point is not that every marketing workflow is the space shuttle. It is that tasks can be complements. The value of doing one task well depends on the quality of the tasks around it.
 
 Most automation business cases quietly assume the opposite. They treat a job like an invoice with independent line items. Transcription costs this much. Editing costs that much. Copy and resizing cost something else. Automate seventy per cent of the hours and you have captured seventy per cent of the value.
 

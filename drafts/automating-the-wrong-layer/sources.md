@@ -29,6 +29,12 @@
 
 ## Task bundles, complementarity and automation
 
+- [Anthropic, “Scenarios for our Economic Future”](https://www.anthropic.com/institute/econ-scenarios) (Economic Scenario Explorer v1.0, September 2026)
+  - Interactive explanation of the economic model developed by Anton Korinek, Chad Jones, Szymon Sacher, Tess Cotter and Peter McCrory.
+  - Represents occupations as bundles of O*NET tasks that can remain unchanged, be augmented, be automated or be newly created as AI capabilities and adoption change.
+  - Supplies a current, accessible bridge into the draft's task-bundle argument. The draft then adds a distinction the explorer does not try to model: tasks have dependencies, so substitution can move a bottleneck or make a residual task more consequential.
+  - Anthropic explicitly describes the explorer as a simplified scenario tool rather than a prediction and notes that it omits policy responses, business cycles, aggregate-demand effects and other forces.
+
 - [Michael Kremer, “The O-Ring Theory of Economic Development”](https://academic.oup.com/qje/article-abstract/108/3/551/1881767) (Quarterly Journal of Economics, 1993)
   - Models production processes subject to mistakes in any of several complementary tasks, where output and wages can rise steeply with task quality.
   - The paper's opening examples include companies failing because of bad marketing even when product design, manufacturing and accounting are excellent.

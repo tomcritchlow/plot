@@ -1,5 +1,13 @@
 # Notes
 
+## Research update — 2026-09-09
+
+Added Anthropic's [Economic Scenario Explorer](https://www.anthropic.com/institute/econ-scenarios) to the analytical treatment as a current, interactive illustration of occupations as changing task bundles. The important distinction is preserved: Anthropic's unchanged / augmented / automated / newly created taxonomy describes what may happen to individual tasks, while this draft's contribution is to model the dependencies between tasks, the O-rings left behind and the bottleneck that moves.
+
+Useful compression:
+
+> A bundle is not a bag.
+
 ## Editorial checkpoint — 2026-09-05
 
 **Argument:** Every inherited boundary must justify its cost under the new conditions.
@@ -62,6 +70,7 @@ These tests do not produce eternal categories. Durability is relative to the inv
 - Kremer (1993): in O-ring production, the quality of complementary tasks is multiplicative; failure in one task can dramatically reduce the whole product's value.
 - Autor, Levy and Murnane (2003): technology changes the task composition of jobs by substituting for some tasks and complementing others.
 - Brynjolfsson, Mitchell and Rock (2018): most occupations contain machine-learnable tasks but few are fully automatable; realizing the value usually requires job redesign.
+- Anthropic Economic Scenario Explorer (2026): makes occupations as dynamic task bundles legible to a general audience; tasks can remain unchanged, be augmented, be automated or be newly created.
 - Dell'Acqua et al. (2026): AI's capability frontier is jagged even inside one knowledge workflow, so human/AI configurations must be evaluated task by task.
 - Bainbridge (1983): automating normal operation can leave humans with rare, difficult monitoring and takeover work while their skills and situational awareness deteriorate.
 - Parnas (1972): do not decompose systems from a flowchart; isolate difficult decisions and decisions likely to change.
