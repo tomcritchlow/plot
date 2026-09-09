@@ -1,5 +1,5 @@
 {
-  "count": 326,
+  "count": 327,
   "links": [
     {
       "url": "https://a16z.com/services-led-growth/",
@@ -3023,6 +3023,24 @@
         }
       ],
       "normalized": "https://www.amazon.com/Field-Science-Nature-Michael-Canfield/dp/0674057570"
+    },
+    {
+      "url": "https://www.anthropic.com/institute/econ-scenarios",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/automating-the-wrong-layer/draft.md"
+        },
+        {
+          "file": "drafts/automating-the-wrong-layer/notes.md"
+        },
+        {
+          "file": "drafts/automating-the-wrong-layer/sources.md"
+        }
+      ],
+      "normalized": "https://www.anthropic.com/institute/econ-scenarios"
     },
     {
       "url": "https://www.apa.org/pubs/journals/releases/xhp274763.pdf",
