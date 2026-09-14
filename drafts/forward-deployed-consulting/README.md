@@ -2,7 +2,7 @@
 title: The Forward Part
 status: drafting
 created_at: 2026-06-18
-updated_at: 2026-09-05
+updated_at: 2026-09-14
 ---
 
 # The Forward Part
@@ -10,6 +10,10 @@ updated_at: 2026-09-05
 **What this is trying to say:** there's a new kind of consulting posture where the response to a client's half-formed complaint is to open the repo rather than scope a deck — an exploration of forward-deployed consulting and what "forward" actually means.
 
 **Status notes:** edited around prototypes as diagnostic interventions and the obligation to retire or maintain what gets built. A specific first-hand scene remains the most useful author contribution.
+
+## Story spine
+
+[Read the story spine](story-spine.md). The argument in order, with key links, keeper lines and open questions.
 
 ## Editorial handoff — 2026-09-05
 

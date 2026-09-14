@@ -103,3 +103,38 @@ test("alternate manuscripts render as treatments of one draft project", () => {
     rmSync(root, { recursive: true, force: true });
   }
 });
+
+test("story spines are searchable working pages alongside manuscript treatments", () => {
+  const root = treatmentFixture();
+  try {
+    writeFileSync(
+      join(root, "drafts/piece/story-spine.md"),
+      "# Story spine: A Piece\n\n## Beats\n\n- A distinctive argument about handoffs.\n"
+    );
+    buildSite(root, "Test Writer");
+
+    const primary = readFileSync(join(root, "site/drafts/piece/draft.html"), "utf8");
+    assert.match(primary, /class="draft-file" href="story-spine\.html">Story spine<\/a>/);
+    assert.doesNotMatch(primary, /class="draft-treatment" href="story-spine\.html"/);
+
+    const spine = readFileSync(join(root, "site/drafts/piece/story-spine.html"), "utf8");
+    assert.match(spine, /class="draft-file" aria-current="page">Story spine<\/span>/);
+    assert.match(spine, /href="draft\.html">The Manuscript<\/a>/);
+    assert.match(spine, /href="alternate\.html">Every Boundary Is a Bet<\/a>/);
+    assert.match(spine, /A distinctive argument about handoffs/);
+
+    const research = readFileSync(join(root, "site/drafts/piece/research/discussion.html"), "utf8");
+    assert.match(research, /href="\.\.\/story-spine\.html">Story spine<\/a>/);
+    const index = readFileSync(join(root, "site/drafts/index.html"), "utf8");
+    assert.match(index, /href="piece\/story-spine\.html">Story spine<\/a>/);
+    const search = readFileSync(join(root, "site/search-data.js"), "utf8");
+    const docs = JSON.parse(search.replace(/^window\.__PLOT_SEARCH__=/, "").replace(/;\s*$/, ""));
+    assert.ok(docs.some((doc) =>
+      doc.u === "drafts/piece/story-spine.html" &&
+      doc.t === "Story spine: A Piece" &&
+      doc.x.includes("distinctive argument about handoffs")
+    ));
+  } finally {
+    rmSync(root, { recursive: true, force: true });
+  }
+});

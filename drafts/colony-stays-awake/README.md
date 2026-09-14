@@ -2,7 +2,7 @@
 title: The Colony Stays Awake
 status: drafting
 created_at: 2026-08-30
-updated_at: 2026-09-05
+updated_at: 2026-09-14
 ---
 
 # The Colony Stays Awake
@@ -12,6 +12,10 @@ updated_at: 2026-09-05
 **Form:** a speculative follow-on to “Of Termites & Tokens,” using Google Teamwork and the OpenAI/Hugging Face incident as the productive and dangerous faces of the same architecture, then asking what it would mean to govern a swarm as an institution.
 
 **Current editorial question:** does the emerging language of constitutions, civic reminders and ombudsmen sharpen “computational institution,” or pull the draft too far from its central argument about persistence and interface?
+
+## Story spine
+
+[Read the story spine](story-spine.md). The argument in order, with key links, keeper lines and open questions.
 
 ## Editorial handoff — 2026-09-05
 

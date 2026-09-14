@@ -2,7 +2,7 @@
 title: The Three Body Problem of Marketing
 status: published
 created_at: 2026-06-29
-updated_at: 2026-08-17
+updated_at: 2026-09-14
 published_url: https://www.alephic.com/writing/almanac-for-the-age-of-chaos
 published_at: 2026-07-30
 published_as: An Almanac for the Age of Chaos
@@ -15,6 +15,10 @@ published_as: An Almanac for the Age of Chaos
 **What this was trying to say:** marketing teams in 2026 are operating in chaos because three interacting bodies (customers, channels, and craft) now pull on each other in ways that admit no stable orbit — framed through Poincaré and the three-body problem. The published version reframed the answer around navigation over prediction: context layers, "standard status," and Michelin-style almanacs for disoriented customers.
 
 **Notes:** `draft.md` is the pre-publication manuscript and diverges from the published text; `research/review.html` is a review artifact from the riffs workspace.
+
+## Story spine
+
+[Read the story spine](story-spine.md). A retrospective outline of the published essay, with key links and quotes. The archived manuscript remains intact.
 
 ## Editorial handoff — 2026-09-05
 

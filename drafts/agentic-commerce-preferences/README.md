@@ -2,7 +2,7 @@
 title: Models Of Desire
 status: drafting
 created_at: 2026-06-11
-updated_at: 2026-09-05
+updated_at: 2026-09-14
 ---
 
 # Agentic Commerce Preferences
@@ -31,6 +31,10 @@ The piece should get to the counterintuitive hinge quickly:
 > Better search can make markets more efficient and more expensive at the same time.
 
 Then it should use agentic commerce to ask what happens when preferences become easier to elicit, model, disclose, hide, bargain with, and price.
+
+## Story spine
+
+[Read the story spine](story-spine.md). The argument in order, with key links, keeper lines and open questions.
 
 ## Editorial handoff — 2026-09-05
 

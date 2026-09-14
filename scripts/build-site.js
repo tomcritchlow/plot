@@ -70,15 +70,17 @@ function docKind(record) {
 
 const DRAFT_FILE_ORDER = new Map([
   ["README.md", 0],
-  ["draft.md", 1],
-  ["notes.md", 2],
-  ["sources.md", 3],
+  ["story-spine.md", 1],
+  ["draft.md", 2],
+  ["notes.md", 3],
+  ["sources.md", 4],
 ]);
 
 function draftFileLabel(file, slug) {
   const rel = file.slice(`drafts/${slug}/`.length);
   const coreLabels = {
     "README.md": "Brief",
+    "story-spine.md": "Story spine",
     "draft.md": "Draft",
     "notes.md": "Notes",
     "sources.md": "Sources",
@@ -515,7 +517,7 @@ export function buildSite(root, writerName = "A writer") {
       depth: 1,
       writerName,
       content:
-        `<h1>Drafts</h1><p class="snippet">Pieces being written. Each folder holds the brief, manuscript, notes and sources.</p>` +
+        `<h1>Drafts</h1><p class="snippet">Pieces being written. Each folder holds the brief, story spine, manuscripts, notes and sources.</p>` +
         `<ul class="doclist">${draftCards.join("\n")}</ul>`,
     })
   );

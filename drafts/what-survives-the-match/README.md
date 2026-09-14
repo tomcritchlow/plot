@@ -2,7 +2,7 @@
 title: What Survives the Match?
 status: drafting
 created_at: 2026-09-05
-updated_at: 2026-09-05
+updated_at: 2026-09-14
 ---
 
 # What Survives the Match?
@@ -24,6 +24,10 @@ Subtitle direction: `Brands and marketplaces after the browser`
 - `draft.md`: current manuscript.
 - `notes.md`: thesis, frameworks, tensions and revision directions.
 - `sources.md`: internal Plot provenance and external evidence trail.
+
+## Story spine
+
+[Read the story spine](story-spine.md). The argument in order, with key links, keeper lines and open questions.
 
 ## Editorial handoff — 2026-09-05
 

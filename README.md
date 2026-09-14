@@ -34,6 +34,7 @@ Other things you can say to any agent with access to this repo:
 - *"What have I captured recently about agents?"*
 - *"Are there captures that should become a seed?"*
 - *"Help me work on the clock draft — check my captures and published stuff first."*
+- *"Give me the story spine: the argument in order, with key links and quotes."*
 
 ## The lifecycle
 
@@ -67,11 +68,12 @@ said — so future thinking builds on it instead of repeating it.
 ```text
 captures/YYYY/MM/   raw material: thoughts, links, quotes (append-only)
 seeds/              ideas that deserve their own evolving document
-drafts/<slug>/      writing projects (README, manuscripts, notes, sources)
+drafts/<slug>/      writing projects (brief, story spine, manuscripts, notes, sources)
 published/          your published corpus, imported from your RSS feed
 generated/          derived JSON indexes — written ONLY by CI, never by hand
 scripts/            plain Node tooling (validate, index, import)
 AGENTS.md           the operating protocol every agent reads first
+STORY-SPINE.md      the condensed-outline format and starter
 plot.yml            configuration (your name, your feeds)
 ```
 
@@ -143,11 +145,32 @@ The site presents them together as treatments of the same idea. Do not use
 `draft-v2.md`: ordinary revisions belong in Git history, while multiple
 manuscripts are for meaningfully different arguments, structures or audiences.
 
+## Story spines
+
+Every draft has a [story spine](STORY-SPINE.md) in `story-spine.md`: the
+condensed argument you can write from in your own words. Aim for 300–600
+words: a premise, ordered beats with evidence attached, a landing and the
+remaining open questions. Keep the important links and exact quotations.
+
+The brief says what the project is for. The spine shows how the story moves.
+The manuscript is the prose. Notes hold the exploration; sources hold the
+research trail. Agents maintain the spine when the argument changes, so you
+can resume a draft without rereading thousands of words.
+
+One spine belongs to the whole draft project. It can identify a chosen
+treatment, preserve an unresolved fork or propose an explicitly requested
+synthesis. It is not listed under `manuscripts`. Published archives can have
+a clearly labeled retrospective spine derived from their published text.
+
+Start with [Automating the Wrong Layer](drafts/automating-the-wrong-layer/story-spine.md)
+for a merged argument, or [The Missing Middle Memory](drafts/memory-layers/story-spine.md)
+for a single treatment. The [format guide](STORY-SPINE.md) includes a starter.
+
 ## The site
 
 CI builds a read-only static site of the whole repo — browsable captures,
 seeds, drafts and published work, with client-side search and navigation
-between alternate manuscript treatments — and deploys it to GitHub Pages on
+between story spines, manuscripts and supporting files — and deploys it to GitHub Pages on
 every push to `main`. Enable it once in *Settings →
 Pages → Source: GitHub Actions*. The site is a disposable view, exactly like
 `generated/`: it is never committed, and everything on it renders from the

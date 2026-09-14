@@ -124,9 +124,9 @@ related captures accumulate, or when the user says so.
 
 Before working substantially on anything in `drafts/`:
 
-1. Read the entire draft folder (`README.md` is the brief; `draft.md` is the
-   default manuscript; any files listed under `manuscripts` are alternate
-   treatments; `notes.md` is loose thinking; `sources.md` is provenance).
+1. Read the entire draft folder. Start with `README.md` (the brief) and
+   `story-spine.md` (the condensed argument); then read `draft.md`, any
+   alternate `manuscripts`, `notes.md` and `sources.md`.
 2. Search `seeds/` for relevant ideas.
 3. Search `captures/` for related quotes, links and thoughts (`rg` works;
    `generated/*.json` gives you structured views).
@@ -156,6 +156,29 @@ Multiple manuscripts are branches of the idea, not historical snapshots.
 Share `notes.md` and `sources.md` unless a treatment truly needs separate
 supporting material.
 
+## Protocol: story spines
+
+Every draft project has a `story-spine.md`: a tight outline the writer can
+write from, with key links and exact quotations intact. Follow
+[STORY-SPINE.md](STORY-SPINE.md) for the format and starter.
+
+- Create the spine with a new draft; link it from the draft's README.
+- Aim for 300–600 words: one-sentence premise, basis, five to eight ordered
+  beats, landing and one to three open questions. Adapt to the form; a
+  twelve-item list can keep twelve beats. Use bullets, not polished prose.
+- Attach evidence to the beat it supports. Distinguish exact source quotes
+  from the writer's keeper lines, and hypotheses from observed results.
+- Use one spine per project, not one per manuscript. Name which treatment
+  it follows or which synthesis it proposes. Preserve unresolved forks;
+  do not silently supersede another treatment or protected original.
+- Update the spine in the same commit when the argument, order, key evidence
+  or ending changes. Line edits alone do not require a rewrite.
+- Keep loose exploration in `notes.md` and provenance in `sources.md`.
+  The spine is canonical working material, not an automatically generated
+  summary. Do not declare it as a manuscript or a new capture type.
+- In a published archive, preserve the spine with the publication. If adding
+  one retrospectively, use the published text and label it retrospective.
+
 ## Protocol: publishing a draft
 
 When the user says a draft has been published (usually by giving you a URL):
@@ -175,8 +198,9 @@ When the user says a draft has been published (usually by giving you a URL):
    out) `published_as`; bump `updated_at`. If the folder declares multiple
    manuscripts, also add `published_manuscript` with the filename selected
    for publication.
-3. **Keep the draft folder.** Its notes, sources, and pre-publication
-   manuscripts remain valuable context. Never delete it, and stop making
+3. **Keep the draft folder.** Its story spine, notes, sources, and pre-publication
+   manuscripts remain valuable context. Align the spine with the published
+   argument and link the publication before treating it as an archive. Never delete it, and stop making
    substantial edits to the manuscript that was published — the published
    file is now the canonical text.
 4. Commit with a message like `publish: three-plane-shift → An Almanac for

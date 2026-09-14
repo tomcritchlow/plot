@@ -2,7 +2,7 @@
 title: Things I Think About AI
 status: drafting
 created_at: 2026-08-26
-updated_at: 2026-09-05
+updated_at: 2026-09-14
 ---
 
 # Things I Think About AI
@@ -12,6 +12,10 @@ updated_at: 2026-09-05
 **Form:** a numbered list inspired by Noah Brier's “Things I Think I Think About AI (2026 Edition),” but written as Tom's own argument rather than a response post.
 
 **Current editorial question:** should this remain a wide-angle list, or should a later revision group the ideas into a tighter thesis about what happens when intelligence becomes fast, persistent, embodied, and abundant?
+
+## Story spine
+
+[Read the story spine](story-spine.md). The argument in order, with key links, keeper lines and open questions.
 
 ## Editorial handoff — 2026-09-05
 

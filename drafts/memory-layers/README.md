@@ -2,7 +2,7 @@
 title: The Missing Middle Memory
 status: drafting
 created_at: 2026-06-22
-updated_at: 2026-09-05
+updated_at: 2026-09-14
 ---
 
 # The Missing Middle Memory
@@ -10,6 +10,10 @@ updated_at: 2026-09-05
 **What this is trying to say:** AI memory needs maintained revision between retrieval and durable storage. The context window already provides an active workspace; the test is whether a system can show which belief changed, why, and what decision improved.
 
 **Assets:** the information-processing model diagram lives in `assets/`.
+
+## Story spine
+
+[Read the story spine](story-spine.md). The argument in order, with key links, keeper lines and open questions.
 
 ## Editorial handoff — 2026-09-05
 

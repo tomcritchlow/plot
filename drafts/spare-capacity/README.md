@@ -2,7 +2,7 @@
 title: The Time You Don't Spend
 status: drafting
 created_at: 2026-06-11
-updated_at: 2026-09-05
+updated_at: 2026-09-14
 ---
 
 # The Time You Don't Spend
@@ -10,6 +10,10 @@ updated_at: 2026-09-05
 **What this is trying to say:** starting from multi-tabling online poker as a human event loop, this explores spare attention capacity — what it means to manage a portfolio of overlapping opportunities, and what agents change about the time you don't spend.
 
 **Research:** `research/academic-research.md` collects the academic trail.
+
+## Story spine
+
+[Read the story spine](story-spine.md). The argument in order, with key links, keeper lines and open questions.
 
 ## Editorial handoff — 2026-09-05
 
