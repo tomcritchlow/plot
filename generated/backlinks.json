@@ -5,46 +5,83 @@
       "drafts/automating-the-wrong-layer/sources.md"
     ],
     "captures/2026/08/2026-08-19-095818-taste-versus-elegance.md": [
-      "drafts/things-i-think-about-ai/sources.md"
+      "drafts/things-i-think-about-ai/sources.md",
+      "drafts/things-i-think-about-ai/story-spine.md"
     ],
     "captures/2026/08/2026-08-20-102808-proof-abundance.md": [
       "drafts/colony-stays-awake/sources.md",
       "drafts/things-i-think-about-ai/sources.md"
     ],
     "captures/2026/08/2026-08-26-225311-master-design-doc.md": [
-      "drafts/colony-stays-awake/sources.md"
+      "drafts/colony-stays-awake/sources.md",
+      "drafts/colony-stays-awake/story-spine.md"
     ],
     "drafts/agentic-commerce-preferences/draft.md": [
+      "drafts/agentic-commerce-preferences/story-spine.md",
       "drafts/what-survives-the-match/draft.md",
       "drafts/what-survives-the-match/sources.md"
     ],
     "drafts/agentic-commerce-preferences/notes.md": [
-      "drafts/agentic-commerce-preferences/README.md"
+      "drafts/agentic-commerce-preferences/README.md",
+      "drafts/agentic-commerce-preferences/story-spine.md"
+    ],
+    "drafts/agentic-commerce-preferences/sources.md": [
+      "drafts/agentic-commerce-preferences/story-spine.md"
+    ],
+    "drafts/agentic-commerce-preferences/story-spine.md": [
+      "drafts/agentic-commerce-preferences/README.md",
+      "drafts/what-survives-the-match/story-spine.md"
     ],
     "drafts/automating-the-wrong-layer/draft.md": [
-      "drafts/automating-the-wrong-layer/README.md"
+      "drafts/automating-the-wrong-layer/README.md",
+      "drafts/automating-the-wrong-layer/story-spine.md"
     ],
     "drafts/automating-the-wrong-layer/every-handoff-is-a-claim.md": [
       "drafts/automating-the-wrong-layer/README.md",
-      "drafts/automating-the-wrong-layer/notes.md"
+      "drafts/automating-the-wrong-layer/notes.md",
+      "drafts/automating-the-wrong-layer/story-spine.md"
     ],
     "drafts/automating-the-wrong-layer/notes.md": [
       "drafts/automating-the-wrong-layer/README.md"
     ],
     "drafts/automating-the-wrong-layer/sources.md": [
+      "drafts/automating-the-wrong-layer/story-spine.md",
       "drafts/automating-the-wrong-layer/target-durability-audit.md"
+    ],
+    "drafts/automating-the-wrong-layer/story-spine.md": [
+      "drafts/automating-the-wrong-layer/README.md"
     ],
     "drafts/automating-the-wrong-layer/target-durability-audit.md": [
       "drafts/automating-the-wrong-layer/README.md",
-      "drafts/automating-the-wrong-layer/notes.md"
+      "drafts/automating-the-wrong-layer/notes.md",
+      "drafts/automating-the-wrong-layer/story-spine.md"
+    ],
+    "drafts/colony-stays-awake/draft.md": [
+      "drafts/colony-stays-awake/story-spine.md"
     ],
     "drafts/colony-stays-awake/notes.md": [
-      "drafts/colony-stays-awake/README.md"
+      "drafts/colony-stays-awake/README.md",
+      "drafts/colony-stays-awake/story-spine.md"
+    ],
+    "drafts/colony-stays-awake/sources.md": [
+      "drafts/colony-stays-awake/story-spine.md"
+    ],
+    "drafts/colony-stays-awake/story-spine.md": [
+      "drafts/colony-stays-awake/README.md",
+      "drafts/spare-capacity/story-spine.md"
     ],
     "drafts/company-must-know-itself/draft.md": [
-      "drafts/colony-stays-awake/sources.md"
+      "drafts/colony-stays-awake/sources.md",
+      "drafts/company-must-know-itself/story-spine.md"
     ],
     "drafts/company-must-know-itself/notes.md": [
+      "drafts/company-must-know-itself/README.md",
+      "drafts/company-must-know-itself/story-spine.md"
+    ],
+    "drafts/company-must-know-itself/sources.md": [
+      "drafts/company-must-know-itself/story-spine.md"
+    ],
+    "drafts/company-must-know-itself/story-spine.md": [
       "drafts/company-must-know-itself/README.md"
     ],
     "drafts/company-world-model/": [
@@ -52,12 +89,31 @@
       "drafts/automating-the-wrong-layer/sources.md"
     ],
     "drafts/company-world-model/draft.md": [
-      "drafts/colony-stays-awake/sources.md"
+      "drafts/colony-stays-awake/sources.md",
+      "drafts/company-world-model/story-spine.md"
     ],
     "drafts/company-world-model/notes.md": [
-      "drafts/company-world-model/README.md"
+      "drafts/company-world-model/README.md",
+      "drafts/company-world-model/story-spine.md"
+    ],
+    "drafts/company-world-model/sources.md": [
+      "drafts/company-world-model/story-spine.md"
+    ],
+    "drafts/company-world-model/story-spine.md": [
+      "drafts/company-world-model/README.md",
+      "drafts/memory-layers/story-spine.md"
+    ],
+    "drafts/forward-deployed-consulting/draft.md": [
+      "drafts/forward-deployed-consulting/story-spine.md"
     ],
     "drafts/forward-deployed-consulting/notes.md": [
+      "drafts/forward-deployed-consulting/README.md",
+      "drafts/forward-deployed-consulting/story-spine.md"
+    ],
+    "drafts/forward-deployed-consulting/sources.md": [
+      "drafts/forward-deployed-consulting/story-spine.md"
+    ],
+    "drafts/forward-deployed-consulting/story-spine.md": [
       "drafts/forward-deployed-consulting/README.md"
     ],
     "drafts/memory-layers/assets/information-processing-model-memory.png": [
@@ -66,29 +122,75 @@
     ],
     "drafts/memory-layers/draft.md": [
       "drafts/colony-stays-awake/sources.md",
+      "drafts/memory-layers/story-spine.md",
       "drafts/things-i-think-about-ai/sources.md",
       "drafts/what-survives-the-match/sources.md"
     ],
     "drafts/memory-layers/notes.md": [
-      "drafts/memory-layers/README.md"
+      "drafts/memory-layers/README.md",
+      "drafts/memory-layers/story-spine.md"
+    ],
+    "drafts/memory-layers/sources.md": [
+      "drafts/memory-layers/story-spine.md"
+    ],
+    "drafts/memory-layers/story-spine.md": [
+      "drafts/company-world-model/story-spine.md",
+      "drafts/memory-layers/README.md",
+      "drafts/things-i-think-about-ai/story-spine.md"
     ],
     "drafts/spare-capacity/draft.md": [
-      "drafts/colony-stays-awake/sources.md"
+      "drafts/colony-stays-awake/sources.md",
+      "drafts/spare-capacity/story-spine.md"
     ],
     "drafts/spare-capacity/notes.md": [
+      "drafts/spare-capacity/README.md",
+      "drafts/spare-capacity/story-spine.md"
+    ],
+    "drafts/spare-capacity/sources.md": [
+      "drafts/spare-capacity/story-spine.md"
+    ],
+    "drafts/spare-capacity/story-spine.md": [
       "drafts/spare-capacity/README.md"
     ],
     "drafts/things-i-think-about-ai/draft.md": [
       "drafts/colony-stays-awake/sources.md",
+      "drafts/things-i-think-about-ai/story-spine.md",
       "drafts/what-survives-the-match/sources.md"
     ],
     "drafts/things-i-think-about-ai/notes.md": [
+      "drafts/things-i-think-about-ai/README.md",
+      "drafts/things-i-think-about-ai/story-spine.md"
+    ],
+    "drafts/things-i-think-about-ai/sources.md": [
+      "drafts/things-i-think-about-ai/story-spine.md"
+    ],
+    "drafts/things-i-think-about-ai/story-spine.md": [
       "drafts/things-i-think-about-ai/README.md"
+    ],
+    "drafts/three-plane-shift/README.md": [
+      "drafts/three-plane-shift/story-spine.md"
     ],
     "drafts/three-plane-shift/notes.md": [
       "drafts/three-plane-shift/README.md"
     ],
+    "drafts/three-plane-shift/sources.md": [
+      "drafts/three-plane-shift/story-spine.md"
+    ],
+    "drafts/three-plane-shift/story-spine.md": [
+      "drafts/three-plane-shift/README.md"
+    ],
+    "drafts/what-survives-the-match/draft.md": [
+      "drafts/what-survives-the-match/story-spine.md"
+    ],
     "drafts/what-survives-the-match/notes.md": [
+      "drafts/what-survives-the-match/README.md",
+      "drafts/what-survives-the-match/story-spine.md"
+    ],
+    "drafts/what-survives-the-match/sources.md": [
+      "drafts/what-survives-the-match/story-spine.md"
+    ],
+    "drafts/what-survives-the-match/story-spine.md": [
+      "drafts/agentic-commerce-preferences/story-spine.md",
       "drafts/what-survives-the-match/README.md"
     ],
     "published/2024-03-01-how-do-you-cultivate-customer-centric-executives.md": [
@@ -100,9 +202,12 @@
     "published/2026-06-08-of-termites-tokens.md": [
       "drafts/automating-the-wrong-layer/notes.md",
       "drafts/automating-the-wrong-layer/sources.md",
+      "drafts/automating-the-wrong-layer/story-spine.md",
       "drafts/colony-stays-awake/sources.md",
+      "drafts/colony-stays-awake/story-spine.md",
       "drafts/company-must-know-itself/sources.md",
-      "drafts/things-i-think-about-ai/sources.md"
+      "drafts/things-i-think-about-ai/sources.md",
+      "drafts/three-plane-shift/story-spine.md"
     ],
     "published/2026-07-30-an-almanac-for-the-age-of-chaos.md": [
       "drafts/automating-the-wrong-layer/notes.md",
@@ -110,6 +215,7 @@
       "drafts/colony-stays-awake/sources.md",
       "drafts/things-i-think-about-ai/sources.md",
       "drafts/three-plane-shift/README.md",
+      "drafts/three-plane-shift/story-spine.md",
       "drafts/what-survives-the-match/sources.md"
     ]
   }
