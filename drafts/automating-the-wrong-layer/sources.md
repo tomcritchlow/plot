@@ -1,5 +1,13 @@
 # Sources
 
+## Boundary design — added 2026-09-15
+
+- [Carliss Y. Baldwin, “A theory of technology and organizations”](https://journals.sagepub.com/doi/10.1177/14761270251409566), *Strategic Organization*, 24(2), 2026; first published online 2025-12-11. DOI: 10.1177/14761270251409566.
+  - Supplied by Tom; publisher HTML consulted 2026-09-15, especially “Building blocks,” “How technologies change,” and “The spectrum of complementarity.”
+  - Used in [Every Handoff Is a Claim](every-handoff-is-a-claim.md), “Which work belongs together?”
+  - The video example, three proposed boundary decisions and evaluation questions are our application, not findings reported by Baldwin. Her paper does not establish that today's AI can execute the proposed workflow reliably.
+  - The analytical manuscript remains unchanged; the shared spine and companion audit incorporate the new application.
+
 ## Evidence check — 2026-09-05
 
 - No new external empirical result introduced. This pass corrects the interpretation of the Ford case: invoice elimination did not eliminate the matching of purchase orders and receipts.
