@@ -34,6 +34,7 @@
     ],
     "drafts/automating-the-wrong-layer/draft.md": [
       "drafts/automating-the-wrong-layer/README.md",
+      "drafts/automating-the-wrong-layer/every-handoff-is-a-claim.md",
       "drafts/automating-the-wrong-layer/story-spine.md"
     ],
     "drafts/automating-the-wrong-layer/every-handoff-is-a-claim.md": [
@@ -44,7 +45,8 @@
       "drafts/automating-the-wrong-layer/target-durability-audit.md"
     ],
     "drafts/automating-the-wrong-layer/notes.md": [
-      "drafts/automating-the-wrong-layer/README.md"
+      "drafts/automating-the-wrong-layer/README.md",
+      "drafts/automating-the-wrong-layer/story-spine.md"
     ],
     "drafts/automating-the-wrong-layer/sources.md": [
       "drafts/automating-the-wrong-layer/story-spine.md",
@@ -55,6 +57,7 @@
     ],
     "drafts/automating-the-wrong-layer/target-durability-audit.md": [
       "drafts/automating-the-wrong-layer/README.md",
+      "drafts/automating-the-wrong-layer/every-handoff-is-a-claim.md",
       "drafts/automating-the-wrong-layer/notes.md",
       "drafts/automating-the-wrong-layer/story-spine.md"
     ],
@@ -198,13 +201,16 @@
     "published/2024-03-01-how-do-you-cultivate-customer-centric-executives.md": [
       "drafts/what-survives-the-match/sources.md"
     ],
+    "published/2024-04-16-working-with-founders-who-have-conviction-and-taste.md": [
+      "drafts/automating-the-wrong-layer/notes.md",
+      "drafts/automating-the-wrong-layer/sources.md"
+    ],
     "published/2025-03-21-google-is-grounded-and-needs-to-learn-how-to-soar.md": [
       "drafts/what-survives-the-match/sources.md"
     ],
     "published/2026-06-08-of-termites-tokens.md": [
       "drafts/automating-the-wrong-layer/notes.md",
       "drafts/automating-the-wrong-layer/sources.md",
-      "drafts/automating-the-wrong-layer/story-spine.md",
       "drafts/colony-stays-awake/sources.md",
       "drafts/colony-stays-awake/story-spine.md",
       "drafts/company-must-know-itself/sources.md",
