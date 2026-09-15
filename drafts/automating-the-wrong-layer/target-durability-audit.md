@@ -2,6 +2,8 @@
 
 A practical interview for a CMO deciding whether an AI transformation project should be built, time-boxed, treated as an option or stopped.
 
+An FDE can use the same interview with the client to expose organizational assumptions before implementing them. The client agrees decision rights and operating responsibilities; the implementation must make those choices usable and testable.
+
 Start with the responsibility a person or team can exercise. Then test a **rebundling hypothesis**:
 
 > If this owner has the evidence, decision rights and capabilities to steer this outcome, the proposed task bundle will produce value for long enough to repay the investment.
@@ -199,6 +201,9 @@ Finish with:
 3. What evidence would cause us to stop?
 4. What is the review date?
 5. Which asset must remain useful even if the project ends on that date?
+6. Which boundary exists because of a current model limitation, and how would we change it if that limitation eased?
+7. What will the first release reveal about context transfer, exception volume and the owner's ability to correct the system?
+8. Who on the client team can maintain the rules, permissions and operating model after the implementation team leaves?
 
 ## One-page decision output
 
@@ -275,6 +280,7 @@ Interview the user one question at a time. Do not show the whole questionnaire u
 During the interview:
 - Separate the customer or business outcome from the current workflow, org chart, tool and status model.
 - Identify a person or team responsible for a bounded outcome. Apply Do / Know / Own separately: execution capability; evidence and context; authority and capacity to authorize, answer for and change what happens. Trace goal, act, observe, judge, adjust through a recent case. Do not treat an accountable name as proof of effective control.
+- If facilitating as an FDE, separate implementation recommendations from decision rights the client must authorize. Specify what the model may interpret, what software enforces, what people authorize and who can change the rules. Identify which boundaries compensate for current limitations and what pilot evidence could justify revising them. Confirm the client can operate and change the system after handoff.
 - Establish the current baseline, desired outcome, constraints, first-useful-release date, payback horizon and estimated target half-life.
 - Decompose the work into concrete tasks. Classify each as generate/transform, infer/recommend, decide/commit, coordinate/route, verify/govern or relate/persuade.
 - For each task, record its current performer, purpose, quality measure, failure effect, dependencies and likely AI relationship: substitute, complement, uncertain or institutionally human.

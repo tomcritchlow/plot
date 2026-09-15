@@ -1,26 +1,44 @@
 # Automating the Wrong Layer
 
-Imagine a marketing manager describing their job. Research the audience. Write the brief. Coordinate the creative. Get approval. Launch the campaign. Pull the numbers. Present the results.
+Helping clients deploy AI puts me in an awkward position. I have to recommend a system they can build and operate, while the technology keeps changing what that system ought to do.
 
-Give that list to an AI transformation team and a familiar exercise begins. Which tasks can we automate? Which need a copilot? Where should an agent hand off to a human?
+From the perspective of a forward-deployed engineer, a bounded task at least gives you a reasonably clear target. Extract fields from this document. Classify this request. Produce a draft for someone to review. You can inspect the input, define an acceptable result and test whether the model gets there reliably enough. Getting it into production still takes work, but you know what you are trying to make work.
 
-But ask the manager what they are actually on the hook for and you might get a different answer:
+A system is a different problem.
+
+Suppose a client wants to automate campaign production. Research the audience, write the brief, generate creative, secure approvals, launch, measure and adjust. It looks like a sequence of tasks to connect.
+
+But to build it, I have to make decisions about the organization. Does the brief still need to exist as a separate artifact? Should research and creative be separate agents, or capabilities available to the same person? What can the system publish without asking? Who sees the exceptions? Who can change the rules? What happens when that person's queue fills up?
+
+I also have to make a bet about which of these distinctions will still matter when the system ships. A boundary that compensates for today's model weakness could be unnecessary by then. An approval step that looks wasteful could turn out to be the place where someone exercises essential independent judgment.
+
+**The system I ship contains a hypothesis about how the client should work.**
+
+That is the problem I want to get better at. How do I make that hypothesis explicit, test it with the client, and avoid making an expensive commitment to the wrong division of work?
+
+## The process map offers an easy answer
+
+The tempting answer is to start with how the client works today. Every box gets a copilot. Every arrow gets an integration. Every queue gets an agent. The current process supplies the requirements, the project plan and a convenient way to divide the engineering work.
+
+This is how yesterday's organization becomes tomorrow's software.
+
+Mapping the process is useful. But before I turn it into architecture, I need to understand what its boundaries are doing. Some separate expertise. Some control access. Some allocate scarce attention. Others simply survived the last software implementation.
+
+Take the marketing manager whose workflow we are automating. Their task list might end with “present the campaign results.” Ask what they are on the hook for and the answer might instead be:
 
 > Grow this product among this audience without wasting the budget or damaging the brand.
 
-The task list and the responsibility describe different things. One records how the work currently happens. The other explains why anyone cares whether it happens at all.
+Those descriptions lead to different systems. One accelerates the production and reporting of campaigns. The other has to help someone learn what is working and change what happens next.
 
 **A task list describes what you do. A job also describes what you're on the hook for.**
 
-AI can change the relationship between those two descriptions. Someone might personally perform fewer operations while taking responsibility for a larger outcome. A job can lose tasks while gaining scope.
-
-That possibility is easy to miss if the task list becomes the specification for the future.
+That gives me a starting point for the design. Establish the responsibility, then work backwards to the execution, context and authority it requires.
 
 ## Three things hiding inside a job
 
 A job combines execution, context and responsibility. We tend to draw one boundary around all three because, historically, the person doing the work often needed to understand it and answer for it.
 
-For AI transformation, I would separate three questions:
+Before deciding where the human/AI boundaries belong, I would separate three questions:
 
 | Layer | Question | What must be established? |
 | --- | --- | --- |
@@ -32,9 +50,7 @@ These are questions to ask separately, even when the answers point to the same p
 
 Automation can make each of those arrangements faster without making it work.
 
-This is why the process map has such dangerous gravity. Every box asks for a copilot. Every arrow asks for an integration. Every queue asks for an agent. We improve execution inside an arrangement whose context and authority remain untouched.
-
-This is how yesterday's organization becomes tomorrow's software.
+For the implementation, these are three different problems. Better generation might solve the first. Access to current evidence might solve the second. The third requires a decision from the client about who is allowed to do what. I cannot resolve it by writing a more persuasive system prompt.
 
 ## The task bundle is an implementation
 
@@ -48,7 +64,7 @@ Organizing around outcomes is an old idea. The question AI reopens is how much o
 
 Task bundling helps explain the changing implementation. Joshua Gans's [“Endogenous Task Bundling, Skills and Automation”](https://www.nber.org/papers/w35211) models how job boundaries change with technology. Its abstract identifies a particularly useful possibility: reducing context loss can change bundles even without automating tasks. That is a mechanism for organizational change, not yet a prescription for what responsibility to assign.
 
-The design choice comes next. What should this person be able to accomplish and correct without repeatedly transferring the problem to someone else?
+The design choice comes next, and it belongs in the conversation with the client: what should this person be able to accomplish and correct without repeatedly transferring the problem to someone else?
 
 ## A job can lose tasks while gaining scope
 
@@ -78,7 +94,7 @@ Perhaps the campaign team learns that the offer is wrong but only the pricing te
 
 [MIT CISR's research on AI decision rights](https://cisr.mit.edu/publication/2026_0601_AIDecisionMatrix_SebastianWeillHaskampVomBrocke) helps make this concrete. It links AI participation to ambiguity and risk, distinguishing framing, acting and learning. At One NZ, the researchers describe named business owners who monitor and improve agents. Assigning ownership means ongoing work on the system, not just signing off its launch.
 
-The practical question becomes: what decisions and evidence must come together for an owner to notice a problem and do something about it?
+The implementation question becomes: what decisions and evidence must come together for an owner to notice a problem and do something about it? The client has to agree who holds that authority; my design has to make it usable.
 
 ## Where should the boundaries go?
 
@@ -90,7 +106,7 @@ Exporting the approved cut into specified formats is different. With complete re
 
 Independent authorization creates another kind of boundary. Where policy requires a separate rights decision, faster evidence assembly can improve that handoff. The campaign owner cannot simply absorb the check because they can now perform parts of the analysis. Some boundaries protect interests that the immediate performance goal could otherwise override.
 
-Do / Know / Own gives us a way to work through the choices:
+Do / Know / Own gives me a way to discuss the choices before they become services, queues and permissions:
 
 | Situation | Proposed design | Test before expanding it |
 | --- | --- | --- |
@@ -99,7 +115,11 @@ Do / Know / Own gives us a way to work through the choices:
 | A specialist capability has a clear request and acceptance criteria | Keep it independently callable | Can another performer deliver without reconstructing the whole case? |
 | Independent judgment or authorization is required | Preserve that boundary and improve its evidence | Can the reviewer challenge the decision and require a change? |
 
-These are design hypotheses, not predictions that certain occupations will disappear. An API can move a brief instantly while leaving six rounds of explanation intact. Two tasks can share a goal while benefiting from different specialists. The point is to test the arrangement against real cases.
+These are hypotheses I would want to test with the people doing the work. An API can move a brief instantly while leaving six rounds of explanation intact. Two tasks can share a goal while benefiting from different specialists. A useful trial has to reveal whether the proposed handoff works, as well as whether the model's output is good.
+
+Governance has to turn into an implementation too. In this illustrative campaign system, a model might assemble the evidence for a proposed publication and flag uncertainty. Software permissions could enforce who is allowed to publish. Where independent authorization is required, the reviewer needs the evidence and the power to refuse. Someone on the client side needs authority to change those rules.
+
+Calling all of that a “compliance agent” conceals the decisions I still have to make. What can the model interpret? What must the software enforce? What must a person authorize? Who can revise the policy? Those choices determine where governance actually lives.
 
 ## Responsibility without control is just blame
 
@@ -109,15 +129,15 @@ That person has less practice, more exceptions and no more time. They see the da
 
 Lisanne Bainbridge's [“Ironies of Automation”](https://doi.org/10.1016/0005-1098(83)90046-8) warned about removing normal operation while leaving people responsible for rare, difficult interventions. The repetitions that built expertise disappear while the residual task becomes more demanding.
 
-Calling someone an owner does not repair this.
+Calling someone an owner does not repair this. An escalation feature is only useful if the client can staff the escalation, and the person receiving it can act.
 
 An expanded role needs a bounded scope, access to the evidence, authority to change course, enough time and practice to exercise judgment, and a way to escalate what exceeds its remit. Sometimes that requires a team or a smaller scope. Sometimes an independent specialist remains essential.
 
 My hypothesis is that the useful limit on a role increasingly becomes the range of consequences its owner can understand and steer. That limit still exists even when producing another variant costs almost nothing.
 
-## Build what lets the owner steer
+## Ship a hypothesis the client can revise
 
-The architecture follows from the responsibility.
+I still have to ship something. Recognizing that the division of work might change cannot become an excuse to keep the project permanently in discovery.
 
 If someone must answer for an outcome, preserve what lets them understand how it happened: source evidence, intent, permissions, constraints, decisions and observed results. A status such as `awaiting_legal_review` describes today's queue. The rights evidence, applicable policy and authorization record can support several different ways of doing the work.
 
@@ -125,17 +145,21 @@ Capture evidence once. Interpret it many times.
 
 The capabilities beneath the owner should be replaceable. So should the allocation of responsibility when the goal, risk or available expertise changes. Ownership is more durable than many tasks, but it is not permanent. An audience goal can expire. A role can become overloaded. A previously local decision can start affecting the whole business.
 
-This keeps the moving-target argument from the [analytical treatment](draft.md): a transformation must pay back before too many of its assumptions expire, and leave useful assets when it needs redesigning. The [companion audit](target-durability-audit.md) carries the detailed tests.
+This is where the moving-target argument from the [analytical treatment](draft.md) becomes practical. I might build an approval queue today because the model cannot yet be trusted with a decision. But the evidence and authorization history should survive if that queue later shrinks to exception handling. Today's handoff can be useful scaffolding without becoming the permanent structure of the system.
 
-Before funding a transformation, start with four questions:
+The first release should test the organizational hypothesis as well as the technical one. Can the proposed owner judge the output? Does the handoff carry enough context? Do exceptions arrive at a rate the team can handle? Can someone with authority actually correct the system when it goes wrong?
+
+I would take four questions into the client conversation:
 
 1. What should someone be on the hook for, within what constraints?
 2. What must they be able to know, decide and change to own it in practice?
-3. Which capabilities can they call on, and which independent boundaries must remain?
-4. What evidence would justify expanding their scope—or require narrowing it?
+3. Which boundaries are necessary controls, and which compensate for current limitations?
+4. What will the first release teach us about those choices, and how costly will it be to change them?
 
-Tasks still matter. They determine feasibility, cost, quality and the need for expertise. But a task inventory cannot, by itself, tell us what job to build.
+The [companion audit](target-durability-audit.md) carries the detailed tests, including whether the investment can pay back before its assumptions expire.
 
-The unit worth automating may be smaller than a job. The unit worth giving someone responsibility for may be larger.
+Tasks still matter. They determine feasibility, cost, quality and the need for expertise. But a task inventory cannot, by itself, tell me what system to recommend. The unit worth automating may be smaller than a job. The unit worth giving someone responsibility for may be larger.
 
-Start with what someone should be on the hook for. Then work backwards.
+From the FDE's position, the hard part is making a workable decision before the future becomes clear. I need enough confidence to build, evidence that will tell us when the design is wrong, and an architecture the client can change after I leave.
+
+We are deploying a way of working. We should be explicit about which parts of it are still a bet.
