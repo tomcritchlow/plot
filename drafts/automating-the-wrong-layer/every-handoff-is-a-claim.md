@@ -76,9 +76,9 @@ AI changes the routing economics. Recent work by Enrique Ide and Eduard Talamàs
 
 Change those costs and the job should be back on the table.
 
-The case manager in Hammer's example was an early version of a more general pattern: one person organized around an outcome, with software pulling information and specialist capability toward the case. AI makes this possible across a much wider range of knowledge work.
+The case manager in Hammer's example was an early version of a more general pattern: one person organized around an outcome, with software pulling information and specialist capability toward the case. AI could extend this pattern across a much wider range of knowledge work, wherever the capabilities are reliable enough and the owner has the authority to use them.
 
-The emerging unit may be one outcome owner with many callable capabilities.
+One possible unit is an outcome owner with many callable capabilities.
 
 This does not mean one heroic generalist does everything. It means the case retains continuity while capabilities assemble around it. Research, analysis, drafting, simulation and policy checks can be invoked without turning each capability into a department that the work must visit.
 
@@ -91,6 +91,32 @@ Routine work is where people encounter normal cases, build pattern recognition a
 So job compression cannot mean “the model does the work and the expert catches disasters.” If the new design removes the repetitions that created expertise, it must create new ways to practice, inspect, contest and learn. Otherwise the final human checkpoint becomes ceremonial—accountable for a system they no longer understand.
 
 The answer is not to preserve pointless handoffs as a training scheme. It is to design learning as deliberately as execution.
+
+## Which work belongs together?
+
+But compression is only half the story. How do we decide what to bring together and what to pull apart?
+
+Carliss Baldwin offers a useful starting point in [“A theory of technology and organizations”](https://journals.sagepub.com/doi/10.1177/14761270251409566). She maps both tasks and transfers: the flows between tasks that create dependencies. Strong complementarities favor close coordination; weaker ones leave more room for independent exploration. Boundaries are easier to place at what she calls “thin crossing points,” where few, simple transfers connect otherwise distinct parts. Design rules can create these points by settling dependencies in advance.
+
+My application to AI is this: **the automation question and the boundary question need separate answers.** Knowing that a model can perform two tasks tells us very little about whether those tasks should share an owner, a conversation or a system.
+
+Consider a team turning an interview into a short video. Choosing the excerpt, writing the headline and making the cut may look like three tasks. In practice they can be one argument. A better headline suggests a different opening. A different opening changes what the clip promises. Separating these decisions creates repeated briefing and revision. If AI gives an editor enough capability to work across all three, one owner could keep that argument intact.
+
+Now consider exporting the approved cut into specified file formats. If the requirements are complete and the outputs can be checked, a separate service can perform that work with little conversation. The editor does not need to become an encoding specialist. The same redesign can bring editorial decisions together and make technical execution more separable.
+
+Rights clearance creates a third case. Where policy requires independent authorization, making the evidence easier to assemble can improve the handoff without removing the decision maker.
+
+These are design hypotheses to test, not demonstrated AI productivity gains. For each boundary, I would ask:
+
+| What happens in the real work? | Proposed change | Evidence to look for |
+| --- | --- | --- |
+| People repeatedly revise the brief as they see the output | Bring the decisions under shared ownership | Fewer clarification loops and revisions, with quality maintained |
+| The request and acceptance criteria stay stable | Make execution independently callable | Another tool or provider can do the job without a fresh explanation |
+| The handoff supplies necessary independent authority | Keep the check; improve its evidence and routing | The reviewer can reach and defend a decision without reconstructing the case |
+
+An API alone does not settle this. A brief can travel instantly and still require six rounds of explanation. Equally, putting everything into one agent can hide conflicting instructions and make failures harder to locate. Measure the rework and the outcome, not just the messages sent.
+
+So AI can unbundle a task from a specialist job while rebundling several decisions around an outcome. The unit worth automating may be smaller than a job. The unit worth giving someone responsibility for may be larger.
 
 ## This is an era of ferment
 
@@ -121,6 +147,8 @@ Start with the outcome and remove every current role, tool, department and statu
 If you were creating the organization today, where would information enter? Who would own the outcome? Which decisions genuinely require independent authority? Which boundaries would you add back on purpose?
 
 Then take every handoff in the current process and ask: what constraint originally made this separation necessary? Is the constraint still real, or are we automating its residue?
+
+Use a recent case to answer. What had to cross the boundary? How often did the request change after work began? Could another performer complete it from the same evidence and acceptance criteria? Decide whether to bring the work together, make execution independently callable, or retain an independent check.
 
 This separates controls from customs. “Legal must independently approve this claim” may be a durable requirement. “The asset must enter an `awaiting_legal` queue in this project-management tool” is a current implementation.
 
@@ -159,7 +187,7 @@ Most transformation decks contain a current state and a future state. In a perio
 
 The better target is a next state that increases the organization's ability to reach later states.
 
-Judge an AI project by more than the hours it saves. Does it reduce the number of boundaries an outcome must cross? Does it reduce the number of competing representations of the same event? Does it move information capture closer to the moment the information becomes knowable? Does it let jobs recompress around outcomes? Does it leave evidence, evaluation and human judgment stronger when the current model is replaced?
+Judge an AI project by more than the hours it saves. Does it bring interdependent decisions together and make well-specified work easier to delegate? Does it reduce the number of competing representations of the same event? Does it move information capture closer to the moment the information becomes knowable? Does it leave evidence, evaluation and human judgment stronger when the current model is replaced?
 
 The first task of AI transformation is organizational archaeology. The workflow tells you what used to be expensive. It does not tell you what must remain separate.
 

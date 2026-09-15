@@ -2,7 +2,7 @@
 title: Automating the Wrong Layer
 status: drafting
 created_at: 2026-08-25
-updated_at: 2026-09-14
+updated_at: 2026-09-15
 manuscripts:
   - draft.md
   - every-handoff-is-a-claim.md
@@ -15,7 +15,7 @@ manuscripts:
 ## Treatments
 
 - [How Durable Is the Target?](draft.md) is the more analytical treatment. It frames transformation as a rebundling hypothesis, uses O-ring tasks to model bottleneck migration and asks whether the target will survive through payback.
-- [Every Handoff Is a Claim](every-handoff-is-a-claim.md) is the sharper organizational treatment. It reads workflows as fossil records of old information costs and tests whether each boundary still deserves to exist.
+- [Every Handoff Is a Claim](every-handoff-is-a-claim.md) is the sharper organizational treatment. It reads workflows as fossil records of old information costs and tests whether each boundary still deserves to exist. The Baldwin addition makes this concrete: bring editorial decisions together, make specified execution callable, and preserve necessary independent authorization.
 
 **Companion:** [The Target Durability Audit](target-durability-audit.md) is a facilitator-ready framework and chatbot prompt for applying the argument to a real CMO transformation decision.
 

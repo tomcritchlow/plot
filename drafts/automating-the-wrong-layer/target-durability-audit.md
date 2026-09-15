@@ -87,6 +87,16 @@ For `AI now` and `Plausible frontier jump`, use four labels:
 - **Uncertain:** performance is jagged or poorly evaluated.
 - **Institutionally human:** authority, trust or accountability currently requires a person, regardless of technical capability.
 
+Before assigning tasks to agents, inspect the boundaries using the “Which work belongs together?” section in [Every Handoff Is a Claim](every-handoff-is-a-claim.md). This is an author-developed application of [Baldwin](sources.md), not a validated scoring model.
+
+For a recent case, record:
+
+| Boundary | Evidence or instructions transferred | Clarifications and rework | Acceptance criteria | Independent authority required? | Proposed change |
+| --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  | Bring decisions together / make execution callable / preserve independent check |
+
+Ask what the receiving performer still had to reconstruct. Specify what should improve after the change and how you will check outcome quality. Fast transfer alone is not evidence that the boundary works.
+
 ### 4. Find the O-rings
 
 An O-ring task is not merely difficult or expensive. Its failure destroys a large share of the value created by the rest of the bundle.
@@ -193,6 +203,7 @@ We believe that if **[AI/humans/systems]** perform **[task changes]**, then **[d
 
 - Tasks substituted:
 - Tasks complemented:
+- Boundaries to combine, make callable or preserve, with evidence:
 - Hard and soft O-rings:
 - Current bottleneck:
 - Likely new bottleneck:
@@ -240,6 +251,7 @@ During the interview:
 - Establish the current baseline, desired outcome, constraints, first-useful-release date, payback horizon and estimated target half-life.
 - Decompose the work into concrete tasks. Classify each as generate/transform, infer/recommend, decide/commit, coordinate/route, verify/govern or relate/persuade.
 - For each task, record its current performer, purpose, quality measure, failure effect, dependencies and likely AI relationship: substitute, complement, uncertain or institutionally human.
+- Separately examine boundaries in a recent case: transferred evidence, clarification loops, rework, acceptance criteria and required independent authority. Propose which decisions to bring together, which execution to make callable and which independent checks to preserve. Treat these as hypotheses to test against outcome quality, not automatic consequences of task automation.
 - Identify hard and soft O-ring tasks: tasks whose failure destroys or materially reduces the value of the whole output.
 - Model bottleneck migration. Ask what becomes the quality ceiling, speed limit or failure point after automatable tasks are removed.
 - Test whether any remaining human monitor will see enough normal work to maintain context and skill. Do not accept “human in the loop” as a complete control design.

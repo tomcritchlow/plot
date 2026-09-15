@@ -1,5 +1,19 @@
 # Notes
 
+## Editorial checkpoint — 2026-09-15
+
+Integrated Tom's Baldwin reference into **Every Handoff Is a Claim**. Preserved the protected analytical manuscript and the two-treatment structure. Updated the shared spine, brief, source trail and companion audit together.
+
+**New move:** Separate “can AI do this task?” from “where should responsibility sit?” A generic interview-to-video example distinguishes editorial decisions that may benefit from one owner, exports that may be delegated with explicit acceptance criteria, and authorization that must remain independent where policy requires it. The proposed boundary test asks for actual clarification loops, rework and outcome quality.
+
+**Keeper:** “The unit worth automating may be smaller than a job. The unit worth giving someone responsibility for may be larger.”
+
+**Evidence status:** The example and test are author-developed hypotheses. Do not present them as Baldwin's framework, measured productivity gains or a forecast of whole-job replacement. A fast API does not prove the receiving actor has enough context; a single agent does not prove the decisions are coherent.
+
+**Connection to prior work:** *Termites & Tokens* and *Almanac* already establish throughput and coordination as the opportunity. This pass adds a decision about where work should separate or combine. Keep that concrete contribution in front of the reader rather than adding another general call for organizational redesign.
+
+**Next:** Test the three boundary choices on one publishable case. Record whether the intervention changes the decision and reduces rework while preserving output quality. The manuscript now has another substantial section; a later synthesis should consolidate overlapping audit material rather than keep adding frameworks.
+
 ## Research update — 2026-09-09
 
 Added Anthropic's [Economic Scenario Explorer](https://www.anthropic.com/institute/econ-scenarios) to the analytical treatment as a current, interactive illustration of occupations as changing task bundles. The important distinction is preserved: Anthropic's unchanged / augmented / automated / newly created taxonomy describes what may happen to individual tasks, while this draft's contribution is to model the dependencies between tasks, the O-rings left behind and the bottleneck that moves.
