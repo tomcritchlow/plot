@@ -1,5 +1,12 @@
 # Sources
 
+## FDE framing — added 2026-09-15
+
+- Tom supplied the perspective of advising clients on AI deployment and the distinction between bounded tasks and systems with uncertain organizational boundaries.
+- The active treatment uses that first-person advisory stance. Campaign and video decisions are illustrative design proposals, not reported client experiences. No new external empirical claims introduced in this pass.
+- The proposed split between model interpretation, software enforcement and human authorization is an implementation application of Do / Know / Own. It is not presented as a named framework from the cited research.
+
+
 ## Responsibility and decision rights — added 2026-09-15
 
 - Tom supplied the Do / Know / Own framing and the proposal to organize around responsibility. The three-layer diagnostic, ownership-loop application and marketing scenario are editorial hypotheses, not externally validated frameworks.

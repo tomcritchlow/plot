@@ -1,5 +1,20 @@
 # Notes
 
+## FDE perspective — 2026-09-15
+
+**Direction:** Tom proposed situating the essay in the FDE's job: advising clients on AI deployment. Bounded tasks offer a clearer target; systems require guesses about surviving task boundaries, governance, human/AI responsibility and handoffs. Reframed the active treatment around that practical predicament. This checkpoint supplies the current narrative frame; responsibility remains the design starting point.
+
+**Editorial judgment:** The FDE is the narrator, responsibility is the guide, and changing boundaries create the tension. Do / Know / Own earns its place by helping with decisions the implementation requires. Avoid turning the essay into either a general prediction about all jobs or an FDE career explainer.
+
+**Concrete changes:** New opening distinguishes task implementation from system design. Governance becomes choices about model interpretation, software enforcement, human authorization and who can change policy. Exception handling needs client staffing and decision rights. The ending connects the first release to testing the proposed operating model and keeping future redesign affordable.
+
+**Provenance:** The first-person advisory stance comes from Tom's instruction. Campaign/video examples remain explicitly illustrative. No remembered or invented client meeting, quote, deployment result, client name or identifying project detail introduced. The next improvement would be one cleared actual choice, not additional fictional color.
+
+**Keeper:** “The system I ship contains a hypothesis about how the client should work.”
+
+**Connection:** This frame reconnects the responsibility treatment with the analytical alternative's moving target. It also extends the earlier published throughput/context-layer arguments by asking what the practitioner should build while the organization is changing.
+
+
 ## Responsibility becomes the center — 2026-09-15
 
 **Direction:** Tom supplied Do / Know / Own and asked whether to anchor the whole essay to responsibility. Rebuilt the existing organizational treatment around this argument; retained its filename and preserved the analytical manuscript. This checkpoint supersedes the earlier boundary-centered direction for the active treatment.
