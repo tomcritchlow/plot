@@ -1,196 +1,141 @@
-# Every Handoff Is a Claim
+# Automating the Wrong Layer
 
-An AI transformation can go wrong before anyone chooses a model. It happens when the current process map quietly becomes the specification.
+Imagine a marketing manager describing their job. Research the audience. Write the brief. Coordinate the creative. Get approval. Launch the campaign. Pull the numbers. Present the results.
 
-Once the flowchart exists, it develops a strange gravity. Every box asks for a copilot. Every arrow asks for an integration. Every queue asks for an agent. The current org chart quietly becomes the architecture of the new system.
+Give that list to an AI transformation team and a familiar exercise begins. Which tasks can we automate? Which need a copilot? Where should an agent hand off to a human?
+
+But ask the manager what they are actually on the hook for and you might get a different answer:
+
+> Grow this product among this audience without wasting the budget or damaging the brand.
+
+The task list and the responsibility describe different things. One records how the work currently happens. The other explains why anyone cares whether it happens at all.
+
+**A task list describes what you do. A job also describes what you're on the hook for.**
+
+AI can change the relationship between those two descriptions. Someone might personally perform fewer operations while taking responsibility for a larger outcome. A job can lose tasks while gaining scope.
+
+That possibility is easy to miss if the task list becomes the specification for the future.
+
+## Three things hiding inside a job
+
+A job combines execution, context and responsibility. We tend to draw one boundary around all three because, historically, the person doing the work often needed to understand it and answer for it.
+
+For AI transformation, I would separate three questions:
+
+| Layer | Question | What must be established? |
+| --- | --- | --- |
+| **DO** | Who or what can perform the action? | Capability, reliability and a way to check the result |
+| **KNOW** | What context is needed to act and judge well? | Access to evidence, dependencies and changing circumstances |
+| **OWN** | Who can authorize, answer for and change what happens? | Decision rights, visibility, resources and the ability to intervene |
+
+These are questions to ask separately, even when the answers point to the same person or team. A model may generate excellent copy without knowing that the product launch has slipped. A marketer may understand why a campaign is failing without having permission to change the offer. A director may be accountable for growth while seeing only a monthly dashboard.
+
+Automation can make each of those arrangements faster without making it work.
+
+This is why the process map has such dangerous gravity. Every box asks for a copilot. Every arrow asks for an integration. Every queue asks for an agent. We improve execution inside an arrangement whose context and authority remain untouched.
 
 This is how yesterday's organization becomes tomorrow's software.
 
-In 1990, Michael Hammer published [“Reengineering Work: Don't Automate, Obliterate”](https://hbr.org/1990/07/reengineering-work-dont-automate-obliterate). The essay is remembered as an argument for radical process redesign. But its sharper idea is about separation.
+## The task bundle is an implementation
 
-At Ford, accounts payable reconciled three different descriptions of the same event: what the company ordered, what the supplier invoiced and what the receiving department said had arrived. Ford initially looked for a better way to process invoices. The breakthrough was to make the invoice unnecessary. When the goods arrived, the receiving department recorded the information at its source. If the receipt matched the purchase order, the system could authorize payment.
+In 1990, Michael Hammer published [“Reengineering Work: Don't Automate, Obliterate”](https://hbr.org/1990/07/reengineering-work-dont-automate-obliterate). His examples are useful because they change the relationship between work and responsibility.
 
-It removed an entire representation—the invoice—from the payment process. Purchase orders and receipts still had to agree. The control survived; much of the reconciliation work did not.
+At Mutual Benefit Life, processing an application had involved many specialist hands. The redesign brought information and expert systems to a case manager responsible for the application. Capabilities moved toward the person holding the case.
 
-At Mutual Benefit Life, an application travelled through dozens of steps, several departments and many specialist hands before a policy could be issued. The redesigned process gave one case manager responsibility for the application, supported by shared information and expert systems.
+At Ford, accounts payable stopped processing supplier invoices when purchase orders and receiving records could support payment. The matching control survived. One representation of the transaction disappeared.
 
-The old jobs did not each get a little faster. The work compressed into one.
+Organizing around outcomes is an old idea. The question AI reopens is how much of an outcome a person or team can effectively own, given the capabilities now available to them.
 
-These examples feel newly relevant because much of today's AI transformation work is doing exactly what Hammer warned against. We assign an agent to each role, automate the exchange between them and celebrate that the old bureaucracy now runs at machine speed.
+Task bundling helps explain the changing implementation. Joshua Gans's [“Endogenous Task Bundling, Skills and Automation”](https://www.nber.org/papers/w35211) models how job boundaries change with technology. Its abstract identifies a particularly useful possibility: reducing context loss can change bundles even without automating tasks. That is a mechanism for organizational change, not yet a prescription for what responsibility to assign.
 
-Digitized bureaucracy is still bureaucracy.
+The design choice comes next. What should this person be able to accomplish and correct without repeatedly transferring the problem to someone else?
 
-## The workflow remembers old prices
+## A job can lose tasks while gaining scope
 
-A process is not a neutral description of how work gets done. It is a fossil record of the constraints that existed when the work was designed.
+Return to the marketing manager. Suppose they can use AI to explore customer data, try messages, produce variants and inspect results. Each capability would need to be tested in the actual work. But imagine that it works well enough to change what the manager can take on.
 
-Information was expensive to copy, so each department kept its own representation. Expertise was difficult to distribute, so unusual decisions moved upward to specialists. Communication was slow, so work accumulated in queues. Managers existed partly to route information between people who could not see the whole. Approvals compensated for missing context, weak measurement and narrow authority.
+Their responsibility could expand from getting a campaign out the door to improving adoption among a particular audience. Instead of commissioning each experiment through several departments, they could run a bounded series of experiments and respond to what they learn.
 
-Those arrangements may have been perfectly rational.
+They might write fewer briefs and build fewer reports themselves. Yet their role could become larger because they can now carry an unresolved business problem further.
 
-But every boundary inside them contains a claim.
+There is suggestive evidence of people crossing old task boundaries. [OpenAI's July 2026 analysis](https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/) found that 43.5% of occupation-specific messages concerned tasks associated with another occupation; the figure was 16.8% across all work-related messages. This is evidence of task crossover in ChatGPT use. It does not establish that authority, accountability or successful job scope expanded.
 
-A handoff claims that separating the work is worth its cost. An approval claims that the decision needs authority or scrutiny beyond the person doing it. A queue claims that capacity must be allocated across competing cases. A status field claims that a particular distinction is useful for coordination.
+That gap is the transformation problem. Giving someone access to more capabilities does not automatically give them permission to use those capabilities consequentially.
 
-The claim may be sound. The implementation may still be obsolete.
+A marketer who can generate a hundred experiments but cannot launch one has more production capacity. Whether they have a bigger job depends on what they are allowed to decide, what they can observe and what they can change.
 
-Some of these claims are still true. A regulator may require independent review. A financial commitment may need separation of duties. A genuinely rare problem may still deserve a scarce expert.
+## Give someone a loop they can actually close
 
-But many boundaries are simply inherited. Nobody chose them under current conditions. They survived because the process survived.
+By an ownership loop, I mean a practical sequence: establish a goal, act, observe the result, judge it and adjust.
 
-AI changes the price of several constraints at once. It makes generation cheaper, but also classification, translation, retrieval, coordination and access to specialist-like knowledge. Software has changed task boundaries before—Hammer's examples make that plain. AI extends the range of knowledge tasks whose cost and distribution can change, reopening the question of which steps belong together and who can own them.
+For the marketer, that might mean agreeing an audience and adoption goal, choosing an experiment, launching within a budget, inspecting the response and deciding what to do next. The loop has to return to a decision. Producing a report that nobody can act on does not close it.
 
-That makes the “agent for every box” approach especially dangerous. It treats the present division of labor as a law of nature. The org chart becomes runtime architecture: a research agent hands to a strategy agent, which hands to a production agent, which hands to a compliance agent, each with its own state, prompts, outputs and failure modes.
+Ownership can sit with a team. It does not require one heroic generalist, one model or one giant agent. Nor does the owner have to perform or approve every operation. They need sufficient authority and visibility to keep the loop working, including the ability to delegate within explicit limits.
 
-We have not designed an agentic organization. We have staged a reenactment of the old one.
+This suggests a useful design test: where does the work repeatedly lose the ability to correct itself?
 
-## Information should be born useful
+Perhaps the campaign team learns that the offer is wrong but only the pricing team can change it. Perhaps the analyst sees a problem but does not know which decision the analysis should inform. Perhaps creative approval arrives after the opportunity has passed. Those are different failures. Giving each role an agent does not settle any of them.
 
-The Ford example offers a better principle: process information when it is generated.
+[MIT CISR's research on AI decision rights](https://cisr.mit.edu/publication/2026_0601_AIDecisionMatrix_SebastianWeillHaskampVomBrocke) helps make this concrete. It links AI participation to ambiguity and risk, distinguishing framing, acting and learning. At One NZ, the researchers describe named business owners who monitor and improve agents. Assigning ownership means ongoing work on the system, not just signing off its launch.
 
-Most knowledge work does the opposite. Consider what happens after a meeting. A recording becomes a transcript. The transcript becomes a summary. The summary becomes a brief. The brief becomes a project ticket. The ticket becomes a dashboard status. Each document is a lossy local description of the same underlying event. Each one needs an owner. Each one can drift from the evidence.
+The practical question becomes: what decisions and evidence must come together for an owner to notice a problem and do something about it?
 
-Generative AI makes this documentary exhaust almost free. That may make the problem worse. We can now produce more representations than anyone can reconcile.
+## Where should the boundaries go?
 
-A more durable system would treat the meeting itself as an event. It would retain the recording, a versioned transcript, the decisions and commitments connected to their source passages, the relevant permissions and policies, and the outcomes that followed. A brief, ticket or alert would be a view generated for a particular person at a particular moment.
+One goal does not make every task inseparable. Carliss Baldwin's [“A theory of technology and organizations”](https://journals.sagepub.com/doi/10.1177/14761270251409566) supplies the useful distinction between tightly connected work and “thin crossing points,” where relatively simple transfers make separation easier. Shared design rules can make those crossings possible.
 
-Views and interpretations can change. The original evidence should remain distinguishable from corrections, subject to the applicable permissions and retention rules.
+Consider turning an interview into a short video. Choosing the excerpt, writing the headline and making the cut may be one evolving editorial decision. A better headline suggests a different opening; the new opening changes what the clip promises. Bringing those decisions together could reduce repeated briefing and revision.
 
-This is the modern version of Ford's receiving terminal:
+Exporting the approved cut into specified formats is different. With complete requirements and checkable outputs, execution can be delegated to a replaceable service. The owner retains the decision about whether the result serves the goal.
 
-**Capture evidence once. Interpret it many times.**
+Independent authorization creates another kind of boundary. Where policy requires a separate rights decision, faster evidence assembly can improve that handoff. The campaign owner cannot simply absorb the check because they can now perform parts of the analysis. Some boundaries protect interests that the immediate performance goal could otherwise override.
 
-That principle changes what a system of record is for. It should not preserve every document the organization happened to make on the way to understanding something. It should preserve the durable event, the claims made about it, the constraints applied to it and the decisions that followed.
+Do / Know / Own gives us a way to work through the choices:
 
-If the underlying evidence is durable, a better model can reinterpret it tomorrow. If the system stores only today's summary, status and workflow history, tomorrow's model inherits today's information loss.
-
-## Jobs can compress around the outcome
-
-The Mutual Benefit Life example points to the organizational half of the same idea.
-
-Many jobs exist as bundles of tasks. But many *boundaries between jobs* exist because no one person could once hold enough information, access enough expertise or coordinate enough action to own the whole outcome.
-
-Luis Garicano's [model of knowledge hierarchies](https://doi.org/10.1086/317671) describes organizations as problem-solving systems. People lower in the hierarchy handle common problems. Difficult exceptions move to people with rarer knowledge. Hierarchy is partly a technology for routing questions.
-
-AI changes the routing economics. Recent work by Enrique Ide and Eduard Talamàs [extends this logic to AI](https://doi.org/10.1086/737233): different levels of AI capability and autonomy produce different sizes and shapes of firms. The important point is not a single prediction about flatter or taller organizations. It is that the organizational form is endogenous to the cost and distribution of knowledge.
-
-Change those costs and the job should be back on the table.
-
-The case manager in Hammer's example was an early version of a more general pattern: one person organized around an outcome, with software pulling information and specialist capability toward the case. AI could extend this pattern across a much wider range of knowledge work, wherever the capabilities are reliable enough and the owner has the authority to use them.
-
-One possible unit is an outcome owner with many callable capabilities.
-
-This does not mean one heroic generalist does everything. It means the case retains continuity while capabilities assemble around it. Research, analysis, drafting, simulation and policy checks can be invoked without turning each capability into a department that the work must visit.
-
-Replacing five specialist roles with five specialist agents misses the point. The opportunity is to remove the gaps between knowing, deciding and acting.
-
-There is an important warning here. A job is also a school.
-
-Routine work is where people encounter normal cases, build pattern recognition and learn when the rules stop working. Lisanne Bainbridge's [“Ironies of Automation”](https://doi.org/10.1016/0005-1098(83)90046-8) showed how automation can remove normal operation while leaving a person responsible for rare, difficult interventions. More recent research asks whether automating entry-level work can interrupt the [transmission of tacit knowledge](https://arxiv.org/abs/2507.16078) between generations of workers.
-
-So job compression cannot mean “the model does the work and the expert catches disasters.” If the new design removes the repetitions that created expertise, it must create new ways to practice, inspect, contest and learn. Otherwise the final human checkpoint becomes ceremonial—accountable for a system they no longer understand.
-
-The answer is not to preserve pointless handoffs as a training scheme. It is to design learning as deliberately as execution.
-
-## Which work belongs together?
-
-But compression is only half the story. How do we decide what to bring together and what to pull apart?
-
-Carliss Baldwin offers a useful starting point in [“A theory of technology and organizations”](https://journals.sagepub.com/doi/10.1177/14761270251409566). She maps both tasks and transfers: the flows between tasks that create dependencies. Strong complementarities favor close coordination; weaker ones leave more room for independent exploration. Boundaries are easier to place at what she calls “thin crossing points,” where few, simple transfers connect otherwise distinct parts. Design rules can create these points by settling dependencies in advance.
-
-My application to AI is this: **the automation question and the boundary question need separate answers.** Knowing that a model can perform two tasks tells us very little about whether those tasks should share an owner, a conversation or a system.
-
-Consider a team turning an interview into a short video. Choosing the excerpt, writing the headline and making the cut may look like three tasks. In practice they can be one argument. A better headline suggests a different opening. A different opening changes what the clip promises. Separating these decisions creates repeated briefing and revision. If AI gives an editor enough capability to work across all three, one owner could keep that argument intact.
-
-Now consider exporting the approved cut into specified file formats. If the requirements are complete and the outputs can be checked, a separate service can perform that work with little conversation. The editor does not need to become an encoding specialist. The same redesign can bring editorial decisions together and make technical execution more separable.
-
-Rights clearance creates a third case. Where policy requires independent authorization, making the evidence easier to assemble can improve the handoff without removing the decision maker.
-
-These are design hypotheses to test, not demonstrated AI productivity gains. For each boundary, I would ask:
-
-| What happens in the real work? | Proposed change | Evidence to look for |
+| Situation | Proposed design | Test before expanding it |
 | --- | --- | --- |
-| People repeatedly revise the brief as they see the output | Bring the decisions under shared ownership | Fewer clarification loops and revisions, with quality maintained |
-| The request and acceptance criteria stay stable | Make execution independently callable | Another tool or provider can do the job without a fresh explanation |
-| The handoff supplies necessary independent authority | Keep the check; improve its evidence and routing | The reviewer can reach and defend a decision without reconstructing the case |
+| Execution is reliable, instructions are complete and errors are detectable | Automate within an owner's delegated limits | Can failures be caught and corrected at the expected volume? |
+| Decisions repeatedly change one another and serve a shared outcome | Bring them under shared ownership, supported by callable capabilities | Does rework fall while quality and learning improve? |
+| A specialist capability has a clear request and acceptance criteria | Keep it independently callable | Can another performer deliver without reconstructing the whole case? |
+| Independent judgment or authorization is required | Preserve that boundary and improve its evidence | Can the reviewer challenge the decision and require a change? |
 
-An API alone does not settle this. A brief can travel instantly and still require six rounds of explanation. Equally, putting everything into one agent can hide conflicting instructions and make failures harder to locate. Measure the rework and the outcome, not just the messages sent.
+These are design hypotheses, not predictions that certain occupations will disappear. An API can move a brief instantly while leaving six rounds of explanation intact. Two tasks can share a goal while benefiting from different specialists. The point is to test the arrangement against real cases.
 
-So AI can unbundle a task from a specialist job while rebundling several decisions around an outcome. The unit worth automating may be smaller than a job. The unit worth giving someone responsibility for may be larger.
+## Responsibility without control is just blame
 
-## This is an era of ferment
+There is an ugly version of this future. A company automates routine work, removes several roles and declares the remaining person accountable for everything the system produces.
 
-There is another reason to resist encoding the current process: we do not yet know the stable shape of AI-enabled work.
+That person has less practice, more exceptions and no more time. They see the dashboard, but cannot inspect the evidence. They can flag a problem, but cannot stop the system. The job has gained liability while losing control.
 
-Philip Anderson and Michael Tushman called the period after a technological discontinuity and before a dominant design an [“era of ferment”](https://www.jstor.org/stable/2393511). Competing architectures proliferate. Performance improves along different dimensions. What will become standard is not yet obvious.
+Lisanne Bainbridge's [“Ironies of Automation”](https://doi.org/10.1016/0005-1098(83)90046-8) warned about removing normal operation while leaving people responsible for rare, difficult interventions. The repetitions that built expertise disappear while the residual task becomes more demanding.
 
-That description fits AI transformation uncomfortably well. Model capabilities, interfaces, costs and control patterns are all moving. A workflow that looks ambitious today may look like scaffolding in eighteen months. A “future state” designed in detail may be a picture of the brief moment when the workshop occurred.
+Calling someone an owner does not repair this.
 
-Paul David's [history of electrification](https://www.jstor.org/stable/2006600) offers the canonical warning. Early factories often installed an electric motor where the steam engine had been while leaving the belts, shafts and floor plan intact. The larger gains arrived when factories were reorganized around what distributed electric power made possible.
+An expanded role needs a bounded scope, access to the evidence, authority to change course, enough time and practice to exercise judgment, and a way to escalate what exceeds its remit. Sometimes that requires a team or a smaller scope. Sometimes an independent specialist remains essential.
 
-Putting an agent into each box of a SaaS workflow is the central electric motor again.
+My hypothesis is that the useful limit on a role increasingly becomes the range of consequences its owner can understand and steer. That limit still exists even when producing another variant costs almost nothing.
 
-This is one reason general-purpose technologies can produce a [productivity J-curve](https://www.nber.org/papers/w25148). The technology arrives before the complementary investments in skills, processes and organizational form. During the transition, companies incur the cost of the new world while still operating the old one.
+## Build what lets the owner steer
 
-The lesson is not that transformation takes time. It is that process redesign is part of the technology.
+The architecture follows from the responsibility.
 
-During a stable era, hardcoding a process can create efficiency. During an era of ferment, it can create strategic debt. The most valuable transformation asset may be the ability to change the operating model again.
+If someone must answer for an outcome, preserve what lets them understand how it happened: source evidence, intent, permissions, constraints, decisions and observed results. A status such as `awaiting_legal_review` describes today's queue. The rights evidence, applicable policy and authorization record can support several different ways of doing the work.
 
-## The boundary–durability audit
+Capture evidence once. Interpret it many times.
 
-Before funding an AI transformation, run two counterfactuals and one preservation test.
+The capabilities beneath the owner should be replaceable. So should the allocation of responsibility when the goal, risk or available expertise changes. Ownership is more durable than many tasks, but it is not permanent. An audience goal can expire. A role can become overloaded. A previously local decision can start affecting the whole business.
 
-### 1. The zero-legacy counterfactual
+This keeps the moving-target argument from the [analytical treatment](draft.md): a transformation must pay back before too many of its assumptions expire, and leave useful assets when it needs redesigning. The [companion audit](target-durability-audit.md) carries the detailed tests.
 
-Start with the outcome and remove every current role, tool, department and status from the description.
+Before funding a transformation, start with four questions:
 
-If you were creating the organization today, where would information enter? Who would own the outcome? Which decisions genuinely require independent authority? Which boundaries would you add back on purpose?
+1. What should someone be on the hook for, within what constraints?
+2. What must they be able to know, decide and change to own it in practice?
+3. Which capabilities can they call on, and which independent boundaries must remain?
+4. What evidence would justify expanding their scope—or require narrowing it?
 
-Then take every handoff in the current process and ask: what constraint originally made this separation necessary? Is the constraint still real, or are we automating its residue?
+Tasks still matter. They determine feasibility, cost, quality and the need for expertise. But a task inventory cannot, by itself, tell us what job to build.
 
-Use a recent case to answer. What had to cross the boundary? How often did the request change after work began? Could another performer complete it from the same evidence and acceptance criteria? Decide whether to bring the work together, make execution independently callable, or retain an independent check.
+The unit worth automating may be smaller than a job. The unit worth giving someone responsibility for may be larger.
 
-This separates controls from customs. “Legal must independently approve this claim” may be a durable requirement. “The asset must enter an `awaiting_legal` queue in this project-management tool” is a current implementation.
-
-### 2. The capability-jump counterfactual
-
-Now choose a specific capability jump: perhaps transcription, editing and format adaptation become reliable enough to run as one production step. Separately test cheaper inference or lower latency. These are scenarios, not interchangeable measures of “ten times better.”
-
-Which roles compress? Which queues disappear? Where does accountability land? What becomes the new bottleneck? Would the architecture let you remove half the boxes without migrating the evidence or rebuilding the system?
-
-If the answer is no, the transformation is using today's capability frontier as a permanent design constraint.
-
-### 3. The preservation test
-
-Finally, ask what deserves to survive every rebundling of the work.
-
-Usually it is not the sequence. It is the source evidence, intent, constraints, permissions, commitments, evaluation criteria and outcome history. Those things let a new combination of people, models and systems act without starting from zero.
-
-Also ask what human capability must survive. Where will people see enough real work to maintain judgment? How will they challenge the model, learn from exceptions and become expert enough to own the consequences?
-
-The aim is not maximum automation. It is minimum dependence on an expiring arrangement.
-
-Use two questions to compare designs: how much unnecessary separation did we remove, and how cheaply can we rearrange what remains? These are axes for a discussion, not quantities we can multiply into a readiness score.
-
-Boundary collapse without recomposability produces a new monolith: fewer handoffs, but one brittle design. Recomposability without boundary collapse produces modular bureaucracy: replaceable agents performing an obsolete dance.
-
-| | Execution hard to rearrange | Execution easy to rearrange |
-| --- | --- | --- |
-| **Inherited separations remain** | Fossil: yesterday's process becomes infrastructure | Scaffolding: useful while the new shape is being learned |
-| **Unnecessary separations removed** | Brittle rebundle: fewer handoffs, one new monolith | Adaptive transformation: simpler work that can change again |
-
-A preserved independent check does not count against a design. The objective is to remove separations that no longer earn their keep, not to make every outcome owner their own auditor.
-
-## Make the claim again
-
-Most transformation decks contain a current state and a future state. In a period of rapid change, the future state is a dangerous fiction. There will be another state after it, probably sooner than the investment case admits.
-
-The better target is a next state that increases the organization's ability to reach later states.
-
-Judge an AI project by more than the hours it saves. Does it bring interdependent decisions together and make well-specified work easier to delegate? Does it reduce the number of competing representations of the same event? Does it move information capture closer to the moment the information becomes knowable? Does it leave evidence, evaluation and human judgment stronger when the current model is replaced?
-
-The first task of AI transformation is organizational archaeology. The workflow tells you what used to be expensive. It does not tell you what must remain separate.
-
-Every handoff is a claim. Every approval is a claim. Every queue is a claim.
-
-Before you automate the handoff, make the claim again.
+Start with what someone should be on the hook for. Then work backwards.
