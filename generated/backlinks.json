@@ -39,7 +39,9 @@
     "drafts/automating-the-wrong-layer/every-handoff-is-a-claim.md": [
       "drafts/automating-the-wrong-layer/README.md",
       "drafts/automating-the-wrong-layer/notes.md",
-      "drafts/automating-the-wrong-layer/story-spine.md"
+      "drafts/automating-the-wrong-layer/sources.md",
+      "drafts/automating-the-wrong-layer/story-spine.md",
+      "drafts/automating-the-wrong-layer/target-durability-audit.md"
     ],
     "drafts/automating-the-wrong-layer/notes.md": [
       "drafts/automating-the-wrong-layer/README.md"

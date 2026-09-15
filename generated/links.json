@@ -1,5 +1,5 @@
 {
-  "count": 327,
+  "count": 328,
   "links": [
     {
       "url": "https://a16z.com/services-led-growth/",
@@ -1345,6 +1345,24 @@
         }
       ],
       "normalized": "https://journals.sagepub.com/doi/10.1177/0018726715623999"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/10.1177/14761270251409566",
+      "title": null,
+      "author": null,
+      "first_seen": null,
+      "references": [
+        {
+          "file": "drafts/automating-the-wrong-layer/every-handoff-is-a-claim.md"
+        },
+        {
+          "file": "drafts/automating-the-wrong-layer/sources.md"
+        },
+        {
+          "file": "drafts/automating-the-wrong-layer/story-spine.md"
+        }
+      ],
+      "normalized": "https://journals.sagepub.com/doi/10.1177/14761270251409566"
     },
     {
       "url": "https://journals.sagepub.com/doi/10.1177/1744935909337759",
