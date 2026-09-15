@@ -1,69 +1,64 @@
 # Story spine: Automating the Wrong Layer
 
-**Premise:** AI transformation should bring interdependent decisions together, make well-specified work easier to delegate, and make the next redivision cheaper.
+**Premise:** AI can let a job lose execution tasks while gaining outcome scope; redesign the responsibility someone can actually exercise, then assemble the capabilities beneath it.
 
-**Basis:** Synthesizes [How Durable Is the Target?](draft.md) and [Every Handoff Is a Claim](every-handoff-is-a-claim.md), at Tom's request. Neither superseded; Baldwin added to the handoff treatment. Updated 2026-09-15. [Sources](sources.md).
+**Basis:** Follows the [responsibility treatment](every-handoff-is-a-claim.md), reworked at Tom's request on 2026-09-15. [How Durable Is the Target?](draft.md) remains a protected analytical alternative. [Sources](sources.md); [checkpoint](notes.md).
 
 ## Beats
 
-### 1. The process map quietly becomes the specification
+### 1. The task list hides the commitment
 
-- Media workflow: recording, transcript, edit, variants, approvals, publishing. Each box gets an agent; each arrow gets an integration.
-- Hidden assumption: these steps still deserve separate existence.
+- Marketer's task list: research, brief, creative, approval, launch, report.
+- Possible responsibility: grow a product among an audience within budget and brand constraints. Generic example, not a claim about every marketer.
 
-**Keep (draft):** “This is how yesterday's organization becomes tomorrow's software.”
+**Keep (draft):** “A task list describes what you do. A job also describes what you're on the hook for.”
 
-### 2. Hammer's lesson: some work should disappear
+### 2. Separate Do / Know / Own
 
-- [Hammer (1990), “Don't Automate, Obliterate”](https://hbr.org/1990/07/reengineering-work-dont-automate-obliterate): Ford eliminates invoices but retains order–receipt matching; Mutual Benefit Life brings capabilities to one case manager.
-- Two moves: remove redundant representations; organize around an outcome. Preserve the control while questioning the handoff.
+- DO: execution and reliability. KNOW: evidence and context needed to act and judge. OWN: authority to authorize, answer for and change what happens.
+- Our diagnostic, not a validated model. Giving each box an agent can accelerate execution while leaving missing context and authority untouched.
+- A capable marketer without launch permission still cannot run an experiment.
 
-### 3. Workflows remember old costs
+### 3. Bundling explains the implementation
 
-- Copies, specialist escalation and queues reflect past limits on information, expertise and authority.
-- [Garicano](https://doi.org/10.1086/317671) and [Ide/Talamàs](https://doi.org/10.1086/737233): organizational shape depends on knowledge costs. Possible unit: one outcome owner with callable capabilities.
+- [Hammer](https://hbr.org/1990/07/reengineering-work-dont-automate-obliterate): capabilities move toward Mutual Benefit Life's case manager; Ford removes invoices while retaining matching controls.
+- [Gans](https://www.nber.org/papers/w35211): technology can alter job boundaries through context costs. Outcome ownership itself is not a new invention.
 
-### 4. Automating a task and placing a boundary are different decisions
+### 4. Fewer operations can support greater scope
 
-- [Baldwin](https://journals.sagepub.com/doi/10.1177/14761270251409566): task dependencies and “thin crossing points” help explain organizational boundaries.
-- Our application: combine excerpt/headline/edit decisions; delegate specified exports; preserve required independent rights authorization. Illustrative, not measured results.
-- Test actual clarification loops, rework and quality. An API does not make a brief complete.
+- Proposed marketer redesign: from coordinating campaign delivery to owning a bounded audience-growth experiment and responding to results.
+- [OpenAI](https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/): 43.5% of occupation-specific messages cross occupations; 16.8% of all work-related messages. Evidence of task crossover, not changed decision rights or demonstrated productivity.
 
-**Keep (draft):** “The unit worth automating may be smaller than a job. The unit worth giving someone responsibility for may be larger.”
+**Keep (draft):** “A job can lose tasks while gaining scope.”
 
-### 5. A bundle is not a bag
+### 5. Ownership must close a feedback loop
 
-- [Anthropic's explorer](https://www.anthropic.com/institute/econ-scenarios) makes changing task bundles visible. [Kremer's O-ring model](https://academic.oup.com/qje/article-abstract/108/3/551/1881767) supplies complementarity: one failure can spoil the outcome.
-- Cheaper production can overload rights clearance. Hours removed do not equal value captured. Capacity bottlenecks and failure points may differ.
-- [Bainbridge](https://doi.org/10.1016/0005-1098(83)90046-8): automating routine practice can leave humans less prepared for harder exceptions. Preserve learning as well as authority.
+- Goal, act, observe, judge, adjust. The owner can be a team and can delegate operations.
+- [MIT CISR](https://cisr.mit.edu/publication/2026_0601_AIDecisionMatrix_SebastianWeillHaskampVomBrocke): decision rights depend on ambiguity and risk.
+- Ask where learning fails to reach someone authorized to change the work.
 
-**Keep (draft):** “After we automate the obvious work, which failure are we making more important?”
+### 6. Preserve the boundaries that earn their keep
 
-### 6. The new workflow can expire too
+- [Baldwin](https://journals.sagepub.com/doi/10.1177/14761270251409566) supplies task dependencies and thin crossing points.
+- Proposed video example: combine editorial decisions; delegate specified exports; retain required independent rights authorization.
+- A common goal alone does not justify consolidation. Test rework, quality and the ability to challenge a decision.
 
-- [An era of ferment](https://www.jstor.org/stable/2393511): a sensible redesign can become obsolete before payback.
-- Add target survival to [AI project selection](https://arxiv.org/abs/2607.23733). Compare implementation, payback and plausible target lifetime.
+### 7. Responsibility without control is blame
 
-### 7. Preserve evidence and constraints; isolate changing decisions
+- [Bainbridge](https://doi.org/10.1016/0005-1098(83)90046-8): normal practice can disappear while difficult exceptions remain.
+- Broader ownership requires bounded scope, evidence, decision rights, resources, practice and intervention. Otherwise shrink the scope or support it with a team.
+- Hypothesis: effective oversight and correction increasingly constrain useful role breadth.
 
-- [Parnas (1972)](https://www.cs.lafayette.edu/~gexia/cs301/resources/parnas.html) calls flowchart-based module decomposition “almost always incorrect.” Organize around decisions likely to change.
-- Replace `awaiting_legal_review` with rights, evidence, policy, authority and decision. Generate views from traceable records.
-- Remove unnecessary handoffs while keeping execution easy to rearrange.
+### 8. Build what lets the owner steer
 
-**Keep (draft):** “Capture evidence once. Interpret it many times.”
-
-### 8. Make the investment decision concrete
-
-- Ask: what outcome; which boundaries; where bottlenecks move; what survives through payback; what remains if the use case expires?
-- [Robust Decision Making](https://www.rand.org/pubs/research_reports/RR2735.html): useful across plausible futures. Build, time-box, experiment, rebundle or stop; keep the full [audit](target-durability-audit.md) outside the essay.
+- Preserve evidence, intent, constraints, permissions, decisions and results. Replace capabilities as they improve.
+- Ownership also changes; retain the analytical treatment's payback and redesign tests in the [audit](target-durability-audit.md).
 
 ## Landing
 
-- The investment should improve today's work and lower the cost of changing it again.
-
-**Keep (draft):** “Before you automate the handoff, make the claim again.”
+**Keep (draft):** “Start with what someone should be on the hook for. Then work backwards.”
 
 ## Open
 
-- Show one publishable case where the boundary test changes a decision.
-- Keep the distinction from [Termites & Tokens](../../published/2026-06-08-of-termites-tokens.md): this essay adds boundary justification, bottleneck migration and payback.
+- Find a publishable case with changed decision rights and measured outcomes, beyond task crossover.
+- Test where expanded scope overloads judgment or requires competing objectives to have separate owners.

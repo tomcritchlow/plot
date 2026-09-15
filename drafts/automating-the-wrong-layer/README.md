@@ -10,21 +10,21 @@ manuscripts:
 
 # Automating the Wrong Layer
 
-**What this is trying to say:** Michael Hammer's 1990 injunction not to automate inherited processes needs an update for AI transformation. A workflow preserves old assumptions about information, expertise and coordination; AI changes those constraints quickly enough that automating the workflow can fossilize it. The project currently has two manuscript treatments of that idea.
+**What this is trying to say:** A task list describes execution; a job also assigns responsibility. AI can separate doing, knowing and owning, allowing a role to lose execution tasks while gaining outcome scope. Transformation should start with the responsibility someone can actually exercise, then work backwards to capabilities, context and independent checks.
 
 ## Treatments
 
 - [How Durable Is the Target?](draft.md) is the more analytical treatment. It frames transformation as a rebundling hypothesis, uses O-ring tasks to model bottleneck migration and asks whether the target will survive through payback.
-- [Every Handoff Is a Claim](every-handoff-is-a-claim.md) is the sharper organizational treatment. It reads workflows as fossil records of old information costs and tests whether each boundary still deserves to exist. The Baldwin addition makes this concrete: bring editorial decisions together, make specified execution callable, and preserve necessary independent authorization.
+- [Automating the Wrong Layer: the responsibility treatment](every-handoff-is-a-claim.md) is the current editorial direction. Reworked from *Every Handoff Is a Claim*, it anchors the essay to Do / Know / Own, uses the marketer example throughout, and tests whether ownership comes with real authority and feedback. Baldwin supplies the boundary mechanism within this argument.
 
 **Companion:** [The Target Durability Audit](target-durability-audit.md) is a facilitator-ready framework and chatbot prompt for applying the argument to a real CMO transformation decision.
 
-**Status notes:** two live treatments, deliberately kept together so they can compete and cross-pollinate without being mistaken for linear versions. The analytical treatment now uses Anthropic's Economic Scenario Explorer as a contemporary illustration of jobs as changing task bundles, then pushes beyond its taxonomy into task dependencies, O-rings and bottleneck migration. Developed from a private internal discussion; the originating project remains a generic composite workflow and identifying details are intentionally omitted.
+**Status notes:** the responsibility treatment follows Tom's 2026-09-15 request to anchor the essay to what someone is on the hook for. The protected analytical manuscript remains available as an alternative focused on payback and bottleneck migration. The examples are generic design hypotheses; task-crossover evidence is not proof of expanded accountability. Identifying details from the originating project remain omitted.
 
 ## Story spine
 
-[Read the story spine](story-spine.md). A condensed synthesis of both treatments, with key evidence and open questions. The two manuscripts remain available.
+[Read the story spine](story-spine.md). The current responsibility argument, with key evidence, open questions and the relationship to the analytical alternative.
 
-## Editorial handoff — 2026-09-05
+## Editorial handoff — 2026-09-15
 
-Run the companion audit on a generic or already-cleared example. Record the decision it changes and where its categories overlap. Do not reintroduce numerical funding cutoffs without validation. See the [editorial checkpoint](notes.md) for what changed and which argument this piece owns.
+Test whether the proposed owner can observe results and change course in a generic or already-cleared case. Distinguish broader capability from broader authority, and record when scope should narrow. Do not reintroduce numerical funding cutoffs without validation. See the [editorial checkpoint](notes.md) for what changed and which argument this piece owns.

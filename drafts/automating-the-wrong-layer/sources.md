@@ -1,10 +1,19 @@
 # Sources
 
+## Responsibility and decision rights — added 2026-09-15
+
+- Tom supplied the Do / Know / Own framing and the proposal to organize around responsibility. The three-layer diagnostic, ownership-loop application and marketing scenario are editorial hypotheses, not externally validated frameworks.
+- [Joshua S. Gans, “Endogenous Task Bundling, Skills and Automation”](https://www.nber.org/papers/w35211), NBER Working Paper 35211, May 2026. Consulted indexed primary-source abstract excerpts; direct NBER and SSRN full-text retrieval was unavailable. Used only for the proposition that technology and context costs can reshape job boundaries, including without task automation. No wage results or detailed model claims imported.
+- [Ina M. Sebastian, Peter Weill, Thomas Haskamp and Jan Vom Brocke, “Designing Decision Rights for AI”](https://cisr.mit.edu/publication/2026_0601_AIDecisionMatrix_SebastianWeillHaskampVomBrocke), MIT CISR, June 18, 2026. Publisher HTML consulted. Interview-based research connects ambiguity and risk to human/AI decision rights and describes ongoing business ownership of agents at One NZ. Supports the authority and intervention test; does not establish our whole-role expansion hypothesis.
+- [OpenAI, “How AI is expanding what people do at work”](https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/), July 27, 2026. Publisher HTML consulted. More than 800,000 U.S. ChatGPT messages analyzed; 43.5% of occupation-specific messages and 16.8% of all work-related messages concern tasks associated with another occupation. Keep these denominators distinct. Observational usage evidence does not establish successful task completion, causal productivity gains or changed formal responsibility.
+- [Working With Founders Who Have Conviction and Taste](../../published/2024-04-16-working-with-founders-who-have-conviction-and-taste.md): related prior argument about active advising and crossing fixed strategy/execution scopes; consulted for continuity, not copied into the manuscript.
+
+
 ## Boundary design — added 2026-09-15
 
 - [Carliss Y. Baldwin, “A theory of technology and organizations”](https://journals.sagepub.com/doi/10.1177/14761270251409566), *Strategic Organization*, 24(2), 2026; first published online 2025-12-11. DOI: 10.1177/14761270251409566.
   - Supplied by Tom; publisher HTML consulted 2026-09-15, especially “Building blocks,” “How technologies change,” and “The spectrum of complementarity.”
-  - Used in [Every Handoff Is a Claim](every-handoff-is-a-claim.md), “Which work belongs together?”
+  - Used in the [responsibility treatment](every-handoff-is-a-claim.md), “Where should the boundaries go?” (originally added as “Which work belongs together?”).
   - The video example, three proposed boundary decisions and evaluation questions are our application, not findings reported by Baldwin. Her paper does not establish that today's AI can execute the proposed workflow reliably.
   - The analytical manuscript remains unchanged; the shared spine and companion audit incorporate the new application.
 

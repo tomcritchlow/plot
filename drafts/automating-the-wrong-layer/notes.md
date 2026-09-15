@@ -1,5 +1,22 @@
 # Notes
 
+## Responsibility becomes the center — 2026-09-15
+
+**Direction:** Tom supplied Do / Know / Own and asked whether to anchor the whole essay to responsibility. Rebuilt the existing organizational treatment around this argument; retained its filename and preserved the analytical manuscript. This checkpoint supersedes the earlier boundary-centered direction for the active treatment.
+
+**Editorial judgment:** Yes to responsibility as the essay's center. Avoid claiming that jobs are exclusively responsibility bundles, that ownership is an AI-era invention, or that human accountability guarantees a surviving job. The useful design claim is that execution, context and authority can change separately. Expanded capability only supports broader ownership if the owner can understand and steer its consequences.
+
+**What changed:** Open with the marketer's commitment; introduce Do / Know / Own; use Hammer and bundling as supporting mechanisms; turn to the feedback loop; use Baldwin to place boundaries; confront responsibility without control; end by designing backwards from what someone is on the hook for. Removed the separate ferment discussion and overlapping audit matrix from this treatment. Payback remains in the analytical alternative and companion audit.
+
+**Evidence limits:** OpenAI measures messages, not completed tasks, formal accountability or causal productivity gains. MIT CISR supplies a decision-rights framework and organizational examples. Gans is a theoretical working paper; consulted indexed abstract excerpts, not inaccessible full text. The proposed scope expansion and boundary choices remain our hypotheses.
+
+**Prior thinking:** The active-advising argument in [Working With Founders Who Have Conviction and Taste](../../published/2024-04-16-working-with-founders-who-have-conviction-and-taste.md) already crosses strategy/execution and fixed deliverables. This essay contributes an organizational design test rather than rediscovering outcome orientation. No client examples imported.
+
+**Keep:** “A job can lose tasks while gaining scope.” “Responsibility without control is just blame.”
+
+**Next:** Show an owner receiving actual decision rights, evidence and intervention capacity. Measure outcomes and load on the owner, not just saved execution time. Avoid interpreting any larger role as an unqualified gain for the worker.
+
+
 ## Editorial checkpoint — 2026-09-15
 
 Integrated Tom's Baldwin reference into **Every Handoff Is a Claim**. Preserved the protected analytical manuscript and the two-treatment structure. Updated the shared spine, brief, source trail and companion audit together.

@@ -2,9 +2,9 @@
 
 A practical interview for a CMO deciding whether an AI transformation project should be built, time-boxed, treated as an option or stopped.
 
-The unit of analysis is not a tool or a workflow. It is a **rebundling hypothesis**:
+Start with the responsibility a person or team can exercise. Then test a **rebundling hypothesis**:
 
-> If AI performs these tasks, and people or systems perform the remaining tasks, this new bundle will produce a valuable outcome for long enough to repay the investment.
+> If this owner has the evidence, decision rights and capabilities to steer this outcome, the proposed task bundle will produce value for long enough to repay the investment.
 
 The audit is designed to challenge each part of that sentence.
 
@@ -13,6 +13,7 @@ The audit is designed to challenge each part of that sentence.
 By the end, the CMO should have:
 
 - an outcome stated independently of today's process;
+- a named person or team with bounded responsibility, decision rights and a feedback loop;
 - a task map showing where AI substitutes, complements and moves bottlenecks;
 - the O-ring tasks whose failure can spoil the whole outcome;
 - three plausible futures that stress the proposed operating model;
@@ -26,7 +27,7 @@ This is a decision aid, not an ROI calculator. The scores force explicit assumpt
 
 Ask one question at a time. Push for examples, measurements and actual artifacts rather than accepting category words such as “content,” “approval” or “personalization.”
 
-### 1. Separate the outcome from the workflow
+### 1. Establish the outcome and its owner
 
 Ask:
 
@@ -36,6 +37,9 @@ Ask:
 4. How will you know the outcome improved?
 5. What is the current baseline?
 6. What harm or constraint must the project continue to prevent?
+7. Who is on the hook for the outcome, and what falls outside their responsibility?
+8. Can they observe results, authorize changes, pause execution and escalate exceptions? Which decisions require a separate authority?
+9. What resources, expertise and time let them exercise those rights?
 
 Weak target:
 
@@ -46,6 +50,16 @@ Stronger target:
 > Deliver useful, on-brand and rights-cleared material to a defined audience within hours, then learn from what happens.
 
 The second statement can survive a different production process. It does not assume that “approval” remains a place work must visit.
+
+Use **Do / Know / Own** to distinguish gaps in execution from gaps in context or control:
+
+| Layer | Record | Failure to look for |
+| --- | --- | --- |
+| DO | Performer, capability, reliability and acceptance criteria | More output without dependable execution |
+| KNOW | Evidence, dependencies and feedback needed by performer and owner | Action without context, or review without source evidence |
+| OWN | Accountable person or team, decision rights, scope and independent authorities | Responsibility without permission or capacity to correct the result |
+
+Trace one loop: goal, act, observe, judge, adjust. Record who can change course when evidence arrives. Do not assume one person must do everything or that a shared goal justifies removing independent checks. Responsibility without sufficient control is a design blocker; narrow the scope or provide the missing authority and support before expanding it.
 
 ### 2. Put three clocks on the table
 
@@ -87,7 +101,7 @@ For `AI now` and `Plausible frontier jump`, use four labels:
 - **Uncertain:** performance is jagged or poorly evaluated.
 - **Institutionally human:** authority, trust or accountability currently requires a person, regardless of technical capability.
 
-Before assigning tasks to agents, inspect the boundaries using the “Which work belongs together?” section in [Every Handoff Is a Claim](every-handoff-is-a-claim.md). This is an author-developed application of [Baldwin](sources.md), not a validated scoring model.
+Before assigning tasks to agents, inspect the boundaries using “Where should the boundaries go?” in the [responsibility treatment](every-handoff-is-a-claim.md). This is an author-developed application of [Baldwin](sources.md), not a validated scoring model.
 
 For a recent case, record:
 
@@ -139,6 +153,7 @@ For each future ask:
 - Can one task or model be replaced without rebuilding the system?
 - Do the records describe durable objects and constraints, or today's choreography?
 - Can the organization still observe quality and intervene?
+- Can the owner still understand and steer the expanded scope with the available time and support?
 - What part of the investment retains value?
 
 ### 6. Score durability
@@ -160,6 +175,7 @@ Do not sum the scores or use numeric cutoffs to select a project. The scale is a
 Make the decision from the evidence:
 
 - An unsupported residual bottleneck requires redesign before scale, even if the outcome is attractive.
+- An owner without sufficient evidence, authority or capacity requires a change in scope or support before scale.
 - If the target may expire before payback, compare a smaller, faster wedge with stopping.
 - If reusable assets or learning are the main benefit, specify an option budget and what the experiment must resolve.
 - If the investment is slow, brittle and leaves little useful behind, explain why it should stop.
@@ -198,6 +214,16 @@ We believe that if **[AI/humans/systems]** perform **[task changes]**, then **[d
 - Expected payback:
 - Estimated target half-life:
 - Assumptions that must remain true:
+
+### Responsibility and control
+
+- Owner and bounded outcome:
+- DO: delegated execution and its limits:
+- KNOW: evidence and feedback available:
+- OWN: authority to authorize, adjust, pause and escalate:
+- Independent decisions and their owners:
+- Missing control, expertise or capacity:
+- Evidence that would justify expanding or narrowing scope:
 
 ### Task bundle and bottleneck migration
 
@@ -248,6 +274,7 @@ Interview the user one question at a time. Do not show the whole questionnaire u
 
 During the interview:
 - Separate the customer or business outcome from the current workflow, org chart, tool and status model.
+- Identify a person or team responsible for a bounded outcome. Apply Do / Know / Own separately: execution capability; evidence and context; authority and capacity to authorize, answer for and change what happens. Trace goal, act, observe, judge, adjust through a recent case. Do not treat an accountable name as proof of effective control.
 - Establish the current baseline, desired outcome, constraints, first-useful-release date, payback horizon and estimated target half-life.
 - Decompose the work into concrete tasks. Classify each as generate/transform, infer/recommend, decide/commit, coordinate/route, verify/govern or relate/persuade.
 - For each task, record its current performer, purpose, quality measure, failure effect, dependencies and likely AI relationship: substitute, complement, uncertain or institutionally human.
@@ -264,13 +291,14 @@ When enough information is available, use these dimensions as an interview rubri
 
 Explain the decision from the evidence:
 - An unsupported residual bottleneck requires redesign before scale.
+- Responsibility without adequate evidence, decision rights, time or expertise requires narrower scope or additional support before scale. Preserve genuinely independent authorization. Do not assume expanded task capability means expanded authority or a better job.
 - If the target may expire before payback, compare a smaller wedge with stopping.
 - If reusable assets or learning are the main benefit, specify an option budget and learning goal.
 - Slow, brittle investments with little residual value are candidates to stop.
 - Resolve overlapping classifications by naming the primary blocker and secondary opportunity; never use numerical cutoffs as automatic funding rules.
 
 Classify the project as Foundation, Wedge, Option, Rebundle or Fossil. Then produce a one-page decision memo containing:
-1. the transformation thesis;
+1. the transformation thesis, bounded owner, decision rights, feedback loop and any missing control;
 2. the three clocks and critical assumptions;
 3. the task bundle and O-ring map;
 4. current and future bottlenecks;
@@ -286,8 +314,9 @@ Use direct executive language. Be constructively skeptical. Do not confuse a pre
 
 ## Research basis
 
-The audit combines five bodies of work:
+The audit combines six bodies of work:
 
+- Decision rights: distinguish capable execution from the authority and capacity to own an outcome.
 - O-ring production: complementary task quality and weakest-link failure.
 - Task economics: technology substitutes for some tasks, complements others and changes jobs from within.
 - The jagged frontier: AI performance can differ across adjacent tasks in one workflow.
